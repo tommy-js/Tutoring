@@ -7,6 +7,7 @@ import { WhyMe } from "../WhyMe/WhyMe";
 import { Pricing } from "../Pricing/Pricing";
 import { Schedule } from "../Schedule/Schedule";
 import { Contact } from "../Contact/Contact";
+import { Faq } from "../Faq/Faq";
 import styles from "./styles.module.scss";
 
 export const AppPage: React.FC = () => {
@@ -20,6 +21,7 @@ export const AppPage: React.FC = () => {
       <Pricing />
       <Schedule />
       <Contact />
+      <Faq />
     </div>
   );
 };

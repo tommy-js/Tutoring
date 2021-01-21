@@ -1,0 +1,59 @@
+@import "../../globals/variables.scss";
+
+.contact {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.header {
+  color: $black;
+}
+
+.text {
+  color: $black;
+  line-height: 165%;
+  font-size: 18px;
+}
+
+.email_box {
+  position: relative;
+  width: 150px;
+  display: block;
+  font-size: 16px;
+  padding: 3px;
+  border-radius: 2px;
+  border: 1px solid $saffron;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subject_box {
+  position: relative;
+  margin-top: 15px;
+  width: 350px;
+  height: 100px;
+  display: block;
+  font-size: 16px;
+  padding: 3px;
+  border-radius: 2px;
+  border: 1px solid $saffron;
+  margin-left: auto;
+  margin-right: auto;
+  resize: none;
+}
+
+.submit_button {
+  position: relative;
+  width: 100px;
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+  font-size: 16px;
+  background-color: $red;
+  color: $white;
+  border-radius: 5px;
+  border: 1px solid $saffron;
+  cursor: pointer;
+}

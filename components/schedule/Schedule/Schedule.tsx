@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 
 export const Schedule: React.FC = () => {
   return (
-    <div>
+    <div className={styles.schedule}>
       <Contact />
       <OnlineScheduling />
     </div>
