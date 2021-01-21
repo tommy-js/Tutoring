@@ -10,10 +10,10 @@ export const Navbar: React.FC = () => {
   return (
     <div className={styles.navbar}>
       <Logo />
-      <MaterialsNav />
-      <ScheduleSession />
-      <Faq />
       <Signin />
+      <MaterialsNav />
+      <Faq />
+      <ScheduleSession />
     </div>
   );
 };
