@@ -1,4 +1,5 @@
 @import "../../globals/variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 
 .logo {
   position: relative;
@@ -8,6 +9,7 @@
 
 .link {
   text-decoration: none;
+  height: 45px;
 }
 
 .image_container {
@@ -28,14 +30,21 @@
 }
 
 .header_container {
+  position: absolute;
   vertical-align: top;
-  margin-left: 5px;
+  margin-left: 10px;
   width: 175px;
+  height: 45px;
+  line-height: 45px;
 }
 
 .header {
   color: $red;
+  font-size: 24px;
+  line-height: 45px;
+  margin: 0;
   overflow: hidden;
-  transition: 0.2s;
   white-space: nowrap;
+  font-family: "Yellowtail", cursive;
+  transition: 0.2s;
 }
