@@ -4,6 +4,7 @@ import { MaterialsNav } from "../MaterialsNav/MaterialsNav";
 import { ScheduleSession } from "../ScheduleSession/ScheduleSession";
 import { Faq } from "../Faq/Faq";
 import { Signin } from "../Signin/Signin";
+import { Pricing } from "../Pricing/Pricing";
 import styles from "./styles.module.scss";
 
 export const Navbar: React.FC = () => {
@@ -14,6 +15,7 @@ export const Navbar: React.FC = () => {
       <MaterialsNav />
       <Faq />
       <ScheduleSession />
+      <Pricing />
     </div>
   );
 };
