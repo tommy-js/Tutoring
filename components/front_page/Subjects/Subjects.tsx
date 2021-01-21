@@ -1,11 +1,11 @@
 import React from "react";
 import { Subject } from "../Subject/Subject";
 import styles from "./styles.module.scss";
-const algebra1 = require("../../public/algebra.png");
-const algebra2 = require("../../public/algebra2.png");
-const trigonometry = require("../../public/trigonometry.png");
-const geometry = require("../../public/geometry.png");
-const calculus = require("../../public/calculus.png");
+const algebra1 = require("../../../public/algebra.png");
+const algebra2 = require("../../../public/algebra2.png");
+const trigonometry = require("../../../public/trigonometry.png");
+const geometry = require("../../../public/geometry.png");
+const calculus = require("../../../public/calculus.png");
 
 export const Subjects: React.FC = () => {
   const subjects = [

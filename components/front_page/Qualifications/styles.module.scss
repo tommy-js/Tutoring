@@ -1,6 +1,6 @@
-@import "../globals/variables.scss";
+@import "../../globals/variables.scss";
 
-.pricing {
+.qualifications {
   margin-top: 50px;
 }
 
@@ -8,12 +8,8 @@
   color: $black;
 }
 
-.flair {
-  color: $saffron;
-}
-
 .text {
   color: $black;
-  line-height: 165%;
   font-size: 18px;
+  line-height: 165%;
 }
