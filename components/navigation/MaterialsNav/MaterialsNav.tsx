@@ -4,10 +4,8 @@ import styles from "./styles.module.scss";
 
 export const MaterialsNav: React.FC = () => {
   return (
-    <div className={styles.materials_nav}>
-      <Link href="/materials">
-        <a>Materials</a>
-      </Link>
-    </div>
+    <Link href="/materials">
+      <a className={styles.materials_nav}>Materials</a>
+    </Link>
   );
 };

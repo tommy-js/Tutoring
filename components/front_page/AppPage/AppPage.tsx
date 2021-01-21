@@ -20,8 +20,8 @@ export const AppPage: React.FC = () => {
       <WhyMe />
       <Pricing />
       <Schedule />
-      <Contact />
       <Faq />
+      <Contact />
     </div>
   );
 };

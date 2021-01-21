@@ -1,5 +1,41 @@
+@import "../../globals/variables.scss";
+
 .logo {
   position: relative;
   display: inline-block;
   margin-left: 5px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.image_container {
+  position: relative;
+  height: 35px;
+  width: 35px;
+  overflow: hidden;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.image_container,
+.header_container {
+  display: inline-block;
+}
+
+.header_container {
+  vertical-align: top;
+  margin-left: 5px;
+  width: 175px;
+}
+
+.header {
+  color: $red;
+  overflow: hidden;
+  transition: 0.2s;
+  white-space: nowrap;
 }

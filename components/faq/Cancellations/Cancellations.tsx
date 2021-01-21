@@ -14,6 +14,13 @@ export const Cancellations: React.FC = () => {
         an emergency comes up and you need to cancel sooner, please give me a
         call when you have a moment so that I know not to wait on you.
       </p>
+      <p className={styles.text}>
+        *Please note that, barring extreme circumstances, if you fail to cancel
+        your appointment at least 8 hours ahead of time, I will charge you half
+        the cost of the session. This is because it is nearly impossible for me
+        to fill your spot within the same day, and so I must recoup some of my
+        lost income.
+      </p>
     </div>
   );
 };
