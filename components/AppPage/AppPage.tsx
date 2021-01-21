@@ -14,6 +14,7 @@ export const AppPage: React.FC = () => {
       <Qualifications />
       <Hobbies />
       <Subjects />
+      <WhyMe />
       <Pricing />
       <Contact />
     </div>
