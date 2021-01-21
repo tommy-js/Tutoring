@@ -3,6 +3,7 @@ import { TitleCard } from "../TitleCard/TitleCard";
 import { Qualifications } from "../Qualifications/Qualifications";
 import { Hobbies } from "../Hobbies/Hobbies";
 import { Subjects } from "../Subjects/Subjects";
+import { WhyMe } from "../WhyMe/WhyMe";
 import { Contact } from "../Contact/Contact";
 import { Pricing } from "../Pricing/Pricing";
 import styles from "./styles.module.scss";
