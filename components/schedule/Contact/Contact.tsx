@@ -9,7 +9,7 @@ export const Contact: React.FC = () => {
       <p className={styles.subheader}>
         Need to speak with me directly?{" "}
         <Link href="/contact">
-          <a>Click here!</a>
+          <a className={styles.link}>Click here!</a>
         </Link>
       </p>
     </div>

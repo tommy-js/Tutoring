@@ -1,0 +1,7 @@
+@import "../../globals/variables.scss";
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+  @include header;
+}

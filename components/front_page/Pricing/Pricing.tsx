@@ -9,24 +9,33 @@ export const Pricing: React.FC = () => {
       <p className={styles.text}>
         My current rate is{" "}
         <Link href="/pricing">
-          <span className={styles.flair}>$30 per hour</span>
+          <a className={styles.link}>$30 per hour</a>
         </Link>{" "}
         with a discounted price of{" "}
         <Link href="/pricing">
-          <span className={styles.flair}>$15 for the first session</span>
+          <a className={styles.link}>$15 for the first session</a>
         </Link>
         . My standard sessions are an hour long, though I am more than happy to
         work with you if you need longer or shorter time blocks!
       </p>
       <p className={styles.text}>
         Currently, I have sessions available during many times throughout the
-        week and weekends, so please <Link href="/schedule">sign up</Link> or
-        <Link href="/contact"> reach out</Link> if you're interested.
+        week and weekends, so please{" "}
+        <Link href="/schedule">
+          <a className={styles.link}>sign up</a>
+        </Link>{" "}
+        or
+        <Link href="/contact">
+          <a className={styles.link}> reach out</a>
+        </Link>{" "}
+        if you're interested.
       </p>
       <p className={styles.text}>
         Want to meet me or discuss tutoring goals before committing to a
         session?{" "}
-        <Link href="/schedule">Schedule a free 10-minute consultation</Link>{" "}
+        <Link href="/schedule">
+          <a className={styles.link}>Schedule a free 10-minute consultation</a>
+        </Link>{" "}
         today!
       </p>
     </div>

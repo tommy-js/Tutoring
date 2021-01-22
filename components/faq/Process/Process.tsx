@@ -10,7 +10,7 @@ export const Process: React.FC = () => {
         Below are listed the order of events leading up to and after your
         session:
       </p>
-      <ol>
+      <ol className={styles.text}>
         <li>
           Right after signing up for a session you will receive a text/email
           confirming your time and date.
@@ -29,7 +29,7 @@ export const Process: React.FC = () => {
         </li>
         <li>
           Directly after your session you will receive an invoice for the
-          payment owed.
+          payment owed, provided you are choosing to pay following the meeting.
         </li>
       </ol>
     </div>

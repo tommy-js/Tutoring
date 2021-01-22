@@ -7,7 +7,9 @@ export const Faq: React.FC = () => {
     <div className={styles.faq}>
       <h1 className={styles.header}>Frequently Asked Questions</h1>
       <Link href="/faq">
-        <a>Go here to see my frequently asked questions</a>
+        <a className={styles.link}>
+          Go here to see my frequently asked questions
+        </a>
       </Link>
     </div>
   );

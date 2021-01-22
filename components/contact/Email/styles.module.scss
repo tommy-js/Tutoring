@@ -1,17 +1,13 @@
 @import "../../globals/variables.scss";
 
-.header {
-  @include subheader;
-}
-
-.text {
-  line-height: 165%;
+.email {
   font-size: 18px;
+  color: $black;
+  margin-bottom: 15px;
 }
 
 .link {
   color: $blue;
-  text-decoration: none;
 }
 
 .link:hover {

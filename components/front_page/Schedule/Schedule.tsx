@@ -5,9 +5,9 @@ import styles from "./styles.module.scss";
 export const Schedule: React.FC = () => {
   return (
     <div className={styles.schedule}>
-      <h2>Schedule Your Session</h2>
+      <h1 className={styles.header}>Schedule Your Session</h1>
       <Link href="/schedule">
-        <a>Schedule a session here</a>
+        <a className={styles.link}>Schedule a session here</a>
       </Link>
     </div>
   );

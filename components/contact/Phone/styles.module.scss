@@ -1,17 +1,12 @@
 @import "../../globals/variables.scss";
 
-.header {
-  @include subheader;
-}
-
-.text {
-  line-height: 165%;
+.phone {
   font-size: 18px;
+  color: $black;
 }
 
 .link {
   color: $blue;
-  text-decoration: none;
 }
 
 .link:hover {

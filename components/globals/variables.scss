@@ -1,9 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
 $blue: #4d6cfa;
 $red: #b23850;
 $saffron: #ffb400;
 $white: #fbf7f4;
 $black: #2a2d34;
 $backdrop: #fcfbf9;
+
+@mixin header {
+  font-size: 28px;
+  color: $black;
+}
+
+@mixin subheader {
+  font-size: 24px;
+  color: $black;
+}
 
 @mixin button {
   position: relative;
@@ -36,4 +48,8 @@ $backdrop: #fcfbf9;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+@mixin standard_font {
+  font-family: "Yellowtail", cursive;
 }

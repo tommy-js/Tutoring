@@ -1,0 +1,14 @@
+@import "../../globals/variables.scss";
+
+.header {
+  @include header;
+}
+
+.link {
+  color: $blue;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: $red;
+}

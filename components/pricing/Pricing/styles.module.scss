@@ -11,12 +11,38 @@
 .header,
 .subheader {
   text-align: center;
+  @include header;
 }
 
 .pricing_container {
   border: 1px solid $black;
+  color: $black;
   border-radius: 5px;
   margin: 5px;
   padding: 5px;
   box-sizing: border-box;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.subtext {
+  color: grey;
+  font-size: 16px;
+}
+
+.link {
+  position: relative;
+  display: block;
+  margin-top: 15px;
+  font-size: 18px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: $blue;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: $red;
 }

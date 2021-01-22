@@ -8,7 +8,7 @@ export const RequiredEquipment: React.FC = () => {
       <p className={styles.text}>
         You only need a few things for your tutoring session:
       </p>
-      <ul>
+      <ul className={styles.text}>
         <li>A webcam and microphone</li>
         <li>
           A quiet location where our full attention can be devoted to the work

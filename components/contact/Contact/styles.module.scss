@@ -1,7 +1,21 @@
+@import "../../globals/variables.scss";
+
 .contact {
   position: relative;
   margin-top: 75px;
   width: 65%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.header {
+  text-align: center;
+  @include header;
+}
+
+.subheader {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 165%;
+  color: $black;
 }

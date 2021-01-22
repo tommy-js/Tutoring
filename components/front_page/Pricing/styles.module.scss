@@ -5,12 +5,16 @@
 }
 
 .header {
-  color: $black;
+  @include header;
 }
 
-.flair {
+.link {
+  color: $blue;
+  text-decoration: none;
+}
+
+.link:hover {
   color: $red;
-  cursor: pointer;
 }
 
 .text {

@@ -5,7 +5,11 @@
 }
 
 .header {
-  color: $black;
+  @include header;
+}
+
+.flair {
+  color: $red;
 }
 
 .text {
