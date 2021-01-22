@@ -1,0 +1,11 @@
+@import "../../globals/variables.scss";
+
+.header {
+  @include header;
+}
+
+.text {
+  color: $black;
+  font-size: 18px;
+  line-height: 165%;
+}

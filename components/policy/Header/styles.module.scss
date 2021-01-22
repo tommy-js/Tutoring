@@ -1,0 +1,13 @@
+@import "../../globals/variables.scss";
+
+.title {
+  text-align: center;
+  @include header;
+}
+
+.subtitle {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 165%;
+  color: $black;
+}
