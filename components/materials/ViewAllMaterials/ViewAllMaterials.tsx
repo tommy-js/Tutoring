@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 export const ViewAllMaterials: React.FC = () => {
   return (
     <Link href="/materials/all">
-      <a>View all materials</a>
+      <a className={styles.view_all_materials}>View all materials</a>
     </Link>
   );
 };

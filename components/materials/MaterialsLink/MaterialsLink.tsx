@@ -10,11 +10,18 @@ interface Props {
 
 export const MaterialsLink: React.FC<Props> = (props) => {
   return (
-    <div className={styles.material_link} key={props.id}>
-      <p className={styles.title}>{props.title}</p>
-      <Link href={`/materials/${props.path}`}>
-        <a>Go</a>
-      </Link>
-    </div>
+    <Link href={`/materials/${props.path}`} passHref>
+      <Pathing id={props.id} title={props.title} />
+    </Link>
   );
 };
+
+const Pathing = React.forwardRef(({ onClick, href, id, title }, ref) => {
+  return (
+    <a href={href} onClick={onClick} ref={ref}>
+      <div className={styles.material_link} key={id}>
+        <p className={styles.title}>{title}</p>
+      </div>
+    </a>
+  );
+});

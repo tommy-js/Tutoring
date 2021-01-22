@@ -22,8 +22,8 @@ export const CourseMaterials: React.FC = () => {
   ];
 
   return (
-    <div>
-      <h2>Your Materials</h2>
+    <div className={styles.course_materials}>
+      <h2 className={styles.header}>Your Materials</h2>
       {testData.map((el: any) => (
         <MaterialsLink id={el.id} title={el.title} path={el.path} />
       ))}

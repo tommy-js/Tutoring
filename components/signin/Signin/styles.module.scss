@@ -1,0 +1,35 @@
+@import "../../globals/variables.scss";
+
+.signin {
+  position: relative;
+  width: 65%;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.signin_input {
+  position: relative;
+  width: 225px;
+  display: block;
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  border: 1px solid grey;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  @include button;
+}
+
+.button:hover {
+  @include hover;
+}
