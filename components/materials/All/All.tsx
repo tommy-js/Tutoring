@@ -2,7 +2,7 @@ import React from "react";
 import { MaterialsLink } from "../MaterialsLink/MaterialsLink";
 import styles from "./styles.module.scss";
 
-export const CourseMaterials: React.FC = () => {
+export const All: React.FC = () => {
   const testData = [
     {
       id: "3525r",
@@ -28,8 +28,8 @@ export const CourseMaterials: React.FC = () => {
   ];
 
   return (
-    <div className={styles.course_materials}>
-      <h2 className={styles.header}>Your Materials</h2>
+    <div className={styles.all}>
+      <h1 className={styles.header}>Full Library</h1>
       {testData.map((el: any) => (
         <MaterialsLink id={el.id} title={el.title} path={el.path} />
       ))}
