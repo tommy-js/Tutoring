@@ -10,16 +10,12 @@ interface Props {
 
 export const Subject: React.FC<Props> = (props) => {
   const [opened, setOpened] = useState(false);
+  const [height, setHeight] = useState("0px");
 
-  function renderInfo() {
-    if (opened === true) {
-      return (
-        <div>
-          <p>{props.subtext}</p>
-        </div>
-      );
-    } else return null;
-  }
+  useEffect(() => {
+    if (opened === true) setHeight("50px");
+    else setHeight("0px");
+  }, [opened]);
 
   return (
     <div
@@ -31,7 +27,9 @@ export const Subject: React.FC<Props> = (props) => {
         <img className={styles.image} src={props.image} />
       </div>
       <p className={styles.title}>{props.title}</p>
-      {renderInfo()}
+      <p style={{ height }} className={styles.subtext}>
+        {props.subtext}
+      </p>
     </div>
   );
 };

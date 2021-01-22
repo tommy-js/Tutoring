@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { MaterialsLink } from "../MaterialsLink/MaterialsLink";
 import styles from "./styles.module.scss";
 
 export const CourseMaterials: React.FC = () => {
+  const [course, setCourse] = useState(["Algebra 1", "Pre-Calc"]);
+
   const testData = [
     {
       id: "3525r",
@@ -30,6 +32,13 @@ export const CourseMaterials: React.FC = () => {
   return (
     <div className={styles.course_materials}>
       <h2 className={styles.header}>Your Materials</h2>
+      <p className={styles.course_identifier}>
+        [
+        {course.map((el: string) => (
+          <p className={styles.element}>{el}</p>
+        ))}
+        ]
+      </p>
       {testData.map((el: any) => (
         <MaterialsLink id={el.id} title={el.title} path={el.path} />
       ))}

@@ -11,34 +11,34 @@ export const Subjects: React.FC = () => {
   const subjects = [
     {
       id: 0,
+      title: "Geometry",
+      subtext: "The study of shapes and their properties.",
+      image: geometry,
+    },
+    {
+      id: 1,
       title: "Algebra I",
       subtext:
         "Basics of functions, real numbers, exponents, inequalities, polynomials, rational expressions, etc...",
       image: algebra1,
     },
     {
-      id: 1,
+      id: 2,
       title: "Algebra II",
       subtext:
         "Graphs, functions, matrices, quadratics, the Binomial Theorem, logarithms, etc..",
       image: algebra2,
     },
     {
-      id: 2,
-      title: "Geometry",
-      subtext: "The study of shapes and their properties.",
-      image: geometry,
-    },
-    {
       id: 3,
-      title: "Trigonometry",
+      title: "Pre-Calculus",
       subtext:
-        "The study of triangles and the relationships between their angles and sides",
+        "Complex numbers, polynomials, trigonometry, matrices, series, probability, etc... A general preparatory course for the beginning calculus student.",
       image: trigonometry,
     },
     {
       id: 4,
-      title: "Calculus",
+      title: "Calculus 1",
       subtext:
         "Limits, continuity at a point, discontinuities, infinite limits, Intermediate Value Theorem(IVT), properties of limits, etc...",
       image: calculus,
