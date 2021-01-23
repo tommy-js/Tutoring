@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 
 export const Homework: React.FC = () => {
   return (
-    <div>
+    <div className={styles.homework}>
       <h2 className={styles.header}>Will you do my homework for me?</h2>
       <p className={styles.text}>
         I will gladly walk you through similar problems to the ones on your

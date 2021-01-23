@@ -1,5 +1,9 @@
 @import "../../globals/variables.scss";
 
+.homework {
+  margin-bottom: 125px;
+}
+
 .header {
   @include subheader;
 }
