@@ -16,3 +16,16 @@
   font-size: 18px;
   line-height: 165%;
 }
+
+.flair {
+  color: $red;
+}
+
+.link {
+  color: $blue;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: $red;
+}

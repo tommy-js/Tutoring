@@ -6,6 +6,7 @@ import { NoShow } from "../NoShow/NoShow";
 import { SinglePerson } from "../SinglePerson/SinglePerson";
 import { TechnicalIssues } from "../TechnicalIssues/TechnicalIssues";
 import { FailureToPay } from "../FailureToPay/FailureToPay";
+import { PaymentTimeframe } from "../PaymentTimeframe/PaymentTimeframe";
 import styles from "./styles.module.scss";
 
 export const Policy: React.FC = () => {
@@ -18,6 +19,7 @@ export const Policy: React.FC = () => {
       <SinglePerson />
       <TechnicalIssues />
       <FailureToPay />
+      <PaymentTimeframe />
     </div>
   );
 };

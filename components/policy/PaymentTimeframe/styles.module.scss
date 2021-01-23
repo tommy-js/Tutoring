@@ -1,0 +1,15 @@
+@import "../../globals/variables.scss";
+
+.payment_timeframe {
+  margin-bottom: 100px;
+}
+
+.header {
+  @include header;
+}
+
+.text {
+  font-size: 18px;
+  color: $black;
+  line-height: 165%;
+}

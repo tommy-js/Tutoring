@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./styles.module.scss";
 
 export const WhyMe: React.FC = () => {
@@ -12,32 +13,37 @@ export const WhyMe: React.FC = () => {
       </p>
       <h2 className={styles.subheader}>More Than Just Tutoring</h2>
       <p className={styles.text}>
-        Students learn in a variety of ways. I believe that learning works best
-        when people have access to all the resources they could need when
-        getting started. Because of this philosophy, I've designed and continue
-        to frequently update a large library of practice problems, topic
-        explanations, and video lessons.
+        When you sign up with me, you're not only signing up for hour-by-hour
+        tutoring. <span className={styles.flair}>Functional Tutoring</span> is a
+        fully-fledged out platform that is designed to give you the leg up you
+        deserve in the subject you're working on.
+      </p>
+      <p className={styles.text}>
+        Students learn in a variety of ways. I believe that tutoring works best
+        when people have access to a number of resources, including practice
+        problems, explanations, and derivations of formulas. Because of this
+        philosophy, I've designed and continue to frequently update a large,
+        interactive library of material, which you will have access to as a
+        student.
       </p>
       <p className={styles.text}>
         While is no shortage of practice problems and videos available online,
         my students have the benefit of being able to go over this material with
-        me during sessions, or doing it on their own time and having me grade
-        this material for them.
+        me during sessions, or do it on their own time and have me grade it for
+        them.
       </p>
       <h2 className={styles.subheader}>Expert Knowledge</h2>
       <p className={styles.text}>
-        You deserve the best out of your tutoring sessions. This is why I have
-        not only acquired a Bachelor's degree in mathematics, but continue to
-        learn and update my skillset so as to better serve my students. I
-        believe that an understanding of higher level materials on my end will
-        better facilitate learning of lower level materials for the student.
+        You deserve the best out of your tutoring sessions. I believe it is my
+        job to continue to learn and update my skillset past that of a
+        Bachelor's level so as to better serve my students. I have seen that an
+        understanding of higher level materials on my end will better facilitate
+        the learning of lower level materials for the student.
       </p>
       <p className={styles.text}>
-        Of course, tutoring is in and of itself a skill, which takes time and
-        patience to learn. During my time at Dutchess Community College I
-        tutored over three semesters and helped as a teaching assistant over the
-        summer. I continue to learn this as well with the aim of being the best
-        tutor I can possibly be.
+        Simply put, I aim to offer you all my experience and knowledge at a low
+        pricepoint, making it affordable to obtain high-quality tutoring for
+        everyone.
       </p>
 
       <h2 className={styles.subheader}>Available & Affordable</h2>
@@ -47,6 +53,18 @@ export const WhyMe: React.FC = () => {
         lengths to ensure that I'm available to my students when they need me,
         even on short notice, and that my prices are affordable for those who
         need my assistance.
+      </p>
+      <p className={styles.text}>
+        If you need a session time that isn't available on my{" "}
+        <Link href="/schedule">
+          <a className={styles.link}>online scheduler</a>
+        </Link>
+        , please{" "}
+        <Link href="/contact">
+          <a className={styles.link}>reach out</a>
+        </Link>
+        ! I am more than happy to work with you and find a time that works well
+        for both of us.
       </p>
     </div>
   );

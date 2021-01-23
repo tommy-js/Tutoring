@@ -60,9 +60,9 @@ export const Subjects: React.FC = () => {
         />
       ))}
       <p className={styles.text}>
-        Of course, if you have another subject you'd like tutored, which isn't
-        listed above, feel free to reach out. I may be able to do something for
-        you!
+        Please reach out if you have another subject you'd need tutoring in,
+        though. I have a great deal of experience in a number of subjects, and
+        so I may be able to do something for you!
       </p>
     </div>
   );

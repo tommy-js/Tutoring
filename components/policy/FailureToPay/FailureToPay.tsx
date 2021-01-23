@@ -9,7 +9,8 @@ export const FailureToPay: React.FC = () => {
         I rely on offering tutoring services for my income, so the student
         failing to pay for services rendered directly effects me. In the event
         that the student fails to pay the agreed upon amount, they will be
-        unable to sign up for another session until they do.
+        unable to sign up for another session until they do. I may also take
+        further action if the owed amount is large enough.
       </p>
     </div>
   );
