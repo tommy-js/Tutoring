@@ -5,7 +5,7 @@ export const Calendar: React.FC = () => {
   return (
     <div className={styles.calendar}>
       <iframe
-        src="https://app.acuityscheduling.com/schedule.php?owner=21805761"
+        src="https://app.acuityscheduling.com/schedule.php?owner=21832607"
         title="Schedule Appointment"
         width="100%"
         height="1200"

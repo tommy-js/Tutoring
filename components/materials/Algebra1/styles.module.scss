@@ -1,7 +1,23 @@
+@import "../../globals/variables.scss";
+
 .algebra1 {
   position: relative;
   width: 65%;
   margin-top: 75px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.header {
+  text-align: center;
+  @include header;
+}
+
+.subheader {
+  @include subheader;
+}
+
+.all_materials {
+  font-size: 20px;
+  color: $blue;
 }

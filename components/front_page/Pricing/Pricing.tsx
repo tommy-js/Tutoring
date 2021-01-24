@@ -19,8 +19,8 @@ export const Pricing: React.FC = () => {
         you if you need longer or shorter time blocks!
       </p>
       <p className={styles.text}>
-        Currently, I have sessions available during many times throughout the
-        week and weekends, so please{" "}
+        Currently, I have sessions available from noon until 7PM on every day
+        except Sunday, so please{" "}
         <Link href="/schedule">
           <a className={styles.link}>sign up</a>
         </Link>{" "}
