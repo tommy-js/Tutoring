@@ -48,3 +48,15 @@
   font-family: "Yellowtail", cursive;
   transition: 0.2s;
 }
+
+@media only screen and (max-width: 900px) {
+  .header_container {
+    position: absolute;
+    display: none;
+    vertical-align: top;
+    margin-left: 10px;
+    width: 175px;
+    height: 45px;
+    line-height: 45px;
+  }
+}

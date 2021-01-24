@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 export const Signin: React.FC = () => {
   return (
     <Link href="/signin">
-      <p className={styles.signin}>Sign in</p>
+      <a className={styles.signin}>Sign in</a>
     </Link>
   );
 };
