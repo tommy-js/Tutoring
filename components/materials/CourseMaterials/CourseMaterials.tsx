@@ -16,14 +16,14 @@ export const CourseMaterials: React.FC = () => {
     {
       id: "xxc3344",
       title: "Methods of Factoring",
-      path: "algebra1/factoring/methods/worksheet1",
+      path: "algebra1/methods/factoring",
       subject: "algebra 1",
       type: "method",
     },
     {
       id: "3raf3gh43",
       title: "Derivation of Quadratic Formula",
-      path: "algebra1/factoring/derivations/worksheet1",
+      path: "algebra1/derivations/quadratic",
       subject: "algebra 1",
       type: "derivation",
     },
