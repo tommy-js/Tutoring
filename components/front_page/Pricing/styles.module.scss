@@ -22,3 +22,15 @@
   line-height: 165%;
   font-size: 18px;
 }
+
+@media only screen and (max-width: 900px) {
+  .header {
+    @include header_mobile;
+  }
+
+  .text {
+    color: $black;
+    line-height: 165%;
+    font-size: 16px;
+  }
+}

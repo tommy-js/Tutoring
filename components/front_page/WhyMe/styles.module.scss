@@ -29,3 +29,19 @@
 .link:hover {
   color: $red;
 }
+
+@media only screen and (max-width: 900px) {
+  .header {
+    @include header_mobile;
+  }
+
+  .subheader {
+    @include subheader_mobile;
+  }
+
+  .text {
+    color: $black;
+    line-height: 165%;
+    font-size: 16px;
+  }
+}

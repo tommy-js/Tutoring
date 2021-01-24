@@ -17,6 +17,16 @@ $backdrop: #fcfbf9;
   color: $black;
 }
 
+@mixin header_mobile {
+  font-size: 20px;
+  color: $black;
+}
+
+@mixin subheader_mobile {
+  font-size: 18px;
+  color: $black;
+}
+
 @mixin button {
   position: relative;
   width: 100px;

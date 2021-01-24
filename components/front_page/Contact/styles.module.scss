@@ -49,3 +49,42 @@
 .submit_button:hover {
   @include hover;
 }
+
+@media only screen and (max-width: 900px) {
+  .header {
+    @include header_mobile;
+  }
+
+  .text {
+    color: $black;
+    line-height: 165%;
+    font-size: 16px;
+  }
+
+  .email_box {
+    position: relative;
+    width: 75%;
+    display: block;
+    font-size: 16px;
+    padding: 3px;
+    border-radius: 2px;
+    border: 1px solid $saffron;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .subject_box {
+    position: relative;
+    margin-top: 15px;
+    width: 85%;
+    height: 100px;
+    display: block;
+    font-size: 16px;
+    padding: 3px;
+    border-radius: 2px;
+    border: 1px solid $saffron;
+    margin-left: auto;
+    margin-right: auto;
+    resize: none;
+  }
+}
