@@ -9,3 +9,15 @@
   font-size: 18px;
   line-height: 165%;
 }
+
+@media only screen and (max-width: 900px) {
+  .header {
+    @include header_mobile;
+  }
+
+  .text {
+    color: $black;
+    font-size: 16px;
+    line-height: 165%;
+  }
+}

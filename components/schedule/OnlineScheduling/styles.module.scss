@@ -5,5 +5,15 @@
 }
 
 .header {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
   @include header;
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    text-align: center;
+    @include header_mobile;
+  }
 }

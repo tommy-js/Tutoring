@@ -34,3 +34,41 @@
 .button:hover {
   @include hover;
 }
+
+@media only screen and (max-width: 900px) {
+  .signin {
+    position: relative;
+    width: 95%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    color: $black;
+  }
+
+  .header {
+    text-align: center;
+    @include header_mobile;
+  }
+
+  .signin_input {
+    position: relative;
+    width: 85%;
+    display: block;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    border: 1px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button {
+    @include button;
+  }
+
+  .button:hover {
+    @include button;
+  }
+}

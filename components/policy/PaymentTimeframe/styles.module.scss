@@ -13,3 +13,18 @@
   color: $black;
   line-height: 165%;
 }
+
+@media only screen and (max-width: 900px) {
+  .payment_timeframe {
+    margin-bottom: 50px;
+  }
+  .header {
+    @include header_mobile;
+  }
+
+  .text {
+    color: $black;
+    font-size: 16px;
+    line-height: 165%;
+  }
+}
