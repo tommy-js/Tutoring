@@ -27,10 +27,10 @@ export const WhyMe: React.FC = () => {
         student.
       </p>
       <p className={styles.text}>
-        While is no shortage of practice problems and videos available online,
-        my students have the benefit of being able to go over this material with
-        me during sessions, or do it on their own time and have me grade it for
-        them.
+        While there is no shortage of practice problems and videos available
+        online, my students have the benefit of being able to go over this
+        material with me during sessions, or do it on their own time and have me
+        grade it for them.
       </p>
       <h2 className={styles.subheader}>Expert Knowledge</h2>
       <p className={styles.text}>

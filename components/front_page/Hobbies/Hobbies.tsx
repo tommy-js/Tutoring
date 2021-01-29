@@ -13,7 +13,7 @@ export const Hobbies: React.FC = () => {
         evokes such a sense of peace and wonder, and I am immensely grateful for
         the hard work of park rangers in upkeeping the rock climbing there.
       </p>
-      <div>[VIDEO GOES HERE]</div>
+      <div>[VIDEO COMING SOON!]</div>
       <p className={styles.text}>
         Apart from climbing, I remain a perpetual student. Currently I'm in the
         process of learning Russian for personal interest. I've always found the
@@ -22,7 +22,7 @@ export const Hobbies: React.FC = () => {
         although the pandemic will have to end before I consider making that a
         reality!
       </p>
-      <div>[VIDEO GOES HERE]</div>
+      <div>[VIDEO COMING SOON!]</div>
       <p className={styles.text}>
         Of course, even though I've completed my formal education in mathematics
         up to a Bachelor's level, I still remain intensely interested in the

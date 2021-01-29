@@ -13,7 +13,6 @@ export const Navbar: React.FC = () => {
     <div className={styles.navbar}>
       <Logo />
       <Signin />
-      <MaterialsNav />
       <Policy />
       <Faq />
       <ScheduleSession />

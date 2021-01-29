@@ -19,7 +19,7 @@ export const PaymentOptions: React.FC = () => {
       </ul>
       <p className={styles.text}>
         *Note that due to the online nature of my business I cannot accept cash
-        or check for my services.
+        or checks for my services.
       </p>
     </div>
   );
