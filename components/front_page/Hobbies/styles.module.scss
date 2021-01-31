@@ -14,6 +14,18 @@
   font-size: 18px;
 }
 
+.image_block {
+  position: relative;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+}
+
 @media only screen and (max-width: 900px) {
   .header {
     @include header_mobile;
