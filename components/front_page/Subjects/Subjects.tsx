@@ -1,8 +1,8 @@
 import React from "react";
 import { Subject } from "../Subject/Subject";
 import styles from "./styles.module.scss";
-const regents = require("../../../public/regents.png");
-const sat = require("../../../public/sat.png");
+const regents = require("../../../public/regents_prep.png");
+const sat = require("../../../public/sat_prep.png");
 const algebra1 = require("../../../public/algebra.png");
 const algebra2 = require("../../../public/algebra2.png");
 const trigonometry = require("../../../public/trigonometry.png");
