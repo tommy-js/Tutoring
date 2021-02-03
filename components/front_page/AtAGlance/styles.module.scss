@@ -1,0 +1,44 @@
+@import "../../globals/variables.scss";
+
+.at_a_glance {
+  margin-top: 50px;
+}
+
+.header {
+  @include header;
+}
+
+.subheader {
+  color: $red;
+  font-size: 16px;
+}
+
+.text {
+  color: $black;
+  line-height: 165%;
+  font-size: 18px;
+}
+
+.image_block {
+  position: relative;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    @include header_mobile;
+  }
+
+  .text {
+    color: $black;
+    line-height: 165%;
+    font-size: 16px;
+  }
+}

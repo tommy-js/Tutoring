@@ -29,7 +29,11 @@ export const Hobbies: React.FC = () => {
         reality!
       </p>
       <div className={styles.image_block}>
-        <img src={basilsCathedral} className={styles.image} />
+        <img
+          src={basilsCathedral}
+          alt="Beautiful multi-colored cathedral under blue sky"
+          className={styles.image}
+        />
       </div>
       <p className={styles.text}>
         A dream of mine is to visit Saint Basil's Cathedral in Moscow. It
