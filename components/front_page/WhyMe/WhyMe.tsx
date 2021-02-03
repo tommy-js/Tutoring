@@ -7,9 +7,9 @@ export const WhyMe: React.FC = () => {
     <div className={styles.why_me}>
       <h1 className={styles.header}>Why Me?</h1>
       <p className={styles.text}>
-        With the current environment of work from home and learn from home,
-        there are more tutor services available than ever. So why should you
-        choose me over the other options?
+        With the current environment of work and learn from home, there are more
+        tutoring services available than ever. So why should you choose me over
+        the other options?
       </p>
       <h2 className={styles.subheader}>More Than Just Tutoring</h2>
       <p className={styles.text}>
@@ -19,12 +19,12 @@ export const WhyMe: React.FC = () => {
         deserve in the subject you're working on.
       </p>
       <p className={styles.text}>
-        Students learn in a variety of ways. I believe that tutoring works best
-        when people have access to a number of resources, including practice
-        problems, explanations, and derivations of formulas. Because of this
-        philosophy, I've designed and continue to frequently update a large,
-        interactive library of material, which you will have access to as a
-        student.
+        Students learn in a variety of ways. I believe that tutoring is most
+        effective when people have access to a number of resources, including
+        practice problems, explanations, and derivations of formulas. Because of
+        this philosophy, I've designed and continue to frequently update a
+        large, interactive library of material, which you will have access to as
+        a student.
       </p>
       <p className={styles.text}>
         While there is no shortage of practice problems and videos available
