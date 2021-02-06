@@ -1,0 +1,20 @@
+@import "../globals/variables.scss";
+
+.formatting {
+  position: relative;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.subheader {
+  position: relative;
+  color: $black;
+  font-weight: normal;
+  line-height: 165%;
+}

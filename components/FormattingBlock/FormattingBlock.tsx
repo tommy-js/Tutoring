@@ -2,16 +2,15 @@ import React, { useState } from "react";
 import { BlockMath, InlineMath } from "react-katex";
 import "katex/dist/katex.min.css";
 import styles from "./styles.module.scss";
-
 const katex = require("katex");
 
 interface Props {
+  header: string;
   text: string;
-  function: string;
-  index: number;
+  placeholder: string;
 }
 
-export const WordQuestion = (props) => {
+export const FormattingBlock: React.FC<Props> = (props) => {
   const [answer, setAnswer] = useState("");
 
   function testKatex(equa: string) {
@@ -24,21 +23,17 @@ export const WordQuestion = (props) => {
   }
 
   return (
-    <div className={styles.word_question}>
-      <p className={styles.question}>
-        {props.index}. {props.text}
-      </p>
-      <div className={styles.function}>
-        <InlineMath>{props.function}</InlineMath>
-      </div>
-      <div className={styles.answer}>
+    <div className={styles.formatting_block}>
+      <h2 className={styles.header}>{props.header}</h2>
+      <p className={styles.text}>{props.text}</p>
+      <div className={styles.try_me}>
+        <p className={styles.example}>Try this out: </p>
         <input
+          className={styles.input}
           onChange={(e) => testKatex(e.target.value)}
-          className={styles.answer_input}
+          placeholder={props.placeholder}
         />
-      </div>
-      <div className={styles.answer_block}>
-        <BlockMath>{answer}</BlockMath>
+        <InlineMath>{answer}</InlineMath>
       </div>
     </div>
   );
