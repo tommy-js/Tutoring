@@ -7,6 +7,7 @@ import { RequiredEquipment } from "../RequiredEquipment/RequiredEquipment";
 import { Cancellations } from "../Cancellations/Cancellations";
 import { BulkPayment } from "../BulkPayment/BulkPayment";
 import { Homework } from "../Homework/Homework";
+import { Access } from "../Access/Access";
 import styles from "./styles.module.scss";
 
 export const Faq: React.FC = () => {
@@ -19,6 +20,7 @@ export const Faq: React.FC = () => {
       <RequiredEquipment />
       <Cancellations />
       <BulkPayment />
+      <Access />
       <Homework />
     </div>
   );

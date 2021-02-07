@@ -18,6 +18,10 @@ export const AtAGlance: React.FC = () => {
           Offering help in many subjects, including SAT and Regents exam prep
         </li>
         <li>Available and affordable: I want to see you succeed!</li>
+        <li>
+          Continuously growing library of practice problems with solutions that
+          you can do in your own time or work out with me
+        </li>
       </ul>
     </div>
   );
