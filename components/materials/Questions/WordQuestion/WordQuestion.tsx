@@ -31,10 +31,12 @@ export const WordQuestion = (props) => {
       <div className={styles.function}>
         <InlineMath>{props.function}</InlineMath>
       </div>
+      :
       <div className={styles.answer}>
         <input
           onChange={(e) => testKatex(e.target.value)}
           className={styles.answer_input}
+          placeholder="Your Answer"
         />
       </div>
       <div className={styles.answer_block}>

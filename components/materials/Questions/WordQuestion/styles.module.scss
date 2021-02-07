@@ -1,3 +1,5 @@
+@import "../../../globals/variables.scss";
+
 .question {
   display: inline-block;
 }
@@ -9,5 +11,13 @@
 
 .answer {
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 10px;
+}
+
+.answer_input {
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 2px;
+  border-radius: 2px;
+  border: 1px solid grey;
 }

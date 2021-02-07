@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./styles.module.scss";
+const practice = require("../../../public/practice_sheets.png");
 
 export const WhyMe: React.FC = () => {
   return (
@@ -26,6 +27,9 @@ export const WhyMe: React.FC = () => {
         large, interactive library of material, which you will have access to as
         a student.
       </p>
+      <div className={styles.image_block}>
+        <img className={styles.image} src={practice} />
+      </div>
       <p className={styles.text}>
         While there is no shortage of practice problems and videos available
         online, my students have the benefit of being able to go over this
