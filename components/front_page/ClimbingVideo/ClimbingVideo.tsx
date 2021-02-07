@@ -12,6 +12,8 @@ export const ClimbingVideo: React.FC = () => {
         controls={false}
         volume={0}
         muted={true}
+        width={"100%"}
+        className={styles.player}
       />
     </div>
   );
