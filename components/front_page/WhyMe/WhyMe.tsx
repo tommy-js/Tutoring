@@ -44,6 +44,9 @@ export const WhyMe: React.FC = () => {
         understanding of higher level materials on my end will better facilitate
         the learning of lower level materials for the student.
       </p>
+      <Link href="/reading-list">
+        <a className={styles.link}>Check out my reading list</a>
+      </Link>
       <p className={styles.text}>
         Simply put, I aim to offer you all my experience and knowledge at a low
         pricepoint, making it affordable to obtain high-quality tutoring for

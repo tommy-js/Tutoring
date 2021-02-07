@@ -1,0 +1,11 @@
+@import "../globals/variables.scss";
+
+.book_element {
+  border: 1px solid grey;
+  margin: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+  color: $black;
+  cursor: pointer;
+}
