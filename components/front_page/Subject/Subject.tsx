@@ -13,7 +13,7 @@ export const Subject: React.FC<Props> = (props) => {
   const [height, setHeight] = useState("0px");
 
   useEffect(() => {
-    if (opened === true) setHeight("50px");
+    if (opened === true) setHeight("75px");
     else setHeight("0px");
   }, [opened]);
 
