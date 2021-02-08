@@ -15,7 +15,6 @@ export const Contact: React.FC = () => {
       </h2>
       <Email />
       <Phone />
-      <EmailSubmit />
     </div>
   );
 };
