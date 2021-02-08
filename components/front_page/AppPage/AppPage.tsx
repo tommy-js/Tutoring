@@ -9,6 +9,7 @@ import { WhyMe } from "../WhyMe/WhyMe";
 import { Pricing } from "../Pricing/Pricing";
 import { Contact } from "../Contact/Contact";
 import { Faq } from "../Faq/Faq";
+import Fade from "react-reveal/Fade";
 import styles from "./styles.module.scss";
 
 export const AppPage: React.FC = () => {
@@ -17,13 +18,15 @@ export const AppPage: React.FC = () => {
       <TitleCard />
       <Introduction />
       <AtAGlance />
-      <Qualifications />
-      <Hobbies />
-      <Subjects />
-      <WhyMe />
-      <Pricing />
-      <Faq />
-      <Contact />
+      <Fade>
+        <Qualifications />
+        <Hobbies />
+        <Subjects />
+        <WhyMe />
+        <Pricing />
+        <Faq />
+        <Contact />
+      </Fade>
     </div>
   );
 };
