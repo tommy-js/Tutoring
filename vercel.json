@@ -1,0 +1,7 @@
+{
+  "name": "tutoring",
+  "version": 2,
+  "env": {
+    "MONGODB_URI": "@mongo-db"
+  }
+}

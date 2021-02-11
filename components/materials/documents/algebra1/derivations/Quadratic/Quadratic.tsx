@@ -1,7 +1,5 @@
 import React from "react";
-import { WordQuestion } from "../../../../Questions/WordQuestion/WordQuestion";
 import { BlockMath, InlineMath } from "react-katex";
-import { Identity } from "../../../../../Identity/Identity";
 import styles from "./styles.module.scss";
 import "katex/dist/katex.min.css";
 
