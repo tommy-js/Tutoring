@@ -14,11 +14,11 @@
 }
 
 .link:hover {
-  color: $red;
+  color: $gold;
 }
 
 .text {
-  color: $black;
+  color: $dark_graphite;
   line-height: 165%;
   font-size: 18px;
 }
@@ -29,8 +29,6 @@
   }
 
   .text {
-    color: $black;
-    line-height: 165%;
     font-size: 16px;
   }
 }

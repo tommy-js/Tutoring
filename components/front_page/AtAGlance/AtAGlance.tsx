@@ -6,7 +6,7 @@ export const AtAGlance: React.FC = () => {
     <div className={styles.at_a_glance}>
       <h2 className={styles.header}>At a Glance</h2>
       <h3 className={styles.subheader}>
-        Just a few reasons you should consider me!
+        Just a few reasons you should consider me
       </h3>
       <ul className={styles.text}>
         <li>

@@ -1,7 +1,7 @@
 @import "../../globals/variables.scss";
 
 .why_me {
-  color: $black;
+  color: $graphite;
 }
 
 .header {
@@ -32,7 +32,7 @@
 }
 
 .flair {
-  color: $red;
+  color: $gold;
 }
 
 .link {
@@ -41,7 +41,7 @@
 }
 
 .link:hover {
-  color: $red;
+  color: $gold;
 }
 
 @media only screen and (max-width: 900px) {
@@ -54,8 +54,6 @@
   }
 
   .text {
-    color: $black;
-    line-height: 165%;
     font-size: 16px;
   }
 }

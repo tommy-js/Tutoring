@@ -4,9 +4,7 @@ import styles from "./styles.module.scss";
 export const Introduction: React.FC = () => {
   return (
     <div className={styles.introduction}>
-      <h2 className={styles.header}>
-        About <span className={styles.flair}>Functional Tutoring</span>
-      </h2>
+      <h2 className={styles.header}>About Functional Tutoring</h2>
       <p className={styles.text}>
         I began my career in tutoring as a peer tutor and teaching assistant at
         Dutchess Community College back in 2016. I absolutely fell in love with

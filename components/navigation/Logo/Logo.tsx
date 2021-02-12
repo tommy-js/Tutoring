@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import styles from "./styles.module.scss";
-const logo = require("../../../public/logo.png");
+const logo = require("../../../public/alt_logo.png");
 
 export const Logo: React.FC = () => {
   const [width, setWidth] = useState("0");
@@ -10,7 +10,7 @@ export const Logo: React.FC = () => {
       <Link href="/" passHref>
         <a
           className={styles.link}
-          onMouseOver={() => setWidth("175px")}
+          onMouseOver={() => setWidth("185px")}
           onMouseOut={() => setWidth("0")}
         >
           <div className={styles.home_link}>

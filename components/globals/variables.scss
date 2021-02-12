@@ -1,30 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 
+// $red: #e5ab09;
+// $saffron: #ffb400;
+// $white: #fbf7f4;
+// $black: #2a2d34;
+// $backdrop: #fcfbf9;
+
+$gold: #ffb300;
+$graphite: #414141;
+$dark_graphite: #1e1e1e;
+$light_cream: #f7f7f1;
+$pencil_shade: #fff8dc;
 $blue: #4d6cfa;
-$red: #b23850;
-$saffron: #ffb400;
-$white: #fbf7f4;
-$black: #2a2d34;
-$backdrop: #fcfbf9;
+$white: #fcfbf9;
 
 @mixin header {
   font-size: 28px;
-  color: $black;
+  color: $graphite;
 }
 
 @mixin subheader {
   font-size: 22px;
-  color: $black;
+  color: $graphite;
 }
 
 @mixin header_mobile {
   font-size: 20px;
-  color: $black;
+  color: $graphite;
 }
 
 @mixin subheader_mobile {
   font-size: 18px;
-  color: $black;
+  color: $graphite;
 }
 
 @mixin button {
@@ -36,18 +43,18 @@ $backdrop: #fcfbf9;
   margin-right: auto;
   padding: 3px;
   font-size: 16px;
-  background-color: $red;
-  color: $white;
+  background-color: $gold;
+  color: $light_cream;
   border-radius: 5px;
-  border: 1px solid $saffron;
+  border: 1px solid $gold;
   cursor: pointer;
   box-shadow: 0px 1px 2px #888888;
   transition: 0.2s;
 }
 
 @mixin hover {
-  background-color: $saffron;
-  color: $black;
+  background-color: $gold;
+  color: $dark_graphite;
   transition: 0.2s;
 }
 

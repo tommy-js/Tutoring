@@ -15,9 +15,9 @@ export const WhyMe: React.FC = () => {
       <h2 className={styles.subheader}>More Than Just Tutoring</h2>
       <p className={styles.text}>
         When you sign up with me, you're not only signing up for hour-by-hour
-        tutoring. <span className={styles.flair}>Functional Tutoring</span> is a
-        fully-fledged out platform that is designed to give you the leg up you
-        deserve in the subject you're working on.
+        tutoring. Functional Tutoring is a fully-fledged out platform that is
+        designed to give you the leg up you deserve in the subject you're
+        working on.
       </p>
       <p className={styles.text}>
         Students learn in a variety of ways. I believe that tutoring is most
