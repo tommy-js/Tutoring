@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 const logo = require("../../../public/alt_logo.png");
 
 export const Logo: React.FC = () => {
-  const [width, setWidth] = useState("185px");
+  const [width, setWidth] = useState("0");
   return (
     <div className={styles.logo}>
       <Link href="/" passHref>
