@@ -1,9 +1,28 @@
+@import "../../../../../globals/variables.scss";
+
 .derivatives {
   position: relative;
+  width: 65%;
   margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
   position: relative;
   text-align: center;
+}
+
+.subheader {
+  font-size: 18px;
+  line-height: 165%;
+  font-weight: normal;
+}
+
+.formatting_link {
+  color: $blue;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin-bottom: 25px;
 }
