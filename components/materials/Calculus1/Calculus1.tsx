@@ -32,6 +32,13 @@ export const Calculus1: React.FC = () => {
       subject: "Calculus 1",
       type: "method",
     },
+    {
+      id: "kmk4g4434356hhjj",
+      title: "L'Hospital's Rule",
+      path: "calculus1/definitions/LHopitals",
+      subject: "Calculus 1",
+      type: "definition",
+    },
   ];
 
   return (
