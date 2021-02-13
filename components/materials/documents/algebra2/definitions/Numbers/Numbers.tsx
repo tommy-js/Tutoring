@@ -18,7 +18,7 @@ export const Numbers: React.FC = () => {
         and <i>irrational</i>.
       </h2>
       <Definition
-        title="transcendental"
+        title="Transcendental"
         def="A number that is not the solution of a non-zero polynomial with rational coefficients."
       />
       <p className={styles.text}>
@@ -30,7 +30,7 @@ export const Numbers: React.FC = () => {
         non-terminating, making them also irrational.
       </p>
       <Definition
-        title="rational"
+        title="Rational"
         def="A number that can be written as a fraction of two integers."
       />
       <p className={styles.text}>
@@ -42,6 +42,11 @@ export const Numbers: React.FC = () => {
         title="Integer"
         def="An integer is a number that is written without a fractional part."
       />
+      <p className={styles.text}>
+        In other words, a number is an integer if it can be written as a single
+        value, and not in a fraction. An integer can be negative or positive.
+        Examples of integers include -2, 6, 394, -63, etc...
+      </p>
     </div>
   );
 };
