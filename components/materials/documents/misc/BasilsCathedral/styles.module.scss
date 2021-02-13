@@ -1,0 +1,29 @@
+@import "../../../../globals/variables.scss";
+
+.basils_cathedral {
+  margin-top: 75px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  color: $dark_graphite;
+  line-height: 150%;
+  font-size: 18px;
+}
+
+.image_block {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+}
+
+.bottom {
+  margin-bottom: 75px;
+}

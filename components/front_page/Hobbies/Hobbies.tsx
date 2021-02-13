@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { ClimbingVideo } from "../ClimbingVideo/ClimbingVideo";
 import styles from "./styles.module.scss";
 const basilsCathedral = require("../../../public/basils_cathedral.jpg");
@@ -28,13 +29,15 @@ export const Hobbies: React.FC = () => {
         although the pandemic will have to end before I consider making that a
         reality!
       </p>
-      <div className={styles.image_block}>
-        <img
-          src={basilsCathedral}
-          alt="Beautiful multi-colored cathedral under blue sky"
-          className={styles.image}
-        />
-      </div>
+      <Link href="/materials/misc/BasilsCathedral">
+        <div className={styles.image_block}>
+          <img
+            src={basilsCathedral}
+            alt="Beautiful multi-colored cathedral under blue sky"
+            className={styles.image}
+          />
+        </div>
+      </Link>
       <p className={styles.text}>
         A dream of mine is to visit Saint Basil's Cathedral in Moscow. It
         started its construction in 1555 and now serves as an historic landmark

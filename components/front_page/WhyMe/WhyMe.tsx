@@ -24,17 +24,21 @@ export const WhyMe: React.FC = () => {
         effective when people have access to a number of resources, including
         practice problems, explanations, and derivations of formulas. Because of
         this philosophy, I've designed and continue to frequently update a
-        large, interactive library of material, which you will have access to as
-        a student.
+        large, interactive library of material, including practice worksheets
+        and derivations of important formulas.
       </p>
-      <div className={styles.image_block}>
-        <img className={styles.image} src={practice} />
-      </div>
+      <Link href="/materials/precalc/worksheets/Complex">
+        <div className={styles.image_block}>
+          <img className={styles.image} src={practice} />
+        </div>
+      </Link>
       <p className={styles.text}>
         While there is no shortage of practice problems and videos available
         online, my students have the benefit of being able to go over this
-        material with me during sessions, or do it on their own time and have me
-        grade it for them.
+        material with me during sessions.
+      </p>
+      <p className={styles.text}>
+        You can also expect to see video lessons posted soon.
       </p>
       <h2 className={styles.subheader}>Expert Knowledge</h2>
       <p className={styles.text}>

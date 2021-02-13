@@ -26,9 +26,9 @@ export const Geometry: React.FC = () => {
       <h2 className={styles.subheader}>
         The study of shapes and their properties
       </h2>
-      {testData.map((el: any) => (
-        <MaterialsLink id={el.id} title={el.title} path={el.path} />
-      ))}
+      <p className={styles.flair}>
+        Sorry, we haven't added anything to our geometry course just yet!
+      </p>
     </div>
   );
 };

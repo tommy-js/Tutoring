@@ -35,6 +35,7 @@ export const Formatting: React.FC = () => {
         text="Most trig functions are easy to format. Like much of Functional Tutoring, if you simply type out cos for cosine, sin for sine, and so on, it will be an accepted answer. However, if you want you can format it properly by typing \cos for cosine, \sin for sine, \tan for tangent, and so on. Still, sin(x) and \sin(x) work just fine for most problems."
         placeholder="\sin x"
       />
+      <div className={styles.bottom} />
     </div>
   );
 };
