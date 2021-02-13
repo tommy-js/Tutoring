@@ -34,7 +34,6 @@ export const Algebra1: React.FC = () => {
         The first of two parts exploring functions, expressions, systems of
         equations, and more!
       </h2>
-      <h3 className={styles.all_materials}>All Materials</h3>
       {testData.map((el: any) => (
         <MaterialsLink id={el.id} title={el.title} path={el.path} />
       ))}

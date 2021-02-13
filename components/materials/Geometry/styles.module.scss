@@ -2,7 +2,8 @@
 
 .geometry {
   position: relative;
-  width: 65%;
+  width: 50%;
+  min-width: 500px;
   margin-top: 75px;
   margin-left: auto;
   margin-right: auto;
@@ -15,6 +16,8 @@
 
 .subheader {
   @include subheader;
+  font-size: 18px;
+  text-align: center;
 }
 
 .all_materials {

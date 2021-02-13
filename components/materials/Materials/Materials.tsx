@@ -8,10 +8,7 @@ import styles from "./styles.module.scss";
 export const Materials: React.FC = () => {
   return (
     <div className={styles.materials}>
-      <WelcomeHeader />
-      <CourseMaterials />
       <FullCourseList />
-      <ViewAllMaterials />
     </div>
   );
 };

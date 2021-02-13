@@ -1,0 +1,14 @@
+@import "../../globals/variables.scss";
+
+.full_course_list {
+  position: relative;
+  width: 50%;
+  min-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  color: $graphite;
+  text-align: center;
+}
