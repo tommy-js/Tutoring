@@ -34,6 +34,7 @@
 .text {
   color: $dark_graphite;
   line-height: 150%;
+  font-display: swap;
 }
 
 .bottom {
@@ -50,8 +51,8 @@
 }
 
 .image {
-  width: 100%;
-  height: 100%;
+  width: 30px;
+  height: 30px;
 }
 
 .hidden_explanation {

@@ -7,7 +7,6 @@ const dice = require("../../../../../../public/dice.png");
 
 export const Complex: React.FC = () => {
   const [problems, setProblems] = useState([] as any);
-  const [contRender, setContRender] = useState(false);
 
   const problem_base = [
     {
@@ -93,29 +92,6 @@ export const Complex: React.FC = () => {
     setProblems(arr);
   }, []);
 
-  useEffect(() => {
-    if (problems.length > 0) setContRender(true);
-  }, [problems]);
-
-  function renderProblems() {
-    if (contRender === true) {
-      return (
-        <div>
-          {problems.map((el: any) => (
-            <div key={el.ind}>
-              <WordQuestion
-                index={problems.indexOf(el) + 1}
-                text="Simplify"
-                function={el.problem}
-                key={el.ind}
-              />
-            </div>
-          ))}
-        </div>
-      );
-    } else return null;
-  }
-
   return (
     <div className={styles.complex}>
       <h1 className={styles.header}>
@@ -130,7 +106,16 @@ export const Complex: React.FC = () => {
       <Link href="/formatting">
         <a className={styles.formatting_link}>Need help formatting?</a>
       </Link>
-      {renderProblems()}
+      {problems.map((el: any) => (
+        <div key={el.ind}>
+          <WordQuestion
+            index={problems.indexOf(el) + 1}
+            text="Simplify"
+            function={el.problem}
+            key={el.ind}
+          />
+        </div>
+      ))}
       <div className={styles.bottom}></div>
     </div>
   );

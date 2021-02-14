@@ -15,7 +15,11 @@ export const Logo: React.FC = () => {
         >
           <div className={styles.home_link}>
             <div className={styles.image_container}>
-              <img src={logo} className={styles.image} />
+              <img
+                src={logo}
+                className={styles.image}
+                alt="company logo to be used as a link back to the homescreen"
+              />
             </div>
             <div className={styles.header_container}>
               <p style={{ width }} className={styles.header}>

@@ -8,7 +8,11 @@ export const BasilsCathedral: React.FC = () => {
   return (
     <div className={styles.basils_cathedral}>
       <div className={styles.image_block}>
-        <img className={styles.image} src={cathedral} />
+        <img
+          className={styles.image}
+          src={cathedral}
+          alt="Beautiful multi-colored cathedral under blue sky"
+        />
       </div>
       <h1 className={styles.header}>St. Basil's Cathedral</h1>
       <h2 className={styles.subheader}>The Cathedral of Vasily the Blessed</h2>
@@ -26,7 +30,11 @@ export const BasilsCathedral: React.FC = () => {
         Russian Orthodox Christians.
       </p>
       <div className={styles.image_block}>
-        <img className={styles.image} src={cathedral2} />
+        <img
+          className={styles.image}
+          src={cathedral2}
+          alt="Large, multicolored cathedral under clear sky with crowd of people before it"
+        />
       </div>
       <p className={styles.text}>
         Despite being distinctly Russian, the building is unique in its

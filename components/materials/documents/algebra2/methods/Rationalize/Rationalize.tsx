@@ -10,7 +10,7 @@ export const Rationalize: React.FC = () => {
   const frac_conju =
     "\\frac{4}{5-\\sqrt{7}} * \\frac{5+\\sqrt{7}}{5+\\sqrt{7}} = \\frac{4*5+4*\\sqrt{7}}{(5-\\sqrt{7})(5+\\sqrt{7})} = \\frac{20+4\\sqrt{7}}{25-5\\sqrt{7}+5\\sqrt{7}-7}";
   const final_frac = "\\frac{20+4\\sqrt{7}}{18}";
-  const single_denom = "\\frac{12}{sqrt{17}}";
+  const single_denom = "\\frac{12}{\\sqrt{17}}";
   const single_denom_solution =
     "\\frac{12}{\\sqrt{17}}\\frac{\\sqrt{17}}{\\sqrt{17}} = \\frac{12\\sqrt{17}}{17}";
 

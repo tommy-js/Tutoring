@@ -4,9 +4,9 @@ import { Navbar } from "../components/navigation/Navbar/Navbar";
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <Navbar />
       <AppPage />
-    </div>
+    </main>
   );
 }

@@ -25,7 +25,7 @@ export const Exponential: React.FC = () => {
   return (
     <div className={styles.exponential}>
       <h1 className={styles.header}>
-        Proof of the derivative of <InlineMath>e^x</InlineMath>
+        Proof Of The Derivative Of <InlineMath>e^x</InlineMath>
       </h1>
       <h2 className={styles.subheader}>
         Here we will prove that <InlineMath>{header}</InlineMath> by use of the

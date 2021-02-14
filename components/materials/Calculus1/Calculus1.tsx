@@ -39,6 +39,13 @@ export const Calculus1: React.FC = () => {
       subject: "Calculus 1",
       type: "definition",
     },
+    {
+      id: "fkmk4g5566785gFFFeww",
+      title: "The Exponential Derivative",
+      path: "calculus1/derivations/exponential",
+      subject: "Calculus 1",
+      type: "definition",
+    },
   ];
 
   return (
