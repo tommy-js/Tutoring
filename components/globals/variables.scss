@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 
 $gold: #ffb300;
-$graphite: #2e2e2e;
-$dark_graphite: #191919;
+$graphite: #3c3b3b;
+$dark_graphite: #292828;
 $light_cream: #f7f7f1;
 $pencil_shade: #fff8dc;
 $blue: #0b2cc2;
@@ -35,7 +35,7 @@ $white: #fcfbf9;
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-  padding: 3px;
+  padding: 5px;
   font-size: 16px;
   background-color: $gold;
   color: $light_cream;
@@ -49,6 +49,7 @@ $white: #fcfbf9;
 @mixin hover {
   background-color: $gold;
   color: $dark_graphite;
+  box-shadow: 0px 2px 4px #888888;
   transition: 0.2s;
 }
 

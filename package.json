@@ -20,6 +20,7 @@
     "react-dom": "17.0.1",
     "react-formula-beautifier": "^0.2.3",
     "react-katex": "^2.0.2",
+    "react-mailchimp-subscribe": "^2.1.0",
     "react-markdown": "^5.0.3",
     "react-mathjax2": "0.0.2",
     "react-player": "^2.8.2",

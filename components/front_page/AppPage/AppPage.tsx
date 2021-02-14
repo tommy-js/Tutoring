@@ -7,6 +7,7 @@ import { Hobbies } from "../Hobbies/Hobbies";
 import { Subjects } from "../Subjects/Subjects";
 import { WhyMe } from "../WhyMe/WhyMe";
 import { Pricing } from "../Pricing/Pricing";
+import { EmailForm } from "../EmailForm/EmailForm";
 import { Contact } from "../Contact/Contact";
 import { Faq } from "../Faq/Faq";
 import Fade from "react-reveal/Fade";
@@ -25,6 +26,7 @@ export const AppPage: React.FC = () => {
         <WhyMe />
         <Pricing />
         <Faq />
+        <EmailForm />
         <Contact />
       </Fade>
     </div>
