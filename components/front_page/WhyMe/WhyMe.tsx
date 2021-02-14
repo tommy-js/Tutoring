@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./styles.module.scss";
-const practice = require("../../../public/practice_sheets.png");
+const practice = require("../../../public/practice_sheets.jpg");
 
 export const WhyMe: React.FC = () => {
   return (
@@ -29,7 +29,11 @@ export const WhyMe: React.FC = () => {
       </p>
       <Link href="/materials/precalc/worksheets/Complex">
         <div className={styles.image_block}>
-          <img className={styles.image} src={practice} />
+          <img
+            className={styles.image}
+            src={practice}
+            alt="List of complicated mathematics problems"
+          />
         </div>
       </Link>
       <p className={styles.text}>

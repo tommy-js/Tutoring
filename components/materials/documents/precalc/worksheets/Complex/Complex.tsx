@@ -97,7 +97,7 @@ export const Complex: React.FC = () => {
       <h1 className={styles.header}>
         Complex Numbers Practice{" "}
         <div className={styles.image_container}>
-          <img className={styles.image} src={dice} />
+          <img className={styles.image} src={dice} alt="image of orange dice" />
         </div>
         <div className={styles.hidden_explanation}>
           <span>This page randomly generates problems!</span>

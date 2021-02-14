@@ -28,17 +28,19 @@ export const WordQuestion = (props) => {
       <p className={styles.question}>
         {props.index}. {props.text}
       </p>
-      <div className={styles.function}>
-        <InlineMath>{props.function}</InlineMath>
-      </div>
-      :
-      <div className={styles.answer}>
-        <input
-          onChange={(e) => testKatex(e.target.value)}
-          className={styles.answer_input}
-          placeholder="Your Answer"
-        />
-      </div>
+      <label>
+        <div className={styles.function}>
+          <InlineMath>{props.function}</InlineMath>
+        </div>
+        :
+        <div className={styles.answer}>
+          <input
+            onChange={(e) => testKatex(e.target.value)}
+            className={styles.answer_input}
+            placeholder="Your Answer"
+          />
+        </div>
+      </label>
       <div className={styles.answer_block}>
         <BlockMath>{answer}</BlockMath>
       </div>

@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Navbar } from "../../../../../components/navigation/Navbar/Navbar";
 import { Similar } from "../../../../../components/materials/documents/geometry/worksheets/Similar/Similar";
 

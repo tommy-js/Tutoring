@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import styles from "./styles.module.scss";
-const logo = require("../../../public/logo_high_res.png");
+const logo = require("../../../public/navbar_logo.jpg");
 
 export const Logo: React.FC = () => {
   const [width, setWidth] = useState("0");

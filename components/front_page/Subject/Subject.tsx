@@ -24,7 +24,11 @@ export const Subject: React.FC<Props> = (props) => {
       onClick={() => setOpened(!opened)}
     >
       <div className={styles.image_block}>
-        <img className={styles.image} src={props.image} />
+        <img
+          className={styles.image}
+          src={props.image}
+          alt={`${props.title} subject image`}
+        />
       </div>
       <p className={styles.title}>{props.title}</p>
       <p style={{ height }} className={styles.subtext}>
