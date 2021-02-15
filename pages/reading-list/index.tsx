@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Navbar } from "../../components/navigation/Navbar/Navbar";
 import { ReadingList } from "../../components/ReadingList/ReadingList";
+import { Footer } from "../../components/Footer/Footer";
 
 export default function ReadingListPage() {
   return (
@@ -14,6 +15,7 @@ export default function ReadingListPage() {
       </Head>
       <Navbar />
       <ReadingList />
+      <Footer />
     </div>
   );
 }

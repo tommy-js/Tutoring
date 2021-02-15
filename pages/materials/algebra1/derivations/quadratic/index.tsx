@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Navbar } from "../../../../../components/navigation/Navbar/Navbar";
 import { Quadratic } from "../../../../../components/materials/documents/algebra1/derivations/Quadratic/Quadratic";
+import { Footer } from "../../../../../components/Footer/Footer";
 
 export default function QuadraticPage() {
   return (
@@ -14,6 +15,7 @@ export default function QuadraticPage() {
       </Head>
       <Navbar />
       <Quadratic />
+      <Footer />
     </div>
   );
 }

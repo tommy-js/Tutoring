@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Navbar } from "../../../../../components/navigation/Navbar/Navbar";
 import { Similar } from "../../../../../components/materials/documents/geometry/worksheets/Similar/Similar";
+import { Footer } from "../../../../../components/Footer/Footer";
 
 export default function SimilarPage() {
   return (
@@ -14,6 +15,7 @@ export default function SimilarPage() {
       </Head>
       <Navbar />
       <Similar />
+      <Footer />
     </div>
   );
 }

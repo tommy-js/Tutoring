@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Navbar } from "../../components/navigation/Navbar/Navbar";
 import { Formatting } from "../../components/Formatting/Formatting";
+import { Footer } from "../../components/Footer/Footer";
 
 export default function FormattingPage() {
   return (
@@ -14,6 +15,7 @@ export default function FormattingPage() {
       </Head>
       <Navbar />
       <Formatting />
+      <Footer />
     </div>
   );
 }

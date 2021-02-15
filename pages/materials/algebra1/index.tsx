@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Navbar } from "../../../components/navigation/Navbar/Navbar";
 import { Algebra1 } from "../../../components/materials/Algebra1/Algebra1";
+import { Footer } from "../../../components/Footer/Footer";
 
 export default function Algebra1Page() {
   return (

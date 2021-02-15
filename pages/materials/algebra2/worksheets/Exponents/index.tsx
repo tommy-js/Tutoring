@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Navbar } from "../../../../../components/navigation/Navbar/Navbar";
 import { Exponents } from "../../../../../components/materials/documents/algebra2/worksheets/Exponents/Exponents";
+import { Footer } from "../../../../../components/Footer/Footer";
 
 export default function ExponentsPage() {
   return (
@@ -14,6 +15,7 @@ export default function ExponentsPage() {
       </Head>
       <Navbar />
       <Exponents />
+      <Footer />
     </div>
   );
 }

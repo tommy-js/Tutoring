@@ -11,6 +11,7 @@ import { Pricing } from "../Pricing/Pricing";
 import { EmailForm } from "../EmailForm/EmailForm";
 import { Contact } from "../Contact/Contact";
 import { Faq } from "../Faq/Faq";
+import { Footer } from "../../Footer/Footer";
 import Fade from "react-reveal/Fade";
 import styles from "./styles.module.scss";
 

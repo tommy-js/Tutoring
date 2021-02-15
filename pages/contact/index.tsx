@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Navbar } from "../../components/navigation/Navbar/Navbar";
 import { Contact } from "../../components/contact/Contact/Contact";
+import { Footer } from "../../components/Footer/Footer";
 
 export default function ContactPage() {
   return (
@@ -14,6 +15,7 @@ export default function ContactPage() {
       </Head>
       <Navbar />
       <Contact />
+      <Footer />
     </div>
   );
 }

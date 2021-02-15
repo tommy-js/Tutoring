@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Navbar } from "../../../../../../components/navigation/Navbar/Navbar";
 import { Factoring } from "../../../../../../components/materials/documents/algebra1/worksheets/Factoring/Factoring";
+import { Footer } from "../../../../../../components/Footer/Footer";
 
 export default function FactoringWorksheet1Page() {
   return (
@@ -14,6 +15,7 @@ export default function FactoringWorksheet1Page() {
       </Head>
       <Navbar />
       <Factoring />
+      <Footer />
     </div>
   );
 }
