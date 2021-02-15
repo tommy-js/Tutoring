@@ -7,6 +7,7 @@ $light_cream: #f7f7f1;
 $pencil_shade: #fff8dc;
 $blue: #0b2cc2;
 $white: #fcfbf9;
+$eraser: #f5a19d;
 
 @mixin header {
   font-size: 28px;
@@ -30,15 +31,15 @@ $white: #fcfbf9;
 
 @mixin button {
   position: relative;
-  width: 100px;
+  width: auto;
   display: block;
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-  padding: 5px;
-  font-size: 16px;
+  padding: 8px;
+  font-size: 18px;
   background-color: $gold;
-  color: $light_cream;
+  color: $dark_graphite;
   border-radius: 5px;
   border: 1px solid $gold;
   cursor: pointer;
@@ -47,8 +48,8 @@ $white: #fcfbf9;
 }
 
 @mixin hover {
-  background-color: $gold;
-  color: $dark_graphite;
+  background-color: $eraser;
+  border: 1px solid $eraser;
   box-shadow: 0px 2px 4px #888888;
   transition: 0.2s;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { TitleCard } from "../TitleCard/TitleCard";
 import { Introduction } from "../Introduction/Introduction";
 import { AtAGlance } from "../AtAGlance/AtAGlance";
+import { ScheduleSession } from "../ScheduleSession/ScheduleSession";
 import { Qualifications } from "../Qualifications/Qualifications";
 import { Hobbies } from "../Hobbies/Hobbies";
 import { Subjects } from "../Subjects/Subjects";
@@ -19,6 +20,7 @@ export const AppPage: React.FC = () => {
       <TitleCard />
       <Introduction />
       <AtAGlance />
+      <ScheduleSession />
       <Fade>
         <Qualifications />
         <Hobbies />

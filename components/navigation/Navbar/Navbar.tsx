@@ -14,8 +14,8 @@ export const Navbar: React.FC = () => {
       <MaterialsNav />
       <Policy />
       <Faq />
-      <ScheduleSession />
       <Pricing />
+      <ScheduleSession />
     </div>
   );
 };
