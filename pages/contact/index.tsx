@@ -15,7 +15,6 @@ export default function ContactPage() {
       </Head>
       <Navbar />
       <Contact />
-      <Footer />
     </div>
   );
 }

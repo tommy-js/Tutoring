@@ -19,3 +19,14 @@
   line-height: 165%;
   color: $dark_graphite;
 }
+
+.link {
+  color: $blue;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.link:hover {
+  color: $gold;
+  transition: 0.2s;
+}
