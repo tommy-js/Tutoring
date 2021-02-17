@@ -5,6 +5,7 @@ import styles from "./styles.module.scss";
 const fbook = require("../../public/fbook.png");
 const twit = require("../../public/twit.png");
 const call_us = require("../../public/call_us.png");
+const linkedin = require("../../public/linkedin.png");
 
 export const Footer: React.FC = () => {
   return (
@@ -18,6 +19,11 @@ export const Footer: React.FC = () => {
         <Link href="https://twitter.com/FunctionalTuto1">
           <div className={styles.image_block}>
             <img src={twit} className={styles.image} />
+          </div>
+        </Link>
+        <Link href="https://www.linkedin.com/company/functional-tutoring/about">
+          <div className={styles.image_block}>
+            <img src={linkedin} className={styles.image} />
           </div>
         </Link>
         <Link href="/contact">

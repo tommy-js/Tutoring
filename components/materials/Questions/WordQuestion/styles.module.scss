@@ -14,9 +14,14 @@
   margin-left: 10px;
 }
 
+.inline_question {
+  display: inline-block;
+}
+
 .answer_input {
   font-size: 14px;
   box-sizing: border-box;
+  display: inline-block;
   padding: 2px;
   border-radius: 2px;
   border: 1px solid grey;

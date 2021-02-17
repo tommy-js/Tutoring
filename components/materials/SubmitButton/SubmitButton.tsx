@@ -1,6 +1,14 @@
 import React from "react";
 import styles from "./styles.module.scss";
 
-export const SubmitButton: React.FC = () => {
-  return <button className={styles.button}>Submit</button>;
+interface Props {
+  modSubmitted: () => void;
+}
+
+export const SubmitButton: React.FC<Props> = (props) => {
+  return (
+    <button onClick={() => props.modSubmitted()} className={styles.button}>
+      Check
+    </button>
+  );
 };

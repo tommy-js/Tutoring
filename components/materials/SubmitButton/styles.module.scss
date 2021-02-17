@@ -2,10 +2,11 @@
 
 .button {
   position: relative;
-  display: block;
   @include button;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  display: inline-block;
+  margin-left: 15px;
+  padding: 3px;
+  font-size: 14px;
 }
 
 .button:hover {

@@ -17,7 +17,7 @@ export const Exponents: React.FC = () => {
     },
     {
       problem: "\\frac{\\sqrt{x}}{x^2}",
-      solution: "\\frac{1}{x}",
+      solution: "\\frac{1}{\\sqrt{x^3}}",
       ind: 1,
     },
     {
@@ -122,6 +122,7 @@ export const Exponents: React.FC = () => {
                 index={problems.indexOf(el) + 1}
                 text="Simplify"
                 function={el.problem}
+                solution={el.solution}
                 key={el.ind}
               />
             </div>
@@ -146,8 +147,9 @@ export const Exponents: React.FC = () => {
         <a className={styles.formatting_link}>Need help formatting?</a>
       </Link>
       <h2 className={styles.subheader}>
-        These problems are listed in generally ascending level of difficulty.
-        Write each in simplest possible terms.
+        These problems range in difficulty from very easy to very hard. Don't
+        get discouraged if you can't figure a few out! Just keep trying and you
+        will get it.
       </h2>
       {renderProblems()}
       <div className={styles.bottom}></div>
