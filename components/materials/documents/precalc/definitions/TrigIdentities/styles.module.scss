@@ -1,0 +1,37 @@
+@import "../../../../../globals/variables.scss";
+
+.trig_identities {
+  position: relative;
+  width: 65%;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  color: $graphite;
+  text-align: center;
+}
+
+.subheader {
+  color: $graphite;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.div_header {
+  color: $graphite;
+}
+
+.unit_container {
+  position: relative;
+  width: 50%;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.bottom_container {
+  margin-bottom: 75px;
+}

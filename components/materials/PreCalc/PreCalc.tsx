@@ -18,6 +18,13 @@ export const PreCalc: React.FC = () => {
       subject: "Pre-Calculus",
       type: "worksheet",
     },
+    {
+      id: "gkm4km45667,bbBffrree",
+      title: "Trigonometric Identities",
+      path: "precalc/definitions/TrigIdentities",
+      subject: "Pre-Calculus",
+      type: "definitions",
+    },
   ];
 
   return (
