@@ -6,7 +6,7 @@ export const Calculus1: React.FC = () => {
   const testData = [
     {
       id: "fke444g5h5",
-      title: "Definition of Limit",
+      title: "Definition of the Derivative",
       path: "calculus1/definitions/Limits",
       subject: "Calculus 1",
       type: "definition",
@@ -24,6 +24,13 @@ export const Calculus1: React.FC = () => {
       path: "calculus1/methods/Derivatives",
       subject: "Calculus 1",
       type: "method",
+    },
+    {
+      id: "gm4kkmg5h555j6j6nnb",
+      title: "Practice Taking Limits",
+      path: "calculus1/worksheets/Limits",
+      subject: "Calculus 1",
+      type: "worksheet",
     },
     {
       id: "efemkgm44km3w",

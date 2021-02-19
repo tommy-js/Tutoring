@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { WordQuestion } from "../../../../Questions/WordQuestion/WordQuestion";
-import { SubmitButton } from "../../../../SubmitButton/SubmitButton";
 import { BlockMath, InlineMath } from "react-katex";
 import styles from "./styles.module.scss";
 import "katex/dist/katex.min.css";
@@ -10,7 +9,6 @@ const dice = require("../../../../../../public/dice.png");
 
 export const Derivatives: React.FC = () => {
   const [problems, setProblems] = useState([] as any);
-  const [contRender, setContRender] = useState(false);
 
   const problem_base = [
     {
@@ -152,6 +150,90 @@ export const Derivatives: React.FC = () => {
       solution: "\\frac{1-2\\ln(x)}{x^3}",
       ind: 22,
     },
+    {
+      text: "Take the derivative of",
+      problem: "",
+      solution: "",
+      ind: 23,
+    },
+    {
+      text: "Take the derivative of",
+      problem: "",
+      solution: "",
+      ind: 24,
+    },
+    {
+      text: "Take the derivative of",
+      problem: "",
+      solution: "",
+      ind: 25,
+    },
+    {
+      text: "Take the derivative of",
+      problem: "",
+      solution: "",
+      ind: 26,
+    },
+    {
+      text: "Take the derivative of",
+      problem: "",
+      solution: "",
+      ind: 27,
+    },
+    {
+      text: "Take the derivative of",
+      problem: "",
+      solution: "",
+      ind: 28,
+    },
+    {
+      text: "Take the derivative of",
+      problem: "",
+      solution: "",
+      ind: 29,
+    },
+    {
+      text: "Take the derivative of",
+      problem: "",
+      solution: "",
+      ind: 30,
+    },
+    {
+      text: "Take the derivative of",
+      problem: "",
+      solution: "",
+      ind: 31,
+    },
+    {
+      text: "Take the derivative of",
+      problem: "",
+      solution: "",
+      ind: 32,
+    },
+    {
+      text: "Take the derivative of",
+      problem: "",
+      solution: "",
+      ind: 33,
+    },
+    {
+      text: "Take the derivative of",
+      problem: "",
+      solution: "",
+      ind: 34,
+    },
+    {
+      text: "Take the derivative of",
+      problem: "",
+      solution: "",
+      ind: 35,
+    },
+    {
+      text: "Take the derivative of",
+      problem: "",
+      solution: "",
+      ind: 36,
+    },
   ];
 
   useEffect(() => {
@@ -165,49 +247,43 @@ export const Derivatives: React.FC = () => {
     setProblems(arr);
   }, []);
 
-  useEffect(() => {
-    if (problems.length > 0) setContRender(true);
-  }, [problems]);
-
-  function renderProblems() {
-    if (contRender === true) {
-      return (
-        <div>
-          {problems.map((el: any) => (
-            <div key={el.ind}>
-              <WordQuestion
-                index={problems.indexOf(el) + 1}
-                text={el.text}
-                function={el.problem}
-                solution={el.solution}
-                key={el.ind}
-              />
-            </div>
-          ))}
-        </div>
-      );
-    } else return null;
-  }
-
   const ex = "e^x";
   const cosx = "\\cos(x)";
   const sinx = "\\sin(x)";
 
   return (
     <div className={styles.derivatives}>
-      <h1 className={styles.header}>Practice Taking Derivatives</h1>
+      <h1 className={styles.header}>
+        Practice Taking Derivatives
+        <div className={styles.image_container}>
+          <img className={styles.image} src={dice} alt="image of orange dice" />
+        </div>
+        <div className={styles.hidden_explanation}>
+          <span>This page randomly generates problems!</span>
+        </div>
+      </h1>
       <h2 className={styles.subheader}>
         Here we'll go over some practice problems for derivatives. Remember your
         Power Rule, Quotient Rule, Product Rule, and Chain Rule. Also keep in
         mind the various derivative rules such as for{" "}
         <InlineMath>{ex}</InlineMath>, <InlineMath>{cosx}</InlineMath>,{" "}
-        <InlineMath>{sinx}</InlineMath>. These are in order of generally
-        ascending difficulty.
+        <InlineMath>{sinx}</InlineMath>.
       </h2>
       <Link href="/formatting">
         <a className={styles.formatting_link}>Need help formatting?</a>
       </Link>
-      {renderProblems()}
+      {problems.map((el: any) => (
+        <div key={el.ind}>
+          <WordQuestion
+            index={problems.indexOf(el) + 1}
+            text={el.text}
+            function={el.problem}
+            solution={el.solution}
+            key={el.ind}
+          />
+        </div>
+      ))}
+      <div className={styles.bottom}></div>
     </div>
   );
 };

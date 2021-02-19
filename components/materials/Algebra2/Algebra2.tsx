@@ -25,6 +25,13 @@ export const Algebra2: React.FC = () => {
       subject: "Algebra 2",
       type: "worksheet",
     },
+    {
+      id: "nnmnmyuy7776wscasc",
+      title: "Practice with Inequalities",
+      path: "algebra2/worksheets/Inequalities",
+      subject: "Algebra 2",
+      type: "worksheet",
+    },
   ];
   return (
     <div className={styles.algebra2}>
