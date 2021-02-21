@@ -6,26 +6,31 @@ export const FullCourseList: React.FC = () => {
   const testData = [
     {
       id: 0,
+      title: "Arithmetic",
+      path: "arithmetic",
+    },
+    {
+      id: 1,
       title: "Geometry",
       path: "geometry",
     },
     {
-      id: 1,
+      id: 2,
       title: "Algebra 1",
       path: "algebra1",
     },
     {
-      id: 2,
+      id: 3,
       title: "Algebra 2",
       path: "algebra2",
     },
     {
-      id: 3,
+      id: 4,
       title: "Pre-Calc",
       path: "precalc",
     },
     {
-      id: 4,
+      id: 5,
       title: "Calculus 1",
       path: "calculus1",
     },
