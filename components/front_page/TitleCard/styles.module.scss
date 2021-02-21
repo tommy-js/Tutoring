@@ -34,8 +34,9 @@
   float: right;
   margin-right: 15px;
   display: block;
-  border-radius: 5px;
-  border: 1px solid grey;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1.5px solid $graphite;
 }
 
 .image {
@@ -79,7 +80,6 @@
     margin-bottom: 10px;
     display: block;
     border-radius: 5px;
-    border: 1px solid grey;
   }
 
   .header {
