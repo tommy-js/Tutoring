@@ -20,8 +20,8 @@ export const AppPage: React.FC = () => {
     <div className={styles.app_page}>
       <TitleCard />
       <Introduction />
-      <AtAGlance />
       <ScheduleSession />
+      <AtAGlance />
       <Fade>
         <Qualifications />
         <Hobbies />
