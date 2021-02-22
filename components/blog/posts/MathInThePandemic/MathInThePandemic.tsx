@@ -1,5 +1,10 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./styles.module.scss";
+
+const distance_learning = require("../../../../public/blogs/distance_learning.jpg");
+const empty_testing = require("../../../../public/blogs/empty_testing.jpg");
+const students_in_classroom = require("../../../../public/blogs/students_in_classroom.jpg");
 
 export const MathInThePandemic: React.FC = () => {
   return (
@@ -8,6 +13,12 @@ export const MathInThePandemic: React.FC = () => {
       <h2 className={styles.subheader}>
         How the pandemic is affecting our students at every level.
       </h2>
+      <h3 className={styles.published_date}>
+        Published 2/22/2021 -{" "}
+        <Link href="https://tyler-55963.medium.com/mathematics-in-the-pandemic-e8b99fab358e">
+          <a className={styles.link}>Read on Medium</a>
+        </Link>
+      </h3>
       <p className={styles.text}>
         It should come as no surprise that the pandemic has led to a general
         disruption of student learning. Even as many classes are shifting to
@@ -35,6 +46,13 @@ export const MathInThePandemic: React.FC = () => {
         sets with their fellow classmates, and being able to receive
         personalized, one-on-one help.
       </p>
+      <div className={styles.image_block}>
+        <img
+          src={students_in_classroom}
+          className={styles.image}
+          alt="Children studying at table together"
+        />
+      </div>
       <p className={styles.text}>
         Of course, part of the reason the pandemic has been so devastating for
         the education of our children is due to the fact that it is not a simple
@@ -71,6 +89,13 @@ export const MathInThePandemic: React.FC = () => {
         average of around 10% yearly, and will likely grow even faster over the
         next few years to fill this growing demand.
       </p>
+      <div className={styles.image_block}>
+        <img
+          src={distance_learning}
+          className={styles.image}
+          alt="IPad with scissors, erasers, and coloring books"
+        />
+      </div>
       <p className={styles.text}>
         Unfortunately, with so many students still learning from home,
         instructors are now relying on parents to provide the stability that
@@ -99,12 +124,19 @@ export const MathInThePandemic: React.FC = () => {
         shock in a few months when in-person testing begins again, as there’s no
         telling what the scores might tell us at that point.
       </p>
+      <div className={styles.image_block}>
+        <img
+          src={empty_testing}
+          className={styles.image}
+          alt="Vacant testing room with chalkboard at front"
+        />
+      </div>
       <p className={styles.text}>
         The bigger issue actually has more to do with who is scoring
         substantially lower rather than why. As we mentioned before, minority
         groups seem increasingly underrepresented in the test scores that we do
         have. It’s difficult to say exactly why this is, but in the end the
-        result is the same: black and latino students are not doing as well as
+        result is the same: black and Latino students are not doing as well as
         their white counterparts during this pandemic, which means that our
         limited test data is really only sufficient to give a general idea of
         how white students are doing at the moment.

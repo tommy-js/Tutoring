@@ -2,8 +2,8 @@
 
 .link_element {
   margin-top: 15px;
-  border: 1px solid $graphite;
-  border-radius: 5px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid $graphite;
   cursor: pointer;
 }
 
@@ -21,6 +21,7 @@
 .text_block {
   display: inline-block;
   width: 70%;
+  padding-left: 10px;
   box-sizing: border-box;
   vertical-align: top;
   @include noselect;

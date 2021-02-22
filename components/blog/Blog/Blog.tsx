@@ -2,7 +2,7 @@ import React from "react";
 import { LinkElement } from "../LinkElement/LinkElement";
 import styles from "./styles.module.scss";
 
-const blog1 = require("../../../public/algebra.png");
+const blog1 = require("../../../public/blogs/distance_learning.jpg");
 
 export const Blog: React.FC = () => {
   const blog_posts = [
