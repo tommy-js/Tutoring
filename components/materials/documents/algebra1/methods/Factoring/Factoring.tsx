@@ -27,8 +27,8 @@ export const Factoring: React.FC = () => {
       <Identity index={1} identity="a^2-b^2=(a+b)(a-b)" />
       <Identity index={2} identity="a^2+2ab+b^2=(a+b)(a+b)" />
       <Identity index={3} identity="a^2-2ab+b^2=(a-b)(a-b)" />
-      <Identity index={4} identity="a^3+b^3=(a+b)(a^2-ab+b2)" />
-      <Identity index={5} identity="a^3-b^3=(a-b)(a^2+ab+b2)" />
+      <Identity index={4} identity="a^3+b^3=(a+b)(a^2-ab+b^2)" />
+      <Identity index={5} identity="a^3-b^3=(a-b)(a^2+ab+b^2)" />
       <Identity index={6} identity="a^3+3a^2b+3ab^2+b^3=(a+b)^3" />
       <Identity index={7} identity="a^3-3a^2b+3ab^2-b^3=(a-b)^3" />
       <p className={styles.text}>
@@ -38,12 +38,42 @@ export const Factoring: React.FC = () => {
         though it may still be useful to be aware of them.
       </p>
       <h2 className={styles.practice_header}>Practice</h2>
-      <WordQuestion index={1} text="Factor" function="x^2-4" />
-      <WordQuestion index={2} text="Factor" function="x^2+6x+9" />
-      <WordQuestion index={3} text="Factor" function="x^3-27" />
-      <WordQuestion index={4} text="Factor" function="x^3-21x^2+147x-343" />
-      <WordQuestion index={5} text="Factor" function="x^2-10x+25" />
-      <WordQuestion index={6} text="Factor" function="x^3+6x^2+12x+8" />
+      <WordQuestion
+        index={1}
+        text="Factor"
+        function="x^2-4"
+        solution="(x-2)(x+2)"
+      />
+      <WordQuestion
+        index={2}
+        text="Factor"
+        function="x^2+6x+9"
+        solution="(x+3)^2"
+      />
+      <WordQuestion
+        index={3}
+        text="Factor"
+        function="x^3-27"
+        solution="(x-3)(x^2+3x+9)"
+      />
+      <WordQuestion
+        index={4}
+        text="Factor"
+        function="x^3-21x^2+147x-343"
+        solution="(x-7)^3"
+      />
+      <WordQuestion
+        index={5}
+        text="Factor"
+        function="x^2-10x+25"
+        solution="(x-5)^2"
+      />
+      <WordQuestion
+        index={6}
+        text="Factor"
+        function="x^3+6x^2+12x+8"
+        solution="(x+2)^3"
+      />
     </div>
   );
 };
