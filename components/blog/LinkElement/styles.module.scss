@@ -1,0 +1,27 @@
+@import "../../globals/variables.scss";
+
+.link_element {
+  margin-top: 15px;
+  border: 1px solid $graphite;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image_block {
+  display: inline-block;
+  width: 30%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+}
+
+.text_block {
+  display: inline-block;
+  width: 70%;
+  box-sizing: border-box;
+  vertical-align: top;
+  @include noselect;
+}

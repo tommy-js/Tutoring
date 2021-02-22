@@ -5,6 +5,7 @@ import { ScheduleSession } from "../ScheduleSession/ScheduleSession";
 import { Policy } from "../Policy/Policy";
 import { Faq } from "../Faq/Faq";
 import { Pricing } from "../Pricing/Pricing";
+import { Blog } from "../Blog/Blog";
 import styles from "./styles.module.scss";
 
 export const Navbar: React.FC = () => {
@@ -12,6 +13,7 @@ export const Navbar: React.FC = () => {
     <div className={styles.navbar}>
       <Logo />
       <MaterialsNav />
+      <Blog />
       <Policy />
       <Faq />
       <Pricing />

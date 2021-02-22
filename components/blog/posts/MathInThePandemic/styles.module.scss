@@ -1,0 +1,31 @@
+@import "../../../globals/variables.scss";
+
+.math_in_the_pandemic {
+  position: relative;
+  margin-top: 75px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  color: $graphite;
+  text-align: center;
+  font-size: 26px;
+}
+
+.subheader {
+  color: $graphite;
+  text-align: center;
+  font-size: 18px;
+}
+
+.text {
+  color: $graphite;
+  font-size: 18px;
+  line-height: 165%;
+}
+
+.bottom {
+  margin-bottom: 75px;
+}
