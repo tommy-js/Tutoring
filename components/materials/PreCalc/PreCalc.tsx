@@ -19,6 +19,13 @@ export const PreCalc: React.FC = () => {
       type: "worksheet",
     },
     {
+      id: "f3fjk3ngj3nj43hg44h",
+      title: "Practice with Logarithm Equations",
+      path: "precalc/worksheets/Logarithms",
+      subject: "Pre-Calculus",
+      type: "worksheet",
+    },
+    {
       id: "gkm4km45667,bbBffrree",
       title: "Trigonometric Identities",
       path: "precalc/definitions/TrigIdentities",

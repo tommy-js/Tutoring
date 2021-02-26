@@ -1,0 +1,72 @@
+@import "../../../../../globals/variables.scss";
+
+.review {
+  position: relative;
+  width: 65%;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+}
+
+.subheader {
+  font-size: 18px;
+  line-height: 165%;
+  font-weight: normal;
+}
+
+.formatting_link {
+  color: $blue;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.flair {
+  font-weight: bold;
+}
+
+.text {
+  color: $dark_graphite;
+  line-height: 150%;
+  font-display: swap;
+}
+
+.bottom {
+  margin-bottom: 150px;
+}
+
+.image_container {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image {
+  width: 30px;
+  height: 30px;
+}
+
+.hidden_explanation {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  color: $graphite;
+  opacity: 0;
+  transition: 0.2s;
+  @include noselect;
+}
+
+.image_container:hover ~ .hidden_explanation {
+  opacity: 1;
+  transition: 0.2s;
+}
