@@ -1,218 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
 <url>
-<loc>https://functionaltutoring.com/</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://functionaltutoring.com/</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://functionaltutoring.com/materials</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://functionaltutoring.com/materials</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://functionaltutoring.com/blog</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://functionaltutoring.com/blog</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://functionaltutoring.com/policy</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://functionaltutoring.com/policy</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://functionaltutoring.com/faq</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://functionaltutoring.com/faq</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://functionaltutoring.com/pricing</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://functionaltutoring.com/pricing</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://functionaltutoring.com/schedule</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://functionaltutoring.com/schedule</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://functionaltutoring.com/reading-list</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://functionaltutoring.com/reading-list</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://functionaltutoring.com/contact</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://functionaltutoring.com/contact</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/arithmetic
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://functionaltutoring.com/materials/arithmetic</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://functionaltutoring.com/materials/geometry</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://functionaltutoring.com/materials/geometry</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://functionaltutoring.com/materials/algebra1</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://functionaltutoring.com/materials/algebra1</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://functionaltutoring.com/materials/algebra2</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://functionaltutoring.com/materials/algebra2</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://functionaltutoring.com/materials/precalc</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://functionaltutoring.com/materials/precalc</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://functionaltutoring.com/materials/calculus1</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://functionaltutoring.com/materials/calculus1</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/arithmetic/worksheets/AddSub
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/arithmetic/worksheets/AddSub</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/arithmetic/worksheets/AddSubFracts
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/arithmetic/worksheets/AddSubFracts</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/algebra1/factoring/worksheets/worksheet1
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/algebra1/factoring/worksheets/worksheet1</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/algebra1/methods/factoring
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/algebra1/methods/factoring</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/algebra1/derivations/quadratic
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/algebra1/derivations/quadratic</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/algebra2/definitions/Numbers
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/algebra2/definitions/Numbers</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/algebra2/methods/Rationalize
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/algebra2/methods/Rationalize</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/algebra2/worksheets/Exponents
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/algebra2/worksheets/Exponents</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/algebra2/worksheets/Inequalities
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/algebra2/worksheets/Inequalities</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/precalc/worksheets/Complex
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/precalc/worksheets/Complex</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/precalc/worksheets/Logarithms
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/precalc/worksheets/Logarithms</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/precalc/definitions/TrigIdentities
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/precalc/definitions/TrigIdentities</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/calculus1/definitions/Limits
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/calculus1/definitions/Limits</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/calculus1/worksheets/Derivatives
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/calculus1/worksheets/Derivatives</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/calculus1/methods/Derivatives
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/calculus1/methods/Derivatives</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/calculus1/worksheets/Limits
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/calculus1/worksheets/Limits</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/calculus1/methods/Integrals
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/calculus1/methods/Integrals</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/calculus1/definitions/LHopitals
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/calculus1/definitions/LHopitals</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>
-https://functionaltutoring.com/materials/calculus1/derivations/exponential
-</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.51</priority>
+  <loc>https://functionaltutoring.com/materials/calculus1/derivations/exponential</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>https://functionaltutoring.com/formatting</loc>
-<lastmod>2021-02-28T20:58:19+00:00</lastmod>
-<priority>0.41</priority>
+  <loc>https://functionaltutoring.com/formatting</loc>
+  <lastmod>2021-02-28T20:58:19+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
+
+
 </urlset>
