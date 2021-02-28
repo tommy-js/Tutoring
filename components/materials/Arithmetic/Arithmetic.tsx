@@ -3,6 +3,15 @@ import { MaterialsLink } from "../MaterialsLink/MaterialsLink";
 import styles from "./styles.module.scss";
 
 export const Arithmetic: React.FC = () => {
+  const testData = [
+    {
+      id: "krgmkmbkrmn56667",
+      title: "Addition and subtraction practice",
+      path: "arithmetic/worksheets/AddSub",
+      subject: "Arithmetic",
+      type: "worksheet",
+    },
+  ];
   return (
     <div className={styles.arithmetic}>
       <h1 className={styles.header}>Arithmetic</h1>
@@ -10,9 +19,9 @@ export const Arithmetic: React.FC = () => {
         Addition, subtraction, division, multiplication, fractions, negative
         numbers and more.
       </h2>
-      <p className={styles.flair}>
-        Sorry, we haven't added anything to our arithmetic course just yet!
-      </p>
+      {testData.map((el: any) => (
+        <MaterialsLink id={el.id} title={el.title} path={el.path} />
+      ))}
     </div>
   );
 };
