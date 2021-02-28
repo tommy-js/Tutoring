@@ -11,6 +11,13 @@ export const Arithmetic: React.FC = () => {
       subject: "Arithmetic",
       type: "worksheet",
     },
+    {
+      id: "ghh568GFBedE##@s",
+      title: "Adding and subtracting fractions practice",
+      path: "arithmetic/worksheets/AddSubFracts",
+      subject: "Arithmetic",
+      type: "worksheet",
+    },
   ];
   return (
     <div className={styles.arithmetic}>
