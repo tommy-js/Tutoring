@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styles from "./styles.module.scss";
 
+const media = require("../../../../public/blogs/media.jpg");
 const online_tutoring = require("../../../../public/blogs/online_tutoring.jpg");
 const university = require("../../../../public/blogs/university.jpg");
 const vaccine = require("../../../../public/blogs/vaccine.jpg");
@@ -15,7 +16,7 @@ export const TheRoleTutoringWillPlay: React.FC = () => {
       </h2>
       <h3 className={styles.published_date}>
         Published 3/1/2021 -{" "}
-        <Link href="https://tyler-55963.medium.com/mathematics-in-the-pandemic-e8b99fab358e">
+        <Link href="https://tyler-55963.medium.com/the-role-tutoring-will-play-eb2e05fe6f1c">
           <a className={styles.link}>Read on Medium</a>
         </Link>
       </h3>
@@ -27,6 +28,13 @@ export const TheRoleTutoringWillPlay: React.FC = () => {
         have to do is look at the stock prices of companies such as Netflix and
         Amazon.
       </p>
+      <div className={styles.image_block}>
+        <img
+          src={media}
+          className={styles.image}
+          alt="Close-up of phone screen covered in the apps of popular media companies."
+        />
+      </div>
       <p className={styles.text}>
         I own an online tutoring business, so I’m most interested in the effect
         the pandemic will have on services like mine. The result of online
@@ -34,16 +42,18 @@ export const TheRoleTutoringWillPlay: React.FC = () => {
         tutoring. However, the real question is whether or not this heightened
         demand will hold in the coming months. Is this merely a temporary shift,
         and once students are back in their normal classroom setting it will
-        fade into the background once again? Or is this representative of a
-        larger change in how people approach their education?
+        fade into the background once again? Or is it representative of a larger
+        change in how people approach their education?
       </p>
       <p className={styles.text}>
         The truth is, it’s difficult to say exactly what will happen in the
         future. If there’s one thing this pandemic has proven, it’s that trying
         to figure out exactly where the future leads is doomed to failure. We
-        simply can’t predict what’s going to occur in a month or a year. What is
-        fair to say is that we’re well on our way back to some semblance of
-        normalcy. It’s just that after more than a year of the virus, what
+        simply can’t predict what’s going to occur in a month or a year.
+      </p>
+      <p className={styles.text}>
+        What is fair to say is that we’re well on our way back to some semblance
+        of normalcy. It’s just that after more than a year of the virus, what
         “normal” means exactly remains to be seen.
       </p>
       <p className={styles.text}>
@@ -65,15 +75,18 @@ export const TheRoleTutoringWillPlay: React.FC = () => {
         To a certain extent, however, this is exactly why I believe tutoring is
         here to stay for a while. If you haven’t already, check out our article{" "}
         <Link href="/blog/math-in-the-pandemic">
-          Mathematics in the Pandemic
+          <a className={styles.link}>Mathematics in the Pandemic</a>
         </Link>
         . In it we explore the fact that the mathematical education of many
-        students is currently suffering. Plenty of schools have been only
-        offering distance-learning over the past few months, and of the ones
-        that are doing in-person schooling most are operating at a reduced
-        capacity, or with unusual schedules. The end result has been irregular
-        studying and lower test scores. This is especially pronounced amongst
-        minority groups and those who don’t attend wealthy private schools.
+        students is currently suffering.
+      </p>
+      <p className={styles.text}>
+        Plenty of schools have been only offering distance-learning over the
+        past few months, and of the ones that are doing in-person schooling most
+        are operating at a reduced capacity, or with unusual schedules. The end
+        result has been irregular studying and lower test scores. This is
+        especially pronounced amongst minority groups and those who don’t attend
+        wealthy private schools.
       </p>
       <p className={styles.text}>
         It may be that as we all go back to school in the fall, students will
@@ -81,11 +94,14 @@ export const TheRoleTutoringWillPlay: React.FC = () => {
         are likely to offer summer programs to help their students catch up,
         many will continue grappling with the effects of the pandemic. Summer
         break, coupled with this difficult spring and past fall semester, are
-        probably only going to exacerbate the problem. In this way, tutoring
-        will be not only important but essential to get mathematics students all
-        over the world back up to speed with their studies. If this service
-        doesn’t rise to the occasion, it’s likely that many of these students
-        will not make the grades necessary to get into their college of choice.
+        probably only going to exacerbate the problem.
+      </p>
+      <p className={styles.text}>
+        In this way, tutoring will be not only important but essential to get
+        mathematics students all over the world back up to speed with their
+        studies. If this service doesn’t rise to the occasion, it’s likely that
+        many of these students will not make the grades necessary to get into
+        their college of choice.
       </p>
       <p className={styles.text}>
         While it is difficult to predict exactly how tutoring will expand as a
@@ -104,6 +120,8 @@ export const TheRoleTutoringWillPlay: React.FC = () => {
         to test the otherwise unlikely idea of sending blockbuster movies
         straight to streaming platforms, the education industry has had the
         opportunity to see how well internet tutoring works for their students.
+      </p>
+      <p className={styles.text}>
         It’s fair to say that the education industry is a fairly conservative
         one, and isn’t always necessarily at the forefront of innovation.
         However, if this system of tutoring proves to be successful, we can
@@ -131,12 +149,14 @@ export const TheRoleTutoringWillPlay: React.FC = () => {
         offerings of internet tutoring highly attractive. This method of
         instruction promises students personalized instruction, more practice
         beyond school hours, highly-qualified and certified tutors, fewer
-        distractions while students study, and so on. Many tutoring companies
-        also provide test preparation services for exams such as the SAT and
-        ACT, and course materials so the students can have a more diverse range
-        of documents to study from. Our company, Functional Tutoring, is no
-        exception here, and we’re putting a huge amount of effort into building
-        out our library for our students.
+        distractions while students study, and so on.
+      </p>
+      <p className={styles.text}>
+        Many tutoring companies also provide test preparation services for exams
+        such as the SAT and ACT, and course materials so the students can have a
+        more diverse range of documents to study from. Our company, Functional
+        Tutoring, is no exception here, and we’re putting a huge amount of
+        effort into building out our library for our students.
       </p>
       <p className={styles.text}>
         There are other reasons for the growth of the tutoring sector beyond the
@@ -145,10 +165,12 @@ export const TheRoleTutoringWillPlay: React.FC = () => {
         getting fierce. Where getting into a top college used to be a matter of
         obtaining high grades and participating in an extracurricular or two,
         now you need college credits, several extracurriculars, community
-        service, and unique experiences to separate you out from the crowd. It’s
-        no longer enough to be good: now you have to be perfect. We perceive
-        education as an investment into ourselves, and so there is an almost
-        survival imperative to get into a good college or university.
+        service, and unique experiences to separate you out from the crowd.
+      </p>
+      <p className={styles.text}>
+        It’s no longer enough to be good: now you have to be perfect. We
+        perceive education as an investment into ourselves, and so there is an
+        almost survival imperative to get into a good college or university.
       </p>
       <div className={styles.image_block}>
         <img
