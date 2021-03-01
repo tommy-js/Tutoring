@@ -18,6 +18,13 @@ export const Arithmetic: React.FC = () => {
       subject: "Arithmetic",
       type: "worksheet",
     },
+    {
+      id: "vvv%%gg^%$#Ed##x@22sc%s",
+      title: "Multiplying and Dividing fractions practice",
+      path: "arithmetic/worksheets/MultDivFrac",
+      subject: "Arithmetic",
+      type: "worksheet",
+    },
   ];
   return (
     <div className={styles.arithmetic}>
