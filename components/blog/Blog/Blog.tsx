@@ -3,6 +3,7 @@ import { LinkElement } from "../LinkElement/LinkElement";
 import styles from "./styles.module.scss";
 
 const blog1 = require("../../../public/blogs/distance_learning.jpg");
+const blog2 = require("../../../public/blogs/online_tutoring.jpg");
 
 export const Blog: React.FC = () => {
   const blog_posts = [
@@ -12,6 +13,14 @@ export const Blog: React.FC = () => {
       description: "How have our students been affected by the pandemic?",
       route: "/blog/math-in-the-pandemic",
       image: blog1,
+    },
+    {
+      id: 1,
+      title: "The Role Tutoring Will Play",
+      description:
+        "What can we expect from the future of the online tutoring industry?",
+      route: "/blog/the-role-tutoring-will-play",
+      image: blog2,
     },
   ];
 
