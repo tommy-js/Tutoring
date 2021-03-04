@@ -22,10 +22,10 @@ export const AppPage: React.FC = () => {
       <Introduction />
       <ScheduleSession />
       <AtAGlance />
+      <Subjects />
       <Fade>
         <Qualifications />
         <Hobbies />
-        <Subjects />
         <WhyMe />
         <Pricing />
         <Faq />
