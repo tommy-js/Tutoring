@@ -25,6 +25,13 @@ export const Arithmetic: React.FC = () => {
       subject: "Arithmetic",
       type: "worksheet",
     },
+    {
+      id: "3t9io3tkGRH%^66%%$$$",
+      title: "Practice with percentages",
+      path: "arithmetic/worksheets/Percents",
+      subject: "Arithmetic",
+      type: "worksheet",
+    },
   ];
   return (
     <div className={styles.arithmetic}>
