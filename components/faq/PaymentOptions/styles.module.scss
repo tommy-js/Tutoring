@@ -8,3 +8,29 @@
   line-height: 165%;
   font-size: 18px;
 }
+
+.payment_info_block {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.image_block {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+}
+
+.text_container {
+  display: inline-block;
+  line-height: 165%;
+  font-size: 18px;
+  margin-left: 15px;
+  vertical-align: top;
+}

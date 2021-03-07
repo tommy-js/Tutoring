@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./styles.module.scss";
 
 export const BulkPayment: React.FC = () => {
@@ -7,8 +8,10 @@ export const BulkPayment: React.FC = () => {
       <h2 className={styles.header}>Can I purchase sessions in bulk?</h2>
       <p className={styles.text}>
         Yes! In fact, if you purchase more than 3 sessions at a time you'll
-        receive 15% off the total cost of your sessions. However, you must pay
-        in advance if you choose to do this.
+        receive 15% off the total cost of your sessions.{" "}
+        <Link href="/contact">
+          <a className={styles.link}>Contact me if interested.</a>
+        </Link>
       </p>
     </div>
   );

@@ -1,6 +1,10 @@
 import React from "react";
 import styles from "./styles.module.scss";
 
+const bitcoin = require("../../../public/bitcoin.png");
+const credit_card = require("../../../public/credit_card.png");
+const mobile_payment = require("../../../public/mobile_payment.png");
+
 export const PaymentOptions: React.FC = () => {
   return (
     <div className={styles.payment_options}>
@@ -9,14 +13,31 @@ export const PaymentOptions: React.FC = () => {
         I accept a variety of payment options*, making paying for your session
         as easy as signing up! These options include:
       </p>
-      <ul className={styles.text}>
-        <li>Credit card or bank transfer at the time of invoicing.</li>
-        <li>Paypal or Stripe.</li>
-        <li>
+
+      <div className={styles.payment_info_block}>
+        <div className={styles.image_block}>
+          <img src={credit_card} className={styles.image} />
+        </div>
+        <div className={styles.text_container}>
+          Credit card or bank transfer at the time of invoicing.
+        </div>
+      </div>
+      <div className={styles.payment_info_block}>
+        <div className={styles.image_block}>
+          <img src={mobile_payment} className={styles.image} />
+        </div>
+        <div className={styles.text_container}>Paypal, Stripe, or Venmo.</div>
+      </div>
+      <div className={styles.payment_info_block}>
+        <div className={styles.image_block}>
+          <img src={bitcoin} className={styles.image} />
+        </div>
+        <div className={styles.text_container}>
           Cryptocurrencies such as Bitcoin(BTC), Litecoin(LTC), Etherium(ETH),
           and Ripple(XRP).
-        </li>
-      </ul>
+        </div>
+      </div>
+
       <p className={styles.text}>
         *Note that due to the online nature of my business I cannot accept cash
         or checks for my services.
