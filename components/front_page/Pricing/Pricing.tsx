@@ -13,7 +13,7 @@ export const Pricing: React.FC = () => {
         </Link>{" "}
         with a discounted price of{" "}
         <Link href="/pricing">
-          <a className={styles.link}>$20 for the first session</a>
+          <a className={styles.link}>$20 per hour for the first session</a>
         </Link>
         . My standard sessions are an hour long, though I am happy to work with
         you if you need longer or shorter time blocks!

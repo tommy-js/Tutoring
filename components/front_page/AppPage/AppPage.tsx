@@ -23,13 +23,13 @@ export const AppPage: React.FC = () => {
       <ScheduleSession />
       <AtAGlance />
       <Subjects />
+      <EmailForm />
       <Fade>
         <Qualifications />
         <Hobbies />
         <WhyMe />
         <Pricing />
         <Faq />
-        <EmailForm />
         <Contact />
       </Fade>
     </div>
