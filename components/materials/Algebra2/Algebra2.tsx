@@ -32,6 +32,13 @@ export const Algebra2: React.FC = () => {
       subject: "Algebra 2",
       type: "worksheet",
     },
+    {
+      id: "gbn,nnyt544edddW3fFGGrtnNN",
+      title: "Practice Your Logarithms",
+      path: "algebra2/worksheets/Logarithms",
+      subject: "Algebra 2",
+      type: "worksheet",
+    },
   ];
   return (
     <div className={styles.algebra2}>
