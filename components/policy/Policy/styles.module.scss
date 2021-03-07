@@ -1,9 +1,12 @@
+@import "../../globals/variables.scss";
+
 .policy {
   position: relative;
   width: 65%;
   margin-top: 75px;
   margin-left: auto;
   margin-right: auto;
+  @include general_font;
 }
 
 @media only screen and (max-width: 900px) {

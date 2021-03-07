@@ -5,6 +5,7 @@
   width: 65%;
   margin-left: auto;
   margin-right: auto;
+  @include general_font;
 }
 
 .text {

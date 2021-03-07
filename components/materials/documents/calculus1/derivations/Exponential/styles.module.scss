@@ -7,6 +7,7 @@
   margin-left: auto;
   margin-right: auto;
   color: $graphite;
+  @include general_font;
 }
 
 .header {

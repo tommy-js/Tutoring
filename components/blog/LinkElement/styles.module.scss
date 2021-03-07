@@ -5,6 +5,7 @@
   margin-bottom: 25px;
   border-bottom: 1px solid $graphite;
   cursor: pointer;
+  @include general_font;
 }
 
 .image_block {

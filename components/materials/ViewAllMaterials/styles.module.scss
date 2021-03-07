@@ -10,6 +10,7 @@
   margin-right: auto;
   color: $blue;
   text-decoration: none;
+  @include general_font;
   transition: 0.2s;
 }
 

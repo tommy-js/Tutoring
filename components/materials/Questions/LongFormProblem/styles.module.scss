@@ -2,6 +2,7 @@
 
 .long_form_problem {
   width: 100%;
+  @include general_font;
 }
 
 .question {

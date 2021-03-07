@@ -6,6 +6,7 @@
   width: 100%;
   background-color: $gold;
   height: 65px;
+  @include general_font;
 }
 
 .center_block {
