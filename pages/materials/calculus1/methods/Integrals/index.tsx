@@ -7,7 +7,7 @@ export default function IntegralsPage() {
   return (
     <div>
       <Head>
-        <title>Integration Methods</title>
+        <title>Integration Methods | Functional Tutoring</title>
         <meta
           name="description"
           content="Learn methods of integration, such as Integration by Parts and U-Substitution"

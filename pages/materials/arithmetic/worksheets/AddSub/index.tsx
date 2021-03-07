@@ -7,7 +7,9 @@ export default function AddSubPage() {
   return (
     <main>
       <Head>
-        <title>Addition & Subtraction Practice Problems</title>
+        <title>
+          Addition & Subtraction Practice Problems | Functional Tutoring
+        </title>
         <meta
           name="description"
           content="Practice adding and subtracting whole numbers"

@@ -7,7 +7,7 @@ export default function LHospitalsPage() {
   return (
     <div>
       <Head>
-        <title>L'Hospital's Rule</title>
+        <title>L'Hospital's Rule | Functional Tutoring</title>
         <meta
           name="description"
           content="Learn about L'Hospital's Rule and apply it to your own problems"

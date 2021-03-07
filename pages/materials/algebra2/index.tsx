@@ -7,10 +7,10 @@ export default function Algebra2Page() {
   return (
     <div>
       <Head>
-        <title>Algebra II</title>
+        <title>Algebra II | Functional Tutoring</title>
         <meta
           name="description"
-          content="Check out our worksheets on Algebra II"
+          content="Check out our worksheets and topic explanations in our Algebra II library"
         />
       </Head>
       <Navbar />

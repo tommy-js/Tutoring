@@ -7,7 +7,7 @@ export default function PolicyPage() {
   return (
     <div>
       <Head>
-        <title>Our Policies</title>
+        <title>Our Policies | Functional Tutoring</title>
         <meta
           name="description"
           content="Be informed before your tutoring session on our policies and expectations"

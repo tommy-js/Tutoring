@@ -7,7 +7,9 @@ export default function AddSubFractsPage() {
   return (
     <main>
       <Head>
-        <title>Practice Adding and Subtracting Fractions</title>
+        <title>
+          Practice Adding & Subtracting Fractions | Functional Tutoring
+        </title>
         <meta
           name="description"
           content="Practice adding and subtracting fractional numbers"

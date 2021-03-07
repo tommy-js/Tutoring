@@ -7,7 +7,7 @@ export default function ReadingListPage() {
   return (
     <div>
       <Head>
-        <title>Reading List</title>
+        <title>Reading List | Functional Tutoring</title>
         <meta
           name="description"
           content="What I'm currently reading, and what I hope to read soon"

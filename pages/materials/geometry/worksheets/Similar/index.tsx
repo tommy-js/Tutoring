@@ -7,7 +7,7 @@ export default function SimilarPage() {
   return (
     <div>
       <Head>
-        <title>Similar & Congruent Shapes</title>
+        <title>Similar & Congruent Shapes | Functional Tutoring</title>
         <meta
           name="description"
           content="Explore the differences between similar and congruent shapes"

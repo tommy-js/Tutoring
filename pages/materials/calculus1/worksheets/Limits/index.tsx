@@ -7,7 +7,7 @@ export default function LimitsPage() {
   return (
     <div>
       <Head>
-        <title>Limits Worksheet</title>
+        <title>Limits Worksheet | Functional Tutoring</title>
         <meta
           name="description"
           content="Practice taking limits at an assortment of difficulties"

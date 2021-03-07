@@ -7,7 +7,7 @@ export default function ExponentialDerivativePage() {
   return (
     <div>
       <Head>
-        <title>Exponential Function</title>
+        <title>Exponential Function | Functional Tutoring</title>
         <meta
           name="description"
           content="Here we'll prove that the derivative of the exponential function is itself"

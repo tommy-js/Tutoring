@@ -7,7 +7,7 @@ export default function Algebra1Page() {
   return (
     <div>
       <Head>
-        <title>Algebra I</title>
+        <title>Algebra I | Functional Tutoring</title>
         <meta
           name="description"
           content="Explore our documents for the Algebra I high-school course"

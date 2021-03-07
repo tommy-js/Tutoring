@@ -8,7 +8,10 @@ export default function LogarithmsPage() {
     <div>
       <Head>
         <title>Practice Your Logarithms | Functional Tutoring</title>
-        <meta name="description" content="Practice your logarithms" />
+        <meta
+          name="description"
+          content="Practice your logarithms in preparation for precalc and calculus"
+        />
       </Head>
       <Navbar />
       <Logarithms />

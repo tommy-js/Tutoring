@@ -7,7 +7,7 @@ export default function FactoringWorksheet1Page() {
   return (
     <div>
       <Head>
-        <title>Factoring Worksheet</title>
+        <title>Factoring & Distribution Worksheet | Functional Tutoring</title>
         <meta
           name="description"
           content="Practice factoring and distributing with this worksheet"

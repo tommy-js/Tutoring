@@ -7,7 +7,7 @@ export default function GeometryPage() {
   return (
     <div>
       <Head>
-        <title>Geometry</title>
+        <title>Geometry | Functional Tutoring</title>
         <meta
           name="description"
           content="Explore our worksheets and documents on plane geometry"

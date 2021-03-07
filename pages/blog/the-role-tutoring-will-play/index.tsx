@@ -7,7 +7,7 @@ export default function TheRoleTutoringWillPlayPage() {
   return (
     <div>
       <Head>
-        <title>The Role Tutoring Will Play</title>
+        <title>The Role Tutoring Will Play | Functional Tutoring</title>
         <meta
           name="description"
           content="What we expect from the future of the growing online tutoring industry."

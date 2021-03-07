@@ -7,7 +7,7 @@ export default function SchedulePage() {
   return (
     <div>
       <Head>
-        <title>Scheduling</title>
+        <title>Scheduling | Functional Tutoring</title>
         <meta
           name="description"
           content="Schedule your session today with Functional Tutoring!"

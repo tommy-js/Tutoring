@@ -7,10 +7,10 @@ export default function MaterialsPage() {
   return (
     <div>
       <Head>
-        <title>Documents & Worksheets</title>
+        <title>Documents & Worksheets | Functional Tutoring</title>
         <meta
           name="description"
-          content="Explore our list of documents on worksheets on a variety of topics"
+          content="Explore our library of documents on worksheets on a variety of topics"
         />
       </Head>
       <Navbar />

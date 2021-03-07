@@ -7,7 +7,7 @@ export default function FormattingPage() {
   return (
     <div>
       <Head>
-        <title>Formatting</title>
+        <title>Formatting | Functional Tutoring</title>
         <meta
           name="description"
           content="Learn how to format your answers to our worksheets"

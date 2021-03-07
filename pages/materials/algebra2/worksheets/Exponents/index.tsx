@@ -7,7 +7,7 @@ export default function ExponentsPage() {
   return (
     <div>
       <Head>
-        <title>Practice with Exponents</title>
+        <title>Practice with Exponents | Functional Tutoring</title>
         <meta
           name="description"
           content="Do some practice problems on this page and expand your exponent skills"

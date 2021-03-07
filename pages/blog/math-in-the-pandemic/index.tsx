@@ -7,7 +7,7 @@ export default function BlogPage() {
   return (
     <div>
       <Head>
-        <title>Math In The Pandemic</title>
+        <title>Math In The Pandemic | Functional Tutoring</title>
         <meta
           name="description"
           content="Our thoughts on how the pandemic is affecting mathematics students at every level"

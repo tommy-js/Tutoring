@@ -7,7 +7,7 @@ export default function Review1Page() {
   return (
     <div>
       <Head>
-        <title>Review Worksheet</title>
+        <title>Precalculus Review Worksheet | Functional Tutoring</title>
         <meta
           name="description"
           content="Review several concepts from precalculus, including limits and logarithms."

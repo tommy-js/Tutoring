@@ -7,8 +7,11 @@ export default function LogarithmsPage() {
   return (
     <main>
       <Head>
-        <title>Logarithm Practice Problems</title>
-        <meta name="description" content="Go over logarithm problems" />
+        <title>Logarithm Practice Problems | Functional Tutoring</title>
+        <meta
+          name="description"
+          content="Go over logarithm problems ranging from easy to hard."
+        />
       </Head>
       <Navbar />
       <Logarithms />

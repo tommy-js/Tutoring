@@ -7,10 +7,10 @@ export default function Calculus1Page() {
   return (
     <div>
       <Head>
-        <title>Calculus I</title>
+        <title>Calculus I | Functional Tutoring</title>
         <meta
           name="description"
-          content="Explore our full list of Calculus I worksheets and documents"
+          content="Explore our full library of Calculus I worksheets and documents"
         />
       </Head>
       <Navbar />

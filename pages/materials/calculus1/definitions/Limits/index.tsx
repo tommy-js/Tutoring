@@ -7,7 +7,7 @@ export default function LimitsPage() {
   return (
     <div>
       <Head>
-        <title>Definition of the Derivative</title>
+        <title>Definition of the Derivative | Functional Tutoring</title>
         <meta
           name="description"
           content="Get up to speed with the definition of the derivative"

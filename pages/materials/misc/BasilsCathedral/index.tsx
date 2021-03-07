@@ -7,7 +7,7 @@ export default function BasilsCathedralPage() {
   return (
     <div>
       <Head>
-        <title>St. Basil's Cathedral</title>
+        <title>St. Basil's Cathedral | Functional Tutoring</title>
         <meta
           name="description"
           content="Learn a little about St. Basil's Cathedral"

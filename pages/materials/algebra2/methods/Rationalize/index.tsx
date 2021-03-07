@@ -7,7 +7,7 @@ export default function RationalizePage() {
   return (
     <div>
       <Head>
-        <title>Rationalizing the Denominator</title>
+        <title>Rationalizing the Denominator | Functional Tutoring</title>
         <meta
           name="description"
           content="Get up to speed with the concept and methods of rationalizing the denominator"

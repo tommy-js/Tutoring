@@ -7,7 +7,7 @@ export default function FaqPage() {
   return (
     <div>
       <Head>
-        <title>Frequently Asked Questions</title>
+        <title>Frequently Asked Questions | Functional Tutoring</title>
         <meta
           name="description"
           content="Before contacting us, visit this page to see if your question has already been answered!"

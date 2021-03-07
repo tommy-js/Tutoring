@@ -7,7 +7,7 @@ export default function DerivativesPage() {
   return (
     <div>
       <Head>
-        <title>Derivatives Worksheet</title>
+        <title>Derivatives Practice Problems | Functional Tutoring</title>
         <meta
           name="description"
           content="Practice taking derivatives at an assortment of difficulties"

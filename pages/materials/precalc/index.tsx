@@ -6,7 +6,7 @@ export default function PreCalcPage() {
   return (
     <div>
       <Head>
-        <title>Pre-Calculus</title>
+        <title>Pre-Calculus | Functional Tutoring</title>
         <meta
           name="description"
           content="Check out our worksheets and documents on pre-calc"

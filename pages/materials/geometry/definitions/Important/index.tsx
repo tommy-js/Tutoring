@@ -7,7 +7,7 @@ export default function ImportantPage() {
   return (
     <div>
       <Head>
-        <title>Notable Theorems</title>
+        <title>Notable Theorems | Functional Tutoring</title>
         <meta
           name="description"
           content="Check out a number of notable concepts from plane geometry"

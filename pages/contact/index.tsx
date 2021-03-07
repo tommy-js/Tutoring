@@ -7,7 +7,7 @@ export default function ContactPage() {
   return (
     <div>
       <Head>
-        <title>Contact Us</title>
+        <title>Contact Us | Functional Tutoring</title>
         <meta
           name="description"
           content="Contact Functional Tutoring with inquiries and suggestions"

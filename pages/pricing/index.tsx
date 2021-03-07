@@ -7,10 +7,10 @@ export default function PricingPage() {
   return (
     <div>
       <Head>
-        <title>Pricing</title>
+        <title>Pricing | Functional Tutoring</title>
         <meta
           name="description"
-          content="Stay up to date with our pricing and deals"
+          content="Stay up to date with our pricing and deals."
         />
       </Head>
       <Navbar />

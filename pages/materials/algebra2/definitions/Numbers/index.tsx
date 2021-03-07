@@ -7,7 +7,7 @@ export default function NumberPage() {
   return (
     <div>
       <Head>
-        <title>Definitions of Numbers</title>
+        <title>Definitions of Numbers | Functional Tutoring</title>
         <meta
           name="description"
           content="Learn the difference between integers, transcendental, and rational numbers"

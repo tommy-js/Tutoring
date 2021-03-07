@@ -7,10 +7,10 @@ export default function ArithmeticPage() {
   return (
     <div>
       <Head>
-        <title>Arithmetic</title>
+        <title>Arithmetic | Functional Tutoring</title>
         <meta
           name="description"
-          content="Explore our full list of arithmetic worksheets and documents"
+          content="Explore our full library of arithmetic worksheets and documents"
         />
       </Head>
       <Navbar />

@@ -7,7 +7,7 @@ export default function QuadraticPage() {
   return (
     <div>
       <Head>
-        <title>Quadratic Formula</title>
+        <title>Derivation of the Quadratic Formula | Functional Tutoring</title>
         <meta
           name="description"
           content="Learn how to derive the Quadratic Formula from basic assumptions"

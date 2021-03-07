@@ -7,8 +7,11 @@ export default function PercentsPage() {
   return (
     <main>
       <Head>
-        <title>Percent Problems</title>
-        <meta name="description" content="Practice doing percent problems." />
+        <title>Percent Practice Problems | Functional Tutoring</title>
+        <meta
+          name="description"
+          content="Get up to speed on your percents by doing practice problems with us!"
+        />
       </Head>
       <Navbar />
       <Percentages />

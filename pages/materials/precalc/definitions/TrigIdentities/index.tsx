@@ -7,10 +7,10 @@ export default function TrigIdentitiesPage() {
   return (
     <div>
       <Head>
-        <title>Trigonometric Identities</title>
+        <title>Trigonometric Identities | Functional Tutoring</title>
         <meta
           name="description"
-          content="Get up to speed with important trig identities"
+          content="Get up to speed with important trig identities in preparation for calculus"
         />
       </Head>
       <Navbar />

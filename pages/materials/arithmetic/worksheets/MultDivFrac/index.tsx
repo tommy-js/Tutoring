@@ -7,7 +7,9 @@ export default function MultDivFracPage() {
   return (
     <main>
       <Head>
-        <title>Practice Multiplying & Dividing Fractions</title>
+        <title>
+          Practice Multiplying & Dividing Fractions | Functional Tutoring
+        </title>
         <meta
           name="description"
           content="Practice multiplying and dividing fractional numbers"

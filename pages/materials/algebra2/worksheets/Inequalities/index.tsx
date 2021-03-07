@@ -7,7 +7,7 @@ export default function InequalitiesPage() {
   return (
     <div>
       <Head>
-        <title>Practice with Inequalities</title>
+        <title>Practice with Inequalities | Functional Tutoring</title>
         <meta
           name="description"
           content="Do some practice problems on this page and expand your skills with inequalities"
