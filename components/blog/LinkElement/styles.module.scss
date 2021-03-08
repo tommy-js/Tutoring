@@ -11,7 +11,10 @@
 .image_block {
   display: inline-block;
   width: 30%;
+  height: 150px;
+  border: 1px solid grey;
   box-sizing: border-box;
+  border-radius: 5px;
   overflow: hidden;
 }
 

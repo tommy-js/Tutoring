@@ -4,6 +4,7 @@ import styles from "./styles.module.scss";
 
 const blog1 = require("../../../public/blogs/distance_learning.jpg");
 const blog2 = require("../../../public/blogs/online_tutoring.jpg");
+const blog3 = require("../../../public/blogs/work.jpg");
 
 export const Blog: React.FC = () => {
   const blog_posts = [
@@ -28,7 +29,7 @@ export const Blog: React.FC = () => {
       description:
         "Is online education accessible for the Americans who need it?",
       route: "/blog/the-online-inequality",
-      image: blog2,
+      image: blog3,
     },
   ];
 
