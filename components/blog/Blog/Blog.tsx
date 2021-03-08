@@ -22,6 +22,14 @@ export const Blog: React.FC = () => {
       route: "/blog/the-role-tutoring-will-play",
       image: blog2,
     },
+    {
+      id: 2,
+      title: "The Online Inequality",
+      description:
+        "Is online education accessible for the Americans who need it?",
+      route: "/blog/the-online-inequality",
+      image: blog2,
+    },
   ];
 
   return (
