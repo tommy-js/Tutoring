@@ -11,7 +11,6 @@ import { Pricing } from "../Pricing/Pricing";
 import { EmailForm } from "../EmailForm/EmailForm";
 import { Contact } from "../Contact/Contact";
 import { Faq } from "../Faq/Faq";
-import { Footer } from "../../Footer/Footer";
 import Fade from "react-reveal/Fade";
 import styles from "./styles.module.scss";
 
@@ -22,15 +21,15 @@ export const AppPage: React.FC = () => {
       <Introduction />
       <ScheduleSession />
       <AtAGlance />
-      <Subjects />
-      <EmailForm />
+      <Contact />
       <Fade>
+        <Subjects />
+        <EmailForm />
         <Qualifications />
         <Hobbies />
         <WhyMe />
         <Pricing />
         <Faq />
-        <Contact />
       </Fade>
     </div>
   );

@@ -1,80 +1,33 @@
 @import "../../globals/variables.scss";
 
 .contact {
+  border: 1px solid $gold;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-top: 50px;
-  margin-bottom: 150px;
 }
 
 .header {
   @include header;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
 }
 
-.text {
-  color: $dark_graphite;
-  line-height: 165%;
-  font-size: 18px;
-}
-
-.email_box {
-  position: relative;
-  width: 150px;
-  display: block;
+.subheader {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
   font-size: 16px;
-  padding: 3px;
-  border-radius: 2px;
-  border: 1px solid $gold;
-  margin-left: auto;
-  margin-right: auto;
+  color: $light_graphite;
 }
 
-.subject_box {
-  position: relative;
-  margin-top: 15px;
-  width: 350px;
-  height: 100px;
-  display: block;
-  font-size: 16px;
-  padding: 3px;
-  border-radius: 2px;
-  border: 1px solid $gold;
-  margin-left: auto;
-  margin-right: auto;
-  resize: none;
-}
-
-.submit_button {
+.button {
   @include button;
 }
 
-.submit_button:hover {
+.button:hover {
   @include hover;
-}
-
-.link {
-  color: $blue;
-  text-decoration: none;
-  transition: 0.2s;
-}
-
-.link:hover {
-  color: $gold;
-  transition: 0.2s;
-}
-
-@media only screen and (max-width: 900px) {
-  .header {
-    @include header_mobile;
-  }
-
-  .text {
-    font-size: 16px;
-  }
-
-  .email_box {
-    width: 75%;
-  }
-
-  .subject_box {
-    width: 85%;
-  }
 }

@@ -1,15 +1,18 @@
 @import "../../globals/variables.scss";
 
-.phone {
+.contact_form {
   font-size: 18px;
   color: $dark_graphite;
 }
 
+.text {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 15px;
+}
+
 .link {
   color: $blue;
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 15px;
   text-decoration: none;
   transition: 0.2s;
 }

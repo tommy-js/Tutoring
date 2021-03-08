@@ -22,10 +22,8 @@ export const WhyMe: React.FC = () => {
       <p className={styles.text}>
         Students learn in a variety of ways. I believe that tutoring is most
         effective when people have access to a number of resources, including
-        practice problems, explanations, and derivations of formulas. Because of
-        this philosophy, I've designed and continue to frequently update a
-        large, interactive library of material, including practice worksheets
-        and derivations of important formulas.
+        practice problems, explanations, and derivations of formulas. Enjoy our
+        ever-growing library of materials!
       </p>
       <Link href="/materials/precalc/worksheets/Complex">
         <div className={styles.image_block}>
@@ -47,20 +45,13 @@ export const WhyMe: React.FC = () => {
       <h2 className={styles.subheader}>Expert Knowledge</h2>
       <p className={styles.text}>
         You deserve the best out of your tutoring sessions. I believe it is my
-        job to continue to learn and update my skillset past that of a
-        Bachelor's level so as to better serve my students. I have seen that an
-        understanding of higher level materials on my end will better facilitate
-        the learning of lower level materials for the student.
+        job to continue to learn and update my skillset so as to better serve my
+        students. I continue to read mathematics textbooks and papers regularly,
+        putting you or your child in a great spot.
       </p>
       <Link href="/reading-list">
         <a className={styles.link}>Check out my reading list</a>
       </Link>
-      <p className={styles.text}>
-        Simply put, I aim to offer you all my experience and knowledge at a low
-        pricepoint, making it affordable to obtain high-quality tutoring for
-        everyone.
-      </p>
-
       <h2 className={styles.subheader}>Available & Affordable</h2>
       <p className={styles.text}>
         I understand that with the ongoing pandemic budgets are stretched thin
