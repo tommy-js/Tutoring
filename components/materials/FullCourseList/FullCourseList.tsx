@@ -34,6 +34,11 @@ export const FullCourseList: React.FC = () => {
       title: "Calculus 1",
       path: "calculus1",
     },
+    {
+      id: 6,
+      title: "SAT Prep",
+      path: "sat",
+    },
   ];
 
   return (

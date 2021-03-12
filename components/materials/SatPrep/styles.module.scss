@@ -1,0 +1,27 @@
+@import "../../globals/variables.scss";
+
+.sat_prep {
+  position: relative;
+  width: 50%;
+  min-width: 500px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  @include general_font;
+}
+
+.header {
+  text-align: center;
+  @include header;
+}
+
+.subheader {
+  @include subheader;
+  font-size: 18px;
+  text-align: center;
+}
+
+.all_materials {
+  font-size: 20px;
+  color: $blue;
+}
