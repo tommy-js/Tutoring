@@ -35,6 +35,17 @@ export const AtAGlance: React.FC = () => {
         </div>
         <div className={styles.list_item}>
           <div className={styles.image_block}>
+            <img className={styles.image} src={affordable} />
+          </div>
+          <div className={styles.list_descript}>
+            <Link href="/pricing">
+              <a className={styles.link}>Available and affordable</a>
+            </Link>
+            : I want to see you succeed!
+          </div>
+        </div>
+        <div className={styles.list_item}>
+          <div className={styles.image_block}>
             <img className={styles.image} src={exam} />
           </div>
           <div className={styles.list_descript}>
@@ -46,18 +57,10 @@ export const AtAGlance: React.FC = () => {
             <img className={styles.image} src={two_x} />
           </div>
           <div className={styles.list_descript}>
-            Two-time teaching assistant for an awesome mathematics program
-          </div>
-        </div>
-        <div className={styles.list_item}>
-          <div className={styles.image_block}>
-            <img className={styles.image} src={affordable} />
-          </div>
-          <div className={styles.list_descript}>
-            <Link href="/pricing">
-              <a className={styles.link}>Available and affordable</a>
+            Two-time teaching assistant for{" "}
+            <Link href="https://www.sunydutchess.edu/academics/academicsupport/opportunityprograms/smartstart.html">
+              <a className={styles.link}>SmartStart</a>
             </Link>
-            : I want to see you succeed!
           </div>
         </div>
         <div className={styles.list_item}>
@@ -70,6 +73,11 @@ export const AtAGlance: React.FC = () => {
           </div>
         </div>
       </div>
+      <Link href="/qualifications">
+        <a className={`${styles.link} ${styles.centering}`}>
+          Learn more about what makes me qualified to help you
+        </a>
+      </Link>
     </div>
   );
 };

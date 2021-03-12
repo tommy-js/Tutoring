@@ -4,7 +4,7 @@ import { Introduction } from "../Introduction/Introduction";
 import { AtAGlance } from "../AtAGlance/AtAGlance";
 import { ScheduleSession } from "../ScheduleSession/ScheduleSession";
 import { Qualifications } from "../Qualifications/Qualifications";
-import { Hobbies } from "../Hobbies/Hobbies";
+import { SubjectHeader } from "../SubjectHeader/SubjectHeader";
 import { Subjects } from "../Subjects/Subjects";
 import { WhyMe } from "../WhyMe/WhyMe";
 import { Pricing } from "../Pricing/Pricing";
@@ -16,20 +16,22 @@ import styles from "./styles.module.scss";
 
 export const AppPage: React.FC = () => {
   return (
-    <div className={styles.app_page}>
-      <TitleCard />
-      <Introduction />
-      <ScheduleSession />
-      <AtAGlance />
-      <Contact />
-      <Fade>
-        <Subjects />
-        <EmailForm />
-        <Qualifications />
-        <WhyMe />
-        <Pricing />
-        <Faq />
-      </Fade>
+    <div className={styles.title_header}>
+      <SubjectHeader />
+      <div className={styles.app_page}>
+        <TitleCard />
+        <Introduction />
+        <ScheduleSession />
+        <AtAGlance />
+        <Contact />
+        <Fade>
+          <Subjects />
+          <EmailForm />
+          <WhyMe />
+          <Pricing />
+          <Faq />
+        </Fade>
+      </div>
     </div>
   );
 };

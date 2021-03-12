@@ -39,9 +39,6 @@ export const WhyMe: React.FC = () => {
         online, my students have the benefit of being able to go over this
         material with me during sessions.
       </p>
-      <p className={styles.text}>
-        You can also expect to see video lessons posted soon.
-      </p>
       <h2 className={styles.subheader}>Expert Knowledge</h2>
       <p className={styles.text}>
         You deserve the best out of your tutoring sessions. I believe it is my

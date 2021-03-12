@@ -10,6 +10,11 @@
   @include general_font;
 }
 
+.title_header {
+  position: relative;
+  width: 100%;
+}
+
 @media only screen and (max-width: 900px) {
   .app_page {
     width: 95%;

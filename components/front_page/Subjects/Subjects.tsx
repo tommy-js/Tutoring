@@ -81,7 +81,7 @@ export const Subjects: React.FC = () => {
     <div className={styles.subjects}>
       <h2 className={styles.header}>Get The Help You Need</h2>
       <p className={styles.text}>
-        We're currently offering tutoring in a variety of subjects
+        I'm currently offering tutoring in a variety of subjects
       </p>
       {subjects.map((el: any) => (
         <Subject
