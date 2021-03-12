@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./styles.module.scss";
 
 export const Qualifications: React.FC = () => {
@@ -44,6 +45,12 @@ export const Qualifications: React.FC = () => {
         Today, I'm extremely excited to get back to the work I had been doing
         before, while at DCC. Sharing knowledge is one of my great passions in
         life, and I love seeing my students finally really understand a concept.
+      </p>
+      <p className={styles.text}>
+        Want to know more about me?{" "}
+        <Link href="/about-me">
+          <a className={styles.link}>Learn more</a>
+        </Link>
       </p>
     </div>
   );

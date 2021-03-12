@@ -26,7 +26,6 @@ export const AppPage: React.FC = () => {
         <Subjects />
         <EmailForm />
         <Qualifications />
-        <Hobbies />
         <WhyMe />
         <Pricing />
         <Faq />

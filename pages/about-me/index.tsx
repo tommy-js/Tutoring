@@ -1,20 +1,20 @@
 import Head from "next/head";
 import { Navbar } from "../../components/navigation/Navbar/Navbar";
-import { Blog } from "../../components/blog/Blog/Blog";
+import { AboutMe } from "../../components/about/AboutMe/AboutMe";
 import { Footer } from "../../components/Footer/Footer";
 
 export default function BlogPage() {
   return (
     <div>
       <Head>
-        <title>Blog | Functional Tutoring</title>
+        <title>About Me | Functional Tutoring</title>
         <meta
           name="description"
-          content="Check out our past publications and uploads!"
+          content="About Tyler Blovat, creator and tutor at Functional Tutoring."
         />
       </Head>
       <Navbar />
-      <Blog />
+      <AboutMe />
       <Footer />
     </div>
   );
