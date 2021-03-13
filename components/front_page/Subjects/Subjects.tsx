@@ -69,7 +69,7 @@ export const Subjects: React.FC = () => {
     },
     {
       id: 7,
-      title: "Calculus 1",
+      title: "Calculus I",
       subtext:
         "Limits, continuity at a point, discontinuities, infinite limits, Intermediate Value Theorem(IVT), properties of limits, etc...",
       image: calculus,

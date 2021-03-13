@@ -1,0 +1,115 @@
+@import "../../globals/variables.scss";
+
+.our_team {
+  margin-top: 50px;
+}
+
+.header {
+  @include header;
+}
+
+.left_block {
+  width: 30%;
+}
+
+.right_block {
+  width: 70%;
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+.left_block,
+.right_block {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.name {
+  color: $dark_graphite;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.text_container {
+  width: 75%;
+  vertical-align: top;
+  display: table-cell;
+}
+
+.image_block {
+  width: 100%;
+  float: right;
+  display: block;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid $graphite;
+}
+
+.subscript {
+  color: $dark_graphite;
+  font-size: 16px;
+  margin: 0;
+  line-height: 150%;
+  font-weight: normal;
+}
+
+.tutor_flair,
+.developer_flair,
+.climber_flair,
+.learner_flair {
+  color: $dark_graphite;
+}
+
+@media only screen and (max-width: 900px) {
+  .title_card {
+    margin-top: 50px;
+  }
+
+  .left_block,
+  .right_block {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .image_block {
+    width: 204.45px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 5px;
+  }
+
+  .header {
+    color: $dark_graphite;
+    width: 100%;
+  }
+
+  .name {
+    color: $dark_graphite;
+    text-align: center;
+    display: block;
+  }
+
+  .text_container {
+    width: 100%;
+    vertical-align: top;
+    display: table-cell;
+  }
+
+  .header {
+    font-size: 18px;
+  }
+
+  .subscript {
+    font-size: 16px;
+  }
+}

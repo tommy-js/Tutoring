@@ -6,11 +6,11 @@ const practice = require("../../../public/practice_sheets.jpg");
 export const WhyMe: React.FC = () => {
   return (
     <div className={styles.why_me}>
-      <h1 className={styles.header}>Why Me?</h1>
+      <h1 className={styles.header}>Why Functional Tutoring?</h1>
       <p className={styles.text}>
         With the current environment of work and learn from home, there are more
-        tutoring services available than ever. So why should you choose me over
-        the other options?
+        tutoring services available now than ever before. So why should you
+        choose me over the other options?
       </p>
       <h2 className={styles.subheader}>More Than Just Tutoring</h2>
       <p className={styles.text}>
@@ -51,14 +51,18 @@ export const WhyMe: React.FC = () => {
       </Link>
       <h2 className={styles.subheader}>Available & Affordable</h2>
       <p className={styles.text}>
-        I understand that with the ongoing pandemic budgets are stretched thin
-        and schedules are unconventional. With this in mind I've gone to great
-        lengths to ensure that I'm available to my students when they need me,
-        even on short notice, and that my prices are affordable for those who
-        need my assistance.
+        I'm building Functional Tutoring to help provide high-quality tutoring
+        to everyone, so we operate on a sliding scale payment system. For your
+        first session, you'll pay{" "}
+        <Link href="/pricing">
+          <a className={styles.link}>$20 per hour</a>
+        </Link>
+        , after which we'll decide on a reasonable rate, usually around $30-$40
+        per hour.
       </p>
       <p className={styles.text}>
-        If you need a session time that isn't available on my{" "}
+        Currently, I have sessions available from noon until 7PM on every day
+        except Sunday. If you need a session time that isn't available on my{" "}
         <Link href="/schedule">
           <a className={styles.link}>online scheduler</a>
         </Link>
