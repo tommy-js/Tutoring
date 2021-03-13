@@ -70,6 +70,14 @@
     margin-top: 50px;
   }
 
+  .header {
+    @include header_mobile;
+  }
+
+  .right_block {
+    padding-left: 0px;
+  }
+
   .left_block,
   .right_block {
     width: 100%;

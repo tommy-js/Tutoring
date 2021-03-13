@@ -24,6 +24,7 @@ $eraser: #f5a19d;
 @mixin header_mobile {
   font-size: 20px;
   color: $graphite;
+  text-align: center;
 }
 
 @mixin subheader_mobile {
