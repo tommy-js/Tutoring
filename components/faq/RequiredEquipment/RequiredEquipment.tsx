@@ -31,7 +31,7 @@ export const RequiredEquipment: React.FC = () => {
         <div className={styles.image_block}>
           <img src={pencil} className={styles.image} />
         </div>
-        <div className={styles.text_container}>A pen and some paper</div>
+        <div className={styles.text_container}>A pencil and some paper</div>
       </div>
       <div className={styles.payment_info_block}>
         <div className={styles.image_block}>

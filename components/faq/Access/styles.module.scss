@@ -8,3 +8,14 @@
   line-height: 165%;
   font-size: 18px;
 }
+
+.link {
+  text-decoration: none;
+  color: $blue;
+  transition: 0.2s;
+}
+
+.link:hover {
+  color: $gold;
+  transition: 0.2s;
+}

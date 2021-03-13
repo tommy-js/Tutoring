@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./styles.module.scss";
 
 export const Access: React.FC = () => {
@@ -8,15 +9,12 @@ export const Access: React.FC = () => {
         How do I get access to your practice problems and documents?
       </h2>
       <p className={styles.text}>
-        Every student of mine will be given access to my library as soon as they
-        pay for a lesson. In order to retain access, you'll need to purchase on
-        session per month(roughly three per semester). I believe this is more
-        than fair. If you'd like to retain access but don't need tutoring,
-        contact me and we may be able to work something out.
-      </p>
-      <p className={styles.text}>
-        I am considering an inexpensive subscription service further down the
-        line, but for now this is how Functional Tutoring operates.
+        Everyone has access to these practice problems and documents for free.
+        Just go to{" "}
+        <Link href="/materials">
+          <a className={styles.link}>our library</a>
+        </Link>{" "}
+        and get started!
       </p>
     </div>
   );

@@ -21,7 +21,7 @@ export const Pricing: React.FC = () => {
         <span className={styles.bold}>
           Your first session will cost $20 per hour
         </span>
-        . After this we will determine your cost moving forward.
+        . After this we will determine the cost for further sessions.
       </p>
       <h2 className={styles.subheader}>Discounts & Rewards</h2>
       <div className={styles.pricing_container}>
@@ -50,8 +50,8 @@ export const Pricing: React.FC = () => {
             Get 25% off your next session when you refer a friend!
           </div>
           <div className={styles.inline_text}>
-            Just have them let us know you sent them in their session and you'll
-            both enjoy 25% off.
+            Just have them let us know you sent them during their session and
+            you'll both enjoy 25% off.
           </div>
         </div>
       </div>

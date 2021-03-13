@@ -11,11 +11,6 @@ export const PaymentTimeframe: React.FC = () => {
         for further tutoring, and may require future payments to be made prior
         to meeting.
       </p>
-      <p className={styles.text}>
-        Note that paying ahead of time will result in receiving 5% off the cost
-        of the session. Additionally, paying within 7 days of receiving your
-        invoice <i>may result</i> in you earning 5% off your next session.
-      </p>
     </div>
   );
 };

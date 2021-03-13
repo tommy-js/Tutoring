@@ -70,8 +70,8 @@ export const WhyMe: React.FC = () => {
         <Link href="/contact">
           <a className={styles.link}>reach out</a>
         </Link>
-        ! I am more than happy to work with you and find a time that works well
-        for both of us.
+        ! I am more than happy to figure something out with you and find a time
+        that works well for both of us.
       </p>
     </div>
   );

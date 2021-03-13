@@ -16,10 +16,6 @@ export const Process: React.FC = () => {
           confirming your time and date.
         </li>
         <li>
-          The day before your session you'll receive another notification,
-          simply reminding you of your time.
-        </li>
-        <li>
           An hour before your session you will receive a text/email with a link
           to your online meeting-room.
         </li>
