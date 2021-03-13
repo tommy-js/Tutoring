@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "../../components/navigation/Navbar/Navbar";
 import { Schedule } from "../../components/schedule/Schedule/Schedule";
-import { Footer } from "../../components/Footer/Footer";
 
 export default function SchedulePage() {
   return (
@@ -15,7 +14,6 @@ export default function SchedulePage() {
       </Head>
       <Navbar />
       <Schedule />
-      <Footer />
     </div>
   );
 }

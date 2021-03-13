@@ -1,8 +1,12 @@
 @import "../../globals/variables.scss";
 
-.blog {
+.blog_container {
+  min-height: 100%;
   position: relative;
   margin-top: 75px;
+}
+
+.blog {
   width: 65%;
   margin-left: auto;
   margin-right: auto;

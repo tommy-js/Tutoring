@@ -8,20 +8,24 @@ import { Cancellations } from "../Cancellations/Cancellations";
 import { BulkPayment } from "../BulkPayment/BulkPayment";
 import { Homework } from "../Homework/Homework";
 import { Access } from "../Access/Access";
+import { Footer } from "../../Footer/Footer";
 import styles from "./styles.module.scss";
 
 export const Faq: React.FC = () => {
   return (
-    <div className={styles.faq}>
-      <Header />
-      <PaymentOptions />
-      <Process />
-      <NoShow />
-      <RequiredEquipment />
-      <Cancellations />
-      <BulkPayment />
-      <Access />
-      <Homework />
+    <div className={styles.faq_container}>
+      <div className={styles.faq}>
+        <Header />
+        <PaymentOptions />
+        <Process />
+        <NoShow />
+        <RequiredEquipment />
+        <Cancellations />
+        <BulkPayment />
+        <Access />
+        <Homework />
+      </div>
+      <Footer />
     </div>
   );
 };

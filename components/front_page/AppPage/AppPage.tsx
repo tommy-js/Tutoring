@@ -5,6 +5,7 @@ import { ScheduleSession } from "../ScheduleSession/ScheduleSession";
 import { SubjectHeader } from "../SubjectHeader/SubjectHeader";
 import { Subjects } from "../Subjects/Subjects";
 import { OurTeam } from "../OurTeam/OurTeam";
+import { Footer } from "../../Footer/Footer";
 import { WhyMe } from "../WhyMe/WhyMe";
 import { EmailForm } from "../EmailForm/EmailForm";
 import { Contact } from "../Contact/Contact";
@@ -27,6 +28,7 @@ export const AppPage: React.FC = () => {
           <WhyMe />
         </Fade>
       </div>
+      <Footer />
     </div>
   );
 };

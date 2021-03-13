@@ -14,7 +14,7 @@ export const SubjectHeader: React.FC = () => {
         <img src={header} className={styles.image} />
         <div className={styles.under_header}>
           <p className={styles.under_header_text}>
-            Offering Personalized 1-on-1 Tutoring Starting At Only $20!
+            Offering Personalized 1-on-1 Tutoring for as Little as $40!
           </p>
         </div>
         <div className={styles.drop_header}></div>

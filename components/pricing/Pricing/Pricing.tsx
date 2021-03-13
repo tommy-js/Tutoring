@@ -16,12 +16,9 @@ export const Pricing: React.FC = () => {
       </div>
       <p className={styles.text}>
         We believe it's important that everyone is able to have access to
-        high-quality tutoring, regardless of their means. It's for this reason
-        that we use a sliding-scale system to determine what you owe.{" "}
-        <span className={styles.bold}>
-          Your first session will cost $20 per hour
-        </span>
-        . After this we will determine the cost for further sessions.
+        high-quality tutoring, regardless of their means. This is why we offer
+        high-quality tutoring for only{" "}
+        <span className={styles.bold}>$40 per hour</span>.
       </p>
       <h2 className={styles.subheader}>Discounts & Rewards</h2>
       <div className={styles.pricing_container}>

@@ -52,13 +52,16 @@ export const WhyMe: React.FC = () => {
       <h2 className={styles.subheader}>Available & Affordable</h2>
       <p className={styles.text}>
         I'm building Functional Tutoring to help provide high-quality tutoring
-        to everyone, so we operate on a sliding scale payment system. For your
-        first session, you'll pay{" "}
+        to everyone. Sessions with me cost a flat rate of{" "}
         <Link href="/pricing">
-          <a className={styles.link}>$20 per hour</a>
+          <a className={styles.link}>$40 per hour</a>
         </Link>
-        , after which we'll decide on a reasonable rate, usually around $30-$40
-        per hour.
+        , but please feel free to{" "}
+        <Link href="/contact">
+          <a className={styles.link}>reach out</a>
+        </Link>{" "}
+        if you're unable to afford this. I would love to work with you and
+        figure something out!
       </p>
       <p className={styles.text}>
         Currently, I have sessions available from noon until 7PM on every day
@@ -66,11 +69,11 @@ export const WhyMe: React.FC = () => {
         <Link href="/schedule">
           <a className={styles.link}>online scheduler</a>
         </Link>
-        , please{" "}
+        , again feel free to{" "}
         <Link href="/contact">
-          <a className={styles.link}>reach out</a>
-        </Link>
-        ! I am more than happy to figure something out with you and find a time
+          <a className={styles.link}>contact me</a>
+        </Link>{" "}
+        . I am more than happy to figure something out with you and find a time
         that works well for both of us.
       </p>
     </div>

@@ -7,19 +7,23 @@ import { SinglePerson } from "../SinglePerson/SinglePerson";
 import { TechnicalIssues } from "../TechnicalIssues/TechnicalIssues";
 import { FailureToPay } from "../FailureToPay/FailureToPay";
 import { PaymentTimeframe } from "../PaymentTimeframe/PaymentTimeframe";
+import { Footer } from "../../Footer/Footer";
 import styles from "./styles.module.scss";
 
 export const Policy: React.FC = () => {
   return (
-    <div className={styles.policy}>
-      <Header />
-      <Lateness />
-      <Cancellations />
-      <NoShow />
-      <SinglePerson />
-      <TechnicalIssues />
-      <FailureToPay />
-      <PaymentTimeframe />
+    <div className={styles.policy_container}>
+      <div className={styles.policy}>
+        <Header />
+        <Lateness />
+        <Cancellations />
+        <NoShow />
+        <SinglePerson />
+        <TechnicalIssues />
+        <FailureToPay />
+        <PaymentTimeframe />
+      </div>
+      <Footer />
     </div>
   );
 };

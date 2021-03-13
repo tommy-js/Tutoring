@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "../../components/navigation/Navbar/Navbar";
 import { Faq } from "../../components/faq/Faq/Faq";
-import { Footer } from "../../components/Footer/Footer";
 
 export default function FaqPage() {
   return (
@@ -15,7 +14,6 @@ export default function FaqPage() {
       </Head>
       <Navbar />
       <Faq />
-      <Footer />
     </div>
   );
 }

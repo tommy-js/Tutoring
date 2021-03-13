@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "../../components/navigation/Navbar/Navbar";
 import { Blog } from "../../components/blog/Blog/Blog";
-import { Footer } from "../../components/Footer/Footer";
 
 export default function BlogPage() {
   return (
@@ -15,7 +14,6 @@ export default function BlogPage() {
       </Head>
       <Navbar />
       <Blog />
-      <Footer />
     </div>
   );
 }

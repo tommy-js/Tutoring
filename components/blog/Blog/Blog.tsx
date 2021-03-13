@@ -1,5 +1,6 @@
 import React from "react";
 import { LinkElement } from "../LinkElement/LinkElement";
+import { Footer } from "../../Footer/Footer";
 import styles from "./styles.module.scss";
 
 const blog1 = require("../../../public/blogs/distance_learning.jpg");
@@ -34,16 +35,19 @@ export const Blog: React.FC = () => {
   ];
 
   return (
-    <div className={styles.blog}>
-      <h1 className={styles.header}>Blog</h1>
-      {blog_posts.map((el: any) => (
-        <LinkElement
-          title={el.title}
-          description={el.description}
-          route={el.route}
-          image={el.image}
-        />
-      ))}
+    <div className={styles.blog_container}>
+      <div className={styles.blog}>
+        <h1 className={styles.header}>Blog</h1>
+        {blog_posts.map((el: any) => (
+          <LinkElement
+            title={el.title}
+            description={el.description}
+            route={el.route}
+            image={el.image}
+          />
+        ))}
+      </div>
+      <Footer />
     </div>
   );
 };

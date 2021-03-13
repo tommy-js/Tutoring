@@ -1,8 +1,12 @@
 @import "../../globals/variables.scss";
 
-.faq {
+.faq_container {
   position: relative;
   margin-top: 75px;
+  min-height: 100%;
+}
+
+.faq {
   width: 65%;
   margin-left: auto;
   margin-right: auto;

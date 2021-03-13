@@ -1,9 +1,13 @@
 @import "../../globals/variables.scss";
 
-.policy {
+.policy_container {
+  min-height: 100%;
   position: relative;
-  width: 65%;
   margin-top: 75px;
+}
+
+.policy {
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
   @include general_font;

@@ -1,8 +1,12 @@
 @import "../../../globals/variables.scss";
 
-.the_online_inequality {
+.the_online_inequality_container {
+  min-height: 100%;
   position: relative;
   margin-top: 75px;
+}
+
+.the_online_inequality {
   width: 65%;
   margin-left: auto;
   margin-right: auto;

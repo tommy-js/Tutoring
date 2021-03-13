@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "../../../components/navigation/Navbar/Navbar";
 import { TheOnlineInequality } from "../../../components/blog/posts/TheOnlineInequality/TheOnlineInequality";
-import { Footer } from "../../../components/Footer/Footer";
 
 export default function TheOnlineInequalityPage() {
   return (
@@ -15,7 +14,6 @@ export default function TheOnlineInequalityPage() {
       </Head>
       <Navbar />
       <TheOnlineInequality />
-      <Footer />
     </div>
   );
 }

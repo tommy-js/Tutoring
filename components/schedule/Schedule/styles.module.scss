@@ -1,9 +1,13 @@
 @import "../../globals/variables.scss";
 
-.schedule {
+.schedule_container {
   position: relative;
+  min-height: 100%;
   margin-top: 75px;
-  width: 95%;
+}
+
+.schedule {
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
   @include general_font;

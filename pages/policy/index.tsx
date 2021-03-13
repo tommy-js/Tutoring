@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Policy } from "../../components/policy/Policy/Policy";
 import { Navbar } from "../../components/navigation/Navbar/Navbar";
-import { Footer } from "../../components/Footer/Footer";
 
 export default function PolicyPage() {
   return (
@@ -15,7 +14,6 @@ export default function PolicyPage() {
       </Head>
       <Navbar />
       <Policy />
-      <Footer />
     </div>
   );
 }
