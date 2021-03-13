@@ -31,3 +31,26 @@
   color: $gold;
   transition: 0.2s;
 }
+
+@media only screen and (max-width: 900px) {
+  .contact {
+    position: relative;
+    margin-top: 75px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    @include general_font;
+  }
+
+  .header {
+    text-align: center;
+    @include header_mobile;
+  }
+
+  .subheader {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 165%;
+    color: $dark_graphite;
+  }
+}

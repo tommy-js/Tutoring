@@ -32,3 +32,20 @@
 .image {
   width: 100%;
 }
+
+@media only screen and (max-width: 900px) {
+  .contact_form {
+    font-size: 14px;
+  }
+
+  .image_block {
+    display: inline-block;
+    width: 25px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
