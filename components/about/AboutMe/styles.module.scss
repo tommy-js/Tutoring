@@ -45,6 +45,10 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .about_me {
+    width: 95%;
+  }
+
   .header {
     @include header_mobile;
   }
