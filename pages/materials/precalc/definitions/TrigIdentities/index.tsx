@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "../../../../../components/navigation/Navbar/Navbar";
 import { TrigIdentities } from "../../../../../components/materials/documents/precalc/definitions/TrigIdentities/TrigIdentities";
-import { Footer } from "../../../../../components/Footer/Footer";
 
 export default function TrigIdentitiesPage() {
   return (
@@ -15,7 +14,6 @@ export default function TrigIdentitiesPage() {
       </Head>
       <Navbar />
       <TrigIdentities />
-      <Footer />
     </div>
   );
 }

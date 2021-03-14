@@ -1,9 +1,12 @@
 @import "../../globals/variables.scss";
 
-.contact {
-  position: relative;
+.contact_container {
   margin-top: 75px;
+}
+
+.contact {
   width: 65%;
+  height: 100vh;
   margin-left: auto;
   margin-right: auto;
   @include general_font;

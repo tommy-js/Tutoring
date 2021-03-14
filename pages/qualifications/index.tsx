@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "../../components/navigation/Navbar/Navbar";
 import { Qualifications } from "../../components/qualifications/Qualifications/Qualifications";
-import { Footer } from "../../components/Footer/Footer";
 
 export default function QualificationsPage() {
   return (
@@ -15,7 +14,6 @@ export default function QualificationsPage() {
       </Head>
       <Navbar />
       <Qualifications />
-      <Footer />
     </div>
   );
 }

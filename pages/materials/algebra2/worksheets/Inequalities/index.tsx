@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "../../../../../components/navigation/Navbar/Navbar";
 import { Inequalities } from "../../../../../components/materials/documents/algebra2/worksheets/Inequalities/Inequalities";
-import { Footer } from "../../../../../components/Footer/Footer";
 
 export default function InequalitiesPage() {
   return (
@@ -15,7 +14,6 @@ export default function InequalitiesPage() {
       </Head>
       <Navbar />
       <Inequalities />
-      <Footer />
     </div>
   );
 }

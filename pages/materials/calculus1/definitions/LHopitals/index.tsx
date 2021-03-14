@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "../../../../../components/navigation/Navbar/Navbar";
 import { LHopitals } from "../../../../../components/materials/documents/calculus1/definitions/LHopitals/LHopitals";
-import { Footer } from "../../../../../components/Footer/Footer";
 
 export default function LHospitalsPage() {
   return (
@@ -15,7 +14,6 @@ export default function LHospitalsPage() {
       </Head>
       <Navbar />
       <LHopitals />
-      <Footer />
     </div>
   );
 }

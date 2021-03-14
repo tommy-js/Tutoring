@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "../../../../../components/navigation/Navbar/Navbar";
 import { AddSubFracts } from "../../../../../components/materials/documents/arithmetic/worksheets/AddSubFracts/AddSubFracts";
-import { Footer } from "../../../../../components/Footer/Footer";
 
 export default function AddSubFractsPage() {
   return (
@@ -17,7 +16,6 @@ export default function AddSubFractsPage() {
       </Head>
       <Navbar />
       <AddSubFracts />
-      <Footer />
     </main>
   );
 }

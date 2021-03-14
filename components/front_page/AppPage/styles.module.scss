@@ -14,6 +14,12 @@
   width: 100%;
 }
 
+.bottom_container {
+  position: relative;
+  display: block;
+  height: 75px;
+}
+
 @media only screen and (max-width: 900px) {
   .app_page {
     width: 95%;

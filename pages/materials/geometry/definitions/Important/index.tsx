@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "../../../../../components/navigation/Navbar/Navbar";
 import { Important } from "../../../../../components/materials/documents/geometry/definitions/Important/Important";
-import { Footer } from "../../../../../components/Footer/Footer";
 
 export default function ImportantPage() {
   return (
@@ -15,7 +14,6 @@ export default function ImportantPage() {
       </Head>
       <Navbar />
       <Important />
-      <Footer />
     </div>
   );
 }

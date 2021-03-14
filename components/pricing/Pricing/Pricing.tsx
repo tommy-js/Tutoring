@@ -18,7 +18,12 @@ export const Pricing: React.FC = () => {
         We believe it's important that everyone is able to have access to
         high-quality tutoring, regardless of their means. This is why we offer
         high-quality tutoring for only{" "}
-        <span className={styles.bold}>$40 per hour</span>.
+        <span className={styles.bold}>$40 per hour</span>. If this is still too
+        much for you, please don't hesitate to{" "}
+        <Link href="/contact">
+          <a className={styles.text_link}>reach out</a>
+        </Link>
+        : I'd love to see what I can do for you!
       </p>
       <h2 className={styles.subheader}>Discounts & Rewards</h2>
       <div className={styles.pricing_container}>

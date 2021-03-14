@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "../../../../../components/navigation/Navbar/Navbar";
 import { Prep1 } from "../../../../../components/materials/documents/sat/worksheets/Prep1/Prep1";
-import { Footer } from "../../../../../components/Footer/Footer";
 
 export default function Prep1Page() {
   return (
@@ -15,7 +14,6 @@ export default function Prep1Page() {
       </Head>
       <Navbar />
       <Prep1 />
-      <Footer />
     </div>
   );
 }

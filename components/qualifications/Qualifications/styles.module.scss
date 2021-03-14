@@ -30,6 +30,12 @@
   transition: 0.2s;
 }
 
+.bottom_container {
+  position: relative;
+  display: block;
+  height: 75px;
+}
+
 @media only screen and (max-width: 900px) {
   .qualifications {
     position: relative;

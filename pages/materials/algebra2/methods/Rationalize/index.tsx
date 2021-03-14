@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "../../../../../components/navigation/Navbar/Navbar";
 import { Rationalize } from "../../../../../components/materials/documents/algebra2/methods/Rationalize/Rationalize";
-import { Footer } from "../../../../../components/Footer/Footer";
 
 export default function RationalizePage() {
   return (
@@ -15,7 +14,6 @@ export default function RationalizePage() {
       </Head>
       <Navbar />
       <Rationalize />
-      <Footer />
     </div>
   );
 }

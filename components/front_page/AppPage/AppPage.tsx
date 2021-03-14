@@ -28,6 +28,7 @@ export const AppPage: React.FC = () => {
           <WhyMe />
         </Fade>
       </div>
+      <div className={styles.bottom_container} />
       <Footer />
     </div>
   );

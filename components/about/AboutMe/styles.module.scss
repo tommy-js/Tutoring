@@ -1,8 +1,12 @@
 @import "../../globals/variables.scss";
 
-.about_me {
+.about_me_container {
+  min-height: 100%;
   position: relative;
   margin-top: 75px;
+}
+
+.about_me {
   width: 65%;
   margin-left: auto;
   margin-right: auto;
@@ -42,6 +46,12 @@
   border: 1px solid grey;
   overflow: hidden;
   transition: 0.2s;
+}
+
+.bottom_container {
+  position: relative;
+  display: block;
+  height: 75px;
 }
 
 @media only screen and (max-width: 900px) {

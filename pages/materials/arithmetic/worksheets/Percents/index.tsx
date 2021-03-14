@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "../../../../../components/navigation/Navbar/Navbar";
 import { Percentages } from "../../../../../components/materials/documents/arithmetic/worksheets/Percentages/Percentages";
-import { Footer } from "../../../../../components/Footer/Footer";
 
 export default function PercentsPage() {
   return (
@@ -15,7 +14,6 @@ export default function PercentsPage() {
       </Head>
       <Navbar />
       <Percentages />
-      <Footer />
     </main>
   );
 }
