@@ -1,8 +1,11 @@
 @import "../../globals/variables.scss";
 
-.qualifications {
-  position: relative;
+.qualifications_container {
   margin-top: 75px;
+  min-height: 100vh;
+}
+
+.qualifications {
   width: 65%;
   margin-left: auto;
   margin-right: auto;
