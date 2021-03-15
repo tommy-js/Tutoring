@@ -22,8 +22,6 @@ export const Prep1: React.FC = () => {
   const problem12_2 = "5x-7y=12";
   const problem13 = "y=(x-3)^2";
   const problem13_2 = "y=36";
-  const problem14 = "y=b(x-7)(x+2)";
-  const problem14_2 = "(c, d)";
   const problem15 = "6x^2+3x-7=0";
 
   const problem_base = [
