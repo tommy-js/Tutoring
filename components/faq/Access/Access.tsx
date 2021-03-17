@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 export const Access: React.FC = () => {
   return (
-    <div>
+    <div className={styles.access}>
       <h2 className={styles.header}>
         How do I get access to your practice problems and documents?
       </h2>

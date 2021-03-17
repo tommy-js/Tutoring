@@ -19,3 +19,24 @@
   color: $gold;
   transition: 0.2s;
 }
+
+@media only screen and (max-width: 900px) {
+  .bulk_payment {
+    margin-top: 25px;
+  }
+
+  .header {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .text {
+    line-height: 165%;
+    font-size: 16px;
+  }
+
+  .link:hover {
+    color: $blue;
+    transition: 0.2s;
+  }
+}

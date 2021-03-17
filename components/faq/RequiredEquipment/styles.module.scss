@@ -34,3 +34,49 @@
   margin-left: 15px;
   vertical-align: top;
 }
+
+@media only screen and (max-width: 900px) {
+  .required_equipment {
+    margin-top: 25px;
+  }
+
+  .header {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .text {
+    line-height: 165%;
+    font-size: 16px;
+  }
+
+  .payment_info_block {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .image_block {
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .text_container {
+    display: inline-block;
+    line-height: 165%;
+    font-size: 16px;
+    margin-left: auto;
+    width: 85%;
+    box-sizing: border-box;
+    vertical-align: top;
+  }
+}
