@@ -98,7 +98,7 @@
 
   .header_text {
     color: $gold;
-    font-size: 2rem;
+    font-size: 36px;
     text-shadow: 2px 2px $dark_graphite;
     font-weight: bold;
     text-align: center;
@@ -108,7 +108,7 @@
 
   .header_subtext {
     text-align: center;
-    font-size: 1rem;
+    font-size: 20px;
     margin-top: 10px;
     font-weight: bold;
     text-shadow: 3px 3px $dark_graphite;
@@ -146,7 +146,7 @@
   }
 
   .under_header_text {
-    font-size: 1rem;
+    font-size: 18px;
     text-align: center;
     height: 60px;
     color: $gold;
