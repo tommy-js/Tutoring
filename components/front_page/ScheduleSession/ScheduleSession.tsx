@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 
 export const ScheduleSession: React.FC = () => {
   function handleClick() {
-    fbq.event("Schedule");
+    fbq.event("track", "Schedule");
   }
 
   return (

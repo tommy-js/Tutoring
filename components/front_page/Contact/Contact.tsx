@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 
 export const Contact: React.FC = () => {
   function handleClick() {
-    fbq.event("Contact");
+    fbq.event("track", "Contact");
   }
 
   return (
