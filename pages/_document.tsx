@@ -68,6 +68,23 @@ export default class MyDocument extends Document {
           </noscript>
 
           {/* End Facebook Pixel Code */}
+
+          {/* MailChimp integration */}
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `!function(c,h,i,m,p)
+                        {
+                          ((m = c.createElement(h)),
+                          (p = c.getElementsByTagName(h)[0]),
+                          (m.async = 1),
+                          (m.src = i),
+                          p.parentNode.insertBefore(m, p))
+                        }
+                        (document,"script","https://chimpstatic.com/mcjs-connected/js/users/7849af733b1b543ebd1755511/31febf5a3c30ed0a1bf3f01da.js");`,
+            }}
+          />
+          {/* End MailChimp integration*/}
         </Head>
         <body>
           <Main />
