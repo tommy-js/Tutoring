@@ -65,7 +65,7 @@ const CustomForm = ({ status, message, onValidated }) => {
 export class EmailForm extends Component {
   render() {
     return (
-      <div>
+      <div className={styles.email_form_block}>
         <h2 className={styles.header}>
           Join our mailing list for updates and promotions!
         </h2>

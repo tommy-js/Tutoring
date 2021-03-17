@@ -11,7 +11,8 @@ export const RequiredEquipment: React.FC = () => {
     <div className={styles.required_equipment}>
       <h2 className={styles.header}>What do I need for my session?</h2>
       <p className={styles.text}>
-        You only need a few things for your tutoring session:
+        Online tutoring with me is super easy. You only need a few things for
+        your session:
       </p>
       <div className={styles.payment_info_block}>
         <div className={styles.image_block}>

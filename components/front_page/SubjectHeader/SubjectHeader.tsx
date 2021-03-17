@@ -9,12 +9,12 @@ export const SubjectHeader: React.FC = () => {
       <div className={styles.image_block}>
         <div className={styles.header}>
           <p className={styles.header_text}>Functional Tutoring</p>
-          <p className={styles.header_subtext}>Understand more & spend less</p>
+          <p className={styles.header_subtext}>Spend less & learn more</p>
         </div>
         <img src={header} className={styles.image} />
         <div className={styles.under_header}>
           <p className={styles.under_header_text}>
-            Offering Personalized 1-on-1 Tutoring for as Little as $40!
+            Personalized 1-on-1 tutoring for only $40
           </p>
         </div>
         <div className={styles.drop_header}></div>

@@ -18,7 +18,7 @@ export const OurTeam: React.FC = () => {
           I love to rock climb, learn new things, and help people become better
           math students! I'm currently in the process of learning Russian for
           personal interest, and am trying to decide what language I should
-          learn next. For now it's just me at Functional Tutoring!
+          learn next. For now it's just me at Functional Tutoring.
         </p>
       </div>
     </div>

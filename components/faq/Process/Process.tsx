@@ -7,25 +7,22 @@ export const Process: React.FC = () => {
       <h2 className={styles.header}>What happens after I sign up?</h2>
       <p className={styles.text}>
         So you've signed up for a session and are wondering what happens now.
-        Below are listed the order of events leading up to and after your
-        session:
+        Fortunately, we make getting quality tutoring super easy. Here's what
+        happens once you sign up:
       </p>
       <ol className={styles.text}>
         <li>
           Right after signing up for a session you will receive a text/email
-          confirming your time and date.
+          confirming your time and date, and containing the link you'll need to
+          meet me.
         </li>
         <li>
-          An hour before your session you will receive a text/email with a link
-          to your online meeting-room.
+          An hour before your session you will receive a text/email with a
+          reminder for your session.
         </li>
+        <li>We'll meet and have our session</li>
         <li>
-          At the time of your session or slightly before, you will click this
-          link and your session will begin.
-        </li>
-        <li>
-          Directly after your session you will receive an invoice for the
-          payment owed, provided you are choosing to pay following the meeting.
+          After the session, I'll send you an invoice to pay at your leisure
         </li>
       </ol>
     </div>

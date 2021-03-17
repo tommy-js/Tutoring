@@ -1,8 +1,8 @@
 import React from "react";
 import { Header } from "../Header/Header";
 import { PaymentOptions } from "../PaymentOptions/PaymentOptions";
+import { WhyMe } from "../WhyMe/WhyMe";
 import { Process } from "../Process/Process";
-import { NoShow } from "../NoShow/NoShow";
 import { RequiredEquipment } from "../RequiredEquipment/RequiredEquipment";
 import { Cancellations } from "../Cancellations/Cancellations";
 import { BulkPayment } from "../BulkPayment/BulkPayment";
@@ -17,8 +17,8 @@ export const Faq: React.FC = () => {
       <div className={styles.faq}>
         <Header />
         <PaymentOptions />
+        <WhyMe />
         <Process />
-        <NoShow />
         <RequiredEquipment />
         <Cancellations />
         <BulkPayment />

@@ -18,13 +18,13 @@ export const AppPage: React.FC = () => {
       <SubjectHeader />
       <div className={styles.app_page}>
         <Introduction />
-        <ScheduleSession />
-        <AtAGlance />
         <Contact />
+        <Subjects />
+        <ScheduleSession />
         <Fade>
-          <Subjects />
-          <EmailForm />
+          <AtAGlance />
           <OurTeam />
+          <EmailForm />
           <WhyMe />
         </Fade>
       </div>
