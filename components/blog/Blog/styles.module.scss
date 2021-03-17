@@ -16,4 +16,45 @@
 .header {
   color: $graphite;
   text-align: center;
+  margin-bottom: 0;
+}
+
+.subheader {
+  color: $graphite;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 900px) {
+  .blog_container {
+    min-height: 100%;
+    position: relative;
+    margin-top: 75px;
+  }
+
+  .blog {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    @include general_font;
+  }
+
+  .header {
+    color: $graphite;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 22px;
+  }
+
+  .subheader {
+    color: $graphite;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
 }

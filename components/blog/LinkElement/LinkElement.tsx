@@ -6,6 +6,7 @@ interface Props {
   image: string;
   title: string;
   route: string;
+  date: string;
   description: string;
 }
 
@@ -19,6 +20,7 @@ export const LinkElement: React.FC<Props> = (props) => {
         <div className={styles.text_block}>
           <h2 className={styles.title}>{props.title}</h2>
           <p className={styles.description}>{props.description}</p>
+          <p className={styles.date}>Posted {props.date}</p>
         </div>
       </div>
     </Link>

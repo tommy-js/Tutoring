@@ -8,6 +8,11 @@
   @include general_font;
 }
 
+.link_element:hover .text_block {
+  color: $blue;
+  transition: 0.2s;
+}
+
 .image_block {
   display: inline-block;
   width: 30%;
@@ -28,5 +33,73 @@
   padding-left: 10px;
   box-sizing: border-box;
   vertical-align: top;
+  transition: 0.2s;
   @include noselect;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.date {
+  opacity: 0.75;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 900px) {
+  .link_element {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid $graphite;
+    cursor: pointer;
+    @include general_font;
+  }
+
+  .link_element:hover .text_block {
+    color: $graphite;
+    transition: 0.2s;
+  }
+
+  .image_block {
+    display: block;
+    width: 100%;
+    height: 150px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .text_block {
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: center;
+    transition: 0.2s;
+    @include noselect;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .date {
+    opacity: 0.75;
+    font-size: 12px;
+  }
 }

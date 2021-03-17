@@ -16,6 +16,7 @@ export const Blog: React.FC = () => {
       description:
         "How lockdown is impacting families and revealing gender inequality",
       route: "/blog/families-in-lockdown",
+      date: "3/17/2021",
       image: blog4,
     },
     {
@@ -24,6 +25,7 @@ export const Blog: React.FC = () => {
       description:
         "Is online education accessible for the Americans who need it?",
       route: "/blog/the-online-inequality",
+      date: "3/8/2021",
       image: blog3,
     },
     {
@@ -32,6 +34,7 @@ export const Blog: React.FC = () => {
       description:
         "What can we expect from the future of the online tutoring industry?",
       route: "/blog/the-role-tutoring-will-play",
+      date: "3/1/2021",
       image: blog2,
     },
     {
@@ -39,6 +42,7 @@ export const Blog: React.FC = () => {
       title: "Mathematics in the Pandemic",
       description: "How have our students been affected by the pandemic?",
       route: "/blog/math-in-the-pandemic",
+      date: "2/22/2021",
       image: blog1,
     },
   ];
@@ -46,15 +50,19 @@ export const Blog: React.FC = () => {
   return (
     <div className={styles.blog_container}>
       <div className={styles.blog}>
-        <h1 className={styles.header}>Blog</h1>
-        {blog_posts.map((el: any) => (
-          <LinkElement
-            title={el.title}
-            description={el.description}
-            route={el.route}
-            image={el.image}
-          />
-        ))}
+        <h1 className={styles.header}>Our Thoughts on the World</h1>
+        <h2 className={styles.subheader}>The Functional Tutoring Blog</h2>
+        <div className={styles.post_containers}>
+          {blog_posts.map((el: any) => (
+            <LinkElement
+              title={el.title}
+              description={el.description}
+              route={el.route}
+              date={el.date}
+              image={el.image}
+            />
+          ))}
+        </div>
       </div>
       <Footer />
     </div>
