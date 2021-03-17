@@ -13,3 +13,12 @@
   color: $graphite;
   text-align: center;
 }
+
+@media only screen and (max-width: 900px) {
+  .full_course_list {
+    position: relative;
+    width: 100%;
+    min-width: auto;
+    @include general_font;
+  }
+}

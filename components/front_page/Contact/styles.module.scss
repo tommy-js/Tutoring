@@ -31,3 +31,30 @@
 .button:hover {
   @include hover;
 }
+
+@media only screen and (max-width: 900px) {
+  .contact {
+    border: 1px solid $gold;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+  }
+
+  .header {
+    @include header;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .subheader {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: $light_graphite;
+  }
+}
