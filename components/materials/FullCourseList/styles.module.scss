@@ -11,10 +11,16 @@
 
 .header {
   color: $graphite;
+  font-size: 26px;
   text-align: center;
 }
 
 @media only screen and (max-width: 900px) {
+  .header {
+    color: $graphite;
+    font-size: 22px;
+    text-align: center;
+  }
   .full_course_list {
     position: relative;
     width: 100%;
