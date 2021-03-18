@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap");
 
 $gold: #ffb300;
@@ -67,7 +67,7 @@ $eraser: #f5a19d;
 }
 
 @mixin standard_font {
-  font-family: "Yellowtail", cursive;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 @mixin general_font {

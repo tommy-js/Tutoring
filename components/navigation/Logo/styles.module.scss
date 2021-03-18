@@ -1,5 +1,4 @@
 @import "../../globals/variables.scss";
-@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 
 .logo {
   position: relative;
@@ -45,8 +44,8 @@
   margin: 0;
   overflow: hidden;
   white-space: nowrap;
-  font-family: "Yellowtail", cursive;
   text-decoration: underline 1px $graphite;
+  @include standard_font;
   transition: 0.2s;
 }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./styles.module.scss";
 
 const header = require("../../../public/header.jpg");
@@ -9,14 +10,25 @@ export const SubjectHeader: React.FC = () => {
       <div className={styles.image_block}>
         <div className={styles.header}>
           <p className={styles.header_text}>Functional Tutoring</p>
-          <p className={styles.header_subtext}>Spend less & learn more</p>
+          <p className={styles.header_subtext}>
+            Personalized 1-on-1 math tutoring for only $40
+          </p>
+          <div className={styles.button_block}>
+            <div className={styles.inner_button_container}>
+              <div className={styles.left_button}>
+                <Link href="/contact">
+                  <button className={styles.contact_button}>Contact Us</button>
+                </Link>
+              </div>
+              <div className={styles.right_button}>
+                <Link href="/schedule">
+                  <button className={styles.book_now_button}>Book Now</button>
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
         <img src={header} className={styles.image} />
-        <div className={styles.under_header}>
-          <p className={styles.under_header_text}>
-            Personalized 1-on-1 tutoring for only $40
-          </p>
-        </div>
         <div className={styles.drop_header}></div>
       </div>
     </div>

@@ -19,7 +19,7 @@
 
 .header_text {
   color: $gold;
-  font-size: 5rem;
+  font-size: 4rem;
   text-shadow: 3px 3px $dark_graphite;
   font-weight: bold;
   text-align: center;
@@ -51,31 +51,45 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 25px;
   background-color: white;
   opacity: 0.8;
   z-index: 95;
 }
 
-.under_header {
-  display: table;
-  position: absolute;
-  bottom: 0;
-  height: 60px;
-  z-index: 96;
+.button_block {
+  position: relative;
   width: 100%;
 }
 
-.under_header_text {
-  font-size: 2rem;
-  text-align: center;
-  height: 60px;
-  color: $gold;
-  line-height: 100%;
-  font-weight: bold;
-  display: table-cell;
-  vertical-align: middle;
-  text-shadow: 1.5px 1.5px 1px $graphite;
+.inner_button_container {
+  position: relative;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left_button,
+.right_button {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.contact_button {
+  @include button;
+}
+
+.book_now_button {
+  @include button;
+}
+
+.contact_button:hover {
+  @include hover;
+}
+
+.book_now_button:hover {
+  @include hover;
 }
 
 @media only screen and (max-width: 900px) {
@@ -130,30 +144,9 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 25px;
     background-color: white;
     opacity: 0.8;
     z-index: 95;
-  }
-
-  .under_header {
-    display: table;
-    position: absolute;
-    bottom: 0;
-    height: 60px;
-    z-index: 96;
-    width: 100%;
-  }
-
-  .under_header_text {
-    font-size: 18px;
-    text-align: center;
-    height: 60px;
-    color: $gold;
-    line-height: 100%;
-    font-weight: bold;
-    display: table-cell;
-    vertical-align: middle;
-    text-shadow: 1px 1px 1px $graphite;
   }
 }
