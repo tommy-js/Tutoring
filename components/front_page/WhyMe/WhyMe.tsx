@@ -29,7 +29,7 @@ export const WhyMe: React.FC = () => {
         While there is no shortage of practice problems and videos available
         online, my students have the benefit of being able to go over this
         material with me during sessions. I will also design custom problem-sets
-        for my students who need it.
+        for students who need it.
       </p>
       <h2 className={styles.subheader}>Expert Knowledge</h2>
       <p className={styles.text}>
