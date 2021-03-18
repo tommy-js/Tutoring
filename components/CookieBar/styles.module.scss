@@ -1,0 +1,159 @@
+@import "../globals/variables.scss";
+
+.cookie_bar {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 250px;
+  height: 250px;
+  z-index: 99;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid $graphite;
+  background-color: $gold;
+  box-shadow: 3px 3px 5px #888888;
+}
+
+.header {
+  font-size: 16px;
+  color: $graphite;
+}
+
+.image_block {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+}
+
+.close_image {
+  position: absolute;
+  right: -12px;
+  top: -12px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.close {
+  width: 100%;
+}
+
+.button {
+  @include button;
+  background-color: white;
+  border: 1px solid $graphite;
+}
+
+.button:hover {
+  @include hover;
+}
+
+.link {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: $blue;
+  transition: 0.2s;
+}
+
+.link:hover {
+  color: white;
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 900px) {
+  .cookie_bar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 175px;
+    z-index: 99;
+    box-sizing: border-box;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none;
+    border-top: 1px solid $graphite;
+    background-color: $gold;
+    box-shadow: 3px 3px 5px #888888;
+  }
+
+  .header {
+    margin-top: 25px;
+    font-size: 1rem;
+    text-align: center;
+    color: $graphite;
+  }
+
+  .image_block {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .image {
+    width: 100px;
+    padding: 10px;
+    float: right;
+    margin-right: 10px;
+    box-sizing: border-box;
+  }
+
+  .interactives {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    box-sizing: border-box;
+  }
+
+  .button {
+    @include button;
+    float: left;
+    margin-left: 10px;
+    background-color: white;
+    border: 1px solid $graphite;
+  }
+
+  .button:hover {
+    @include hover;
+  }
+
+  .link {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    text-align: left;
+    text-decoration: none;
+    color: $blue;
+    transition: 0.2s;
+    float: left;
+  }
+
+  .link:hover {
+    color: white;
+    transition: 0.2s;
+  }
+}

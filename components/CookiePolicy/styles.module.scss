@@ -1,0 +1,23 @@
+@import "../globals/variables.scss";
+
+.cookie_policy {
+  width: 65%;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  @include general_font;
+}
+
+.header {
+  text-align: center;
+}
+
+.subheader {
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 900px) {
+  .cookie_policy {
+    width: 95%;
+  }
+}
