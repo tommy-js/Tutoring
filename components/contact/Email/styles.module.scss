@@ -1,16 +1,17 @@
 @import "../../globals/variables.scss";
 
 .email {
-  font-size: 18px;
+  font-size: 16px;
   color: $dark_graphite;
   margin-bottom: 15px;
+  display: inline-block;
 }
 
 .link {
   color: $blue;
   display: inline-block;
   vertical-align: top;
-  margin-left: 15px;
+  margin-left: 10px;
   text-decoration: none;
   transition: 0.2s;
 }
@@ -22,7 +23,7 @@
 
 .image_block {
   display: inline-block;
-  width: 35px;
+  width: 30px;
   box-sizing: border-box;
   overflow: hidden;
 }

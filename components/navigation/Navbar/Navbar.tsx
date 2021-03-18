@@ -13,12 +13,11 @@ export const Navbar: React.FC = () => {
   return (
     <div className={styles.navbar}>
       <Logo />
-      <MaterialsNav />
-      <Blog />
-      <Policy />
-      <Faq />
       <Contact />
+      <Blog />
+      <MaterialsNav />
       <Pricing />
+      <Faq />
       <ScheduleSession />
     </div>
   );

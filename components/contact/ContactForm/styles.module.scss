@@ -1,51 +1,100 @@
 @import "../../globals/variables.scss";
 
 .contact_form {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  text-align: center;
+  font-size: 24px;
+  color: $graphite;
+}
+
+.email_input {
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
   font-size: 18px;
-  color: $dark_graphite;
+  border: 1px solid $graphite;
+  border-radius: 3px;
+  @include general_font;
 }
 
-.text {
-  display: inline-block;
-  vertical-align: bottom;
-  margin-left: 15px;
-}
-
-.link {
-  color: $blue;
-  text-decoration: none;
-  transition: 0.2s;
-}
-
-.link:hover {
-  color: $gold;
-  transition: 0.2s;
-}
-
-.image_block {
-  display: inline-block;
-  width: 35px;
+.textbox {
+  position: relative;
+  display: block;
+  margin-top: 15px;
+  width: 450px;
+  left: 75px;
+  height: 200px;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid $graphite;
+  border-radius: 3px;
   box-sizing: border-box;
-  overflow: hidden;
+  @include general_font;
 }
 
-.image {
-  width: 100%;
+.button {
+  @include button;
+  margin-left: 75px;
+}
+
+.button:hover {
+  @include hover;
 }
 
 @media only screen and (max-width: 900px) {
   .contact_form {
-    font-size: 14px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .image_block {
-    display: inline-block;
-    width: 25px;
-    box-sizing: border-box;
-    overflow: hidden;
+  .header {
+    text-align: center;
+    font-size: 20px;
+    color: $graphite;
   }
 
-  .image {
+  .email_input {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid $graphite;
+    border-radius: 3px;
+    @include general_font;
+  }
+
+  .textbox {
+    position: relative;
+    display: block;
+    margin-top: 15px;
     width: 100%;
+    left: 0;
+    height: 200px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid $graphite;
+    border-radius: 3px;
+    box-sizing: border-box;
+    @include general_font;
+  }
+
+  .button {
+    @include button;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button:hover {
+    @include hover;
   }
 }

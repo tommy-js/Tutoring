@@ -20,14 +20,13 @@ export const AppPage: React.FC = () => {
       <div className={styles.app_page}>
         <Introduction />
         <SatCard />
-        <Contact />
         <Subjects />
-        <ScheduleSession />
         <Fade>
           <AtAGlance />
           <OurTeam />
           <EmailForm />
           <WhyMe />
+          <ScheduleSession />
         </Fade>
       </div>
       <div className={styles.bottom_container} />

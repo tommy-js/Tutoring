@@ -1,22 +1,47 @@
 import React from "react";
-import Link from "next/link";
+import { useForm, ValidationError } from "@formspree/react";
 import styles from "./styles.module.scss";
 
-const contact_form = require("../../../public/form.png");
-
-export const ContactForm: React.FC = () => {
+function ReturnedForm() {
+  const [state, handleSubmit] = useForm("mdopqqpg");
+  if (state.succeeded) {
+    return <p>Thanks for your submission! We'll get back to you soon.</p>;
+  }
   return (
     <div className={styles.contact_form}>
-      <div className={styles.image_block}>
-        <img src={contact_form} className={styles.image} />
-      </div>
-      <p className={styles.text}>
-        Also feel free to fill out our{" "}
-        <Link href="https://us7.list-manage.com/contact-form?u=7849af733b1b543ebd1755511&form_id=78f0d437a6cb2e17161767d29543c28d">
-          <a className={styles.link}>Contact form</a>
-        </Link>
-        .
-      </p>
+      <form onSubmit={handleSubmit}>
+        <h2 className={styles.header}>What's on your mind?</h2>
+        <input
+          className={styles.email_input}
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Email"
+        />
+        <ValidationError prefix="Email" field="email" errors={state.errors} />
+        <textarea
+          className={styles.textbox}
+          id="message"
+          name="message"
+          placeholder="Your message"
+        />
+        <ValidationError
+          prefix="Message"
+          field="message"
+          errors={state.errors}
+        />
+        <button
+          className={styles.button}
+          type="submit"
+          disabled={state.submitting}
+        >
+          Submit
+        </button>
+      </form>
     </div>
   );
+}
+
+export const ContactForm: React.FC = () => {
+  return <ReturnedForm />;
 };

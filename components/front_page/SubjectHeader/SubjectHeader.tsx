@@ -11,7 +11,7 @@ export const SubjectHeader: React.FC = () => {
         <div className={styles.header}>
           <p className={styles.header_text}>Functional Tutoring</p>
           <p className={styles.header_subtext}>
-            Personalized 1-on-1 math tutoring for only $40
+            Personalized 1-on-1 online math tutoring
           </p>
           <div className={styles.button_block}>
             <div className={styles.inner_button_container}>
