@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { MaterialsLink } from "../MaterialsLink/MaterialsLink";
 import styles from "./styles.module.scss";
 
@@ -36,6 +37,12 @@ export const Arithmetic: React.FC = () => {
   return (
     <div className={styles.arithmetic}>
       <h1 className={styles.header}>Arithmetic</h1>
+      <h3 className={styles.link_flair}>
+        Need extra help?{" "}
+        <Link href="/schedule">
+          <span className={styles.link}>Sign up for tutoring</span>
+        </Link>
+      </h3>
       <h2 className={styles.subheader}>
         Addition, subtraction, division, multiplication, fractions, negative
         numbers and more.

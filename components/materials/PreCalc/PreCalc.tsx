@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { MaterialsLink } from "../MaterialsLink/MaterialsLink";
 import styles from "./styles.module.scss";
 
@@ -37,6 +38,12 @@ export const PreCalc: React.FC = () => {
   return (
     <div className={styles.precalc}>
       <h1 className={styles.header}>Pre-Calc</h1>
+      <h3 className={styles.link_flair}>
+        Need extra help?{" "}
+        <Link href="/schedule">
+          <span className={styles.link}>Sign up for tutoring</span>
+        </Link>
+      </h3>
       <h2 className={styles.subheader}>
         A review of functions, trigonometry, basic geometry, and more!
       </h2>

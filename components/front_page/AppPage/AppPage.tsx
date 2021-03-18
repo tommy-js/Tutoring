@@ -18,9 +18,9 @@ export const AppPage: React.FC = () => {
     <div className={styles.title_header}>
       <SubjectHeader />
       <div className={styles.app_page}>
-        <Introduction />
-        <SatCard />
         <Subjects />
+        <SatCard />
+        <Introduction />
         <Fade>
           <AtAGlance />
           <OurTeam />

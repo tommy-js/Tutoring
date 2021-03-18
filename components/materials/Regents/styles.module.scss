@@ -1,6 +1,6 @@
 @import "../../globals/variables.scss";
 
-.algebra2 {
+.regents {
   position: relative;
   width: 50%;
   min-width: 500px;
@@ -21,11 +21,6 @@
   text-align: center;
 }
 
-.all_materials {
-  font-size: 20px;
-  color: $blue;
-}
-
 .link_flair {
   text-align: center;
   font-weight: normal;
@@ -40,4 +35,16 @@
 .link:hover {
   color: $gold;
   transition: 0.2s;
+}
+
+.all_materials {
+  font-size: 20px;
+  color: $blue;
+}
+
+.flair {
+  margin-top: 50px;
+  font-size: 22px;
+  text-align: center;
+  color: $graphite;
 }

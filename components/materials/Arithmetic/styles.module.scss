@@ -32,3 +32,19 @@
   text-align: center;
   color: $graphite;
 }
+
+.link_flair {
+  text-align: center;
+  font-weight: normal;
+}
+
+.link {
+  cursor: pointer;
+  color: $blue;
+  transition: 0.2s;
+}
+
+.link:hover {
+  color: $gold;
+  transition: 0.2s;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { MaterialsLink } from "../MaterialsLink/MaterialsLink";
 import styles from "./styles.module.scss";
 
@@ -43,6 +44,12 @@ export const Algebra2: React.FC = () => {
   return (
     <div className={styles.algebra2}>
       <h1 className={styles.header}>Algebra 2</h1>
+      <h3 className={styles.link_flair}>
+        Need extra help?{" "}
+        <Link href="/schedule">
+          <span className={styles.link}>Sign up for tutoring</span>
+        </Link>
+      </h3>
       <h2 className={styles.subheader}>
         The second of two parts exploring functions, expressions, systems of
         equations, and more!
