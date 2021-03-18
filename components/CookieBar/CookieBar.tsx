@@ -34,7 +34,10 @@ export const CookieBar: React.FC = () => {
   }, []);
 
   function setCookiesToTrue() {
-    document.cookie = "allowCookiesFT = true";
+    document.cookie =
+      "allowCookiesFT = true;" +
+      "expires=" +
+      new Date(new Date().getTime() + 60 * 60 * 1000 * 24 * 365).toUTCString();
     setCookies(true);
   }
 
