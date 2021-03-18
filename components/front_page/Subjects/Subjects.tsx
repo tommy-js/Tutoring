@@ -81,7 +81,8 @@ export const Subjects: React.FC = () => {
     <div className={styles.subjects}>
       <h2 className={styles.header}>Get The Help You Need</h2>
       <p className={styles.text}>
-        I'm currently offering tutoring in a variety of subjects
+        I tutor all mathematics courses below calculus 2(AP Calculus BC). Some
+        examples include:
       </p>
       {subjects.map((el: any) => (
         <Subject

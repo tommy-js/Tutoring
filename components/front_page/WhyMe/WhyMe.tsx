@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./styles.module.scss";
-const practice = require("../../../public/practice_sheets.jpg");
+const practice = require("../../../public/problems.png");
 
 export const WhyMe: React.FC = () => {
   return (
@@ -12,25 +12,16 @@ export const WhyMe: React.FC = () => {
         tutoring services available than ever before. So why should you choose
         me over the other options?
       </p>
-      <h2 className={styles.subheader}>More Than Just Tutoring</h2>
+      <h2 className={styles.subheader}>Free Practice Problems</h2>
       <p className={styles.text}>
-        When you sign up with me, you're not only signing up for hour-by-hour
-        tutoring. Functional Tutoring is a fully-fledged out platform that is
-        designed to give you the leg up you deserve in the subject you're
-        working on.
+        Do hundreds of practice problems on your own time or with me.
       </p>
-      <p className={styles.text}>
-        Students learn in a variety of ways. I believe that tutoring is most
-        effective when people have access to a number of resources, including
-        practice problems, explanations, and derivations of formulas. Enjoy our
-        ever-growing library of materials!
-      </p>
-      <Link href="/materials/precalc/worksheets/Complex">
+      <Link href="/materials">
         <div className={styles.image_block}>
           <img
             className={styles.image}
             src={practice}
-            alt="List of complicated mathematics problems"
+            alt="List of mathematics problems in front of mother and child"
           />
         </div>
       </Link>
