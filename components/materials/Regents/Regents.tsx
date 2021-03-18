@@ -17,7 +17,7 @@ export const Regents: React.FC = () => {
         Prepare for the New York State Regents exam!
       </h2>
       <p className={styles.flair}>
-        Sorry, we haven't added anything to our geometry course just yet!
+        Sorry, we haven't added anything to our Regents prep course just yet!
       </p>
     </div>
   );

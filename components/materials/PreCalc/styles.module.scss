@@ -40,3 +40,54 @@
   color: $gold;
   transition: 0.2s;
 }
+
+@media only screen and (max-width: 900px) {
+  .precalc {
+    position: relative;
+    width: 90%;
+    min-width: 0;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    @include general_font;
+  }
+
+  .header {
+    text-align: center;
+    @include header_mobile;
+  }
+
+  .subheader {
+    @include subheader_mobile;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .link_flair {
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .link {
+    cursor: pointer;
+    color: $blue;
+    transition: 0.2s;
+  }
+
+  .link:hover {
+    color: $gold;
+    transition: 0.2s;
+  }
+
+  .all_materials {
+    font-size: 20px;
+    color: $blue;
+  }
+
+  .flair {
+    margin-top: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: $graphite;
+  }
+}

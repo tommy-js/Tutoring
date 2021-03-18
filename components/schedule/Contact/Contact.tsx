@@ -7,9 +7,9 @@ export const Contact: React.FC = () => {
     <div className={styles.contact}>
       <h1 className={styles.header}>Schedule Your Session!</h1>
       <p className={styles.subheader}>
-        Need to speak with me directly?{" "}
+        Have some questions?{" "}
         <Link href="/contact">
-          <a className={styles.link}>Click here!</a>
+          <a className={styles.link}>Reach out!</a>
         </Link>
       </p>
     </div>
