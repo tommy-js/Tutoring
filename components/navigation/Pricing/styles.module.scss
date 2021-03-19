@@ -21,9 +21,9 @@
 
 @media only screen and (max-width: 900px) {
   .pricing {
-    display: none;
+    display: inline-block;
     margin-left: 3px;
     margin-right: 3px;
-    font-size: 14px;
+    font-size: 0.8rem;
   }
 }
