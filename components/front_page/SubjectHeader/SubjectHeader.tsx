@@ -1,10 +1,19 @@
 import React from "react";
 import Link from "next/link";
+import * as fbq from "../../FacebookPixel/fpixel";
 import styles from "./styles.module.scss";
 
 const header = require("../../../public/header.jpg");
 
 export const SubjectHeader: React.FC = () => {
+  function goContact() {
+    fbq.event("track", "Contact");
+  }
+
+  function goBook() {
+    fbq.event("track", "Contact");
+  }
+
   return (
     <div className={styles.subject_header}>
       <div className={styles.image_block}>
@@ -17,12 +26,22 @@ export const SubjectHeader: React.FC = () => {
             <div className={styles.inner_button_container}>
               <div className={styles.left_button}>
                 <Link href="/contact">
-                  <button className={styles.contact_button}>Contact Us</button>
+                  <button
+                    onClick={() => goContact()}
+                    className={styles.contact_button}
+                  >
+                    Contact Us
+                  </button>
                 </Link>
               </div>
               <div className={styles.right_button}>
                 <Link href="/schedule">
-                  <button className={styles.book_now_button}>Book Now</button>
+                  <button
+                    onClick={() => goBook()}
+                    className={styles.book_now_button}
+                  >
+                    Book Now
+                  </button>
                 </Link>
               </div>
             </div>
