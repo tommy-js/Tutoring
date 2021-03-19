@@ -16,6 +16,11 @@
   @include header;
 }
 
+.subheader {
+  display: block;
+  margin-top: 75px;
+}
+
 .pricing_container {
   color: $dark_graphite;
   border-radius: 5px;
@@ -65,6 +70,12 @@
   position: relative;
   color: $blue;
   text-decoration: none;
+}
+
+.margin {
+  position: relative;
+  display: block;
+  margin-bottom: 100px;
 }
 
 .link {

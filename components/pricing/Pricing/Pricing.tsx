@@ -1,5 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import { SinglePackage } from "../SinglePackage/SinglePackage";
+import { TriplePackage } from "../TriplePackage/TriplePackage";
+import { QuintPackage } from "../QuintPackage/QuintPackage";
 import styles from "./styles.module.scss";
 
 const discount = require("../../../public/discount.png");
@@ -14,35 +17,10 @@ export const Pricing: React.FC = () => {
         <div className={styles.line}></div>
         <div className={styles.bullet_point}></div>
       </div>
-      <p className={styles.text}>
-        We believe it's important that everyone is able to have access to
-        high-quality tutoring, regardless of their means. This is why we offer
-        high-quality tutoring for only{" "}
-        <span className={styles.bold}>$40 per hour</span>. If this is still too
-        much for you, please don't hesitate to{" "}
-        <Link href="/contact">
-          <a className={styles.text_link}>reach out</a>
-        </Link>
-        : I'd love to see what I can do for you!
-      </p>
+      <SinglePackage />
+      <TriplePackage />
+      <QuintPackage />
       <h2 className={styles.subheader}>Discounts & Rewards</h2>
-      <div className={styles.pricing_container}>
-        <div className={styles.image_block}>
-          <img src={discount} className={styles.image} />
-        </div>
-        <div className={styles.text_block}>
-          <div className={styles.text}>
-            Purchase sessions in bulk for 15% off!
-          </div>
-          <div className={styles.contact_link}>
-            <Link href="/contact">
-              <a className={styles.link_inline}>
-                Contact us to purchase in bulk
-              </a>
-            </Link>
-          </div>
-        </div>
-      </div>
       <div className={styles.pricing_container}>
         <div className={styles.image_block}>
           <img src={conversation} className={styles.image} />
@@ -63,7 +41,7 @@ export const Pricing: React.FC = () => {
         </div>
         <div className={styles.text_block}>
           <div className={styles.text}>
-            Enjoy 5% off your next session when you join our mailing list
+            Enjoy 25% off your next session when you join our mailing list
           </div>
           <div className={styles.inline_text}>
             Get even more discounts, updates, and new math problem sets from us
@@ -71,9 +49,11 @@ export const Pricing: React.FC = () => {
           </div>
         </div>
       </div>
-      <Link href="/schedule">
-        <a className={styles.link}>Sign up for a session</a>
-      </Link>
+      <div className={styles.margin}>
+        <Link href="/schedule">
+          <a className={styles.link}>Sign up for a session</a>
+        </Link>
+      </div>
     </div>
   );
 };
