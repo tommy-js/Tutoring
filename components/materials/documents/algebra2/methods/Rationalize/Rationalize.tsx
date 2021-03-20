@@ -7,8 +7,10 @@ export const Rationalize: React.FC = () => {
   const frac = "\\frac{4}{5-\\sqrt{7}}";
   const ex_frac = "\\frac{a}{b+\\sqrt{c}}";
   const ex_conjugate = "b-\\sqrt{c}";
-  const frac_conju =
-    "\\frac{4}{5-\\sqrt{7}} * \\frac{5+\\sqrt{7}}{5+\\sqrt{7}} = \\frac{4*5+4*\\sqrt{7}}{(5-\\sqrt{7})(5+\\sqrt{7})} = \\frac{20+4\\sqrt{7}}{25-5\\sqrt{7}+5\\sqrt{7}-7}";
+  const frac_conju1 =
+    "\\frac{4}{5-\\sqrt{7}} * \\frac{5+\\sqrt{7}}{5+\\sqrt{7}}";
+  const frac_conju2 = "= \\frac{4*5+4*\\sqrt{7}}{(5-\\sqrt{7})(5+\\sqrt{7})}";
+  const frac_conju3 = "= \\frac{20+4\\sqrt{7}}{25-5\\sqrt{7}+5\\sqrt{7}-7}";
   const final_frac = "\\frac{20+4\\sqrt{7}}{18}";
   const single_denom = "\\frac{12}{\\sqrt{17}}";
   const single_denom_solution =
@@ -38,7 +40,9 @@ export const Rationalize: React.FC = () => {
       </p>
       <p className={styles.text}>
         So, in our example, we take our fraction and multiply it as such:{" "}
-        <BlockMath>{frac_conju}</BlockMath>
+        <BlockMath>{frac_conju1}</BlockMath>
+        <BlockMath>{frac_conju2}</BlockMath>
+        <BlockMath>{frac_conju3}</BlockMath>
       </p>
       <p className={styles.text}>
         This is interesting! We see that in the denominator the two roots will

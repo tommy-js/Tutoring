@@ -40,3 +40,13 @@
 .bottom {
   margin-bottom: 150px;
 }
+
+@media only screen and (max-width: 900px) {
+  .rationalize {
+    width: 95%;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+}

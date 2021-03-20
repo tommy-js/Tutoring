@@ -13,13 +13,6 @@ export const PreCalc: React.FC = () => {
       type: "worksheet",
     },
     {
-      id: "bntnmm5554333",
-      title: "Practice with Function Composition",
-      path: "precalc/worksheets/FunctionalComposition",
-      subject: "Pre-Calculus",
-      type: "worksheet",
-    },
-    {
       id: "f3fjk3ngj3nj43hg44h",
       title: "Practice with Logarithm Equations",
       path: "precalc/worksheets/Logarithms",

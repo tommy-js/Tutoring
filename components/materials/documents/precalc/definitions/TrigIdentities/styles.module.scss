@@ -36,3 +36,39 @@
 .bottom_container {
   margin-bottom: 75px;
 }
+
+@media only screen and (max-width: 900px) {
+  .trig_identities {
+    width: 95%;
+  }
+
+  .header {
+    color: $graphite;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .subheader {
+    color: $graphite;
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+
+  .unit_container {
+    position: relative;
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .div_header {
+    color: $graphite;
+    text-align: center;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+}

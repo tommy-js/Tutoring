@@ -68,7 +68,10 @@ export const TrigIdentities: React.FC = () => {
           <InlineDefinition text="\sin(2x)=2\sin(x)\cos(x)" />
         </div>
         <div className={styles.unit_container}>
-          <InlineDefinition text="\cos(2x)=\cos(x)^2-\sin(x)^2=1-2\sin(x)^2=2\cos(x)^2-1" />
+          <InlineDefinition text="\cos(2x)=\cos(x)^2-\sin(x)^2" />
+        </div>
+        <div className={styles.unit_container}>
+          <InlineDefinition text="1-2\sin(x)^2=2\cos(x)^2-1" />
         </div>
         <div className={styles.unit_container}>
           <InlineDefinition text="\tan(2x)=\frac{2\tan(x)}{1-\tan(x)^2}" />
