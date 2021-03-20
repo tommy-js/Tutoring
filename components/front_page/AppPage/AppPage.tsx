@@ -1,5 +1,6 @@
 import React from "react";
 import { Introduction } from "../Introduction/Introduction";
+import { Deal } from "../Deal/Deal";
 import { SatCard } from "../SatCard/SatCard";
 import { AtAGlance } from "../AtAGlance/AtAGlance";
 import { ScheduleSession } from "../ScheduleSession/ScheduleSession";
@@ -19,6 +20,7 @@ export const AppPage: React.FC = () => {
       <SubjectHeader />
       <div className={styles.app_page}>
         <Subjects />
+        <Deal />
         <SatCard />
         <Introduction />
         <Fade>

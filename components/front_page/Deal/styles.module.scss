@@ -1,0 +1,100 @@
+@import "../../globals/variables.scss";
+
+.deal {
+  width: 75%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid $eraser;
+  border-radius: 10px;
+}
+
+.image_block {
+  display: inline-block;
+  width: 15%;
+  box-sizing: border-box;
+}
+
+.image {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.text_block {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.text {
+  font-size: 1.4rem;
+  text-align: center;
+  color: $graphite;
+}
+
+.save_button {
+  display: inline-block;
+  width: 30%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.button {
+  @include alt_button;
+  float: right;
+}
+
+.button:hover {
+  @include alt_hover;
+}
+
+@media only screen and (max-width: 900px) {
+  .deal {
+    width: 95%;
+    padding: 5px;
+  }
+
+  .image_block {
+    width: 20%;
+  }
+
+  .image {
+    width: 50px;
+    padding: 0;
+  }
+
+  .text_block {
+    display: inline-block;
+    width: 80%;
+    height: 50px;
+    box-sizing: border-box;
+    vertical-align: top;
+  }
+
+  .text {
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 0;
+    color: $graphite;
+  }
+
+  .save_button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    vertical-align: inherit;
+  }
+
+  .button {
+    @include alt_button;
+    float: none;
+  }
+
+  .button:hover {
+    @include alt_hover;
+  }
+}
