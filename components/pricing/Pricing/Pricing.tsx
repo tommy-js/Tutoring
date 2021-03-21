@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { FreeSession } from "../FreeSession/FreeSession";
 import { SinglePackage } from "../SinglePackage/SinglePackage";
 import { TriplePackage } from "../TriplePackage/TriplePackage";
 import { QuintPackage } from "../QuintPackage/QuintPackage";
@@ -17,9 +18,9 @@ export const Pricing: React.FC = () => {
         <div className={styles.line}></div>
         <div className={styles.bullet_point}></div>
       </div>
+      <FreeSession />
       <SinglePackage />
       <TriplePackage />
-      <QuintPackage />
       <h2 className={styles.subheader}>Discounts & Rewards</h2>
       <div className={styles.pricing_container}>
         <div className={styles.image_block}>

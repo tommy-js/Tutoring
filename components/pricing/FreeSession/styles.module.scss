@@ -1,0 +1,105 @@
+@import "../../globals/variables.scss";
+
+.free_session {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.cost {
+  color: $money;
+}
+
+.text {
+  display: inline-block;
+  width: 70%;
+  padding-left: 10px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.header {
+  margin-bottom: 0;
+}
+
+.subheader {
+  margin-top: 0;
+}
+
+.image_block {
+  display: inline-block;
+  vertical-align: top;
+  width: 10%;
+  box-sizing: border-box;
+}
+
+.image {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.button_container {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.purchase {
+  @include button;
+}
+
+.purchase:hover {
+  @include hover;
+}
+
+@media only screen and (max-width: 900px) {
+  .single_package {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .text {
+    display: inline-block;
+    width: 80%;
+    padding-left: 10px;
+    vertical-align: top;
+    box-sizing: border-box;
+  }
+
+  .header {
+    margin-bottom: 0;
+  }
+
+  .subheader {
+    margin-top: 0;
+  }
+
+  .image_block {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    box-sizing: border-box;
+  }
+
+  .image {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .button_container {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .purchase {
+    @include button;
+  }
+
+  .purchase:hover {
+    @include hover;
+  }
+}
