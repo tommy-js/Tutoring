@@ -46,6 +46,11 @@ export const SubjectHeader: React.FC = () => {
               </div>
             </div>
           </div>
+          <div className={styles.under_flair}>
+            <p className={styles.under_flair_text}>
+              Get your first session for free!
+            </p>
+          </div>
         </div>
         <img src={header} className={styles.image} />
         <div className={styles.drop_header}></div>
