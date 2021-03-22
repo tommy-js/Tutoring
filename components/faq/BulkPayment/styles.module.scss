@@ -1,12 +1,50 @@
 @import "../../globals/variables.scss";
 
+.bulk_payment {
+  margin-top: 25px;
+}
+
 .header {
   @include subheader;
+  display: inline-block;
+  width: 85%;
+  box-sizing: border-box;
+  margin-left: 10px;
 }
 
 .text {
   line-height: 165%;
   font-size: 18px;
+}
+
+.text_container {
+  display: inline-block;
+  width: 80%;
+  line-height: 165%;
+  font-size: 18px;
+  margin-left: 15px;
+  vertical-align: top;
+}
+
+.upper {
+  cursor: pointer;
+}
+
+.dropdown_icon {
+  display: inline-block;
+  width: 35px;
+  box-sizing: border-box;
+}
+
+.icon {
+  box-sizing: border-box;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.dropdown {
+  overflow: hidden;
+  transition: 0.3s;
 }
 
 .link {
@@ -28,6 +66,7 @@
   .header {
     font-size: 18px;
     text-align: center;
+    margin-left: 0;
   }
 
   .text {

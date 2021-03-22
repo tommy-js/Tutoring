@@ -1,12 +1,45 @@
 @import "../../globals/variables.scss";
 
-.header {
-  @include subheader;
+.process {
+  margin-top: 25px;
 }
 
-.text {
+.header {
+  @include subheader;
+  display: inline-block;
+  width: 85%;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+.text_container {
+  display: inline-block;
+  width: 80%;
   line-height: 165%;
   font-size: 18px;
+  margin-left: 15px;
+  vertical-align: top;
+}
+
+.upper {
+  cursor: pointer;
+}
+
+.dropdown_icon {
+  display: inline-block;
+  width: 35px;
+  box-sizing: border-box;
+}
+
+.icon {
+  box-sizing: border-box;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.dropdown {
+  overflow: hidden;
+  transition: 0.3s;
 }
 
 @media only screen and (max-width: 900px) {
@@ -17,6 +50,7 @@
   .header {
     font-size: 20px;
     text-align: center;
+    margin-left: 0;
   }
 
   .text {
