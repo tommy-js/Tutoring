@@ -48,7 +48,7 @@ export const SubjectHeader: React.FC = () => {
           </div>
           <div className={styles.under_flair}>
             <p className={styles.under_flair_text}>
-              Get your first session for free!
+              Sign up for a free session!
             </p>
           </div>
         </div>
