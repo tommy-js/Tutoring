@@ -1,0 +1,43 @@
+@import "../../../../globals/variables.scss";
+
+.daily_post {
+  position: relative;
+  margin-top: 75px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  color: $graphite;
+}
+
+.header {
+  font-size: 26px;
+}
+
+.subheader {
+  font-size: 18px;
+  color: $blue;
+  opacity: 0.75;
+}
+
+.video_block {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 75%;
+}
+
+.text {
+  line-height: 165%;
+  font-size: 18px;
+}
+
+.problem_header {
+  font-size: 20px;
+}
+
+.bottom_div {
+  margin-bottom: 75px;
+}
