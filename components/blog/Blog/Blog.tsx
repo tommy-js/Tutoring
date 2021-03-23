@@ -12,6 +12,15 @@ export const Blog: React.FC = () => {
   const blog_posts = [
     {
       id: 0,
+      title: "Daily Calculus 3/22/21",
+      description:
+        "Assorted calculus problems to get you through your semester",
+      route: "/blog/daily-posts/3-22-21",
+      date: "3/22/2021",
+      image: blog4,
+    },
+    {
+      id: 1,
       title: "Families in Lockdown",
       description:
         "How lockdown is impacting families and revealing gender inequality",
@@ -20,7 +29,7 @@ export const Blog: React.FC = () => {
       image: blog4,
     },
     {
-      id: 1,
+      id: 2,
       title: "The Online Inequality",
       description:
         "Is online education accessible for the Americans who need it?",
@@ -29,7 +38,7 @@ export const Blog: React.FC = () => {
       image: blog3,
     },
     {
-      id: 2,
+      id: 3,
       title: "The Role Tutoring Will Play",
       description:
         "What can we expect from the future of the online tutoring industry?",
@@ -38,7 +47,7 @@ export const Blog: React.FC = () => {
       image: blog2,
     },
     {
-      id: 3,
+      id: 4,
       title: "Mathematics in the Pandemic",
       description: "How have our students been affected by the pandemic?",
       route: "/blog/math-in-the-pandemic",
