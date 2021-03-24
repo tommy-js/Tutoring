@@ -7,20 +7,40 @@ const blog1 = require("../../../public/blogs/distance_learning.jpg");
 const blog2 = require("../../../public/blogs/online_tutoring.jpg");
 const blog3 = require("../../../public/blogs/work.jpg");
 const blog4 = require("../../../public/blogs/parent.jpg");
+const blog5 = require("../../../public/blogs/calc_header.png");
+const blog6 = require("../../../public/blogs/algebra_header.png");
+const blog7 = require("../../../public/blogs/arithmetic_header.png");
 
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
       id: 0,
-      title: "Daily Calculus 3/22/21",
+      title: "Daily Arithmetic 3/24/21",
       description:
-        "Assorted calculus problems to get you through your semester",
-      route: "/blog/daily-posts/3-22-21",
+        "Simplification of simple expressions, fractional multiplication and fractional division",
+      route: "/blog/daily-posts/3-24-21",
       date: "3/22/2021",
-      image: blog4,
+      image: blog7,
     },
     {
       id: 1,
+      title: "Daily Algebra 3/23/21",
+      description: "Factoring, root solving, and distribution",
+      route: "/blog/daily-posts/3-23-21",
+      date: "3/22/2021",
+      image: blog6,
+    },
+    {
+      id: 2,
+      title: "Daily Calculus 3/22/21",
+      description:
+        "Solving limits, finding the derivative by definition, and determining the antiderivative",
+      route: "/blog/daily-posts/3-22-21",
+      date: "3/22/2021",
+      image: blog5,
+    },
+    {
+      id: 3,
       title: "Families in Lockdown",
       description:
         "How lockdown is impacting families and revealing gender inequality",
@@ -29,7 +49,7 @@ export const Blog: React.FC = () => {
       image: blog4,
     },
     {
-      id: 2,
+      id: 4,
       title: "The Online Inequality",
       description:
         "Is online education accessible for the Americans who need it?",
@@ -38,7 +58,7 @@ export const Blog: React.FC = () => {
       image: blog3,
     },
     {
-      id: 3,
+      id: 5,
       title: "The Role Tutoring Will Play",
       description:
         "What can we expect from the future of the online tutoring industry?",
@@ -47,7 +67,7 @@ export const Blog: React.FC = () => {
       image: blog2,
     },
     {
-      id: 4,
+      id: 6,
       title: "Mathematics in the Pandemic",
       description: "How have our students been affected by the pandemic?",
       route: "/blog/math-in-the-pandemic",

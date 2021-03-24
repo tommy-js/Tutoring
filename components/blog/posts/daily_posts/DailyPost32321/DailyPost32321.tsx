@@ -20,16 +20,18 @@ export const DailyPost32321: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>Header</h1>
-      <h2 className={styles.subheader}>Posted on [date]</h2>
+      <h1 className={styles.header}>
+        Algebra | factoring, root finding & distribution
+      </h1>
+      <h2 className={styles.subheader}>Posted on 3/23/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/bfDO_iSIHCs"
-          loop={true}
-          playing={true}
-          controls={false}
-          volume={0}
-          muted={true}
+          url="https://youtu.be/FH3NfH5vWa4"
+          loop={false}
+          playing={false}
+          controls={true}
+          volume={100}
+          muted={false}
           width={"100%"}
           className={styles.player}
         />
