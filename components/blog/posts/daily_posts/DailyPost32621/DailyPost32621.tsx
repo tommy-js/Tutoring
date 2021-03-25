@@ -12,6 +12,8 @@ export const DailyPost32621: React.FC = () => {
   const problem1_option3 = "1.06(129.99x)+10";
   const problem1_option4 = "129.99(1.06x + 10)";
 
+  const solution1_1 = "1.06(129.99x)";
+
   const problem2_1 = "-\\frac{3}{5}<-2x+4<\\frac{2}{6}";
   const problem2_2 = "-6x+12";
   const solution2_1 = "-\\frac{9}{5}<-6x+12<1";
@@ -28,16 +30,16 @@ export const DailyPost32621: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>Header</h1>
-      <h2 className={styles.subheader}>Posted on [date]</h2>
+      <h1 className={styles.header}>SAT Prep | word problems & inequalities</h1>
+      <h2 className={styles.subheader}>Posted on 3/26/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/bfDO_iSIHCs"
-          loop={true}
-          playing={true}
-          controls={false}
-          volume={0}
-          muted={true}
+          url="https://youtu.be/KeaWqKhP_-Q"
+          loop={false}
+          playing={false}
+          controls={true}
+          volume={100}
+          muted={false}
           width={"100%"}
           className={styles.player}
         />
@@ -48,7 +50,7 @@ export const DailyPost32621: React.FC = () => {
           <div className={styles.problem_header}>
             1. James is staying at a motel that charges $129.99 per night plus
             tax. A tax of 6% is applied to the cost per night, and an additional
-            onetime untaxed fee of $10.00 is charged by the motel. Which of the
+            one-time untaxed fee of $10.00 is charged by the motel. Which of the
             following represents the total charge, in dollars, James must pay
             for staying x nights?
           </div>
@@ -69,7 +71,17 @@ export const DailyPost32621: React.FC = () => {
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
             <div className={styles.solution}>
-              <p className={styles.text}></p>
+              <p className={styles.text}>
+                The best way to solve these type of problems is to piece them
+                together line by line. We know that a tax of 6% is charged to
+                the cost per night, which is $129.99. So, this means that the
+                motel will charge James <InlineMath>{solution1_1}</InlineMath>,
+                where x represents the number of nights stayed. Then, there is
+                the one-time fee which we must tack on to the final cost. Note
+                that this fee is untaxed, so our final answer is that James must
+                pay a total of <InlineMath>{problem1_option3}</InlineMath> for
+                his stay.
+              </p>
               <p className={styles.text}></p>
               <p className={styles.text}></p>
               <p className={styles.text}></p>
@@ -99,12 +111,12 @@ export const DailyPost32621: React.FC = () => {
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            A company’s CEO estimated that the cost C, in dollars, of producing
-            x items is C=12x+125. The company sells each item for $17. The
-            company makes a profit when total income from selling a quantity of
-            items is greater than the total cost of producing that quantity of
-            items. Which of the following inequalities gives all possible values
-            of n for which the manager estimates that the company will make a
+            3. A company’s CEO estimated that the cost C, in dollars, of
+            producing x items is C=12x+125. The company sells each item for $17.
+            The company makes a profit when total income from selling a quantity
+            of items is greater than the total cost of producing that quantity
+            of items. Which of the following inequalities gives all possible
+            values of n for which the CEO estimates that the company will make a
             profit?
           </div>
           <ol className={styles.multiple_choice}>
