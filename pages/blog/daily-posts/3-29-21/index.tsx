@@ -7,7 +7,7 @@ export default function DailyPost32921Page() {
   return (
     <div>
       <Head>
-        <title>Daily algebra 3/29/21 | Functional Tutoring</title>
+        <title>Daily Algebra 3/29/21 | Functional Tutoring</title>
         <meta
           name="description"
           content="Assorted algebra problems to get you through the year"
