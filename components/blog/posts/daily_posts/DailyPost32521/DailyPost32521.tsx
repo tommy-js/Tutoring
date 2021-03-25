@@ -24,16 +24,19 @@ export const DailyPost32521: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>Header</h1>
-      <h2 className={styles.subheader}>Posted on [date]</h2>
+      <h1 className={styles.header}>
+        Daily Pre-Calc | logarithmic equations, complex simplification &
+        imaginary roots
+      </h1>
+      <h2 className={styles.subheader}>Posted on 3/25/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/bfDO_iSIHCs"
-          loop={true}
-          playing={true}
-          controls={false}
-          volume={0}
-          muted={true}
+          url="https://youtu.be/Ur9ZPyWuxqk"
+          loop={false}
+          playing={false}
+          controls={true}
+          volume={100}
+          muted={false}
           width={"100%"}
           className={styles.player}
         />

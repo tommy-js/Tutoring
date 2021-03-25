@@ -10,16 +10,26 @@ const blog4 = require("../../../public/blogs/parent.jpg");
 const blog5 = require("../../../public/blogs/calc_header.png");
 const blog6 = require("../../../public/blogs/algebra_header.png");
 const blog7 = require("../../../public/blogs/arithmetic_header.png");
+const blog8 = require("../../../public/blogs/precalc_header.png");
 
 export const Blog: React.FC = () => {
   const blog_posts = [
+    {
+      id: 0,
+      title: "Daily Pre-Calc 3/25/21",
+      description:
+        "Logarithmic equations, complex simplification & imaginary roots",
+      route: "/blog/daily-posts/3-25-21",
+      date: "3/25/2021",
+      image: blog8,
+    },
     {
       id: 0,
       title: "Daily Arithmetic 3/24/21",
       description:
         "Simplification of simple expressions, fractional multiplication and fractional division",
       route: "/blog/daily-posts/3-24-21",
-      date: "3/22/2021",
+      date: "3/24/2021",
       image: blog7,
     },
     {
@@ -27,7 +37,7 @@ export const Blog: React.FC = () => {
       title: "Daily Algebra 3/23/21",
       description: "Factoring, root solving, and distribution",
       route: "/blog/daily-posts/3-23-21",
-      date: "3/22/2021",
+      date: "3/23/2021",
       image: blog6,
     },
     {
