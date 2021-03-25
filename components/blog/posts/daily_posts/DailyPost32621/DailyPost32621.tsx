@@ -22,6 +22,10 @@ export const DailyPost32621: React.FC = () => {
   const problem3_option3 = "x>10";
   const problem3_option4 = "x>25";
 
+  const solution3_1 = "17x > 12x + 125";
+  const solution3_2 = "5x > 125";
+  const solution3_3 = "x > 25";
+
   return (
     <div className={styles.daily_post}>
       <h1 className={styles.header}>Header</h1>
@@ -120,10 +124,19 @@ export const DailyPost32621: React.FC = () => {
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
             <div className={styles.solution}>
-              <p className={styles.text}>We first see that </p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
+              <p className={styles.text}>
+                The first thing we need to do is rewrite this as a solvable
+                equation. We see that we need to find a value x for which 17x is
+                greater than 12x+125. Rewriting this, we have that we need to
+                solve x for <InlineMath>{solution3_1}</InlineMath>.
+              </p>
+              <p className={styles.text}>
+                Now finding the solution is a matter of simply solving.
+                Subtracting 12x from both sides, we get that{" "}
+                <InlineMath>{solution3_2}</InlineMath>. Now, dividing both sides
+                by 5, <InlineMath>{solution3_3}</InlineMath>. So, answer 4 is
+                correct.
+              </p>
             </div>
           </div>
         </div>
