@@ -12,11 +12,20 @@ const blog6 = require("../../../public/blogs/algebra_header.png");
 const blog7 = require("../../../public/blogs/arithmetic_header.png");
 const blog8 = require("../../../public/blogs/precalc_header.png");
 const blog9 = require("../../../public/blogs/sat_header.png");
+const blog10 = require("../../../public/blogs/calc_header_3_27_21.png");
 
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
       id: 0,
+      title: "Calculus 3/27/21",
+      description: "Derivatives, Limits & Continuity",
+      route: "/blog/daily-posts/3-27-21",
+      date: "3/27/2021",
+      image: blog10,
+    },
+    {
+      id: 1,
       title: "Daily Sat Prep 3/26/21",
       description: "word problems & inequalities",
       route: "/blog/daily-posts/3-26-21",
@@ -24,7 +33,7 @@ export const Blog: React.FC = () => {
       image: blog9,
     },
     {
-      id: 1,
+      id: 2,
       title: "Daily Pre-Calc 3/25/21",
       description:
         "Logarithmic equations, complex simplification & imaginary roots",
@@ -33,7 +42,7 @@ export const Blog: React.FC = () => {
       image: blog8,
     },
     {
-      id: 2,
+      id: 3,
       title: "Daily Arithmetic 3/24/21",
       description:
         "Simplification of simple expressions, fractional multiplication and fractional division",
@@ -42,7 +51,7 @@ export const Blog: React.FC = () => {
       image: blog7,
     },
     {
-      id: 3,
+      id: 4,
       title: "Daily Algebra 3/23/21",
       description: "Factoring, root solving, and distribution",
       route: "/blog/daily-posts/3-23-21",
@@ -50,7 +59,7 @@ export const Blog: React.FC = () => {
       image: blog6,
     },
     {
-      id: 4,
+      id: 5,
       title: "Daily Calculus 3/22/21",
       description:
         "Solving limits, finding the derivative by definition, and determining the antiderivative",
@@ -59,7 +68,7 @@ export const Blog: React.FC = () => {
       image: blog5,
     },
     {
-      id: 5,
+      id: 6,
       title: "Families in Lockdown",
       description:
         "How lockdown is impacting families and revealing gender inequality",
@@ -68,7 +77,7 @@ export const Blog: React.FC = () => {
       image: blog4,
     },
     {
-      id: 6,
+      id: 7,
       title: "The Online Inequality",
       description:
         "Is online education accessible for the Americans who need it?",
@@ -77,7 +86,7 @@ export const Blog: React.FC = () => {
       image: blog3,
     },
     {
-      id: 7,
+      id: 8,
       title: "The Role Tutoring Will Play",
       description:
         "What can we expect from the future of the online tutoring industry?",
@@ -86,7 +95,7 @@ export const Blog: React.FC = () => {
       image: blog2,
     },
     {
-      id: 8,
+      id: 9,
       title: "Mathematics in the Pandemic",
       description: "How have our students been affected by the pandemic?",
       route: "/blog/math-in-the-pandemic",

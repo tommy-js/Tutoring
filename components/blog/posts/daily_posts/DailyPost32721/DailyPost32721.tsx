@@ -31,20 +31,10 @@ export const DailyPost32721: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>Header</h1>
-      <h2 className={styles.subheader}>Posted on [date]</h2>
-      <div className={styles.video_block}>
-        <ReactPlayer
-          url="https://youtu.be/bfDO_iSIHCs"
-          loop={true}
-          playing={true}
-          controls={false}
-          volume={0}
-          muted={true}
-          width={"100%"}
-          className={styles.player}
-        />
-      </div>
+      <h1 className={styles.header}>
+        Calculus | Derivatives, Limits & Continuity
+      </h1>
+      <h2 className={styles.subheader}>Posted on 3/27/21</h2>
       <div className={styles.solutions_block}>
         <h3 className={styles.solutions_header}>Problems & Solutions</h3>
         <div className={styles.problem}>
