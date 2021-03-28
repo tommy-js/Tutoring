@@ -13,16 +13,17 @@ const blog7 = require("../../../public/blogs/arithmetic_header.png");
 const blog8 = require("../../../public/blogs/precalc_header.png");
 const blog9 = require("../../../public/blogs/sat_header.png");
 const blog10 = require("../../../public/blogs/3-27-21/calc_header_3_27_21.png");
+const blog11 = require("../../../public/blogs/3-28-21/arithmetic_header.png");
 
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
       id: 0,
       title: "Arithmetic 3/28/21",
-      description: "Derivatives, Limits & Continuity",
-      route: "/blog/daily-posts/3-27-21",
+      description: "Simplification, Multiplication & Long Division",
+      route: "/blog/daily-posts/3-28-21",
       date: "3/28/2021",
-      image: blog10,
+      image: blog11,
     },
     {
       id: 1,
