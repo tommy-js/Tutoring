@@ -33,12 +33,12 @@ export const DailyPost32921: React.FC = () => {
   return (
     <div className={styles.daily_post}>
       <h1 className={styles.header}>
-        Algebra | solving exponential equations, series & Binomial Theorem
+        Algebra | Solving Exponential Equations, Series & Binomial Theorem
       </h1>
       <h2 className={styles.subheader}>Posted on 3/29/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/FH3NfH5vWa4"
+          url="https://youtu.be/WHsVN9WSqII"
           loop={false}
           playing={false}
           controls={true}
