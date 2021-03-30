@@ -15,9 +15,21 @@ const blog9 = require("../../../public/blogs/sat_header.png");
 const blog10 = require("../../../public/blogs/3-27-21/calc_header_3_27_21.png");
 const blog11 = require("../../../public/blogs/3-28-21/arithmetic_header.png");
 const algebra_header = require("../../../public/blogs/Algebra_Thumbnail.png");
+const precalc_header = require("../../../public/blogs/Precalculus_Thumbnail.png");
+const sat_header = require("../../../public/blogs/SAT_Thumbnail.png");
+const calculus_header = require("../../../public/blogs/Calculus_Thumbnail.png");
 
 export const Blog: React.FC = () => {
   const blog_posts = [
+    {
+      id: 0,
+      title: "Precalculus 3/30/21",
+      description:
+        "Series Convergence, Trigonometric Equations & Function Domains domains",
+      route: "/blog/daily-posts/3-30-21",
+      date: "3/30/2021",
+      image: precalc_header,
+    },
     {
       id: 0,
       title: "Algebra 3/29/21",

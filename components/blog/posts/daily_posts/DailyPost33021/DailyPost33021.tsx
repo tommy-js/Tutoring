@@ -34,13 +34,13 @@ export const DailyPost33021: React.FC = () => {
   return (
     <div className={styles.daily_post}>
       <h1 className={styles.header}>
-        Pre-Calc | series convergence, trigonometric equations & function
-        domains
+        Pre-Calc | Series Convergence, Trigonometric Equations & Function
+        Domains domains
       </h1>
       <h2 className={styles.subheader}>Posted on 3/30/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/FH3NfH5vWa4"
+          url="https://youtu.be/oO7GhWrdAwU"
           loop={false}
           playing={false}
           controls={true}

@@ -19,11 +19,11 @@ export const DailyPost33121: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>SAT Prep | word problems</h1>
+      <h1 className={styles.header}>SAT Prep | Word Problems</h1>
       <h2 className={styles.subheader}>Posted on 3/31/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/FH3NfH5vWa4"
+          url="https://youtu.be/LgYmGkCuPTQ"
           loop={false}
           playing={false}
           controls={true}
@@ -39,7 +39,7 @@ export const DailyPost33121: React.FC = () => {
           <div className={styles.problem_header}>
             1. The recommended daily potassium intake for an adult is roughly
             4,000 milligrams. One banana contains 422 mg of potassium and one
-            egg contains 63 mg of calcium. Which of the following inequalities
+            egg contains 63 mg of potassium. Which of the following inequalities
             represents the possible number of bananas b and eggs e an adult
             could have daily to meet the recommended daily potassium intake from
             these foods alone?
