@@ -1,6 +1,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import { BlockMath, InlineMath } from "react-katex";
+import { SignUpEmailForm } from "../SignUpEmailForm/SignUpEmailForm";
 import styles from "./styles.module.scss";
 import "katex/dist/katex.min.css";
 
@@ -155,7 +156,7 @@ export const DailyPost33121: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className={styles.bottom_div} />
+      <SignUpEmailForm />
     </div>
   );
 };

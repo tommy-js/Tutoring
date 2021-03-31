@@ -8,6 +8,16 @@
   @include general_font;
 }
 
+.link_element:hover {
+  border-bottom: 1px solid $purple;
+  transition: 0.2s;
+}
+
+.link_element:hover .image_block {
+  border: 1px solid $purple;
+  transition: 0.2s;
+}
+
 .link_element:hover .text_block {
   color: $blue;
   transition: 0.2s;

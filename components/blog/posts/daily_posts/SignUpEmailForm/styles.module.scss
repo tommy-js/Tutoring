@@ -1,0 +1,37 @@
+@import "../../../../globals/variables.scss";
+
+.sign_up_email_form {
+  color: $graphite;
+  margin-bottom: 150px;
+}
+
+.header {
+  text-align: center;
+  font-size: 26px;
+}
+
+.subheader {
+  text-align: center;
+  font-size: 22px;
+}
+
+.name,
+.email {
+  display: block;
+  width: 225px;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid $graphite;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.button {
+  @include button;
+}
+
+.button:hover {
+  @include hover;
+}

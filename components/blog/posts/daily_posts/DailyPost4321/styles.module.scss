@@ -41,39 +41,8 @@
 
 .problem_header {
   font-size: 20px;
-  line-height: 165%;
-}
-
-.multiple_choice {
-  line-height: 165%;
 }
 
 .bottom_div {
   margin-bottom: 75px;
-}
-
-@media only screen and (max-width: 900px) {
-  .daily_post {
-    width: 95%;
-  }
-
-  .header {
-    font-size: 20px;
-  }
-
-  .subheader {
-    font-size: 16px;
-  }
-
-  .problem_header {
-    font-size: 18px;
-  }
-
-  .text {
-    font-size: 16px;
-  }
-
-  .video_block {
-    width: 100%;
-  }
 }
