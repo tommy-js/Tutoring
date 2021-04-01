@@ -36,8 +36,10 @@ export const DailyPost4221: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>Arithmetic </h1>
-      <h2 className={styles.subheader}>Posted on 3/31/21</h2>
+      <h1 className={styles.header}>
+        Arithmetic | Greatest Common Divisor, Squaring & Square Rooting
+      </h1>
+      <h2 className={styles.subheader}>Posted on 4/2/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
           url="https://youtu.be/LgYmGkCuPTQ"
@@ -62,8 +64,8 @@ export const DailyPost4221: React.FC = () => {
               <p className={styles.text}>
                 What we need to do here is find all the values that divide 34
                 and 68. Then we will compare these values to find the largest
-                one, which will be our greatest common denominator. So, for 34
-                we know that it is divisible by 2 and 17. Now, we don't need to
+                one, which will be our greatest common devisor. So, for 34 we
+                know that it is divisible by 2 and 17. Now, we don't need to
                 find all the divisors of 68 because we're only looking for terms
                 that divide both numbers. We only need to test the numbers that
                 divide 34.

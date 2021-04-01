@@ -27,8 +27,10 @@ export const DailyPost4521: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>SAT Prep</h1>
-      <h2 className={styles.subheader}>Posted on 3/31/21</h2>
+      <h1 className={styles.header}>
+        SAT Prep | Equation Solving, Imaginary Numbers & System of Equations
+      </h1>
+      <h2 className={styles.subheader}>Posted on 4/5/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
           url="https://youtu.be/LgYmGkCuPTQ"

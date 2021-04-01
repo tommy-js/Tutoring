@@ -23,7 +23,7 @@ export const SignUpEmailForm = () => {
         <input
           id="message"
           name="personal-name"
-          placeholder="Your name"
+          placeholder="name"
           className={styles.name}
         />
         <ValidationError

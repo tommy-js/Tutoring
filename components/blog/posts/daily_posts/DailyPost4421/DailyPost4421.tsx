@@ -33,8 +33,10 @@ export const DailyPost4421: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>Precalculus</h1>
-      <h2 className={styles.subheader}>Posted on 3/31/21</h2>
+      <h1 className={styles.header}>
+        Precalculus | Function Composition, Complex Roots & Function Inverses
+      </h1>
+      <h2 className={styles.subheader}>Posted on 4/4/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
           url="https://youtu.be/LgYmGkCuPTQ"
