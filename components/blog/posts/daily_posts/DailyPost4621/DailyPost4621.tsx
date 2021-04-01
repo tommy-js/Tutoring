@@ -43,9 +43,9 @@ export const DailyPost4621: React.FC = () => {
         <h3 className={styles.solutions_header}>Problems & Solutions</h3>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            Use the Intermediate Value Theorem to determine whether or not there
-            is a solution to the function <InlineMath>{problem1}</InlineMath>{" "}
-            between x=-5 and x=6.
+            1. Use the Intermediate Value Theorem to determine whether or not
+            there is a solution to the function{" "}
+            <InlineMath>{problem1}</InlineMath> between x=-5 and x=6.
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
@@ -68,7 +68,7 @@ export const DailyPost4621: React.FC = () => {
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            Find the local maximum and minimum of the function{" "}
+            2. Find the local maximum and minimum of the function{" "}
             <InlineMath>{problem2}</InlineMath> using derivatives.{" "}
           </div>
           <div className={styles.problem_solution}>
@@ -99,7 +99,7 @@ export const DailyPost4621: React.FC = () => {
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            Determine the inflection points of the function{" "}
+            3. Determine the inflection points of the function{" "}
             <InlineMath>{problem3}</InlineMath>
           </div>
           <div className={styles.problem_solution}>

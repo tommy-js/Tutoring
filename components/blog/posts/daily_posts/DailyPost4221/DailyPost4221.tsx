@@ -54,7 +54,7 @@ export const DailyPost4221: React.FC = () => {
         <h3 className={styles.solutions_header}>Problems & Solutions</h3>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            Find the greatest common factor of 34 and 68.
+            1. Find the greatest common factor of 34 and 68.
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
@@ -78,7 +78,7 @@ export const DailyPost4221: React.FC = () => {
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            Determine <InlineMath>{problem2_1}</InlineMath>,{" "}
+            2. Determine <InlineMath>{problem2_1}</InlineMath>,{" "}
             <InlineMath>{problem2_2}</InlineMath>,{" "}
             <InlineMath>{problem2_3}</InlineMath>, and{" "}
             <InlineMath>{problem2_4}</InlineMath>.
@@ -120,7 +120,7 @@ export const DailyPost4221: React.FC = () => {
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            Determine <InlineMath>{problem3_1}</InlineMath>,{" "}
+            3. Determine <InlineMath>{problem3_1}</InlineMath>,{" "}
             <InlineMath>{problem3_2}</InlineMath>,{" "}
             <InlineMath>{problem3_3}</InlineMath>, and{" "}
             <InlineMath>{problem3_4}</InlineMath>.

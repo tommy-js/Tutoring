@@ -45,8 +45,8 @@ export const DailyPost4521: React.FC = () => {
         <h3 className={styles.solutions_header}>Problems & Solutions</h3>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            If <InlineMath>{problem1}</InlineMath> and t=5, what is the value of
-            x?
+            1. If <InlineMath>{problem1}</InlineMath> and t=5, what is the value
+            of x?
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
@@ -64,8 +64,8 @@ export const DailyPost4521: React.FC = () => {
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            For <InlineMath>{problem2_1}</InlineMath>, what is the value of the
-            expression <InlineMath>{problem2_2}</InlineMath>?
+            2. For <InlineMath>{problem2_1}</InlineMath>, what is the value of
+            the expression <InlineMath>{problem2_2}</InlineMath>?
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
@@ -81,7 +81,7 @@ export const DailyPost4521: React.FC = () => {
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            Find the solution (x,y) to the system of equations{" "}
+            3. Find the solution (x,y) to the system of equations{" "}
             <InlineMath>{problem3_1}</InlineMath> and{" "}
             <InlineMath>{problem3_2}</InlineMath>.
           </div>

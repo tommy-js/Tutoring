@@ -34,11 +34,13 @@ export const DailyPost4121: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>Calculus | Continuity, </h1>
-      <h2 className={styles.subheader}>Posted on 3/31/21</h2>
+      <h1 className={styles.header}>
+        Calculus | Continuity, Derivatives & Radius of Convergence
+      </h1>
+      <h2 className={styles.subheader}>Posted on 4/1/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/LgYmGkCuPTQ"
+          url="https://youtu.be/ANUESSEGBug"
           loop={false}
           playing={false}
           controls={true}
@@ -52,7 +54,7 @@ export const DailyPost4121: React.FC = () => {
         <h3 className={styles.solutions_header}>Problems & Solutions</h3>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            For which values of x is the function{" "}
+            1. For which values of x is the function{" "}
             <InlineMath>{problem1}</InlineMath> continuous?
           </div>
           <div className={styles.problem_solution}>
@@ -72,7 +74,7 @@ export const DailyPost4121: React.FC = () => {
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            Take the derivative of <InlineMath>{problem2}</InlineMath>.
+            2. Take the derivative of <InlineMath>{problem2}</InlineMath>.
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
@@ -94,7 +96,7 @@ export const DailyPost4121: React.FC = () => {
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            Calculate the radius of convergence of the power series{" "}
+            3. Calculate the radius of convergence of the power series{" "}
             <InlineMath>{problem3}</InlineMath>.
           </div>
           <div className={styles.problem_solution}>

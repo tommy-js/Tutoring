@@ -51,7 +51,7 @@ export const DailyPost4421: React.FC = () => {
         <h3 className={styles.solutions_header}>Problems & Solutions</h3>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            If <InlineMath>{problem1_1}</InlineMath> and{" "}
+            1. If <InlineMath>{problem1_1}</InlineMath> and{" "}
             <InlineMath>{problem1_2}</InlineMath>, find{" "}
             <InlineMath>{problem1_3}</InlineMath>
           </div>
@@ -71,7 +71,7 @@ export const DailyPost4421: React.FC = () => {
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            Find all the complex roots of the function{" "}
+            2. Find all the complex roots of the function{" "}
             <InlineMath>{problem2}</InlineMath>.
           </div>
           <div className={styles.problem_solution}>
@@ -100,7 +100,7 @@ export const DailyPost4421: React.FC = () => {
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            Determine if the inverse of the function{" "}
+            3. Determine if the inverse of the function{" "}
             <InlineMath>{problem3}</InlineMath> is also a function.
           </div>
           <div className={styles.problem_solution}>

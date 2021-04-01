@@ -49,7 +49,7 @@ export const DailyPost4321: React.FC = () => {
         <h3 className={styles.solutions_header}>Problems & Solutions</h3>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            Solve <InlineMath>{problem1}</InlineMath> for x.
+            1. Solve <InlineMath>{problem1}</InlineMath> for x.
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
@@ -85,7 +85,7 @@ export const DailyPost4321: React.FC = () => {
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            Simplify the expression <InlineMath>{problem2}</InlineMath>
+            2. Simplify the expression <InlineMath>{problem2}</InlineMath>
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
@@ -112,7 +112,7 @@ export const DailyPost4321: React.FC = () => {
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            Calculate <InlineMath>{problem3_1}</InlineMath>,{" "}
+            3. Calculate <InlineMath>{problem3_1}</InlineMath>,{" "}
             <InlineMath>{problem3_2}</InlineMath>, and
             <InlineMath>{problem3_3}</InlineMath>.
           </div>
