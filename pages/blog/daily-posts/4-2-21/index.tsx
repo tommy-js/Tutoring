@@ -7,10 +7,12 @@ export default function DailyPost4221Page() {
   return (
     <div>
       <Head>
-        <title>Daily Arithmetic 4/2/21 | Functional Tutoring</title>
+        <title>
+          Daily Arithmetic | Greatest Common Divisor, Squaring & Square Rooting
+        </title>
         <meta
           name="description"
-          content="Assorted arithmetic problems to get you through the year"
+          content="Find the greatest common divisor, take squares and square roots of numbers"
         />
       </Head>
       <Navbar />

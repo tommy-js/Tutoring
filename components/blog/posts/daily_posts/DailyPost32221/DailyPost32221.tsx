@@ -26,7 +26,7 @@ export const DailyPost32221: React.FC = () => {
   return (
     <div className={styles.daily_post}>
       <h1 className={styles.header}>
-        Calculus 1 | limits, derivatives & antiderivatives
+        Calculus 1 | Limits, Derivatives & Antiderivatives
       </h1>
       <h2 className={styles.subheader}>Posted on 3/22/21</h2>
       <div className={styles.video_block}>

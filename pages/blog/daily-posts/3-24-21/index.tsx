@@ -7,10 +7,13 @@ export default function DailyPost32421Page() {
   return (
     <div>
       <Head>
-        <title>Daily Arithmetic 3/24/21 | Functional Tutoring</title>
+        <title>
+          Daily Arithmetic | Simple Expressions, Fractional Multiplication &
+          Division
+        </title>
         <meta
           name="description"
-          content="Assorted arithmetic problems to get you through the year"
+          content="Learn how to solve simple equations and multiply and divide fractions."
         />
       </Head>
       <Navbar />

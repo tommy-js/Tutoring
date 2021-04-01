@@ -7,10 +7,12 @@ export default function DailyPost4121Page() {
   return (
     <div>
       <Head>
-        <title>Daily Calculus 4/1/21 | Functional Tutoring</title>
+        <title>
+          Daily Calculus | Continuity, Derivatives & Radius of Convergence
+        </title>
         <meta
           name="description"
-          content="Assorted calculus I problems to get you through the semester"
+          content="Determine the continuity of a function, take derivatives, and find a series' radius of convergence."
         />
       </Head>
       <Navbar />

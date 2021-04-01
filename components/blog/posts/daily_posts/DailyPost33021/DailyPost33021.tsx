@@ -34,8 +34,8 @@ export const DailyPost33021: React.FC = () => {
   return (
     <div className={styles.daily_post}>
       <h1 className={styles.header}>
-        Pre-Calc | Series Convergence, Trigonometric Equations & Function
-        Domains domains
+        Precalculus | Series Convergence, Trigonometric Equations & Function
+        Domains
       </h1>
       <h2 className={styles.subheader}>Posted on 3/30/21</h2>
       <div className={styles.video_block}>

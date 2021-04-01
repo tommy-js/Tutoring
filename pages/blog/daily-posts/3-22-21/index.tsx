@@ -7,10 +7,10 @@ export default function DailyPost32221Page() {
   return (
     <div>
       <Head>
-        <title>Daily Calculus 3/22/21 | Functional Tutoring</title>
+        <title>Daily Calculus | Limits, Derivatives & Antiderivatives</title>
         <meta
           name="description"
-          content="Assorted calculus problems to get you through your semester"
+          content="Review the concepts of limits, derivatives and antiderivatives in this daily problem set."
         />
       </Head>
       <Navbar />

@@ -7,10 +7,13 @@ export default function DailyPost32421Page() {
   return (
     <div>
       <Head>
-        <title>Daily Pre-Calc 3/25/21 | Functional Tutoring</title>
+        <title>
+          Daily Pre-Calc | Logarithmic Equations, Complex Simplification &
+          Imaginary Roots
+        </title>
         <meta
           name="description"
-          content="Assorted pre-calc problems to get you through your semester"
+          content="Solve logarithmic equations, simplify complex numbers and find imaginary roots."
         />
       </Head>
       <Navbar />

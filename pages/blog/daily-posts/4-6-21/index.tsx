@@ -7,10 +7,13 @@ export default function DailyPost4621Page() {
   return (
     <div>
       <Head>
-        <title>Daily Calculus 4/6/21 | Functional Tutoring</title>
+        <title>
+          Daily Calculus | Intermediate Value Theorem, Maximums & Minimums &
+          Inflection Points
+        </title>
         <meta
           name="description"
-          content="Assorted calculus I problems to get you through the semester"
+          content="Review the Intermediate Value Theorem, find function max and mins, and find inflection points."
         />
       </Head>
       <Navbar />

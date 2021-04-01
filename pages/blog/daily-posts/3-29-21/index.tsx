@@ -7,10 +7,13 @@ export default function DailyPost32921Page() {
   return (
     <div>
       <Head>
-        <title>Daily Algebra 3/29/21 | Functional Tutoring</title>
+        <title>
+          Daily Algebra | Solving Exponential Equations, Series & Binomial
+          Theorem
+        </title>
         <meta
           name="description"
-          content="Assorted algebra problems to get you through the year"
+          content="Solve exponential equations, work with series and use the Binomial Theorem."
         />
       </Head>
       <Navbar />

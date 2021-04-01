@@ -7,10 +7,12 @@ export default function DailyPost4321Page() {
   return (
     <div>
       <Head>
-        <title>Daily Algebra 4/3/21 | Functional Tutoring</title>
+        <title>
+          Daily Algebra | Root Solving, Expression Simplification & Factorials
+        </title>
         <meta
           name="description"
-          content="Assorted algebra problems to get you through the year"
+          content="Solve for roots, simplify expressions, and take factorials with Functional Tutoring."
         />
       </Head>
       <Navbar />

@@ -7,10 +7,10 @@ export default function DailyPost32421Page() {
   return (
     <div>
       <Head>
-        <title>Daily Sat Prep 3/26/21 | Functional Tutoring</title>
+        <title>Daily Sat Prep | Word Problems & Inequalities</title>
         <meta
           name="description"
-          content="Assorted algebra problems to get you through your semester"
+          content="Solve word problems and inequalities in today's problem set with Functional Tutoring."
         />
       </Head>
       <Navbar />

@@ -7,10 +7,13 @@ export default function DailyPost4421Page() {
   return (
     <div>
       <Head>
-        <title>Daily Pre-Calc 4/4/21 | Functional Tutoring</title>
+        <title>
+          Daily Precalculus | Function Composition, Complex Roots & Function
+          Inverses
+        </title>
         <meta
           name="description"
-          content="Assorted pre-calc problems to get you through the year"
+          content="Perform function composition, find complex roots, and find function inverses."
         />
       </Head>
       <Navbar />

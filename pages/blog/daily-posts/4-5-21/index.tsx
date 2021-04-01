@@ -7,10 +7,13 @@ export default function DailyPost4521Page() {
   return (
     <div>
       <Head>
-        <title>Daily SAT Prep 4/5/21 | Functional Tutoring</title>
+        <title>
+          Daily SAT Prep | Equation Solving, Imaginary Numbers & System of
+          Equations
+        </title>
         <meta
           name="description"
-          content="Assorted SAT prep problems to get you through the year"
+          content="Solve simple equations, get up to speed with imaginary numbers, and solve a system of equations."
         />
       </Head>
       <Navbar />

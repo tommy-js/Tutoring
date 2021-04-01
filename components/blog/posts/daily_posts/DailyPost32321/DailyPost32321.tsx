@@ -21,7 +21,7 @@ export const DailyPost32321: React.FC = () => {
   return (
     <div className={styles.daily_post}>
       <h1 className={styles.header}>
-        Algebra | factoring, root finding & distribution
+        Algebra | Factoring, Root Finding & Distribution
       </h1>
       <h2 className={styles.subheader}>Posted on 3/23/21</h2>
       <div className={styles.video_block}>

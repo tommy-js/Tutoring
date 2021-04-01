@@ -26,7 +26,7 @@ export const DailyPost32421: React.FC = () => {
   return (
     <div className={styles.daily_post}>
       <h1 className={styles.header}>
-        Arithmetic | simple expressions, fractional multiplication & division
+        Arithmetic | Simple Expressions, Fractional Multiplication & Division
       </h1>
       <h2 className={styles.subheader}>Posted on 3/24/21</h2>
       <div className={styles.video_block}>

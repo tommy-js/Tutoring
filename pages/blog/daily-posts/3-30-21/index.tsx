@@ -7,10 +7,13 @@ export default function DailyPost33021Page() {
   return (
     <div>
       <Head>
-        <title>Daily Pre-Calc 3/30/21 | Functional Tutoring</title>
+        <title>
+          Daily Precalculus | Series Convergence, Trigonometric Equations &
+          Function Domains
+        </title>
         <meta
           name="description"
-          content="Assorted pre-calc problems to get you through the year"
+          content="Determine whether a series converges, work with trig equations and find the function domain."
         />
       </Head>
       <Navbar />

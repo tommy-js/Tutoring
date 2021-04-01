@@ -7,10 +7,10 @@ export default function DailyPost32321Page() {
   return (
     <div>
       <Head>
-        <title>Daily Algebra 3/23/21 | Functional Tutoring</title>
+        <title>Daily Algebra | Factoring, Root Finding & Distribution</title>
         <meta
           name="description"
-          content="Assorted algebra problems to get you through your semester"
+          content="Go over factoring, finding roots, and distributing equations at Functional Tutoring."
         />
       </Head>
       <Navbar />

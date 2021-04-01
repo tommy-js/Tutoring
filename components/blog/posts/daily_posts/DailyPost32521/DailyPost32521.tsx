@@ -25,8 +25,8 @@ export const DailyPost32521: React.FC = () => {
   return (
     <div className={styles.daily_post}>
       <h1 className={styles.header}>
-        Daily Pre-Calc | logarithmic equations, complex simplification &
-        imaginary roots
+        Daily Pre-Calc | Logarithmic Equations, Complex Simplification &
+        Imaginary Roots
       </h1>
       <h2 className={styles.subheader}>Posted on 3/25/21</h2>
       <div className={styles.video_block}>
