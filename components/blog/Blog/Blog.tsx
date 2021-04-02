@@ -24,7 +24,7 @@ export const Blog: React.FC = () => {
     {
       id: 0,
       title: "Calculus 4/1/21",
-      description: "Greatest Common Divisor, Squaring & Square Rooting",
+      description: "Continuity, Derivatives & Radius of Convergence",
       route: "/blog/daily-posts/4-1-21",
       date: "4/1/2021",
       image: calculus_header,
