@@ -55,6 +55,10 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .why_me {
+    width: 95%;
+  }
+
   .header {
     @include header_mobile;
     color: $gold;

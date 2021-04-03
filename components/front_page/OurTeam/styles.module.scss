@@ -115,6 +115,14 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .our_team {
+    width: 95%;
+  }
+
+  .button {
+    display: none;
+  }
+
   .title_card {
     margin-top: 50px;
   }

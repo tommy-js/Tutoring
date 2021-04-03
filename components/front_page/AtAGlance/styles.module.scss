@@ -71,6 +71,10 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .at_a_glance {
+    width: 95%;
+  }
+
   .header {
     @include header_mobile;
   }
@@ -79,9 +83,31 @@
     font-size: 16px;
   }
 
+  .image_block {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 15%;
+    max-width: 50px;
+    margin-right: 5px;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .list_descript {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 75%;
+    margin-left: 5px;
+    font-size: 14px;
+    vertical-align: top;
+  }
+
   .link {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 165%;
     color: $blue;
     transition: 0.2s;

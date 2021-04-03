@@ -6,7 +6,7 @@ const phone = require("../../../public/phone.png");
 export const Phone: React.FC = () => {
   return (
     <div className={styles.phone}>
-      <h2 className={styles.header}>Don't want to wait? Call me</h2>
+      <h2 className={styles.header}>Don't want to wait? Call me:</h2>
       <div className={styles.image_link_tie}>
         <div className={styles.image_block}>
           <img src={phone} className={styles.image} />

@@ -11,3 +11,9 @@
 .card {
   width: 100%;
 }
+
+@media only screen and (max-width: 900px) {
+  .sat_card {
+    width: 100%;
+  }
+}

@@ -38,3 +38,36 @@
 .button:hover {
   @include hover;
 }
+
+@media only screen and (max-width: 900px) {
+  .sign_up_email_form {
+    color: $graphite;
+    margin-bottom: 50px;
+  }
+
+  .header {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  .subheader {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: normal;
+  }
+
+  .name,
+  .email {
+    display: block;
+    width: 225px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid $graphite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+}
