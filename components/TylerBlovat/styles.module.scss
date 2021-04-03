@@ -1,0 +1,175 @@
+@import "../globals/variables.scss";
+
+.tyler_blovat {
+  margin-top: 75px;
+  color: $graphite;
+}
+
+.profile,
+.head_block,
+.education_block,
+.contact_block,
+.teaching_block {
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.header {
+  color: $graphite;
+}
+
+.image_block {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.image {
+  width: 100%;
+}
+
+.contact_bar {
+  width: 100%;
+  background-color: #e3e2df;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+}
+
+.schedule_button_block,
+.contact_button_block {
+  width: 200px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.schedule_button {
+  @include button;
+  margin-bottom: 15px;
+}
+
+.contact_button {
+  @include alt_button;
+  margin-bottom: 15px;
+}
+
+.schedule_button:hover {
+  @include hover;
+}
+
+.contact_button:hover {
+  @include alt_hover;
+}
+
+.profile_header {
+  color: $graphite;
+}
+
+.profile_text {
+  color: $graphite;
+  line-height: 165%;
+  font-size: 16px;
+}
+
+.checkbox {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.checkmark_box {
+  width: 5%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.checkmark_image {
+  width: 15px;
+  overflow: hidden;
+}
+
+.checkmark {
+  width: 100%;
+}
+
+.checkbox_text {
+  color: $graphite;
+  display: inline-block;
+  font-size: 14px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  width: 95%;
+  line-height: 25px;
+  vertical-align: middle;
+}
+
+.education_block {
+  margin-bottom: 50px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid $off_white;
+}
+
+.education_header {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.education_block_header {
+  font-size: 16px;
+  display: inline-block;
+  width: 80%;
+}
+
+.date_bar {
+  display: inline-block;
+  width: 20%;
+}
+
+.contact_block {
+  margin-bottom: 50px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid $off_white;
+}
+
+.contact {
+  display: block;
+  width: 100%;
+}
+
+.contact_image_block {
+  display: inline-block;
+  width: 30px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.contact_image {
+  width: 100%;
+}
+
+.contact_text {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.video_block {
+  padding-bottom: 25px;
+  border-bottom: 1px solid $off_white;
+}

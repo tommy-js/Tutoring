@@ -8,6 +8,8 @@
   box-sizing: border-box;
   padding: 10px;
   border: 1px solid $eraser;
+  min-height: 100%;
+  max-width: 800px;
   border-radius: 10px;
 }
 

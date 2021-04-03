@@ -9,8 +9,7 @@ import { Subjects } from "../Subjects/Subjects";
 import { OurTeam } from "../OurTeam/OurTeam";
 import { Footer } from "../../Footer/Footer";
 import { WhyMe } from "../WhyMe/WhyMe";
-import { EmailForm } from "../EmailForm/EmailForm";
-import { Contact } from "../Contact/Contact";
+import { EmailSignup } from "../../EmailSignup/EmailSignup";
 import Fade from "react-reveal/Fade";
 import styles from "./styles.module.scss";
 
@@ -22,13 +21,13 @@ export const AppPage: React.FC = () => {
         <Subjects />
         <Deal />
         <SatCard />
-        <Introduction />
         <Fade>
+          <Introduction />
+          <ScheduleSession />
           <AtAGlance />
           <OurTeam />
-          <EmailForm />
           <WhyMe />
-          <ScheduleSession />
+          <EmailSignup />
         </Fade>
       </div>
       <div className={styles.bottom_container} />

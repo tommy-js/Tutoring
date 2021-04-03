@@ -2,6 +2,14 @@
 
 .our_team {
   margin-top: 50px;
+  padding-bottom: 50px;
+  width: 65%;
+  min-height: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid $off_white;
+  cursor: pointer;
 }
 
 .header {
@@ -10,6 +18,29 @@
 
 .left_block {
   width: 35%;
+}
+
+.underbar {
+  opacity: 0.75;
+}
+
+.clock_image_container {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.clock_image {
+  width: 100%;
+}
+
+.responds {
+  display: inline-block;
+  line-height: 25px;
+  margin-left: 5px;
+  vertical-align: middle;
 }
 
 .right_block {
@@ -27,6 +58,7 @@
 .name {
   color: $dark_graphite;
   font-size: 22px;
+  font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -42,6 +74,7 @@
   float: right;
   display: block;
   padding-right: 15px;
+  margin-bottom: 10px;
   box-sizing: border-box;
 }
 
@@ -64,6 +97,21 @@
 .climber_flair,
 .learner_flair {
   color: $dark_graphite;
+}
+
+.profile_button {
+  display: block;
+  padding-right: 15px;
+}
+
+.button {
+  @include alt_button;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  @include alt_hover;
 }
 
 @media only screen and (max-width: 900px) {
