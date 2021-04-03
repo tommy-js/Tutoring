@@ -23,6 +23,12 @@ export const DailyPost4621: React.FC = () => {
   const solution2_4 = "x^2=\\frac{2}{15}";
   const solution2_5 = "x=\\pm\\sqrt{\\frac{2}{15}}";
 
+  const solution3_1 = "f'(x)=12x^3-6x^2+16x";
+  const solution3_2 = "f''(x)=36x^2-12x+16";
+  const solution3_3 = "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}";
+  const solution3_4 = "x=\\frac{12\\pm\\sqrt{144-4(36)(16)}}{2(36)}";
+  const solution3_5 = "x=\\frac{12\\pm\\sqrt{-2160}}{72}";
+
   return (
     <div className={styles.daily_post}>
       <h1 className={styles.header}>
@@ -94,9 +100,6 @@ export const DailyPost4621: React.FC = () => {
                 Finally, take the square root, and don't forget to include a
                 plus and minus: <InlineMath>{solution2_5}</InlineMath>.
               </p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
             </div>
           </div>
         </div>
@@ -109,12 +112,34 @@ export const DailyPost4621: React.FC = () => {
             <h3 className={styles.micro_header}>Solution</h3>
             <div className={styles.solution}>
               <p className={styles.text}>
-                Finding the inflection points of a function requires us to take
-                the second derivative.
+                This is actually somewhat of a trick question, and we'll see why
+                in a minute. Finding the inflection points of a function
+                requires us to take the second derivative. Taking the first
+                derivative, we see simply by the Power Rule that{" "}
+                <InlineMath>{solution3_1}</InlineMath>. Then, going one step
+                further, <InlineMath>{solution3_2}</InlineMath>. Now, we need to
+                solve for the roots of this quadratic, which will give us the
+                points of inflection.
               </p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
+              <p className={styles.text}>
+                To do so, we'll use the Quadratic Formula, which says that{" "}
+                <InlineMath>{solution3_3}</InlineMath>. The variables a, b, and
+                c here refer to the coefficients on our quadratic equation. We
+                substitute in to get <InlineMath>{solution3_4}</InlineMath>. Now
+                we see that something strange is happening. If we simplify our
+                expression we see that we get{" "}
+                <InlineMath>{solution3_5}</InlineMath>.
+              </p>
+              <p className={styles.text}>
+                What does it mean to have a negative value in the square root
+                here? Well, it means that we have only complex values for
+                solutions to the quadratic. Effectively, there are no real
+                values that satisfy this equation. In simpler terms, it means
+                that there are no real solutions, and therefore no inflection
+                points to the function. So, it's a trick question, but it does
+                show you how to go about proving that a function has no
+                inflection points.
+              </p>
             </div>
           </div>
         </div>

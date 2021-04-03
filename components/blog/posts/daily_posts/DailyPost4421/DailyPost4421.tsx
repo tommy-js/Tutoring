@@ -27,10 +27,6 @@ export const DailyPost4421: React.FC = () => {
   const solution2_4 = "\\sqrt{-128}=\\sqrt{-64}\\sqrt{2}=8i\\sqrt{2}";
   const solution2_5 = "x=\\frac{4\\pm 8i\\sqrt{2}}{2}=2\\pm 4i\\sqrt{2}";
 
-  const solution3_1 = "y=x^2+7x-4";
-  const solution3_2 = "x=y^2+7y-4";
-  const solution3_3 = "y^2+7y=x+4";
-
   return (
     <div className={styles.daily_post}>
       <h1 className={styles.header}>
@@ -97,30 +93,6 @@ export const DailyPost4421: React.FC = () => {
                 up as <InlineMath>{solution2_4}</InlineMath>. This allows us to
                 get our final values of <InlineMath>{solution2_5}</InlineMath>.
               </p>
-            </div>
-          </div>
-        </div>
-        <div className={styles.problem}>
-          <div className={styles.problem_header}>
-            3. Determine if the inverse of the function{" "}
-            <InlineMath>{problem3}</InlineMath> is also a function.
-          </div>
-          <div className={styles.problem_solution}>
-            <h3 className={styles.micro_header}>Solution</h3>
-            <div className={styles.solution}>
-              <p className={styles.text}>
-                In order to find the inverse of a function we swap x and y. For
-                the function <InlineMath>{solution3_1}</InlineMath>, we then get{" "}
-                <InlineMath>{solution3_2}</InlineMath>. We add 4 to both sides
-                for the purpose of simplification to obtain{" "}
-                <InlineMath>{solution3_3}</InlineMath>.
-              </p>
-              <p className={styles.text}>
-                We're now going to use the process of completing the square to
-                solve for y.{" "}
-              </p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
             </div>
           </div>
         </div>
