@@ -37,7 +37,7 @@ export const DailyPost4321: React.FC = () => {
       <h2 className={styles.subheader}>Posted on 4/3/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/LgYmGkCuPTQ"
+          url="https://youtu.be/8gXT82yz-Kg"
           loop={false}
           playing={false}
           controls={true}
