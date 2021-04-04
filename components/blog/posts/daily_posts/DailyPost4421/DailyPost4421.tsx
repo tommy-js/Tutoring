@@ -18,7 +18,7 @@ export const DailyPost4421: React.FC = () => {
 
   const solution1_1 = "(g\\circ f)(x)=2(\\sqrt{4x+7})^2-5";
   const solution1_2 = "(g\\circ f)(x)=2(4x+7)-5";
-  const solution1_3 = "(g\\circ f)(x)=8x+7-5=8x+2";
+  const solution1_3 = "(g\\circ f)(x)=8x+14-5=8x+9";
 
   const solution2_1 = "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}";
   const solution2_2 = "x=\\frac{4\\pm\\sqrt{(-4)^2-4(1)(36)}}{2(1)}";
