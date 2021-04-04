@@ -25,6 +25,16 @@ export const DailyPost4721: React.FC = () => {
 
   const solution2_1 = "-22-7-14";
 
+  const solution3_1 = "0.25=\\frac{1}{4}";
+  const solution3_2 = "5+\\frac{1}{4}";
+  const solution3_3 = "\\frac{1}{4}";
+  const solution3_4 = "5=\\frac{20}{4}";
+  const solution3_5 = "5.25=\\frac{21}{4}";
+  const solution3_6 = "0.9=\\frac{9}{10}";
+  const solution3_7 = "3+\\frac{9}{10}";
+  const solution3_8 = "\\frac{30}{10}";
+  const solution3_9 = "3.9=\\frac{30}{10}+\\frac{9}{10}=\\frac{39}{10}";
+
   return (
     <div className={styles.daily_post}>
       <h1 className={styles.header}>Arithmetic</h1>
@@ -113,9 +123,43 @@ export const DailyPost4721: React.FC = () => {
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
             <div className={styles.solution}>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
+              <p className={styles.text}>
+                We'll start with <InlineMath>{problem3_1}</InlineMath>. To begin
+                with, rewrite this number as <InlineMath>5+0.25</InlineMath>.
+                Now, how can we rewrite <InlineMath>0.25</InlineMath> as a
+                fraction? Well, since 4 groups of <InlineMath>0.25</InlineMath>{" "}
+                add to 1, we can rewrite this as{" "}
+                <InlineMath>{solution3_1}</InlineMath>. This means we can
+                express our problem as <InlineMath>{solution3_2}</InlineMath>.
+                Now, how can 5 be expressed as a fraction with a denominator of
+                4? Well if we multiply the numerator and denominator of 5 by 4
+                we'll get a fraction that can be added to{" "}
+                <InlineMath>{solution3_3}</InlineMath>. Doing so gives{" "}
+                <InlineMath>{solution3_4}</InlineMath>. Now we can simply add
+                this term to <InlineMath>{solution3_3}</InlineMath> to get{" "}
+                <InlineMath>{solution3_5}</InlineMath>.
+              </p>
+              <p className={styles.text}>
+                Moving on, we're to express 3.9 as a fraction. We once again
+                separate the whole-number term from the decimal value, which
+                gives us <InlineMath>3.9=3+0.9</InlineMath>. Now, we need to
+                express 0.9 as a fraction. We can multiply and divide this
+                number by 10, which won't change its actual value, to get{" "}
+                <InlineMath>{solution3_6}</InlineMath>. This is an obvious step
+                for us because the decimal only has one point of precision, so
+                we know that by multiplying it by 10 we'll get a whole number in
+                the numerator.
+              </p>
+              <p className={styles.text}>
+                Now, we just need to figure out what{" "}
+                <InlineMath>{solution3_7}</InlineMath> is. Since we're trying to
+                add a fraction with a denominator of 10, we know that we need to
+                get our whole number of 3 to have this denominator as well. So,
+                we'll multiply and divide 3 by 10 to get the fraction{" "}
+                <InlineMath>{solution3_8}</InlineMath>. At this point we simply
+                have to add these fractions to get our final answer of{" "}
+                <InlineMath>{solution3_9}</InlineMath>.
+              </p>
               <p className={styles.text}></p>
               <p className={styles.text}></p>
             </div>
