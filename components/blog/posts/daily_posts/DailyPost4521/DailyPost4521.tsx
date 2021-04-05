@@ -8,8 +8,6 @@ import "katex/dist/katex.min.css";
 const katex = require("katex");
 
 export const DailyPost4521: React.FC = () => {
-  const nonVisible = `color: transparent,textShadow: 0 0 6px #000`;
-
   const [problem1Color, setProblem1Color] = useState("transparent");
   const [problem1Shadow, setProblem1Shadow] = useState("0 0 7px #000");
   const [problem2Color, setProblem2Color] = useState("transparent");
@@ -57,7 +55,7 @@ export const DailyPost4521: React.FC = () => {
       <h2 className={styles.subheader}>Posted on 4/5/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/LgYmGkCuPTQ"
+          url="https://youtu.be/p1ekL-huUmA"
           loop={false}
           playing={false}
           controls={true}
