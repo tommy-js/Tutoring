@@ -24,6 +24,15 @@ export const Blog: React.FC = () => {
   const blog_posts = [
     {
       id: 0,
+      title: "Daily Calculus 4/6/21",
+      description:
+        "Intermediate Value Theorem, Maximums & Minimums & Inflection Points",
+      route: "/blog/daily-posts/4-6-21",
+      date: "4/6/2021",
+      image: calculus_header,
+    },
+    {
+      id: 0,
       title: "Daily SAT Prep 4/5/21",
       description: "Equation Solving, Imaginary Numbers & System of Equations",
       route: "/blog/daily-posts/4-5-21",
