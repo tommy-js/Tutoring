@@ -23,7 +23,7 @@ const calculus_header = require("../../../public/blogs/Calculus_Thumbnail.png");
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
-      id: 0,
+      id: "21a867d8-31cb-4cf1-8955-bc1f9466a3d2",
       title: "Daily Calculus 4/6/21",
       description:
         "Intermediate Value Theorem, Maximums & Minimums & Inflection Points",
@@ -32,7 +32,16 @@ export const Blog: React.FC = () => {
       image: calculus_header,
     },
     {
-      id: 0,
+      id: "ef2a4776-1d68-4b3f-8fef-df1c73589513",
+      title: "Daily Calculus 4/6/21",
+      description:
+        "Intermediate Value Theorem, Maximums & Minimums & Inflection Points",
+      route: "/blog/daily-posts/4-6-21",
+      date: "4/6/2021",
+      image: calculus_header,
+    },
+    {
+      id: "d264d74c-6b20-4c5f-bdc1-7ae04e63adbd",
       title: "Daily SAT Prep 4/5/21",
       description: "Equation Solving, Imaginary Numbers & System of Equations",
       route: "/blog/daily-posts/4-5-21",
@@ -40,7 +49,7 @@ export const Blog: React.FC = () => {
       image: sat_header,
     },
     {
-      id: 1,
+      id: "6ec0b075-15f1-4762-93c6-af6068ab1388",
       title: "Daily Precalculus 4/4/21",
       description: "Function Composition & Complex Roots",
       route: "/blog/daily-posts/4-4-21",
@@ -48,7 +57,7 @@ export const Blog: React.FC = () => {
       image: precalc_header,
     },
     {
-      id: 2,
+      id: "1b67f113-a65b-4340-a5cc-c91c32f66f11",
       title: "Daily Algebra 4/3/21",
       description: "Root Solving, Expression Simplification & Factorials",
       route: "/blog/daily-posts/4-3-21",
@@ -56,7 +65,7 @@ export const Blog: React.FC = () => {
       image: algebra_header,
     },
     {
-      id: 3,
+      id: "d6cc5061-1501-4f70-b059-6c92a916faf6",
       title: "Daily Arithmetic 4/2/21",
       description: "Greatest Common Divisor, Squaring & Square Rooting",
       route: "/blog/daily-posts/4-2-21",
@@ -64,7 +73,7 @@ export const Blog: React.FC = () => {
       image: arithmetic_header,
     },
     {
-      id: 4,
+      id: "058ebd8f-fd7a-49c9-9c9b-750f5dfaef53",
       title: "Daily Calculus 4/1/21",
       description: "Continuity, Derivatives & Radius of Convergence",
       route: "/blog/daily-posts/4-1-21",
@@ -72,7 +81,7 @@ export const Blog: React.FC = () => {
       image: calculus_header,
     },
     {
-      id: 5,
+      id: "4e3e1ace-d275-435d-a8b6-4d2c4755d5a5",
       title: "Daily SAT Prep 3/31/21",
       description: "Word Problems",
       route: "/blog/daily-posts/3-31-21",
@@ -80,7 +89,7 @@ export const Blog: React.FC = () => {
       image: sat_header,
     },
     {
-      id: 6,
+      id: "88b045e8-eff4-48bb-8bca-49e4deda71e3",
       title: "Daily Precalculus 3/30/21",
       description:
         "Series Convergence, Trigonometric Equations & Function Domains domains",
@@ -89,7 +98,7 @@ export const Blog: React.FC = () => {
       image: precalc_header,
     },
     {
-      id: 7,
+      id: "3f162d26-c29a-41b1-a32e-613794f7b45a",
       title: "Daily Algebra 3/29/21",
       description: "Solving Exponential Equations, Series & Binomial Theorem",
       route: "/blog/daily-posts/3-29-21",
@@ -97,7 +106,7 @@ export const Blog: React.FC = () => {
       image: algebra_header,
     },
     {
-      id: 8,
+      id: "118fa07b-aadb-424c-8838-35bb9df4ff4c",
       title: "Daily Arithmetic 3/28/21",
       description: "Simplification, Multiplication & Long Division",
       route: "/blog/daily-posts/3-28-21",
@@ -105,7 +114,7 @@ export const Blog: React.FC = () => {
       image: blog11,
     },
     {
-      id: 9,
+      id: "77c6594f-20ff-4722-be32-9357c806b6ce",
       title: "Daily Calculus 3/27/21",
       description: "Derivatives, Limits & Continuity",
       route: "/blog/daily-posts/3-27-21",
@@ -113,7 +122,7 @@ export const Blog: React.FC = () => {
       image: blog10,
     },
     {
-      id: 10,
+      id: "2a76b837-85ef-4a30-a0fc-5c783703b1b0",
       title: "Daily Sat Prep 3/26/21",
       description: "word problems & inequalities",
       route: "/blog/daily-posts/3-26-21",
@@ -121,7 +130,7 @@ export const Blog: React.FC = () => {
       image: blog9,
     },
     {
-      id: 11,
+      id: "3bd6c13d-694f-4c62-9037-cfcc8a35f125",
       title: "Daily Pre-Calc 3/25/21",
       description:
         "Logarithmic equations, complex simplification & imaginary roots",
@@ -130,7 +139,7 @@ export const Blog: React.FC = () => {
       image: blog8,
     },
     {
-      id: 12,
+      id: "f5b14f99-3d34-426b-a6ca-3177dc3f380b",
       title: "Daily Arithmetic 3/24/21",
       description:
         "Simplification of simple expressions, fractional multiplication and fractional division",
@@ -139,7 +148,7 @@ export const Blog: React.FC = () => {
       image: blog7,
     },
     {
-      id: 13,
+      id: "a1a5967f-b12d-4699-a06b-8a34df5a61f9",
       title: "Daily Algebra 3/23/21",
       description: "Factoring, root solving, and distribution",
       route: "/blog/daily-posts/3-23-21",
@@ -147,7 +156,7 @@ export const Blog: React.FC = () => {
       image: blog6,
     },
     {
-      id: 14,
+      id: "ff5abbac-2f96-46f3-92ff-572805652ad2",
       title: "Daily Calculus 3/22/21",
       description:
         "Solving limits, finding the derivative by definition, and determining the antiderivative",
@@ -156,7 +165,7 @@ export const Blog: React.FC = () => {
       image: blog5,
     },
     {
-      id: 15,
+      id: "26f49210-f223-4304-b133-e00fc3eb09d1",
       title: "Families in Lockdown",
       description:
         "How lockdown is impacting families and revealing gender inequality",
@@ -165,7 +174,7 @@ export const Blog: React.FC = () => {
       image: blog4,
     },
     {
-      id: 16,
+      id: "4cebbd71-d862-4d45-a491-b6ca977b2f78",
       title: "The Online Inequality",
       description:
         "Is online education accessible for the Americans who need it?",
@@ -174,7 +183,7 @@ export const Blog: React.FC = () => {
       image: blog3,
     },
     {
-      id: 17,
+      id: "3fd199a8-ba2e-40d3-aeb5-a1f011055e9d",
       title: "The Role Tutoring Will Play",
       description:
         "What can we expect from the future of the online tutoring industry?",
@@ -183,7 +192,7 @@ export const Blog: React.FC = () => {
       image: blog2,
     },
     {
-      id: 18,
+      id: "be255845-2c65-4519-9645-527d9e29b360",
       title: "Mathematics in the Pandemic",
       description: "How have our students been affected by the pandemic?",
       route: "/blog/math-in-the-pandemic",

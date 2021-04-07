@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import { BlockMath, InlineMath } from "react-katex";
 import { SignUpEmailForm } from "../SignUpEmailForm/SignUpEmailForm";
@@ -8,6 +8,13 @@ import "katex/dist/katex.min.css";
 const katex = require("katex");
 
 export const DailyPost4721: React.FC = () => {
+  const [problem1Color, setProblem1Color] = useState("transparent");
+  const [problem1Shadow, setProblem1Shadow] = useState("0 0 7px #000");
+  const [problem2Color, setProblem2Color] = useState("transparent");
+  const [problem2Shadow, setProblem2Shadow] = useState("0 0 7px #000");
+  const [problem3Color, setProblem3Color] = useState("transparent");
+  const [problem3Shadow, setProblem3Shadow] = useState("0 0 7px #000");
+
   const problem1_1 = "3\\frac{5}{6}";
   const problem1_2 = "5\\frac{2}{5}";
 
@@ -35,13 +42,30 @@ export const DailyPost4721: React.FC = () => {
   const solution3_8 = "\\frac{30}{10}";
   const solution3_9 = "3.9=\\frac{30}{10}+\\frac{9}{10}=\\frac{39}{10}";
 
+  function revealProblem1() {
+    setProblem1Color("#3c3b3b");
+    setProblem1Shadow("none");
+  }
+
+  function revealProblem2() {
+    setProblem2Color("#3c3b3b");
+    setProblem2Shadow("none");
+  }
+
+  function revealProblem3() {
+    setProblem3Color("#3c3b3b");
+    setProblem3Shadow("none");
+  }
+
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>Arithmetic</h1>
+      <h1 className={styles.header}>
+        Arithmetic | Improper Fractions, Addition & Decimals
+      </h1>
       <h2 className={styles.subheader}>Posted on 4/7/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/LgYmGkCuPTQ"
+          url="https://youtu.be/6Kbl5hPeCPM"
           loop={false}
           playing={false}
           controls={true}
@@ -60,7 +84,16 @@ export const DailyPost4721: React.FC = () => {
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
-            <div className={styles.solution}>
+            <button
+              className={styles.solution_button}
+              onClick={() => revealProblem1()}
+            >
+              View Solution
+            </button>
+            <div
+              className={styles.solution}
+              style={{ color: problem1Color, textShadow: problem1Shadow }}
+            >
               <p className={styles.text}>
                 In order to find mixed numbers as improper fractions, we need to
                 rewrite the whole number in fractional form and then add the
@@ -95,7 +128,16 @@ export const DailyPost4721: React.FC = () => {
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
-            <div className={styles.solution}>
+            <button
+              className={styles.solution_button}
+              onClick={() => revealProblem2()}
+            >
+              View Solution
+            </button>
+            <div
+              className={styles.solution}
+              style={{ color: problem2Color, textShadow: problem2Shadow }}
+            >
               <p className={styles.text}>
                 First of all, we want to write this in the simplest way
                 possible. This means that instead of writing our problem as{" "}
@@ -122,7 +164,16 @@ export const DailyPost4721: React.FC = () => {
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
-            <div className={styles.solution}>
+            <button
+              className={styles.solution_button}
+              onClick={() => revealProblem3()}
+            >
+              View Solution
+            </button>
+            <div
+              className={styles.solution}
+              style={{ color: problem3Color, textShadow: problem3Shadow }}
+            >
               <p className={styles.text}>
                 We'll start with <InlineMath>{problem3_1}</InlineMath>. To begin
                 with, rewrite this number as <InlineMath>5+0.25</InlineMath>.
@@ -160,8 +211,6 @@ export const DailyPost4721: React.FC = () => {
                 have to add these fractions to get our final answer of{" "}
                 <InlineMath>{solution3_9}</InlineMath>.
               </p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
             </div>
           </div>
         </div>
