@@ -17,12 +17,21 @@ const blog11 = require("../../../public/blogs/3-28-21/arithmetic_header.png");
 const arithmetic_header = require("../../../public/blogs/Arithmetic_Thumbnail.png");
 const arithmetic_header_2 = require("../../../public/blogs/arithmetic_thumbnail_2.png");
 const algebra_header = require("../../../public/blogs/Algebra_Thumbnail.png");
+const algebra_header_2 = require("../../../public/blogs/algebra_thumbnail_2.png");
 const precalc_header = require("../../../public/blogs/Precalculus_Thumbnail.png");
 const sat_header = require("../../../public/blogs/SAT_Thumbnail.png");
 const calculus_header = require("../../../public/blogs/Calculus_Thumbnail.png");
 
 export const Blog: React.FC = () => {
   const blog_posts = [
+    {
+      id: "4f2b12b7-79f1-4daf-9268-eb8e12b40aaa",
+      title: "Daily Algebra",
+      description: "Scientific Notation, Absolute Value & Reciprocals",
+      route: "/blog/daily-posts/4-8-21",
+      date: "4/8/2021",
+      image: algebra_header_2,
+    },
     {
       id: "21a867d8-31cb-4cf1-8955-bc1f9466a3d2",
       title: "Daily Arithmetic",

@@ -36,6 +36,16 @@
   font-size: 20px;
 }
 
+.answer_text,
+.answer_header {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.answer_text {
+  margin-left: 15px;
+}
+
 .solution_button {
   @include button;
   font-size: 14px;
@@ -51,7 +61,10 @@
 .text {
   line-height: 165%;
   font-size: 18px;
-  margin: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   box-sizing: border-box;
 }
 

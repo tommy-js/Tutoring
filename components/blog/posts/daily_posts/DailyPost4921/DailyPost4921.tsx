@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import { BlockMath, InlineMath } from "react-katex";
 import { SignUpEmailForm } from "../SignUpEmailForm/SignUpEmailForm";
@@ -8,6 +8,13 @@ import "katex/dist/katex.min.css";
 const katex = require("katex");
 
 export const DailyPost4921: React.FC = () => {
+  const [problem1Color, setProblem1Color] = useState("transparent");
+  const [problem1Shadow, setProblem1Shadow] = useState("0 0 7px #000");
+  const [problem2Color, setProblem2Color] = useState("transparent");
+  const [problem2Shadow, setProblem2Shadow] = useState("0 0 7px #000");
+  const [problem3Color, setProblem3Color] = useState("transparent");
+  const [problem3Shadow, setProblem3Shadow] = useState("0 0 7px #000");
+
   const problem1 = "f(x)=\\frac{x^2}{5}+7";
 
   const problem2_1 = "\\vec a=(-4,3)";
@@ -39,6 +46,21 @@ export const DailyPost4921: React.FC = () => {
   const solution3_7 =
     "\\frac{12x^5-5x^3+x^2-22}{x^2}=12x^3-5x+1-\\frac{22}{x^2}";
 
+  function revealProblem1() {
+    setProblem1Color("#3c3b3b");
+    setProblem1Shadow("none");
+  }
+
+  function revealProblem2() {
+    setProblem2Color("#3c3b3b");
+    setProblem2Shadow("none");
+  }
+
+  function revealProblem3() {
+    setProblem3Color("#3c3b3b");
+    setProblem3Shadow("none");
+  }
+
   return (
     <div className={styles.daily_post}>
       <h1 className={styles.header}>Precalculus</h1>
@@ -64,7 +86,16 @@ export const DailyPost4921: React.FC = () => {
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
-            <div className={styles.solution}>
+            <button
+              className={styles.solution_button}
+              onClick={() => revealProblem1()}
+            >
+              View Solution
+            </button>
+            <div
+              className={styles.solution}
+              style={{ color: problem1Color, textShadow: problem1Shadow }}
+            >
               <p className={styles.text}>
                 Figuring out whether a function has an inverse requires us to
                 switch the position of the x and y variables and then solve for
@@ -103,7 +134,16 @@ export const DailyPost4921: React.FC = () => {
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
-            <div className={styles.solution}>
+            <button
+              className={styles.solution_button}
+              onClick={() => revealProblem2()}
+            >
+              View Solution
+            </button>
+            <div
+              className={styles.solution}
+              style={{ color: problem2Color, textShadow: problem2Shadow }}
+            >
               <p className={styles.text}>
                 In order to find the magnitude of a vector we must think about
                 the geometry of a vector itself. In a vector, the first
@@ -149,7 +189,16 @@ export const DailyPost4921: React.FC = () => {
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
-            <div className={styles.solution}>
+            <button
+              className={styles.solution_button}
+              onClick={() => revealProblem3()}
+            >
+              View Solution
+            </button>
+            <div
+              className={styles.solution}
+              style={{ color: problem3Color, textShadow: problem3Shadow }}
+            >
               <p className={styles.text}>
                 We want to simplify this polynomial as much as possible. To
                 start with, we're going to rewrite it and separate out each
