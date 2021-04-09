@@ -19,11 +19,20 @@ const arithmetic_header_2 = require("../../../public/blogs/arithmetic_thumbnail_
 const algebra_header = require("../../../public/blogs/Algebra_Thumbnail.png");
 const algebra_header_2 = require("../../../public/blogs/algebra_thumbnail_2.png");
 const precalc_header = require("../../../public/blogs/Precalculus_Thumbnail.png");
+const precalc_header_2 = require("../../../public/blogs/precalculus_thumbnail_2.png");
 const sat_header = require("../../../public/blogs/SAT_Thumbnail.png");
 const calculus_header = require("../../../public/blogs/Calculus_Thumbnail.png");
 
 export const Blog: React.FC = () => {
   const blog_posts = [
+    {
+      id: "6ae7733f-3416-40e2-8d5e-102780b769d8",
+      title: "Daily Precalculus",
+      description: "Function Inverses, Vectors, & Polynomial Simplification",
+      route: "/blog/daily-posts/4-9-21",
+      date: "4/9/2021",
+      image: precalc_header_2,
+    },
     {
       id: "4f2b12b7-79f1-4daf-9268-eb8e12b40aaa",
       title: "Daily Algebra",
