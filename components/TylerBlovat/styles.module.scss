@@ -173,3 +173,55 @@
   padding-bottom: 25px;
   border-bottom: 1px solid $off_white;
 }
+
+@media only screen and (max-width: 900px) {
+  .profile,
+  .head_block,
+  .education_block,
+  .contact_block,
+  .teaching_block {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+
+  .header {
+    font-size: 26px;
+  }
+
+  .image_block {
+    width: 90%;
+  }
+
+  .buttons {
+    width: 100%;
+  }
+
+  .schedule_button_block,
+  .contact_button_block {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+  .profile_header {
+    font-size: 20px;
+  }
+
+  .profile_text {
+    color: $graphite;
+    line-height: 165%;
+    font-size: 16px;
+  }
+
+  .checkbox {
+    display: block;
+    width: 100%;
+  }
+
+  .video_block {
+    padding-bottom: 25px;
+    border-bottom: 1px solid $off_white;
+  }
+}
