@@ -22,12 +22,13 @@
 
 .video_block {
   position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  width: 75%;
+  padding-top: 56.25%;
+}
+
+.react_player {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .micro_header {

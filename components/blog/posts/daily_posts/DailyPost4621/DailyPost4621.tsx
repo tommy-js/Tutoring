@@ -67,7 +67,8 @@ export const DailyPost4621: React.FC = () => {
           volume={100}
           muted={false}
           width={"100%"}
-          className={styles.player}
+          height={"100%"}
+          className={styles.react_player}
         />
       </div>
       <div className={styles.solutions_block}>

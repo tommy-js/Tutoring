@@ -20,16 +20,6 @@
   opacity: 0.75;
 }
 
-.video_block {
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  width: 75%;
-}
-
 .text {
   line-height: 165%;
   font-size: 18px;
@@ -46,6 +36,17 @@
 
 .bottom_div {
   margin-bottom: 75px;
+}
+
+.video_block {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.react_player {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 @media only screen and (max-width: 900px) {

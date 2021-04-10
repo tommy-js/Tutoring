@@ -105,6 +105,7 @@ export const TylerBlovat: React.FC = () => {
             volume={100}
             muted={false}
             width={"100%"}
+            height={"auto"}
             className={styles.player}
           />
         </div>
