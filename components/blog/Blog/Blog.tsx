@@ -21,10 +21,19 @@ const algebra_header_2 = require("../../../public/blogs/algebra_thumbnail_2.png"
 const precalc_header = require("../../../public/blogs/Precalculus_Thumbnail.png");
 const precalc_header_2 = require("../../../public/blogs/precalculus_thumbnail_2.png");
 const sat_header = require("../../../public/blogs/SAT_Thumbnail.png");
+const sat_header_2 = require("../../../public/blogs/sat_prep_thumbnail_2.png");
 const calculus_header = require("../../../public/blogs/Calculus_Thumbnail.png");
 
 export const Blog: React.FC = () => {
   const blog_posts = [
+    {
+      id: "3390435c-78f1-487e-bec7-b483caa5ae47",
+      title: "Daily SAT Prep",
+      description: "Solving for x, Inequality Equations, Quadratics",
+      route: "/blog/daily-posts/4-10-21",
+      date: "4/10/2021",
+      image: sat_header_2,
+    },
     {
       id: "6ae7733f-3416-40e2-8d5e-102780b769d8",
       title: "Daily Precalculus",

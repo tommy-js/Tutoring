@@ -9,10 +9,8 @@ const katex = require("katex");
 
 export const DailyPost41021: React.FC = () => {
   const problem1_1 = "x^2=\\frac{16x^3}{225}";
-  const problem1_2 = "x\\neq 0";
 
   const problem2_1 = "|3x-4|\\leq 12";
-  const problem2_2 = "|x-2|";
 
   const problem3_1 = "x=\\sqrt{5}-2";
   const problem3_2 = "2x^2+5x-6";
@@ -41,11 +39,13 @@ export const DailyPost41021: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>SAT Prep</h1>
+      <h1 className={styles.header}>
+        SAT Prep | Solving for x, Inequality Equations, Quadratics
+      </h1>
       <h2 className={styles.subheader}>Posted on 4/10/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/LgYmGkCuPTQ"
+          url="https://youtu.be/ZLgmSTnaciA"
           loop={false}
           playing={false}
           controls={true}
@@ -59,9 +59,8 @@ export const DailyPost41021: React.FC = () => {
         <h3 className={styles.solutions_header}>Problems & Solutions</h3>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            1. If <InlineMath>{problem1_1}</InlineMath>, where{" "}
-            <InlineMath>{problem1_2}</InlineMath>, which of the following is
-            equivalent to x?
+            1. If <InlineMath>{problem1_1}</InlineMath>, which of the following
+            is equivalent to x?
           </div>
           <ol className={styles.multiple_choice}>
             <li className={styles.individual_choice}>
