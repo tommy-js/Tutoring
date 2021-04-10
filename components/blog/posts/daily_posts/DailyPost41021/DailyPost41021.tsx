@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import { BlockMath, InlineMath } from "react-katex";
 import { SignUpEmailForm } from "../SignUpEmailForm/SignUpEmailForm";
@@ -8,6 +8,13 @@ import "katex/dist/katex.min.css";
 const katex = require("katex");
 
 export const DailyPost41021: React.FC = () => {
+  const [problem1Color, setProblem1Color] = useState("transparent");
+  const [problem1Shadow, setProblem1Shadow] = useState("0 0 7px #000");
+  const [problem2Color, setProblem2Color] = useState("transparent");
+  const [problem2Shadow, setProblem2Shadow] = useState("0 0 7px #000");
+  const [problem3Color, setProblem3Color] = useState("transparent");
+  const [problem3Shadow, setProblem3Shadow] = useState("0 0 7px #000");
+
   const problem1_1 = "x^2=\\frac{16x^3}{225}";
 
   const problem2_1 = "|3x-4|\\leq 12";
@@ -36,6 +43,21 @@ export const DailyPost41021: React.FC = () => {
   const solution3_4 =
     "2(9-4\\sqrt{5})+5\\sqrt{5}-10-6=18-8\\sqrt{5}+5\\sqrt{5}-10-6";
   const solution3_5 = "2-3\\sqrt{5}";
+
+  function revealProblem1() {
+    setProblem1Color("#3c3b3b");
+    setProblem1Shadow("none");
+  }
+
+  function revealProblem2() {
+    setProblem2Color("#3c3b3b");
+    setProblem2Shadow("none");
+  }
+
+  function revealProblem3() {
+    setProblem3Color("#3c3b3b");
+    setProblem3Shadow("none");
+  }
 
   return (
     <div className={styles.daily_post}>
@@ -79,7 +101,16 @@ export const DailyPost41021: React.FC = () => {
           </ol>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
-            <div className={styles.solution}>
+            <button
+              className={styles.solution_button}
+              onClick={() => revealProblem1()}
+            >
+              View Solution
+            </button>
+            <div
+              className={styles.solution}
+              style={{ color: problem1Color, textShadow: problem1Shadow }}
+            >
               <p className={styles.text}>
                 In this problem there are two possible ways to approach it. We
                 can either plug in the potential solutions listed above and find
@@ -105,7 +136,16 @@ export const DailyPost41021: React.FC = () => {
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
-            <div className={styles.solution}>
+            <button
+              className={styles.solution_button}
+              onClick={() => revealProblem2()}
+            >
+              View Solution
+            </button>
+            <div
+              className={styles.solution}
+              style={{ color: problem2Color, textShadow: problem2Shadow }}
+            >
               <p className={styles.text}>
                 Remember that when we have an absolute value such as this, we
                 can expand it out into the form{" "}
@@ -140,7 +180,16 @@ export const DailyPost41021: React.FC = () => {
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
-            <div className={styles.solution}>
+            <button
+              className={styles.solution_button}
+              onClick={() => revealProblem3()}
+            >
+              View Solution
+            </button>
+            <div
+              className={styles.solution}
+              style={{ color: problem3Color, textShadow: problem3Shadow }}
+            >
               <p className={styles.text}>
                 Here we just need to substitute our x-term into the expression
                 and then simplify. Since <InlineMath>{problem3_1}</InlineMath>,

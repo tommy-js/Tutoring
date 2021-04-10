@@ -31,9 +31,29 @@
   left: 0;
 }
 
+.micro_header {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.solution_button {
+  @include button;
+  font-size: 14px;
+  padding: 3px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.solution_button:hover {
+  @include hover;
+}
+
 .text {
   line-height: 165%;
   font-size: 18px;
+  margin: 5px;
+  box-sizing: border-box;
 }
 
 .problem {
@@ -49,12 +69,9 @@
   margin-bottom: 75px;
 }
 
-.multiple_choice {
-}
-
-.individual_choice {
-  font-size: 20px;
-  margin-top: 15px;
+.solution {
+  overflow: hidden;
+  transition: 0.3s;
 }
 
 @media only screen and (max-width: 900px) {
