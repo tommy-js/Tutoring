@@ -18,8 +18,7 @@ export const DailyPost41221: React.FC = () => {
   const problem1_1 = "\\frac{-3}{6}";
   const problem1_2 = "\\frac{-15}{-5}";
 
-  const problem2_1 = "5.75+1.25";
-  const problem2_2 = "7.9+2.5";
+  const problem2_1 = "5.75+1.25+2.5";
 
   const problem3_1 = "\\frac{7}{4}";
   const problem3_2 = "\\frac{9}{3}";
@@ -41,6 +40,19 @@ export const DailyPost41221: React.FC = () => {
   const solution3_3 = "\\frac{9\\times 4}{3\\times 4}=\\frac{36}{12}";
   const solution3_4 =
     "\\frac{7}{4}\\times\\frac{3}{3}=\\frac{7\\times 3}{4\\times 4}=\\frac{21}{12}";
+
+  const problem1_choice2 = "\\frac{-2}{3}";
+  const problem1_choice2_2 = "\\frac{5}{4}";
+  const problem1_choice3_1 = "-\\frac{1}{2}";
+  const problem1_choice3_2 = "3";
+  const problem1_choice4_2 = "-\\frac{1}{2}";
+
+  const problem3_choice1_1 = "\\frac{72}{24}";
+  const problem3_choice1_2 = "\\frac{42}{24}";
+  const problem3_choice2_1 = "\\frac{36}{12}";
+  const problem3_choice2_2 = "\\frac{21}{12}";
+  const problem3_choice3_1 = "\\frac{18}{6}";
+  const problem3_choice3_2 = "\\frac{11}{6}";
 
   function revealProblem1() {
     setProblem1Color("#3c3b3b");
@@ -81,6 +93,26 @@ export const DailyPost41221: React.FC = () => {
             1. Find <InlineMath>{problem1_1}</InlineMath> and{" "}
             <InlineMath>{problem1_2}</InlineMath>
           </div>
+          <div className={styles.context_container}>
+            <ol className={styles.multiple_choice}>
+              <li className={styles.individual_choice}>
+                <InlineMath>2</InlineMath> and <InlineMath>5</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>{problem1_choice2}</InlineMath> and{" "}
+                <InlineMath>{problem1_choice2_2}</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>{problem1_choice3_1}</InlineMath> and{" "}
+                <InlineMath>{problem1_choice3_2}</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>6</InlineMath> and{" "}
+                <InlineMath>{problem1_choice4_2}</InlineMath>
+              </li>
+            </ol>
+          </div>
+          <div className={styles.problem_selector}></div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
             <button
@@ -124,8 +156,23 @@ export const DailyPost41221: React.FC = () => {
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            2. Determine <InlineMath>{problem2_1}</InlineMath> and{" "}
-            <InlineMath>{problem2_2}</InlineMath>.
+            2. Determine <InlineMath>{problem2_1}</InlineMath>
+          </div>
+          <div className={styles.context_container}>
+            <ol className={styles.multiple_choice}>
+              <li className={styles.individual_choice}>
+                <InlineMath>10.5</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>7</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>9.5</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>11</InlineMath>
+              </li>
+            </ol>
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
@@ -177,6 +224,25 @@ export const DailyPost41221: React.FC = () => {
             3. Rewrite <InlineMath>{problem3_1}</InlineMath> and{" "}
             <InlineMath>{problem3_2}</InlineMath> as fractions with their least
             common denominator.
+          </div>
+          <div className={styles.context_container}>
+            <ol className={styles.multiple_choice}>
+              <li className={styles.individual_choice}>
+                <InlineMath>{problem3_choice1_1}</InlineMath> and{" "}
+                <InlineMath>{problem3_choice1_2}</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>{problem3_choice2_1}</InlineMath> and{" "}
+                <InlineMath>{problem3_choice2_2}</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>{problem3_choice3_1}</InlineMath> and{" "}
+                <InlineMath>{problem3_choice3_2}</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>6</InlineMath> and <InlineMath>3</InlineMath>
+              </li>
+            </ol>
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>

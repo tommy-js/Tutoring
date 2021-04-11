@@ -37,16 +37,6 @@
   font-size: 20px;
 }
 
-.answer_text,
-.answer_header {
-  display: inline-block;
-  font-size: 20px;
-}
-
-.answer_text {
-  margin-left: 15px;
-}
-
 .solution_button {
   @include button;
   font-size: 14px;
@@ -85,6 +75,45 @@
 .solution {
   overflow: hidden;
   transition: 0.3s;
+}
+
+.context_container {
+}
+
+.multiple_choice {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.individual_choice {
+  font-size: 18px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.image_block {
+  position: relative;
+  width: 200px;
+  float: right;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.problem_image {
+  position: relative;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  width: 100%;
 }
 
 @media only screen and (max-width: 900px) {

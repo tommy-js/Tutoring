@@ -7,7 +7,9 @@ export default function DailyPost4821Page() {
   return (
     <div>
       <Head>
-        <title>Daily Algebra</title>
+        <title>
+          Daily Algebra | Scientific Notation, Absolute Value & Reciprocals
+        </title>
         <meta name="description" content="" />
       </Head>
       <Navbar />

@@ -1,19 +1,17 @@
 import Head from "next/head";
 import { Navbar } from "../../../../components/navigation/Navbar/Navbar";
-import { DailyPost41021 } from "../../../../components/blog/posts/daily_posts/DailyPost41021/DailyPost41021";
+import { DailyPost41721 } from "../../../../components/blog/posts/daily_posts/DailyPost41721/DailyPost41721";
 import { Footer } from "../../../../components/Footer/Footer";
 
-export default function DailyPost41021Page() {
+export default function DailyPost41721Page() {
   return (
     <div>
       <Head>
-        <title>
-          Daily SAT Prep | Solving for x, Inequality Equations, Quadratics
-        </title>
+        <title>Daily Precalculus |</title>
         <meta name="description" content="" />
       </Head>
       <Navbar />
-      <DailyPost41021 />
+      <DailyPost41721 />
       <Footer />
     </div>
   );

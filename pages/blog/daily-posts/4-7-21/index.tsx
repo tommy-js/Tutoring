@@ -7,7 +7,9 @@ export default function DailyPost4721Page() {
   return (
     <div>
       <Head>
-        <title>Daily Arithmetic |</title>
+        <title>
+          Daily Arithmetic | Improper Fractions, Addition & Decimals
+        </title>
         <meta name="description" content="" />
       </Head>
       <Navbar />

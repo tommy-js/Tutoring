@@ -33,6 +33,12 @@ export const DailyPost41321: React.FC = () => {
   const solution3_11 = "x=\\frac{108}{39}";
   const solution3_12 = "x=\\frac{36}{13}";
 
+  const problem3_choice1_1 = "x=\\frac{4}{15}";
+  const problem3_choice1_2 = "y=\\frac{41}{39}";
+  const problem3_choice2_2 = "x=\\frac{6}{13}";
+  const problem3_choice3_1 = "x=\\frac{36}{13}";
+  const problem3_choice3_2 = "y=-\\frac{41}{39}";
+
   function revealProblem1() {
     setProblem1Color("#3c3b3b");
     setProblem1Shadow("none");
@@ -72,6 +78,22 @@ export const DailyPost41321: React.FC = () => {
             1. Use the Zero Product Property to solve{" "}
             <InlineMath>(x+7)(x-3)=0</InlineMath> for x.
           </div>
+          <div className={styles.context_container}>
+            <ol className={styles.multiple_choice}>
+              <li className={styles.individual_choice}>
+                <InlineMath>x=2</InlineMath>, <InlineMath>x=6</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>x=3</InlineMath>, <InlineMath>x=7</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>x=-7</InlineMath>, <InlineMath>x=3</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>x=21</InlineMath>, <InlineMath>x=7</InlineMath>
+              </li>
+            </ol>
+          </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
             <button
@@ -109,6 +131,22 @@ export const DailyPost41321: React.FC = () => {
           <div className={styles.problem_header}>
             2. Add <InlineMath>4x^2-7x+12</InlineMath> and{" "}
             <InlineMath>8x^3-3x^2+x-6</InlineMath>.
+          </div>
+          <div className={styles.context_container}>
+            <ol className={styles.multiple_choice}>
+              <li className={styles.individual_choice}>
+                <InlineMath>9x^3+6x^2-2x+4</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>8x^3+x^2-6x+6</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>14x^2+6x-2</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>8x^3-9x^2+12x+6</InlineMath>
+              </li>
+            </ol>
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>
@@ -150,6 +188,25 @@ export const DailyPost41321: React.FC = () => {
             3. Solve the system of linear equations{" "}
             <InlineMath>{problem3_1}</InlineMath> and{" "}
             <InlineMath>{problem3_2}</InlineMath> for x and y.
+          </div>
+          <div className={styles.context_container}>
+            <ol className={styles.multiple_choice}>
+              <li className={styles.individual_choice}>
+                <InlineMath>x=7</InlineMath>, <InlineMath>y=-1</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>{problem3_choice1_1}</InlineMath>,{" "}
+                <InlineMath>{problem3_choice1_2}</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>x=3</InlineMath>,{" "}
+                <InlineMath>{problem3_choice2_2}</InlineMath>
+              </li>
+              <li className={styles.individual_choice}>
+                <InlineMath>{problem3_choice3_1}</InlineMath>,{" "}
+                <InlineMath>{problem3_choice3_2}</InlineMath>
+              </li>
+            </ol>
           </div>
           <div className={styles.problem_solution}>
             <h3 className={styles.micro_header}>Solution</h3>

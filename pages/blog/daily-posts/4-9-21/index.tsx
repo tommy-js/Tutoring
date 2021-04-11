@@ -7,7 +7,10 @@ export default function DailyPost4921Page() {
   return (
     <div>
       <Head>
-        <title>Daily Precalculus |</title>
+        <title>
+          Daily Precalculus | Function Inverses, Vectors, & Polynomial
+          Simplification
+        </title>
         <meta name="description" content="" />
       </Head>
       <Navbar />
