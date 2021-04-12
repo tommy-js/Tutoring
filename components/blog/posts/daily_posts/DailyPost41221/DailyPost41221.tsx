@@ -71,11 +71,14 @@ export const DailyPost41221: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>Arithmetic</h1>
+      <h1 className={styles.header}>
+        Arithmetic | Fraction Simplification, Adding Decimals & Rewriting
+        Decimals as Fractions
+      </h1>
       <h2 className={styles.subheader}>Posted on 4/12/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/LgYmGkCuPTQ"
+          url="https://youtu.be/_TIlCGnrOSk"
           loop={false}
           playing={false}
           controls={true}

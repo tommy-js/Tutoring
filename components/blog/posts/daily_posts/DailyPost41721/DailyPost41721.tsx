@@ -59,21 +59,21 @@ export const DailyPost41721: React.FC = () => {
         <h3 className={styles.solutions_header}>Problems & Solutions</h3>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            1. Convert the following decimals to fractions: 0.25, 0.6, 0.4.
+            1. Convert 1/4 and 2/5 to decimals.
           </div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>
-                <InlineMath>x=200</InlineMath>, <InlineMath>y=100</InlineMath>
+                <InlineMath>0.25</InlineMath> and <InlineMath>0.4</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=125</InlineMath>, <InlineMath>y=250</InlineMath>
+                <InlineMath>0.33</InlineMath> and <InlineMath>0.5</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=300</InlineMath>, <InlineMath>y=100</InlineMath>
+                <InlineMath>0.2</InlineMath> and <InlineMath>0.95</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=100</InlineMath>, <InlineMath>y=300</InlineMath>
+                <InlineMath>0.1</InlineMath> and <InlineMath>0.4</InlineMath>
               </li>
             </ol>
           </div>
@@ -95,7 +95,10 @@ export const DailyPost41721: React.FC = () => {
               </div>
               <div className={styles.details}>
                 <h4 className={styles.details_header}>Explanation: </h4>
-                <p className={styles.text}></p>
+                <p className={styles.text}>
+                  We'll use pie charts to see how these fractions can be
+                  rewritten as decimals.
+                </p>
                 <p className={styles.text}></p>
                 <p className={styles.text}></p>
                 <p className={styles.text}></p>

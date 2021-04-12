@@ -27,7 +27,7 @@ export const DailyPost41421: React.FC = () => {
   const solution1_1 =
     "\\frac{4+6i}{3-2i}\\times\\frac{3+2i}{3+2i}=\\frac{(4+6i)(3+2i)}{(3-2i)(3+2i)}";
   const solution1_2 = "\\frac{12+8i+18i-12}{9+6i-6i+4}";
-  const solution1_3 = "\\frac{24i}{13}";
+  const solution1_3 = "\\frac{26i}{13}";
 
   const solution2_1 = "\\frac{5x^3-3x^2+7x+2}{x+6}=5x^2-33x+205+R";
   const solution2_2 =
@@ -80,16 +80,16 @@ export const DailyPost41421: React.FC = () => {
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>
-                <InlineMath>x=200</InlineMath>, <InlineMath>y=100</InlineMath>
+                <InlineMath>14i</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=125</InlineMath>, <InlineMath>y=250</InlineMath>
+                <InlineMath>23</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=300</InlineMath>, <InlineMath>y=100</InlineMath>
+                <InlineMath>2i</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=100</InlineMath>, <InlineMath>y=300</InlineMath>
+                <InlineMath>-19i</InlineMath>
               </li>
             </ol>
           </div>
@@ -108,7 +108,7 @@ export const DailyPost41421: React.FC = () => {
               <div className={styles.answer}>
                 <h4 className={styles.answer_header}>Answer: </h4>
                 <p className={styles.answer_text}>
-                  <InlineMath>{solution1_3}</InlineMath>
+                  <InlineMath>2i</InlineMath>
                 </p>
               </div>
               <div className={styles.details}>
@@ -132,8 +132,10 @@ export const DailyPost41421: React.FC = () => {
                   then simplify the terms. Expanding out, we get{" "}
                   <InlineMath>{solution1_2}</InlineMath>. We'll combine
                   like-terms and reduce, which gives us a much cleaner looking
-                  expression, <InlineMath>{solution1_3}</InlineMath>. Since this
-                  is in lowest terms, it is our final answer.
+                  expression, <InlineMath>{solution1_3}</InlineMath>. We can
+                  divide the numerator and denominator by 13 to get our final
+                  answer of <InlineMath>2i</InlineMath>. Since this is in lowest
+                  terms, it is our final answer.
                 </p>
               </div>
             </div>

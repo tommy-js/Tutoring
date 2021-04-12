@@ -23,9 +23,27 @@ const precalc_header_2 = require("../../../public/blogs/precalculus_thumbnail_2.
 const sat_header = require("../../../public/blogs/SAT_Thumbnail.png");
 const sat_header_2 = require("../../../public/blogs/sat_prep_thumbnail_2.png");
 const calculus_header = require("../../../public/blogs/Calculus_Thumbnail.png");
+const calculus_header_2 = require("../../../public/blogs/calculus_thumbnail_2.png");
 
 export const Blog: React.FC = () => {
   const blog_posts = [
+    {
+      id: "178e7a4c-4717-4821-bb94-c35a506044aa",
+      title: "Daily Arithmetic",
+      description:
+        "Fraction Simplification, Adding Decimals & Rewriting Decimals as Fractions",
+      route: "/blog/daily-posts/4-12-21",
+      date: "4/12/2021",
+      image: arithmetic_header_2,
+    },
+    {
+      id: "3e8668c7-db24-4277-ad8a-3aa7b73a561a",
+      title: "Daily Calculus",
+      description: "Optimization, Definite Integration & Derivative Definition",
+      route: "/blog/daily-posts/4-11-21",
+      date: "4/11/2021",
+      image: calculus_header_2,
+    },
     {
       id: "3390435c-78f1-487e-bec7-b483caa5ae47",
       title: "Daily SAT Prep",

@@ -53,11 +53,13 @@ export const DailyPost41121: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>Calculus</h1>
+      <h1 className={styles.header}>
+        Calculus | Optimization, Definite Integration & Derivative Definition
+      </h1>
       <h2 className={styles.subheader}>Posted on 4/11/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/LgYmGkCuPTQ"
+          url="https://youtu.be/NnNmQtYbOII"
           loop={false}
           playing={false}
           controls={true}
