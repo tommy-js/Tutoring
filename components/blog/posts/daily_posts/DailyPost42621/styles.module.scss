@@ -1,0 +1,137 @@
+@import "../../../../globals/variables.scss";
+
+.daily_post {
+  position: relative;
+  margin-top: 75px;
+  width: 850px;
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  color: $graphite;
+}
+
+.header {
+  font-size: 26px;
+}
+
+.subheader {
+  font-size: 18px;
+  color: $blue;
+  opacity: 0.75;
+}
+
+.video_block {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.react_player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.micro_header {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.solution_button {
+  @include button;
+  font-size: 14px;
+  padding: 3px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.solution_button:hover {
+  @include hover;
+}
+
+.text {
+  line-height: 165%;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.problem {
+  border-bottom: 1px solid $gold;
+  margin-bottom: 50px;
+}
+
+.problem_header {
+  font-size: 20px;
+}
+
+.bottom_div {
+  margin-bottom: 75px;
+}
+
+.solution {
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.context_container {
+}
+
+.multiple_choice {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.individual_choice {
+  font-size: 18px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.image_block {
+  position: relative;
+  width: 200px;
+  float: right;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  .daily_post {
+    width: 95%;
+    max-width: 100%;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+
+  .subheader {
+    font-size: 16px;
+  }
+
+  .problem_header {
+    font-size: 18px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .video_block {
+    width: 100%;
+  }
+}

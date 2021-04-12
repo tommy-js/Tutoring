@@ -18,6 +18,8 @@ export const DailyPost41821: React.FC = () => {
   const solution1_1 = "200\\times 50=10,000";
   const solution1_2 = "10,000\\times 0.5=5,000";
 
+  const solution3_1 = "V=3m\\times 25cm";
+
   function revealProblem1() {
     setProblem1Color("#3c3b3b");
     setProblem1Shadow("none");
@@ -158,16 +160,16 @@ export const DailyPost41821: React.FC = () => {
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>
-                <InlineMath>x=200</InlineMath>, <InlineMath>y=100</InlineMath>
+                <InlineMath>V=25m</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=125</InlineMath>, <InlineMath>y=250</InlineMath>
+                <InlineMath>V=2.5m</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=300</InlineMath>, <InlineMath>y=100</InlineMath>
+                <InlineMath>V=0.75m</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=100</InlineMath>, <InlineMath>y=300</InlineMath>
+                <InlineMath>V=1.25m</InlineMath>
               </li>
             </ol>
           </div>
@@ -185,13 +187,20 @@ export const DailyPost41821: React.FC = () => {
             >
               <p className={styles.text}>
                 The most important part of solving unit problems like this one
-                is to make sure that the units are consistent.
+                is to make sure that the units are consistent. For this problem,
+                we're trying to calculate the volume of a box. Since volume of a
+                box is given as length*width*height, we can do the math as
+                follows: <InlineMath>{solution3_1}</InlineMath>. Note that the
+                3m is the length times the width of the base, since it
+                corresponds to the base area.
               </p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
+              <p className={styles.text}>
+                Now the only thing we need to keep track of is the units, as
+                previously mentioned. We'll convert centimeters to meters in
+                order to be consistent. We see that 25cm is 0.25m, so we can
+                rewrite our equation as{" "}
+                <InlineMath>V=3m*0.25m=0.75m</InlineMath>.
+              </p>
             </div>
           </div>
         </div>
