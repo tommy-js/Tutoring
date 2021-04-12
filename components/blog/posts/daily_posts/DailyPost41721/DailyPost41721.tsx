@@ -18,6 +18,11 @@ export const DailyPost41721: React.FC = () => {
   const problem2 = "\\frac{7}{8}=\\frac{y}{24}";
   const problem3 = "0.75-0.4";
 
+  const solution2_1 = "\\frac{7}{8}";
+  const solution2_2 = "\\frac{3\\times 7}{3\\times 8}=\\frac{21}{24}";
+  const solution2_3 = "\\frac{21}{24}";
+  const solution2_4 = "\\frac{y}{24}";
+
   function revealProblem1() {
     setProblem1Color("#3c3b3b");
     setProblem1Shadow("none");
@@ -131,12 +136,16 @@ export const DailyPost41721: React.FC = () => {
               className={styles.solution}
               style={{ color: problem2Color, textShadow: problem2Shadow }}
             >
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
+              <p className={styles.text}>
+                In order to find the value of y we need to recognize that 3
+                times 8 is 24. If we see this, then we can multiply the
+                numerator and denominator of the fraction{" "}
+                <InlineMath>{solution2_1}</InlineMath> by 3. If we do this, we
+                see that <InlineMath>{solution2_2}</InlineMath>. Because the
+                denominators of <InlineMath>{solution2_3}</InlineMath> and{" "}
+                <InlineMath>{solution2_4}</InlineMath> are the same, we can see
+                that <InlineMath>y=21</InlineMath>.
+              </p>
             </div>
           </div>
         </div>

@@ -15,6 +15,9 @@ export const DailyPost41821: React.FC = () => {
   const [problem3Color, setProblem3Color] = useState("transparent");
   const [problem3Shadow, setProblem3Shadow] = useState("0 0 7px #000");
 
+  const solution1_1 = "200\\times 50=10,000";
+  const solution1_2 = "10,000\\times 0.5=5,000";
+
   function revealProblem1() {
     setProblem1Color("#3c3b3b");
     setProblem1Shadow("none");
@@ -52,23 +55,15 @@ export const DailyPost41821: React.FC = () => {
         <div className={styles.problem}>
           <div className={styles.problem_header}>
             1. A factory produces bottles worth $0.5 each. 50 people work in the
-            factory and each of them make 100 bottles per day. What is the total
+            factory and each of them make 200 bottles per day. What is the total
             value of the bottles produced daily?
           </div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
-              <li className={styles.individual_choice}>
-                <InlineMath>x=200</InlineMath>, <InlineMath>y=100</InlineMath>
-              </li>
-              <li className={styles.individual_choice}>
-                <InlineMath>x=125</InlineMath>, <InlineMath>y=250</InlineMath>
-              </li>
-              <li className={styles.individual_choice}>
-                <InlineMath>x=300</InlineMath>, <InlineMath>y=100</InlineMath>
-              </li>
-              <li className={styles.individual_choice}>
-                <InlineMath>x=100</InlineMath>, <InlineMath>y=300</InlineMath>
-              </li>
+              <li className={styles.individual_choice}>$2,500</li>
+              <li className={styles.individual_choice}>$10,000</li>
+              <li className={styles.individual_choice}>$5,000</li>
+              <li className={styles.individual_choice}>$500</li>
             </ol>
           </div>
           <div className={styles.problem_solution}>
@@ -89,32 +84,35 @@ export const DailyPost41821: React.FC = () => {
               </div>
               <div className={styles.details}>
                 <h4 className={styles.details_header}>Explanation: </h4>
-                <p className={styles.text}></p>
-                <p className={styles.text}></p>
-                <p className={styles.text}></p>
-                <p className={styles.text}></p>
-                <p className={styles.text}></p>
+                <p className={styles.text}>
+                  We see that there are 50 people working, each of them making
+                  200 bottles individually. This means that for the entire
+                  factory <InlineMath>{solution1_1}</InlineMath> bottles are
+                  made each day. Then, because each bottle sells for $0.50, we
+                  know that the total value of bottles produced daily is{" "}
+                  <InlineMath>{solution1_2}</InlineMath>.
+                </p>
               </div>
             </div>
           </div>
         </div>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            2. Factor the polynomial <InlineMath>a^2-b^2</InlineMath>.
+            2. Factor the polynomial <InlineMath>a^2-2ab+b^2</InlineMath>.
           </div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>
-                <InlineMath>x=200</InlineMath>, <InlineMath>y=100</InlineMath>
+                <InlineMath>(a-b)^2</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=125</InlineMath>, <InlineMath>y=250</InlineMath>
+                <InlineMath>(a+b)^2</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=300</InlineMath>, <InlineMath>y=100</InlineMath>
+                <InlineMath>(a-2b)^2</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=100</InlineMath>, <InlineMath>y=300</InlineMath>
+                <InlineMath>(2a+2b)^2</InlineMath>
               </li>
             </ol>
           </div>
@@ -130,12 +128,23 @@ export const DailyPost41821: React.FC = () => {
               className={styles.solution}
               style={{ color: problem2Color, textShadow: problem2Shadow }}
             >
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
+              <p className={styles.text}>
+                To factor this, we need to look for terms that multiply to{" "}
+                <InlineMath>b^2</InlineMath> and add to{" "}
+                <InlineMath>-2ab</InlineMath>. We see that if we multiply{" "}
+                <InlineMath>(b)(b)</InlineMath> or{" "}
+                <InlineMath>(-b)(-b)</InlineMath> we'll get{" "}
+                <InlineMath>b^2</InlineMath>, however since the second term in
+                our polynomial is negative we'll take the second option and try
+                it.
+              </p>
+              <p className={styles.text}>
+                Let's try <InlineMath>(a-b)^2</InlineMath>. If we expand this
+                out and distribute, it becomes{" "}
+                <InlineMath>(a-b)(a-b)=a^2-ab-ba+b^2=a^2-2ab+b^2</InlineMath>.
+                Since it matches the polynomial we were looking to factor, we
+                know that the factored form is <InlineMath>(a-b)^2</InlineMath>.
+              </p>
             </div>
           </div>
         </div>
@@ -174,7 +183,10 @@ export const DailyPost41821: React.FC = () => {
               className={styles.solution}
               style={{ color: problem3Color, textShadow: problem3Shadow }}
             >
-              <p className={styles.text}></p>
+              <p className={styles.text}>
+                The most important part of solving unit problems like this one
+                is to make sure that the units are consistent.
+              </p>
               <p className={styles.text}></p>
               <p className={styles.text}></p>
               <p className={styles.text}></p>
