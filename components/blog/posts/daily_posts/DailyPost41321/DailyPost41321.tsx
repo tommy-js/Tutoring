@@ -63,7 +63,7 @@ export const DailyPost41321: React.FC = () => {
       <h2 className={styles.subheader}>Posted on 4/13/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/LgYmGkCuPTQ"
+          url="https://youtu.be/aAIBmmRrzSk"
           loop={false}
           playing={false}
           controls={true}
@@ -82,6 +82,7 @@ export const DailyPost41321: React.FC = () => {
             <InlineMath>(x+7)(x-3)=0</InlineMath> for x.
           </div>
           <div className={styles.context_container}>
+            <h3 className={styles.choices}>Choices</h3>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>
                 <InlineMath>x=2</InlineMath>, <InlineMath>x=6</InlineMath>
@@ -136,6 +137,7 @@ export const DailyPost41321: React.FC = () => {
             <InlineMath>8x^3-3x^2+x-6</InlineMath>.
           </div>
           <div className={styles.context_container}>
+            <h3 className={styles.choices}>Choices</h3>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>
                 <InlineMath>9x^3+6x^2-2x+4</InlineMath>
@@ -193,6 +195,7 @@ export const DailyPost41321: React.FC = () => {
             <InlineMath>{problem3_2}</InlineMath> for x and y.
           </div>
           <div className={styles.context_container}>
+            <h3 className={styles.choices}>Choices</h3>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>
                 <InlineMath>x=7</InlineMath>, <InlineMath>y=-1</InlineMath>

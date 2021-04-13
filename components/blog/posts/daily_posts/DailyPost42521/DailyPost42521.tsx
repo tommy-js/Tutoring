@@ -32,7 +32,7 @@ export const DailyPost42521: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>[TITLE]</h1>
+      <h1 className={styles.header}>SAT Prep</h1>
       <h2 className={styles.subheader}>Posted on [DATE]</h2>
       <div className={styles.video_block}>
         <ReactPlayer

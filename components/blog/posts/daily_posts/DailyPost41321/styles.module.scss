@@ -11,7 +11,7 @@
 }
 
 .header {
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .subheader {
@@ -72,6 +72,10 @@
   margin-bottom: 75px;
 }
 
+.choices {
+  font-size: 18px;
+}
+
 .solution {
   overflow: hidden;
   transition: 0.3s;
@@ -116,7 +120,7 @@
   }
 
   .header {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .subheader {

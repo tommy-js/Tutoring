@@ -15,6 +15,12 @@ export const DailyPost41921: React.FC = () => {
   const [problem3Color, setProblem3Color] = useState("transparent");
   const [problem3Shadow, setProblem3Shadow] = useState("0 0 7px #000");
 
+  const problem1 = "\\sin(\\frac{6x^2}{7})=14";
+  const problem2 = "\\frac{3!4!}{0!}";
+  const problem3_1 = "g(f(x))";
+  const problem3_2 = "g(x)=x^2+6x-14";
+  const problem3_3 = "f(x)=\\frac{(x+1)^2}{17}";
+
   function revealProblem1() {
     setProblem1Color("#3c3b3b");
     setProblem1Shadow("none");
@@ -32,7 +38,7 @@ export const DailyPost41921: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>[TITLE]</h1>
+      <h1 className={styles.header}>Precalculus</h1>
       <h2 className={styles.subheader}>Posted on [DATE]</h2>
       <div className={styles.video_block}>
         <ReactPlayer
@@ -50,7 +56,9 @@ export const DailyPost41921: React.FC = () => {
       <div className={styles.solutions_block}>
         <h3 className={styles.solutions_header}>Problems & Solutions</h3>
         <div className={styles.problem}>
-          <div className={styles.problem_header}>1.</div>
+          <div className={styles.problem_header}>
+            1. Solve <InlineMath>{problem1}</InlineMath> for x.
+          </div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>[ANS1]</li>
@@ -87,7 +95,9 @@ export const DailyPost41921: React.FC = () => {
           </div>
         </div>
         <div className={styles.problem}>
-          <div className={styles.problem_header}>2.</div>
+          <div className={styles.problem_header}>
+            2. Simplify <InlineMath>{problem2}</InlineMath>.
+          </div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>[ANS1]</li>
@@ -117,7 +127,11 @@ export const DailyPost41921: React.FC = () => {
           </div>
         </div>
         <div className={styles.problem}>
-          <div className={styles.problem_header}>3.</div>
+          <div className={styles.problem_header}>
+            3. Compose <InlineMath>{problem3_1}</InlineMath> using{" "}
+            <InlineMath>{problem3_2}</InlineMath> and{" "}
+            <InlineMath>{problem3_3}</InlineMath>.
+          </div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>[ANS1]</li>

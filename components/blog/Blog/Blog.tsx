@@ -28,6 +28,15 @@ const calculus_header_2 = require("../../../public/blogs/calculus_thumbnail_2.pn
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
+      id: "2b60f91e-64be-460b-996b-6b2f6694c189",
+      title: "Daily Algebra",
+      description:
+        "Zero Product Property, Polynomial Addition & Systems of Equations",
+      route: "/blog/daily-posts/4-13-21",
+      date: "4/13/2021",
+      image: algebra_header_2,
+    },
+    {
       id: "178e7a4c-4717-4821-bb94-c35a506044aa",
       title: "Daily Arithmetic",
       description:
