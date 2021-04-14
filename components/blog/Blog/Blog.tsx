@@ -28,6 +28,15 @@ const calculus_header_2 = require("../../../public/blogs/calculus_thumbnail_2.pn
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
+      id: "584b70b1-5d20-4f15-bea8-86c88a1ad2d1",
+      title: "Daily Precalculus",
+      description:
+        "Complex Simplification, Synthetic Division & Fundamental Theorem of Algebra",
+      route: "/blog/daily-posts/4-14-21",
+      date: "4/14/2021",
+      image: precalc_header_2,
+    },
+    {
       id: "2b60f91e-64be-460b-996b-6b2f6694c189",
       title: "Daily Algebra",
       description:
