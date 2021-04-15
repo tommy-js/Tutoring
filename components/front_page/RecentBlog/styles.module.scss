@@ -46,6 +46,14 @@
   font-size: 18px;
 }
 
+.recent_blog:hover .button {
+  @include hover;
+}
+
+.button {
+  @include button;
+}
+
 @media only screen and (max-width: 900px) {
   .recent_blog {
     width: 95%;

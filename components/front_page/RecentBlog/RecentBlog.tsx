@@ -21,6 +21,9 @@ export const RecentBlog: React.FC = () => {
             Review the solving of quadratic equations, finding a circle's
             midpoint, and solving word problems.
           </p>
+          <div className={styles.button_container}>
+            <button className={styles.button}>Read More</button>
+          </div>
         </div>
       </div>
     </Link>
