@@ -15,6 +15,8 @@ export const DailyPost42121: React.FC = () => {
   const [problem3Color, setProblem3Color] = useState("transparent");
   const [problem3Shadow, setProblem3Shadow] = useState("0 0 7px #000");
 
+  const problem2 = "f(x)=x^3\\sin(x^2)";
+
   function revealProblem1() {
     setProblem1Color("#3c3b3b");
     setProblem1Shadow("none");
@@ -50,7 +52,9 @@ export const DailyPost42121: React.FC = () => {
       <div className={styles.solutions_block}>
         <h3 className={styles.solutions_header}>Problems & Solutions</h3>
         <div className={styles.problem}>
-          <div className={styles.problem_header}>1.</div>
+          <div className={styles.problem_header}>
+            1. Identify the discontinuities in the following graph:
+          </div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>[ANS1]</li>
@@ -87,7 +91,10 @@ export const DailyPost42121: React.FC = () => {
           </div>
         </div>
         <div className={styles.problem}>
-          <div className={styles.problem_header}>2.</div>
+          <div className={styles.problem_header}>
+            2. Take the derivative of the function{" "}
+            <InlineMath>{problem2}</InlineMath>.
+          </div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>[ANS1]</li>

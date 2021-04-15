@@ -28,6 +28,14 @@ const calculus_header_2 = require("../../../public/blogs/calculus_thumbnail_2.pn
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
+      id: "1e56ad12-2c76-40d0-82d6-dd29a96f1c55",
+      title: "Daily SAT Prep",
+      description: "Quadratic Equations, Circle Midpoint & Word Problems",
+      route: "/blog/daily-posts/4-15-21",
+      date: "4/15/2021",
+      image: sat_header_2,
+    },
+    {
       id: "584b70b1-5d20-4f15-bea8-86c88a1ad2d1",
       title: "Daily Precalculus",
       description:

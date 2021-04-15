@@ -52,11 +52,13 @@ export const DailyPost41521: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>SAT Prep</h1>
+      <h1 className={styles.header}>
+        SAT Prep | Quadratic Equations, Circle Midpoint & Word Problems
+      </h1>
       <h2 className={styles.subheader}>Posted on 4/15/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/LgYmGkCuPTQ"
+          url="https://youtu.be/ArxRYHhd_2o"
           loop={false}
           playing={false}
           controls={true}

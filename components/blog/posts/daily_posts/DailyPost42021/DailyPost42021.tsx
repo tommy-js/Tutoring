@@ -15,6 +15,8 @@ export const DailyPost42021: React.FC = () => {
   const [problem3Color, setProblem3Color] = useState("transparent");
   const [problem3Shadow, setProblem3Shadow] = useState("0 0 7px #000");
 
+  const problem3 = "\\frac{1+i}{1-i}+\\frac{1}{1+i}";
+
   function revealProblem1() {
     setProblem1Color("#3c3b3b");
     setProblem1Shadow("none");
@@ -50,7 +52,13 @@ export const DailyPost42021: React.FC = () => {
       <div className={styles.solutions_block}>
         <h3 className={styles.solutions_header}>Problems & Solutions</h3>
         <div className={styles.problem}>
-          <div className={styles.problem_header}>1.</div>
+          <div className={styles.problem_header}>
+            1. A car that usually costs $16,500 is on sale for 20% off. As part
+            of a promotion, everyone who chooses to purchase said vehicle will
+            also receive an additional discount on the marked price. If the
+            final price of the car was $11,500, what is the additional discount
+            that was applied to the marked sale price?
+          </div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>[ANS1]</li>
@@ -87,7 +95,14 @@ export const DailyPost42021: React.FC = () => {
           </div>
         </div>
         <div className={styles.problem}>
-          <div className={styles.problem_header}>2.</div>
+          <div className={styles.problem_header}>
+            2. [NEEDS CHANGED] In order to connect to the internet, dedicated
+            computers are kept in the server room. To prevent overheating, the
+            density of computers in a server room must not exceed 2.1 computers
+            per cubic foot. (1 meter is about 3.28 feet) Which of the following
+            densities is equal to the maximum number of computers per cubic
+            meter?
+          </div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>[ANS1]</li>
@@ -117,7 +132,10 @@ export const DailyPost42021: React.FC = () => {
           </div>
         </div>
         <div className={styles.problem}>
-          <div className={styles.problem_header}>3.</div>
+          <div className={styles.problem_header}>
+            3. Which of the following is equivalent to the complex number{" "}
+            <InlineMath>{problem3}</InlineMath>?
+          </div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>[ANS1]</li>
