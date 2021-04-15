@@ -1,5 +1,15 @@
 @import "../../globals/variables.scss";
 
+.deal_container {
+  margin-bottom: 50px;
+  width: 85%;
+  max-width: 800px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid $off_white;
+}
+
 .deal {
   width: 85%;
   margin-top: 50px;
@@ -55,10 +65,19 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .deal_container {
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 800px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid $off_white;
+  }
+
   .deal {
     width: 100%;
     min-width: 0px;
-    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     border: none;
