@@ -36,10 +36,10 @@ export const DailyPost41621: React.FC = () => {
   const problem2_choice_4 = "\\frac{5}{2}z^2-8";
 
   const solution3_1 = "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}";
-  const solution3_2 = "x=\\frac{-12\\pm\\sqrt{12^2-4(27)(-12)}}{2(12)}";
-  const solution3_3 = "x=\\frac{-12\\pm\\sqrt{1440}}{24}";
-  const solution3_4 = "x=\\frac{-6+3\\sqrt{40}}{12}";
-  const solution3_5 = "x=\\frac{-6-3\\sqrt{40}}{12}";
+  const solution3_2 = "x=\\frac{-12\\pm\\sqrt{12^2-4(27)(-12)}}{2(27)}";
+  const solution3_3 = "x=\\frac{-12\\pm\\sqrt{1440}}{54}";
+  const solution3_4 = "x=\\frac{-3+\\sqrt{40}}{9}";
+  const solution3_5 = "x=\\frac{-3-\\sqrt{40}}{9}";
   const solution3_6 = "\\sqrt{1440}=\\sqrt{36}\\sqrt{40}=6\\sqrt{40}";
   const solution3_7 = "x=\\frac{-6\\pm 3\\sqrt{40}}{12}";
 

@@ -50,6 +50,16 @@ export const TylerBlovat: React.FC = () => {
             </div>
             <p className={styles.checkbox_text}>Certified CRLA Level 1 tutor</p>
           </div>
+          <div className={styles.checkbox}>
+            <div className={styles.checkmark_box}>
+              <div className={styles.checkmark_image}>
+                <img src={checkmark} className={styles.checkmark} />
+              </div>
+            </div>
+            <p className={styles.checkbox_text}>
+              Bachelor's Degree in subject area
+            </p>
+          </div>
         </div>
       </div>
       <div className={styles.contact_bar}>
@@ -105,7 +115,7 @@ export const TylerBlovat: React.FC = () => {
             volume={100}
             muted={false}
             width={"100%"}
-            height={"auto"}
+            height={"100%"}
             className={styles.player}
           />
         </div>

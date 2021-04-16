@@ -18,6 +18,8 @@ export const DailyPost41721: React.FC = () => {
   const problem2 = "\\frac{7}{8}=\\frac{y}{24}";
   const problem3 = "0.75-0.4";
 
+  const solution1_1 = "\\frac{2}{2}\\times\\frac{2}{5}=\\frac{4}{10}";
+
   const solution2_1 = "\\frac{7}{8}";
   const solution2_2 = "\\frac{3\\times 7}{3\\times 8}=\\frac{21}{24}";
   const solution2_3 = "\\frac{21}{24}";
@@ -41,7 +43,7 @@ export const DailyPost41721: React.FC = () => {
   return (
     <div className={styles.daily_post}>
       <h1 className={styles.header}>Arithmetic</h1>
-      <h2 className={styles.subheader}>Posted on 4/15/21</h2>
+      <h2 className={styles.subheader}>Posted on 4/17/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
           url="https://youtu.be/LgYmGkCuPTQ"
@@ -89,19 +91,38 @@ export const DailyPost41721: React.FC = () => {
               className={styles.solution}
               style={{ color: problem1Color, textShadow: problem1Shadow }}
             >
-              <div className={styles.answer}>
-                <h4 className={styles.answer_header}>Answer: </h4>
-                <p className={styles.answer_text}></p>
-              </div>
               <div className={styles.details}>
-                <h4 className={styles.details_header}>Explanation: </h4>
                 <p className={styles.text}>
-                  We'll use pie charts to see how these fractions can be
-                  rewritten as decimals.
+                  Let's start with 1/4. We'll use a pie-chart to see how this
+                  can be described in geometric terms. If we draw a chart with 4
+                  different segments and fill in 1, we've shown 1/4
+                  geometrically. Then, we can see that this corresponds to 25%
+                  of the graph, or 25/100 of it. After all, this is what a
+                  percent is: a number out of 100. Now, we just need to converto
+                  to a decimal.
                 </p>
-                <p className={styles.text}></p>
-                <p className={styles.text}></p>
-                <p className={styles.text}></p>
+                <p className={styles.text}>
+                  If we take 25/100, we know that dividing by 100 requires us to
+                  take our whole number and move the decimal to the left by 2
+                  spaces. So, we get that <InlineMath>1/4=0.25</InlineMath>.
+                </p>
+                <p className={styles.text}>
+                  While we could absolutely use this same method for figuring
+                  out the decimal representation of 2/5, instead we'll use some
+                  basic rules of fractions. If we take the fraction and multiply
+                  its numerator and denominator by 2, we would get{" "}
+                  <InlineMath>{solution1_1}</InlineMath>. This is because when
+                  we multiply a fraction by another fraction, we multiply
+                  straight across. So, we would multiply 2 by 2 on the numerator
+                  and 2 by 5 on the denominator.
+                </p>
+                <p className={styles.text}>
+                  Now we essentially apply the same reasoning as in our first
+                  problem. Since we're dividing 4 by 10, we take the decimal and
+                  move it one space to the left, giving us{" "}
+                  <InlineMath>0.4</InlineMath> as our decimal representation of
+                  2/5.
+                </p>
                 <p className={styles.text}></p>
               </div>
             </div>
@@ -114,16 +135,16 @@ export const DailyPost41721: React.FC = () => {
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>
-                <InlineMath>x=200</InlineMath>, <InlineMath>y=100</InlineMath>
+                <InlineMath>y=81</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=125</InlineMath>, <InlineMath>y=250</InlineMath>
+                <InlineMath>y=-5</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=300</InlineMath>, <InlineMath>y=100</InlineMath>
+                <InlineMath>y=21</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=100</InlineMath>, <InlineMath>y=300</InlineMath>
+                <InlineMath>y=17</InlineMath>
               </li>
             </ol>
           </div>
@@ -159,16 +180,16 @@ export const DailyPost41721: React.FC = () => {
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
               <li className={styles.individual_choice}>
-                <InlineMath>x=200</InlineMath>, <InlineMath>y=100</InlineMath>
+                <InlineMath>0.29</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=125</InlineMath>, <InlineMath>y=250</InlineMath>
+                <InlineMath>0.35</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=300</InlineMath>, <InlineMath>y=100</InlineMath>
+                <InlineMath>0.13</InlineMath>
               </li>
               <li className={styles.individual_choice}>
-                <InlineMath>x=100</InlineMath>, <InlineMath>y=300</InlineMath>
+                <InlineMath>1.24</InlineMath>
               </li>
             </ol>
           </div>
@@ -184,12 +205,24 @@ export const DailyPost41721: React.FC = () => {
               className={styles.solution}
               style={{ color: problem3Color, textShadow: problem3Shadow }}
             >
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
+              <p className={styles.text}>
+                There are a few different ways to solve this problem. We could
+                try and convert it to a pie-chart to make the solution more
+                visually clear, but this may prove difficult given the fact that
+                we're starting from a decimal. Instead, we'll multiply the
+                numerator and denominator by 100, which will help us convert to
+                whole numbers.
+              </p>
+              <p className={styles.text}>
+                Multiplying 0.75 and 0.4 by 100, we get{" "}
+                <InlineMath>75-40</InlineMath>. This will make the process a
+                little more obvious. Now, subtracting whole numbers may be
+                clearer, and so <InlineMath>75-40=35</InlineMath>. Since we had
+                originally multiplied the numerator and denominator by 100, we
+                need to divide this out again, and in doing so we just need to
+                move the decimal place over two spots. This results in{" "}
+                <InlineMath>0.35</InlineMath>, our final answer.
+              </p>
             </div>
           </div>
         </div>

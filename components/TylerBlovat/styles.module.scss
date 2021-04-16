@@ -170,8 +170,15 @@
 }
 
 .video_block {
-  padding-bottom: 25px;
+  position: relative;
+  padding-top: 56.25%;
   border-bottom: 1px solid $off_white;
+}
+
+.player {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 @media only screen and (max-width: 900px) {
