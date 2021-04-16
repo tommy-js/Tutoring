@@ -7,8 +7,14 @@ export default function DailyPost41621Page() {
   return (
     <div>
       <Head>
-        <title>Daily Precalculus |</title>
-        <meta name="description" content="" />
+        <title>
+          Daily Calculus | L'Hospital's Rule, Indefinite Integration & Critical
+          Points
+        </title>
+        <meta
+          name="description"
+          content="Review L'Hospital's Rule, indefinite integration, and finding critical points with Functional Tutoring"
+        />
       </Head>
       <Navbar />
       <DailyPost41621 />

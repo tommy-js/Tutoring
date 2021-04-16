@@ -7,8 +7,14 @@ export default function DailyPost41121Page() {
   return (
     <div>
       <Head>
-        <title>Daily Calculus |</title>
-        <meta name="description" content="" />
+        <title>
+          Daily Calculus | Optimization, Definite Integration & Derivative
+          Definition
+        </title>
+        <meta
+          name="description"
+          content="Go over optimization, definite integration, and derivatives with Functional Tutoring"
+        />
       </Head>
       <Navbar />
       <DailyPost41121 />

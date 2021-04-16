@@ -17,6 +17,10 @@ export const DailyPost42021: React.FC = () => {
 
   const problem3 = "\\frac{1+i}{1-i}+\\frac{1}{1+i}";
 
+  const solution1_1 = "16,500\\times 0.8=13,200";
+  const solution1_2 = "13,200\\times D=11,220";
+  const solution1_3 = "D=\\frac{11,220}{13,200}=0.85";
+
   function revealProblem1() {
     setProblem1Color("#3c3b3b");
     setProblem1Shadow("none");
@@ -35,7 +39,7 @@ export const DailyPost42021: React.FC = () => {
   return (
     <div className={styles.daily_post}>
       <h1 className={styles.header}>SAT Prep</h1>
-      <h2 className={styles.subheader}>Posted on [DATE]</h2>
+      <h2 className={styles.subheader}>Posted on 4/20/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
           url="https://youtu.be/LgYmGkCuPTQ"
@@ -56,15 +60,15 @@ export const DailyPost42021: React.FC = () => {
             1. A car that usually costs $16,500 is on sale for 20% off. As part
             of a promotion, everyone who chooses to purchase said vehicle will
             also receive an additional discount on the marked price. If the
-            final price of the car was $11,500, what is the additional discount
+            final price of the car was $11,220, what is the additional discount
             that was applied to the marked sale price?
           </div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
-              <li className={styles.individual_choice}>[ANS1]</li>
-              <li className={styles.individual_choice}>[ANS2]</li>
-              <li className={styles.individual_choice}>[ANS3]</li>
-              <li className={styles.individual_choice}>[ANS4]</li>
+              <li className={styles.individual_choice}>32%</li>
+              <li className={styles.individual_choice}>19%</li>
+              <li className={styles.individual_choice}>15%</li>
+              <li className={styles.individual_choice}>26%</li>
             </ol>
           </div>
           <div className={styles.problem_solution}>
@@ -85,11 +89,21 @@ export const DailyPost42021: React.FC = () => {
               </div>
               <div className={styles.details}>
                 <h4 className={styles.details_header}>Explanation: </h4>
-                <p className={styles.text}></p>
-                <p className={styles.text}></p>
-                <p className={styles.text}></p>
-                <p className={styles.text}></p>
-                <p className={styles.text}></p>
+                <p className={styles.text}>
+                  The first thing we need to do is apply the standard 20%
+                  discount to the original sale price. Doing so, we see that the
+                  discounted price is <InlineMath>{solution1_1}</InlineMath>.
+                  Now, we just need to calculate the additional discount on the
+                  vehicle. We know that the final price of the vehicle is
+                  $11,220, and that the current price after our first discount
+                  is $13,200. So, we know that{" "}
+                  <InlineMath>{solution1_2}</InlineMath> for some discount D.
+                </p>
+                <p className={styles.text}>
+                  Now, simply dividing by 13,200 from both sides, we get{" "}
+                  <InlineMath>{solution1_3}</InlineMath>. This means that the
+                  additional discount applied to our vehicle is 15%.
+                </p>
               </div>
             </div>
           </div>

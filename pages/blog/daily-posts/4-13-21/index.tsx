@@ -7,8 +7,14 @@ export default function DailyPost41321Page() {
   return (
     <div>
       <Head>
-        <title>Daily Algebra |</title>
-        <meta name="description" content="" />
+        <title>
+          Daily Algebra | Zero Product Property, Polynomial Addition & Systems
+          of Equations
+        </title>
+        <meta
+          name="description"
+          content="Go over the Zero Product Property, add polynomials, and review systems of equations"
+        />
       </Head>
       <Navbar />
       <DailyPost41321 />

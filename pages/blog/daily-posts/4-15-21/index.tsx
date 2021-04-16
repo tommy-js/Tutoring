@@ -7,8 +7,14 @@ export default function DailyPost41521Page() {
   return (
     <div>
       <Head>
-        <title>Daily Precalculus |</title>
-        <meta name="description" content="" />
+        <title>
+          Daily Precalculus | Quadratic Equations, Circle Midpoint & Word
+          Problems
+        </title>
+        <meta
+          name="description"
+          content="Solve quadratic equations, find the midpoint of a circle, and solve word problems"
+        />
       </Head>
       <Navbar />
       <DailyPost41521 />

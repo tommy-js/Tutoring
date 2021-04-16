@@ -7,8 +7,14 @@ export default function DailyPost41221Page() {
   return (
     <div>
       <Head>
-        <title>Daily Arithmetic |</title>
-        <meta name="description" content="" />
+        <title>
+          Daily Arithmetic | Fraction Simplification, Adding Decimals &
+          Rewriting
+        </title>
+        <meta
+          name="description"
+          content="Simplify fractions and add decimals with Functional Tutoring"
+        />
       </Head>
       <Navbar />
       <DailyPost41221 />

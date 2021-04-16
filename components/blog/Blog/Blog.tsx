@@ -28,6 +28,15 @@ const calculus_header_2 = require("../../../public/blogs/calculus_thumbnail_2.pn
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
+      id: "218eff22-ba54-4be8-bfd1-2f284731eba5",
+      title: "Daily Calculus",
+      description:
+        "L'Hospital's Rule, Indefinite Integration & Critical Points",
+      route: "/blog/daily-posts/4-16-21",
+      date: "4/16/2021",
+      image: calculus_header,
+    },
+    {
       id: "1e56ad12-2c76-40d0-82d6-dd29a96f1c55",
       title: "Daily SAT Prep",
       description: "Quadratic Equations, Circle Midpoint & Word Problems",

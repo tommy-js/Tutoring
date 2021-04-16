@@ -7,8 +7,14 @@ export default function DailyPost41421Page() {
   return (
     <div>
       <Head>
-        <title>Daily Precalculus |</title>
-        <meta name="description" content="" />
+        <title>
+          Daily Precalculus | Complex Simplification, Synthetic Division &
+          Fundamental Theorem of Algebra
+        </title>
+        <meta
+          name="description"
+          content="Simplify complex expressions and perform synthetic division with Functional Tutoring"
+        />
       </Head>
       <Navbar />
       <DailyPost41421 />

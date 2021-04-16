@@ -29,7 +29,7 @@ export const DailyPost41621: React.FC = () => {
     "\\lim_{x\\to 0}\\frac{42(0)^2-12(0)+9\\cos(9(0))}{2(0)-1}=-9";
   const solution2_1 =
     "\\int 6z^3-8z+16dz=\\frac{6}{4}x^4-\\frac{8}{2}z^2+16z+C";
-  const solution2_2 = "\\int 6z^3-8z+16dz=\\frac{3}{2}x^4-4z^2+16z+C";
+  const solution2_2 = "\\int 6z^3-8z+16dz=\\frac{3}{2}z^4-4z^2+16z+C";
 
   const problem2_choice_2 = "\\frac{14}{5}z^4-4z^2+16z+C";
   const problem2_choice_3 = "\\frac{3}{2}z^4-4z^2+16z+C";
@@ -65,11 +65,13 @@ export const DailyPost41621: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>Calculus</h1>
-      <h2 className={styles.subheader}>Posted on 4/15/21</h2>
+      <h1 className={styles.header}>
+        Calculus | L'Hospital's Rule, Indefinite Integration & Critical Points
+      </h1>
+      <h2 className={styles.subheader}>Posted on 4/16/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/LgYmGkCuPTQ"
+          url="https://youtu.be/zIvNrdbICHI"
           loop={false}
           playing={false}
           controls={true}
@@ -89,7 +91,7 @@ export const DailyPost41621: React.FC = () => {
           </div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
-              <li className={styles.individual_choice}>9</li>
+              <li className={styles.individual_choice}>-9</li>
               <li className={styles.individual_choice}>-24</li>
               <li className={styles.individual_choice}>83</li>
               <li className={styles.individual_choice}>14</li>
