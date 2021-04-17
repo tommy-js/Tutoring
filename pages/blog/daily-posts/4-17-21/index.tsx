@@ -7,8 +7,11 @@ export default function DailyPost41721Page() {
   return (
     <div>
       <Head>
-        <title>Daily Precalculus |</title>
-        <meta name="description" content="" />
+        <title>Daily Arithmetic</title>
+        <meta
+          name="description"
+          content="Review converting decimals to fractions and finding the least common denominator of a pair of fractions"
+        />
       </Head>
       <Navbar />
       <DailyPost41721 />
