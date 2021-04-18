@@ -16,7 +16,7 @@ export const RecentBlog: React.FC = () => {
           <h3 className={styles.text_header}>
             Algebra | Word Problems & Perfect Square Factoring
           </h3>
-          <h4 className={styles.date}>4/16/21</h4>
+          <h4 className={styles.date}>4/18/21</h4>
           <p className={styles.text}>
             Go over word problems and perfect square factoring.
           </p>
