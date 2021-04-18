@@ -28,6 +28,14 @@ const calculus_header_2 = require("../../../public/blogs/calculus_thumbnail_2.pn
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
+      id: "10bffaa6-3e88-444f-bbcf-12d8373fd148",
+      title: "Daily Algebra",
+      description: "Word Problems & Perfect Square Factoring",
+      route: "/blog/daily-posts/4-18-21",
+      date: "4/18/2021",
+      image: algebra_header,
+    },
+    {
       id: "b908b326-bdf9-489d-a7cd-fcb5e72a5388",
       title: "Daily Arithmetic",
       description: "Decimal Conversions & Fractions",

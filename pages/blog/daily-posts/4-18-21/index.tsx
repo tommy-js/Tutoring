@@ -7,8 +7,11 @@ export default function DailyPost41821Page() {
   return (
     <div>
       <Head>
-        <title>Daily Precalculus |</title>
-        <meta name="description" content="" />
+        <title>Daily Algebra</title>
+        <meta
+          name="description"
+          content="Review algebra word problems and factor perfect squares with us at Functional Tutoring!"
+        />
       </Head>
       <Navbar />
       <DailyPost41821 />
