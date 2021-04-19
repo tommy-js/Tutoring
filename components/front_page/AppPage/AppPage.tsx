@@ -1,7 +1,6 @@
 import React from "react";
 import { Introduction } from "../Introduction/Introduction";
 import { Deal } from "../Deal/Deal";
-import { SatCard } from "../SatCard/SatCard";
 import { RecentBlog } from "../RecentBlog/RecentBlog";
 import { AtAGlance } from "../AtAGlance/AtAGlance";
 import { ScheduleSession } from "../ScheduleSession/ScheduleSession";
@@ -20,13 +19,13 @@ export const AppPage: React.FC = () => {
       <SubjectHeader />
       <div className={styles.app_page}>
         <Subjects />
+        <OurTeam />
         <Deal />
-        <RecentBlog />
         <Fade>
+          <RecentBlog />
           <Introduction />
           <ScheduleSession />
           <AtAGlance />
-          <OurTeam />
           <WhyMe />
           <EmailSignup />
         </Fade>

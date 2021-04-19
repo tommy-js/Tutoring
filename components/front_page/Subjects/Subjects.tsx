@@ -34,14 +34,14 @@ export const Subjects: React.FC = () => {
       subtext:
         "Addition, subtraction, multiplication, division, the basics of fractions and more.",
       image: arithmetic,
-      link: "/materials/arithmetic",
+      link: "/subjects/arithmetic",
     },
     {
       id: 3,
       title: "Geometry",
       subtext: "The study of shapes and their properties.",
       image: geometry,
-      link: "/materials/geometry",
+      link: "/subjects/geometry",
     },
     {
       id: 4,
@@ -49,7 +49,7 @@ export const Subjects: React.FC = () => {
       subtext:
         "Basics of functions, real numbers, exponents, inequalities, polynomials, rational expressions, etc...",
       image: algebra1,
-      link: "/materials/algebra1",
+      link: "/subjects/algebra",
     },
     {
       id: 5,
@@ -57,7 +57,7 @@ export const Subjects: React.FC = () => {
       subtext:
         "Graphs, functions, matrices, quadratics, the Binomial Theorem, logarithms, etc..",
       image: algebra2,
-      link: "/materials/algebra2",
+      link: "/subjects/algebraII",
     },
     {
       id: 6,
@@ -65,7 +65,7 @@ export const Subjects: React.FC = () => {
       subtext:
         "Complex numbers, polynomials, trigonometry, matrices, series, probability, etc... A general preparatory course for the beginning calculus student.",
       image: trigonometry,
-      link: "/materials/precalc",
+      link: "/subjects/precalculus",
     },
     {
       id: 7,
@@ -73,7 +73,7 @@ export const Subjects: React.FC = () => {
       subtext:
         "Limits, continuity at a point, discontinuities, infinite limits, Intermediate Value Theorem(IVT), properties of limits, etc...",
       image: calculus,
-      link: "/materials/calculus1",
+      link: "/subjects/calculus",
     },
   ];
 
