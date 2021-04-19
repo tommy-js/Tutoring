@@ -1,0 +1,51 @@
+@import "../../globals/variables.scss";
+
+.calculus {
+  position: relative;
+  margin-top: 75px;
+  width: 850px;
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  color: $graphite;
+}
+
+.video_block_header {
+  position: relative;
+  margin-top: 50px;
+}
+
+.video_block {
+  position: relative;
+  padding-top: 56.25%;
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+}
+
+.react_player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.topics,
+.descriptor,
+.subheader,
+.header {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text,
+.list {
+  font-size: 18px;
+  line-height: 165%;
+  margin-bottom: 50px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid $off_white;
+}
+
+.example_video {
+  position: relative;
+}
