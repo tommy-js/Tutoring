@@ -28,6 +28,14 @@ const calculus_header_2 = require("../../../public/blogs/calculus_thumbnail_2.pn
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
+      id: "e3a6145e-1723-4bc8-8a88-d3deb79ef2a1",
+      title: "Daily Precalculus",
+      description: "Inverse Trig, Factorials & Functional Composition",
+      route: "/blog/daily-posts/4-19-21",
+      date: "4/19/2021",
+      image: precalc_header_2,
+    },
+    {
       id: "10bffaa6-3e88-444f-bbcf-12d8373fd148",
       title: "Daily Algebra",
       description: "Word Problems & Perfect Square Factoring",

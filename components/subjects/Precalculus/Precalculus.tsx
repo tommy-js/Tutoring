@@ -7,28 +7,31 @@ import styles from "./styles.module.scss";
 export const Precalculus: React.FC = () => {
   return (
     <div className={styles.precalculus}>
-      <h1 className={styles.header}>Arithmetic</h1>
+      <h1 className={styles.header}>Precalculus</h1>
       <h2 className={styles.subheader}>
-        What does it mean to get arithmetic tutoring from us?
+        What does it mean to get precalculus tutoring from us?
       </h2>
       <div className={styles.descriptor}>
         <p className={styles.text}>
-          Arithmetic is the study of numbers and their properties. It's a broad
-          term that refers to several math classes in elementary and early
-          middle school. If you or your child are taking a class covering
-          arithmetic topics, we can help! Please feel free to contact us with
-          any questions you may have about pricing, availability, topics, etc.
+          Precalculus is the course students typically take directly before
+          their first calculus class. It is a generalized preperatory course,
+          and so the material covered varies from school to school. At
+          Functional Tutoring we pride ourselves on being flexible and able to
+          help you tackle whatever topics you're presented with in your class.
         </p>
       </div>
       <div className={styles.topics}>
         <h3 className={styles.subject_header}>Topics Covered</h3>
         <ul className={styles.list}>
-          <li>Whole numbers</li>
-          <li>Addition and subtraction</li>
-          <li>Division and multiplication</li>
-          <li>Fractions and their properties</li>
-          <li>Decimals and their properties</li>
-          <li>Converting fractions to decimals and vice-versa</li>
+          <li>Complex numbers</li>
+          <li>Fundamental Theorem of Algebra</li>
+          <li>Vectors & matrices</li>
+          <li>The complex plane</li>
+          <li>Addition & subtraction of polynomials</li>
+          <li>Probability & combinatorics</li>
+          <li>Function composition</li>
+          <li>Arithmetic & geometric series</li>
+          <li>Inverse trigonometric functions</li>
         </ul>
       </div>
       <div className={styles.tutors_available_block}>

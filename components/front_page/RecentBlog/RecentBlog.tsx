@@ -6,7 +6,7 @@ const image = require("../../../public/blogs/Algebra_Thumbnail.png");
 
 export const RecentBlog: React.FC = () => {
   return (
-    <Link href="/blog/daily-posts/4-18-21">
+    <Link href="/blog/daily-posts/4-19-21">
       <div className={styles.recent_blog}>
         <h2 className={styles.header}>Check out our latest blog post!</h2>
         <div className={styles.image_block}>
@@ -14,11 +14,12 @@ export const RecentBlog: React.FC = () => {
         </div>
         <div className={styles.subtext}>
           <h3 className={styles.text_header}>
-            Algebra | Word Problems & Perfect Square Factoring
+            Precalculus | Inverse Trig, Factorials & Functional Composition
           </h3>
-          <h4 className={styles.date}>4/18/21</h4>
+          <h4 className={styles.date}>4/19/21</h4>
           <p className={styles.text}>
-            Go over word problems and perfect square factoring.
+            Review inverse trig equations, factorials, and functional
+            composition!
           </p>
           <div className={styles.button_container}>
             <button className={styles.button}>Read More</button>

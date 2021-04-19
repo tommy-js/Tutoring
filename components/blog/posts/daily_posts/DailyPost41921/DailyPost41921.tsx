@@ -23,7 +23,7 @@ export const DailyPost41921: React.FC = () => {
 
   const problem1_choice1 = "x=14\\sin^{-1}(\\frac{7}{6})";
   const problem1_choice2 = "x=\\pm\\sqrt{\\frac{7}{6}\\sin^{-1}(14)}";
-  const problem1_choice3 = "x=\\pm\\sqrt{\\frac{7}{6}}\\sin^{-1}(14)";
+  const problem1_choice3 = "x=\\sqrt{\\frac{14}{6}}\\sin^{-1}(7)";
   const problem1_choice4 = "\\frac{7}{6}\\sin(14)";
 
   const solution1_1 = "\\frac{6x^2}{7}=\\sin^{-1}(14)";
@@ -70,11 +70,13 @@ export const DailyPost41921: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>Precalculus</h1>
+      <h1 className={styles.header}>
+        Precalculus | Inverse Trig, Factorials & Functional Composition
+      </h1>
       <h2 className={styles.subheader}>Posted on 4/19/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/LgYmGkCuPTQ"
+          url="https://youtu.be/xJk3CtXyK6Y"
           loop={false}
           playing={false}
           controls={true}
