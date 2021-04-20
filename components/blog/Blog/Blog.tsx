@@ -28,6 +28,14 @@ const calculus_header_2 = require("../../../public/blogs/calculus_thumbnail_2.pn
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
+      id: "e9cfc88f-d13b-452d-955d-92b045a8b2c1",
+      title: "Daily SAT Prep",
+      description: "Percent Based Word Problem",
+      route: "/blog/daily-posts/4-20-21",
+      date: "4/20/2021",
+      image: sat_header,
+    },
+    {
       id: "e3a6145e-1723-4bc8-8a88-d3deb79ef2a1",
       title: "Daily Precalculus",
       description: "Inverse Trig, Factorials & Functional Composition",

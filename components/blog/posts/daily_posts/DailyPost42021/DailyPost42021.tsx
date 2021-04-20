@@ -38,11 +38,11 @@ export const DailyPost42021: React.FC = () => {
 
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>SAT Prep</h1>
+      <h1 className={styles.header}>Daily Problem</h1>
       <h2 className={styles.subheader}>Posted on 4/20/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/LgYmGkCuPTQ"
+          url="https://youtu.be/6GFQ8jYo9xQ"
           loop={false}
           playing={false}
           controls={true}
@@ -54,14 +54,14 @@ export const DailyPost42021: React.FC = () => {
         />
       </div>
       <div className={styles.solutions_block}>
-        <h3 className={styles.solutions_header}>Problems & Solutions</h3>
+        <h3 className={styles.solutions_header}>Problem & Solution</h3>
         <div className={styles.problem}>
           <div className={styles.problem_header}>
-            1. A car that usually costs $16,500 is on sale for 20% off. As part
-            of a promotion, everyone who chooses to purchase said vehicle will
-            also receive an additional discount on the marked price. If the
-            final price of the car was $11,220, what is the additional discount
-            that was applied to the marked sale price?
+            A car that usually costs $16,500 is on sale for 20% off. As part of
+            a promotion, everyone who chooses to purchase said vehicle will also
+            receive an additional discount on the marked price. If the final
+            price of the car was $11,220, what is the additional discount that
+            was applied to the marked sale price?
           </div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
@@ -105,76 +105,6 @@ export const DailyPost42021: React.FC = () => {
                   additional discount applied to our vehicle is 15%.
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.problem}>
-          <div className={styles.problem_header}>
-            2. [NEEDS CHANGED] In order to connect to the internet, dedicated
-            computers are kept in the server room. To prevent overheating, the
-            density of computers in a server room must not exceed 2.1 computers
-            per cubic foot. (1 meter is about 3.28 feet) Which of the following
-            densities is equal to the maximum number of computers per cubic
-            meter?
-          </div>
-          <div className={styles.context_container}>
-            <ol className={styles.multiple_choice}>
-              <li className={styles.individual_choice}>[ANS1]</li>
-              <li className={styles.individual_choice}>[ANS2]</li>
-              <li className={styles.individual_choice}>[ANS3]</li>
-              <li className={styles.individual_choice}>[ANS4]</li>
-            </ol>
-          </div>
-          <div className={styles.problem_solution}>
-            <h3 className={styles.micro_header}>Solution</h3>
-            <button
-              className={styles.solution_button}
-              onClick={() => revealProblem2()}
-            >
-              View Solution
-            </button>
-            <div
-              className={styles.solution}
-              style={{ color: problem2Color, textShadow: problem2Shadow }}
-            >
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-            </div>
-          </div>
-        </div>
-        <div className={styles.problem}>
-          <div className={styles.problem_header}>
-            3. Which of the following is equivalent to the complex number{" "}
-            <InlineMath>{problem3}</InlineMath>?
-          </div>
-          <div className={styles.context_container}>
-            <ol className={styles.multiple_choice}>
-              <li className={styles.individual_choice}>[ANS1]</li>
-              <li className={styles.individual_choice}>[ANS2]</li>
-              <li className={styles.individual_choice}>[ANS3]</li>
-              <li className={styles.individual_choice}>[ANS4]</li>
-            </ol>
-          </div>
-          <div className={styles.problem_solution}>
-            <h3 className={styles.micro_header}>Solution</h3>
-            <button
-              className={styles.solution_button}
-              onClick={() => revealProblem3()}
-            >
-              View Solution
-            </button>
-            <div
-              className={styles.solution}
-              style={{ color: problem3Color, textShadow: problem3Shadow }}
-            >
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
             </div>
           </div>
         </div>
