@@ -49,3 +49,17 @@
 .example_video {
   position: relative;
 }
+
+@media only screen and (max-width: 900px) {
+  .calculus {
+    max-width: 95%;
+  }
+
+  .header {
+    font-size: 24px;
+  }
+
+  .subheader {
+    font-size: 18px;
+  }
+}

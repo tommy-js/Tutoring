@@ -23,7 +23,6 @@ export const Subject: React.FC<Props> = (props) => {
             />
           </div>
           <p className={styles.title}>{props.title}</p>
-          <p className={styles.subtext}>Visit library</p>
         </div>
       </Link>
     </div>

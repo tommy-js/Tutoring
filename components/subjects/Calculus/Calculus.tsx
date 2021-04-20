@@ -7,28 +7,28 @@ import styles from "./styles.module.scss";
 export const Calculus: React.FC = () => {
   return (
     <div className={styles.calculus}>
-      <h1 className={styles.header}>Arithmetic</h1>
+      <h1 className={styles.header}>Calculus</h1>
       <h2 className={styles.subheader}>
-        What does it mean to get arithmetic tutoring from us?
+        What does it mean to get calculus tutoring from us?
       </h2>
       <div className={styles.descriptor}>
         <p className={styles.text}>
-          Arithmetic is the study of numbers and their properties. It's a broad
-          term that refers to several math classes in elementary and early
-          middle school. If you or your child are taking a class covering
-          arithmetic topics, we can help! Please feel free to contact us with
-          any questions you may have about pricing, availability, topics, etc.
+          Calculus I is the study of instantaneous rate of change, and is
+          typically the first higher-level math class a student takes upon
+          entering college. While many people often find it quite challenging,
+          ultimately its basics are quite simple. We would love to help you
+          better understand its topics and materials!
         </p>
       </div>
       <div className={styles.topics}>
-        <h3 className={styles.subject_header}>Topics Covered</h3>
+        <h3 className={styles.subject_header}>Some Topics Covered</h3>
         <ul className={styles.list}>
-          <li>Whole numbers</li>
-          <li>Addition and subtraction</li>
-          <li>Division and multiplication</li>
-          <li>Fractions and their properties</li>
-          <li>Decimals and their properties</li>
-          <li>Converting fractions to decimals and vice-versa</li>
+          <li>Instantaneous rate of change</li>
+          <li>Derivatives</li>
+          <li>Limits</li>
+          <li>Antiderivatives</li>
+          <li>Discontinuities and continuity of a graph</li>
+          <li>L'Hospital's Rule</li>
         </ul>
       </div>
       <div className={styles.tutors_available_block}>
@@ -40,7 +40,7 @@ export const Calculus: React.FC = () => {
       <h3 className={styles.video_block_header}>Watch us explain concepts</h3>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/_TIlCGnrOSk"
+          url="https://youtu.be/ANUESSEGBug"
           loop={false}
           playing={false}
           controls={true}

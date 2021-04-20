@@ -14,19 +14,11 @@ const calculus = require("../../../public/calculus.png");
 export const Subjects: React.FC = () => {
   const subjects = [
     {
-      id: 0,
-      title: "Regents Prep",
-      subtext:
-        "Prepare to take the New York State Regents examination in mathematics!",
-      image: regents,
-      link: "/materials/regents_prep",
-    },
-    {
       id: 1,
       title: "SAT Prep",
       subtext: "Get ready for the SAT mathematics exam!",
       image: sat,
-      link: "/materials/sat",
+      link: "/subjects/sat",
     },
     {
       id: 2,

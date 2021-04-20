@@ -21,7 +21,7 @@ export const Precalculus: React.FC = () => {
         </p>
       </div>
       <div className={styles.topics}>
-        <h3 className={styles.subject_header}>Topics Covered</h3>
+        <h3 className={styles.subject_header}>Some Topics Covered</h3>
         <ul className={styles.list}>
           <li>Complex numbers</li>
           <li>Fundamental Theorem of Algebra</li>
@@ -43,7 +43,7 @@ export const Precalculus: React.FC = () => {
       <h3 className={styles.video_block_header}>Watch us explain concepts</h3>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/_TIlCGnrOSk"
+          url="https://youtu.be/KlVGkPcW3dw"
           loop={false}
           playing={false}
           controls={true}
