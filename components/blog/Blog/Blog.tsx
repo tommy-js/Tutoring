@@ -28,6 +28,14 @@ const calculus_header_2 = require("../../../public/blogs/calculus_thumbnail_2.pn
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
+      id: "a6c30784-66f1-4637-a8a2-c8b926597deb",
+      title: "Daily Calculus",
+      description: "Chain & Product Rules",
+      route: "/blog/daily-posts/4-21-21",
+      date: "4/21/2021",
+      image: calculus_header_2,
+    },
+    {
       id: "e9cfc88f-d13b-452d-955d-92b045a8b2c1",
       title: "Daily SAT Prep",
       description: "Percent Based Word Problem",
