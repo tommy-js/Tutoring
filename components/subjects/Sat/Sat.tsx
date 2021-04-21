@@ -2,9 +2,23 @@ import React from "react";
 import ReactPlayer from "react-player";
 import { OurTeam } from "../../front_page/OurTeam/OurTeam";
 import { SignUpEmailForm } from "../../blog/posts/daily_posts/SignUpEmailForm/SignUpEmailForm";
+import { SubjectLink } from "../SubjectLink/SubjectLink";
 import styles from "./styles.module.scss";
 
+const worksheet = require("../../../public/pencil.png");
+
 export const Sat: React.FC = () => {
+  const links = [
+    {
+      id: "grmkgk555433",
+      text: "Practice Set 1",
+      path: "../../materials/sat/worksheets/Prep1",
+      subject: "SAT",
+      type: "worksheet",
+      image: worksheet,
+    },
+  ];
+
   return (
     <div className={styles.sat}>
       <div className={styles.header_block}>
@@ -28,16 +42,10 @@ export const Sat: React.FC = () => {
         </div>
       </div>
       <div className={styles.topics}>
-        <h3 className={styles.subject_header}>Some Topics Covered</h3>
-        <ul className={styles.list}>
-          <li>Word problems</li>
-          <li>Factoring & distribution</li>
-          <li>Exponent rules</li>
-          <li>Solving equations</li>
-          <li>Reading graphs & tables</li>
-          <li>Solving inequalities</li>
-          <li>Imaginary numbers</li>
-        </ul>
+        <h3 className={styles.subject_header}>Practice Worksheets</h3>
+        {links.map((el: any) => (
+          <SubjectLink text={el.text} path={el.path} image={el.image} />
+        ))}
       </div>
       <div className={styles.tutors_available_block}>
         <h3 className={styles.availability_header}>

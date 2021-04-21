@@ -1,21 +1,32 @@
 @import "../../globals/variables.scss";
 
+.material_link_container {
+  width: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
 .material_link {
-  margin-top: 15px;
-  margin-bottom: 5px;
   cursor: pointer;
   transition: 0.2s;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   color: $graphite;
-  padding: 5px;
+  margin: 25px;
 }
 
-.material_link:hover {
-  box-shadow: 2px 2px 4px grey;
-  transition: 0.2s;
+.image_block {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
 }
 
 .title {
+  width: 100%;
+  font-size: 22px;
   text-decoration: none;
+  text-align: center;
 }

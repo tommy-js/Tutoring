@@ -2,9 +2,47 @@ import React from "react";
 import ReactPlayer from "react-player";
 import { OurTeam } from "../../front_page/OurTeam/OurTeam";
 import { SignUpEmailForm } from "../../blog/posts/daily_posts/SignUpEmailForm/SignUpEmailForm";
+import { SubjectLink } from "../SubjectLink/SubjectLink";
 import styles from "./styles.module.scss";
 
+const worksheet = require("../../../public/pencil.png");
+
 export const Arithmetic: React.FC = () => {
+  const links = [
+    {
+      id: "krgmkmbkrmn56667",
+      text: "Addition and subtraction practice",
+      path: "../../materials/arithmetic/worksheets/AddSub",
+      subject: "Arithmetic",
+      type: "worksheet",
+      image: worksheet,
+    },
+    {
+      id: "ghh568GFBedE##@s",
+      text: "Adding and subtracting fractions practice",
+      path: "../../materials/arithmetic/worksheets/AddSubFracts",
+      subject: "Arithmetic",
+      type: "worksheet",
+      image: worksheet,
+    },
+    {
+      id: "vvv%%gg^%$#Ed##x@22sc%s",
+      text: "Multiplying and Dividing fractions practice",
+      path: "../../materials/arithmetic/worksheets/MultDivFrac",
+      subject: "Arithmetic",
+      type: "worksheet",
+      image: worksheet,
+    },
+    {
+      id: "3t9io3tkGRH%^66%%$$$",
+      text: "Practice with percentages",
+      path: "../../materials/arithmetic/worksheets/Percents",
+      subject: "Arithmetic",
+      type: "worksheet",
+      image: worksheet,
+    },
+  ];
+
   return (
     <div className={styles.arithmetic}>
       <h1 className={styles.header}>Arithmetic</h1>
@@ -21,15 +59,10 @@ export const Arithmetic: React.FC = () => {
         </p>
       </div>
       <div className={styles.topics}>
-        <h3 className={styles.subject_header}>Topics Covered</h3>
-        <ul className={styles.list}>
-          <li>Whole numbers</li>
-          <li>Addition and subtraction</li>
-          <li>Division and multiplication</li>
-          <li>Fractions and their properties</li>
-          <li>Decimals and their properties</li>
-          <li>Converting fractions to decimals and vice-versa</li>
-        </ul>
+        <h3 className={styles.subject_header}>Practice Worksheets</h3>
+        {links.map((el: any) => (
+          <SubjectLink text={el.text} path={el.path} image={el.image} />
+        ))}
       </div>
       <div className={styles.tutors_available_block}>
         <h3 className={styles.availability_header}>
