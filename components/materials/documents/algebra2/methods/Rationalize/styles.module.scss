@@ -1,0 +1,52 @@
+@import "../../../../../globals/variables.scss";
+
+.rationalize {
+  position: relative;
+  width: 65%;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  @include general_font;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+}
+
+.subheader {
+  font-size: 18px;
+  line-height: 165%;
+  font-weight: normal;
+}
+
+.formatting_link {
+  color: $blue;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.flair {
+  font-weight: bold;
+}
+
+.text {
+  color: $dark_graphite;
+  line-height: 150%;
+}
+
+.bottom {
+  margin-bottom: 150px;
+}
+
+@media only screen and (max-width: 900px) {
+  .rationalize {
+    width: 95%;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+}

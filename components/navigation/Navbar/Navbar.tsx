@@ -1,6 +1,7 @@
 import React from "react";
 import { Logo } from "../Logo/Logo";
 import { ScheduleSession } from "../ScheduleSession/ScheduleSession";
+import { Policy } from "../Policy/Policy";
 import { Faq } from "../Faq/Faq";
 import { Contact } from "../Contact/Contact";
 import { Pricing } from "../Pricing/Pricing";

@@ -1,0 +1,14 @@
+@import "../../globals/variables.scss";
+
+.button {
+  position: relative;
+  @include button;
+  display: inline-block;
+  margin-left: 15px;
+  padding: 3px;
+  font-size: 14px;
+}
+
+.button:hover {
+  @include hover;
+}
