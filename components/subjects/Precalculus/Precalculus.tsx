@@ -2,9 +2,39 @@ import React from "react";
 import ReactPlayer from "react-player";
 import { OurTeam } from "../../front_page/OurTeam/OurTeam";
 import { SignUpEmailForm } from "../../blog/posts/daily_posts/SignUpEmailForm/SignUpEmailForm";
+import { SubjectLink } from "../SubjectLink/SubjectLink";
 import styles from "./styles.module.scss";
 
+const worksheet = require("../../../public/pencil.png");
+
 export const Precalculus: React.FC = () => {
+  const links = [
+    {
+      id: "fke444g5h5",
+      text: "Complex Numbers Practice",
+      path: "../../materials/precalc/worksheets/Complex",
+      subject: "Pre-Calculus",
+      type: "worksheet",
+      image: worksheet,
+    },
+    {
+      id: "f3fjk3ngj3nj43hg44h",
+      text: "Practice with Logarithm Equations",
+      path: "../../materials/precalc/worksheets/Logarithms",
+      subject: "Pre-Calculus",
+      type: "worksheet",
+      image: worksheet,
+    },
+    {
+      id: "gkm4km45667,bbBffrree",
+      text: "Trigonometric Identities",
+      path: "../../materials/precalc/definitions/TrigIdentities",
+      subject: "Pre-Calculus",
+      type: "definitions",
+      image: worksheet,
+    },
+  ];
+
   return (
     <div className={styles.precalculus}>
       <h1 className={styles.header}>Precalculus</h1>
@@ -21,18 +51,10 @@ export const Precalculus: React.FC = () => {
         </p>
       </div>
       <div className={styles.topics}>
-        <h3 className={styles.subject_header}>Some Topics Covered</h3>
-        <ul className={styles.list}>
-          <li>Complex numbers</li>
-          <li>Fundamental Theorem of Algebra</li>
-          <li>Vectors & matrices</li>
-          <li>The complex plane</li>
-          <li>Addition & subtraction of polynomials</li>
-          <li>Probability & combinatorics</li>
-          <li>Function composition</li>
-          <li>Arithmetic & geometric series</li>
-          <li>Inverse trigonometric functions</li>
-        </ul>
+        <h3 className={styles.subject_header}>Practice Worksheets</h3>
+        {links.map((el: any) => (
+          <SubjectLink text={el.text} path={el.path} image={el.image} />
+        ))}
       </div>
       <div className={styles.tutors_available_block}>
         <h3 className={styles.availability_header}>

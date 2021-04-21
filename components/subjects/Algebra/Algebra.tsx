@@ -2,9 +2,39 @@ import React from "react";
 import ReactPlayer from "react-player";
 import { OurTeam } from "../../front_page/OurTeam/OurTeam";
 import { SignUpEmailForm } from "../../blog/posts/daily_posts/SignUpEmailForm/SignUpEmailForm";
+import { SubjectLink } from "../SubjectLink/SubjectLink";
 import styles from "./styles.module.scss";
 
+const worksheet = require("../../../public/pencil.png");
+
 export const Algebra: React.FC = () => {
+  const links = [
+    {
+      id: "3525r",
+      text: "Factoring Worksheet 1",
+      path: "../../materials/algebra1/factoring/worksheets/worksheet1",
+      subject: "algebra 1",
+      type: "worksheet",
+      image: worksheet,
+    },
+    {
+      id: "xxc3344",
+      text: "Methods of Factoring",
+      path: "../../materials/algebra1/methods/factoring",
+      subject: "algebra 1",
+      type: "method",
+      image: worksheet,
+    },
+    {
+      id: "3raf3gh43",
+      text: "Derivation of Quadratic Formula",
+      path: "../../materials/algebra1/derivations/quadratic",
+      subject: "algebra 1",
+      type: "derivation",
+      image: worksheet,
+    },
+  ];
+
   return (
     <div className={styles.algebra}>
       <h1 className={styles.header}>Algebra I</h1>
@@ -20,17 +50,10 @@ export const Algebra: React.FC = () => {
         </p>
       </div>
       <div className={styles.topics}>
-        <h3 className={styles.subject_header}>Topics Covered</h3>
-        <ul className={styles.list}>
-          <li>Rationalizing the denominator</li>
-          <li>Taking squares & square roots</li>
-          <li>Solving equations</li>
-          <li>Taking the absolute value</li>
-          <li>Graphing and graph properties</li>
-          <li>Dividing by zero</li>
-          <li>Factoring</li>
-          <li>Solving word problems</li>
-        </ul>
+        <h3 className={styles.subject_header}>Practice Worksheets</h3>
+        {links.map((el: any) => (
+          <SubjectLink text={el.text} path={el.path} image={el.image} />
+        ))}
       </div>
       <div className={styles.tutors_available_block}>
         <h3 className={styles.availability_header}>
