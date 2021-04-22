@@ -10,33 +10,21 @@ const katex = require("katex");
 export const DailyPost42221: React.FC = () => {
   const [problem1Color, setProblem1Color] = useState("transparent");
   const [problem1Shadow, setProblem1Shadow] = useState("0 0 7px #000");
-  const [problem2Color, setProblem2Color] = useState("transparent");
-  const [problem2Shadow, setProblem2Shadow] = useState("0 0 7px #000");
-  const [problem3Color, setProblem3Color] = useState("transparent");
-  const [problem3Shadow, setProblem3Shadow] = useState("0 0 7px #000");
 
   function revealProblem1() {
     setProblem1Color("#3c3b3b");
     setProblem1Shadow("none");
   }
 
-  function revealProblem2() {
-    setProblem2Color("#3c3b3b");
-    setProblem2Shadow("none");
-  }
-
-  function revealProblem3() {
-    setProblem3Color("#3c3b3b");
-    setProblem3Shadow("none");
-  }
-
   return (
     <div className={styles.daily_post}>
-      <h1 className={styles.header}>Arithmetic</h1>
-      <h2 className={styles.subheader}>Posted on [DATE]</h2>
+      <h1 className={styles.header}>
+        Arithmetic | Subtraction & Simplification
+      </h1>
+      <h2 className={styles.subheader}>Posted on 4/22/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/LgYmGkCuPTQ"
+          url="https://youtu.be/Roum4UkxI0o"
           loop={false}
           playing={false}
           controls={true}
@@ -71,12 +59,7 @@ export const DailyPost42221: React.FC = () => {
               className={styles.solution}
               style={{ color: problem1Color, textShadow: problem1Shadow }}
             >
-              <div className={styles.answer}>
-                <h4 className={styles.answer_header}>Answer: </h4>
-                <p className={styles.answer_text}></p>
-              </div>
               <div className={styles.details}>
-                <h4 className={styles.details_header}>Explanation: </h4>
                 <p className={styles.text}>
                   In order to solve this problem we need to look at the whole
                   number component and the decimal component. We will separate
@@ -99,8 +82,6 @@ export const DailyPost42221: React.FC = () => {
                   <InlineMath>9.25-3.19=6.06</InlineMath>, which is our final
                   answer.
                 </p>
-                <p className={styles.text}></p>
-                <p className={styles.text}></p>
               </div>
             </div>
           </div>

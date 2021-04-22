@@ -29,7 +29,7 @@ export const Mission: React.FC = () => {
           At Functional Tutoring, we believe in the American Dream: that anyone
           can start here from nothing and work their way up to have it all.
           Systems like this, where the have's possess an edge over the
-          have-not's, directly interferes with this vision. When the upper class
+          have-not's, directly interfere with this vision. When the upper class
           can afford better tutors, better study materials, and therefore
           ultimately get their children into better schools, it becomes harder
           for less fortunate students and families to work their way up the

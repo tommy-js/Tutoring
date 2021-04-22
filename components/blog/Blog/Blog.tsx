@@ -28,6 +28,14 @@ const calculus_header_2 = require("../../../public/blogs/calculus_thumbnail_2.pn
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
+      id: "19bd389b-64f3-47cd-97eb-a04ba3eda764",
+      title: "Daily Arithmetic",
+      description: "Subtraction & Simplification",
+      route: "/blog/daily-posts/4-22-21",
+      date: "4/22/2021",
+      image: arithmetic_header,
+    },
+    {
       id: "a6c30784-66f1-4637-a8a2-c8b926597deb",
       title: "Daily Calculus",
       description: "Chain & Product Rules",
