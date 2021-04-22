@@ -1,0 +1,77 @@
+@import "../globals/variables.scss";
+
+.mission {
+}
+
+.header {
+  text-align: center;
+  position: relative;
+  margin-top: 75px;
+  width: 850px;
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  color: $graphite;
+}
+
+.subheader {
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  width: 850px;
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  color: $graphite;
+}
+
+.harvard_image {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 850px;
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  color: $graphite;
+}
+
+.image {
+  width: 100%;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 165%;
+  color: $graphite;
+  margin-bottom: 25px;
+  overflow: hidden;
+  position: relative;
+  width: 850px;
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  color: $graphite;
+}
+
+.flair {
+  background-color: $off_white;
+  height: 125px;
+}
+
+.flair_text {
+  width: 850px;
+  max-width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 35px;
+  font-size: 24px;
+  color: $graphite;
+}
+
+.bottom_div {
+  position: relative;
+  height: 75px;
+}

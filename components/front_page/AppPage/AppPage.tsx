@@ -1,4 +1,5 @@
 import React from "react";
+import { Explanation } from "../Explanation/Explanation";
 import { Introduction } from "../Introduction/Introduction";
 import { Deal } from "../Deal/Deal";
 import { RecentBlog } from "../RecentBlog/RecentBlog";
@@ -18,6 +19,7 @@ export const AppPage: React.FC = () => {
     <div className={styles.title_header}>
       <SubjectHeader />
       <div className={styles.app_page}>
+        <Explanation />
         <Subjects />
         <OurTeam />
         <Deal />

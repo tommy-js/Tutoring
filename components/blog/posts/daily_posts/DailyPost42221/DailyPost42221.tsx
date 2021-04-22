@@ -50,13 +50,13 @@ export const DailyPost42221: React.FC = () => {
       <div className={styles.solutions_block}>
         <h3 className={styles.solutions_header}>Problems & Solutions</h3>
         <div className={styles.problem}>
-          <div className={styles.problem_header}>1.</div>
+          <div className={styles.problem_header}>Subtract 3.19 from 9.25</div>
           <div className={styles.context_container}>
             <ol className={styles.multiple_choice}>
-              <li className={styles.individual_choice}>[ANS1]</li>
-              <li className={styles.individual_choice}>[ANS2]</li>
-              <li className={styles.individual_choice}>[ANS3]</li>
-              <li className={styles.individual_choice}>[ANS4]</li>
+              <li className={styles.individual_choice}>14.63</li>
+              <li className={styles.individual_choice}>6.06</li>
+              <li className={styles.individual_choice}>3.56</li>
+              <li className={styles.individual_choice}>5.22</li>
             </ol>
           </div>
           <div className={styles.problem_solution}>
@@ -77,72 +77,31 @@ export const DailyPost42221: React.FC = () => {
               </div>
               <div className={styles.details}>
                 <h4 className={styles.details_header}>Explanation: </h4>
-                <p className={styles.text}></p>
-                <p className={styles.text}></p>
-                <p className={styles.text}></p>
+                <p className={styles.text}>
+                  In order to solve this problem we need to look at the whole
+                  number component and the decimal component. We will separate
+                  out the problem as <InlineMath>9+0.25-3-0.19</InlineMath>.
+                  Now, we group the whole number and decimal number parts to get{" "}
+                  <InlineMath>(9-3)+(0.25-0.19)</InlineMath>.
+                </p>
+                <p className={styles.text}>
+                  We are trying to simplify this and hopefully the process will
+                  make it simpler. Even though the decimal place looks scary,
+                  it's really no different than subtracting whole numbers. Just
+                  like <InlineMath>25-19=6</InlineMath>,{" "}
+                  <InlineMath>0.25-0.19=0.06</InlineMath>. The only complicated
+                  part is that you need to remember the placement, which is why
+                  you get the zero in front of the six.
+                </p>
+                <p className={styles.text}>
+                  So, we get <InlineMath>(9-3)+(0.25-0.19)=6+0.06</InlineMath>.
+                  Adding these two terms we obtain{" "}
+                  <InlineMath>9.25-3.19=6.06</InlineMath>, which is our final
+                  answer.
+                </p>
                 <p className={styles.text}></p>
                 <p className={styles.text}></p>
               </div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.problem}>
-          <div className={styles.problem_header}>2.</div>
-          <div className={styles.context_container}>
-            <ol className={styles.multiple_choice}>
-              <li className={styles.individual_choice}>[ANS1]</li>
-              <li className={styles.individual_choice}>[ANS2]</li>
-              <li className={styles.individual_choice}>[ANS3]</li>
-              <li className={styles.individual_choice}>[ANS4]</li>
-            </ol>
-          </div>
-          <div className={styles.problem_solution}>
-            <h3 className={styles.micro_header}>Solution</h3>
-            <button
-              className={styles.solution_button}
-              onClick={() => revealProblem2()}
-            >
-              View Solution
-            </button>
-            <div
-              className={styles.solution}
-              style={{ color: problem2Color, textShadow: problem2Shadow }}
-            >
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-            </div>
-          </div>
-        </div>
-        <div className={styles.problem}>
-          <div className={styles.problem_header}>3.</div>
-          <div className={styles.context_container}>
-            <ol className={styles.multiple_choice}>
-              <li className={styles.individual_choice}>[ANS1]</li>
-              <li className={styles.individual_choice}>[ANS2]</li>
-              <li className={styles.individual_choice}>[ANS3]</li>
-              <li className={styles.individual_choice}>[ANS4]</li>
-            </ol>
-          </div>
-          <div className={styles.problem_solution}>
-            <h3 className={styles.micro_header}>Solution</h3>
-            <button
-              className={styles.solution_button}
-              onClick={() => revealProblem3()}
-            >
-              View Solution
-            </button>
-            <div
-              className={styles.solution}
-              style={{ color: problem3Color, textShadow: problem3Shadow }}
-            >
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
-              <p className={styles.text}></p>
             </div>
           </div>
         </div>
