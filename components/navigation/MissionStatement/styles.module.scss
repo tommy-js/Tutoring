@@ -1,0 +1,29 @@
+@import "../../globals/variables.scss";
+
+.mission {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: $dark_graphite;
+  text-decoration: none;
+  height: 45px;
+  vertical-align: top;
+  line-height: 45px;
+  transition: 0.2s;
+}
+
+.mission:hover {
+  color: $gold;
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 900px) {
+  .mission {
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 0.8rem;
+  }
+}

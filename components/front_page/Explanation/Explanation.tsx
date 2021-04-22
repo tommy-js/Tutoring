@@ -8,8 +8,8 @@ export const Explanation: React.FC = () => {
   return (
     <div className={styles.explanation}>
       <p className={styles.text}>
-        Functional Tutoring was created to help middle and high school students
-        excel in their math classes.
+        Functional Tutoring helps middle and high school students excel in their
+        math classes.
       </p>
       <Link href="/mission">
         <div className={styles.logo_block}>

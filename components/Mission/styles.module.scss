@@ -1,8 +1,5 @@
 @import "../globals/variables.scss";
 
-.mission {
-}
-
 .header {
   text-align: center;
   position: relative;
@@ -74,4 +71,45 @@
 .bottom_div {
   position: relative;
   height: 75px;
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    max-width: 95%;
+    font-size: 22px;
+  }
+
+  .subheader {
+    max-width: 95%;
+    font-size: 18px;
+  }
+
+  .harvard_image {
+    max-width: 95%;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .text {
+    max-width: 95%;
+    font-size: 16px;
+  }
+
+  .flair {
+    background-color: $off_white;
+    height: 125px;
+  }
+
+  .flair_text {
+    max-width: 95%;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+
+  .bottom_div {
+    position: relative;
+    height: 0;
+  }
 }

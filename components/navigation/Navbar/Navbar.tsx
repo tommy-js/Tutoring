@@ -1,7 +1,7 @@
 import React from "react";
 import { Logo } from "../Logo/Logo";
 import { ScheduleSession } from "../ScheduleSession/ScheduleSession";
-import { Policy } from "../Policy/Policy";
+import { MissionStatement } from "../MissionStatement/MissionStatement";
 import { Faq } from "../Faq/Faq";
 import { Contact } from "../Contact/Contact";
 import { Pricing } from "../Pricing/Pricing";
@@ -13,6 +13,7 @@ export const Navbar: React.FC = () => {
     <div className={styles.navbar}>
       <Logo />
       <Contact />
+      <MissionStatement />
       <Blog />
       <Pricing />
       <Faq />
