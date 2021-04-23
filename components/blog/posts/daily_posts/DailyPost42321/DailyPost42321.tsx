@@ -19,6 +19,9 @@ export const DailyPost42321: React.FC = () => {
   const problem_choice_4 = "\\frac{a^3b^2}{x^3}";
 
   const solution1 = "\\frac{x^3a^2b}{xa^4b^3}";
+  const solution2 = "\\frac{x^3}{x}=x^2";
+  const solution3 = "\\frac{a^2}{a^4}=\\frac{1}{a^2}";
+  const solution4 = "\\frac{x^3a^2b}{b^3xa^4}=\\frac{x^2}{a^2b^2}";
 
   function revealProblem1() {
     setProblem1Color("#3c3b3b");
@@ -87,10 +90,23 @@ export const DailyPost42321: React.FC = () => {
                   the variables lined up similarly. Since multiplication is
                   commutative, we can change the order of the variables. In
                   other words, we write it as{" "}
-                  <InlineMath>{solution1}</InlineMath>.
+                  <InlineMath>{solution1}</InlineMath>. This will allow us to
+                  simplify the expression easier.
                 </p>
-                <p className={styles.text}></p>
-                <p className={styles.text}></p>
+                <p className={styles.text}>
+                  Now, when we divide by a common base we remember that we
+                  subtract their exponents. So,{" "}
+                  <InlineMath>{solution2}</InlineMath>. This fact also holds for
+                  the denominator. If we have a higher degree term in the
+                  denominator than in the numerator, we subtract the higher
+                  degree from the lower degree and leave the term in the
+                  denominator. For example, <InlineMath>{solution3}</InlineMath>
+                  .
+                </p>
+                <p className={styles.text}>
+                  So, to go through and simplify our problem, we see that{" "}
+                  <InlineMath>{solution4}</InlineMath>.
+                </p>
                 <p className={styles.text}></p>
                 <p className={styles.text}></p>
               </div>

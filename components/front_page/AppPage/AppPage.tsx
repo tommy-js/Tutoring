@@ -24,11 +24,10 @@ export const AppPage: React.FC = () => {
         <OurTeam />
         <Deal />
         <Fade>
+          <AtAGlance />
+          <ScheduleSession />
           <RecentBlog />
           <Introduction />
-          <ScheduleSession />
-          <AtAGlance />
-          <WhyMe />
           <EmailSignup />
         </Fade>
       </div>
