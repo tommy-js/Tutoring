@@ -9,7 +9,6 @@ import { SubjectHeader } from "../SubjectHeader/SubjectHeader";
 import { Subjects } from "../Subjects/Subjects";
 import { OurTeam } from "../OurTeam/OurTeam";
 import { Footer } from "../../Footer/Footer";
-import { WhyMe } from "../WhyMe/WhyMe";
 import { EmailSignup } from "../../EmailSignup/EmailSignup";
 import Fade from "react-reveal/Fade";
 import styles from "./styles.module.scss";

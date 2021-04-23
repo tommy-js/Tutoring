@@ -5,7 +5,7 @@ export const Introduction: React.FC = () => {
   return (
     <div className={styles.introduction}>
       <h2 className={styles.header}>
-        Affordable Math Tutoring When You Need It
+        Affordable Online Math Tutoring When You Need It
       </h2>
 
       <p className={styles.text}>
