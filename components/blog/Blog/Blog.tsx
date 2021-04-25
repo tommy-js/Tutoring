@@ -28,6 +28,22 @@ const calculus_header_2 = require("../../../public/blogs/calculus_thumbnail_2.pn
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
+      id: "c5a99390-9e14-48bd-bf3f-1636167b1c6d",
+      title: "Daily SAT Prep",
+      description: "Solving For a Triangle's Side",
+      route: "/blog/daily-posts/4-25-21",
+      date: "4/25/2021",
+      image: sat_header_2,
+    },
+    {
+      id: "6f97046d-a03e-4407-994b-67715efaabcf",
+      title: "Daily Precalculus",
+      description: "Complex Simplification",
+      route: "/blog/daily-posts/4-24-21",
+      date: "4/24/2021",
+      image: precalc_header,
+    },
+    {
       id: "b2da0ac6-9ef2-458a-8c6d-68b878b85a54",
       title: "Daily Algebra",
       description: "Simplifying Exponents",
