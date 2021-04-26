@@ -31,8 +31,14 @@ export const ValueProposition: React.FC = () => {
           <div className={styles.check_image}>
             <img src={checkmark} className={styles.image} />
           </div>
+          <p className={styles.bullet_text}>Highly available</p>
+        </div>
+        <div className={styles.bullet}>
+          <div className={styles.check_image}>
+            <img src={checkmark} className={styles.image} />
+          </div>
           <p className={styles.bullet_text}>
-            Highly available & determined to see you or your child succeed!
+            Determined to see you or your child succeed!
           </p>
         </div>
         <div className={styles.bullet}>

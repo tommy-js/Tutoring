@@ -61,12 +61,57 @@
     position: relative;
     left: 0;
     margin-left: 0;
-    width: 100%;
+    width: auto;
+    height: 60vh;
     overflow: hidden;
   }
 
   .image_block {
     width: 100%;
     height: 100%;
+  }
+
+  .image {
+    height: 100%;
+    width: auto;
+    background-size: cover;
+    filter: brightness(0.7);
+  }
+
+  .header_text {
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    z-index: 2;
+  }
+
+  .heading {
+    font-size: 26px;
+    color: $white;
+    text-align: center;
+  }
+
+  .subheader {
+    font-size: 24px;
+    color: $eraser;
+    text-align: center;
+  }
+
+  .sign_up_button {
+    @include button;
+  }
+
+  .sign_up_button:hover {
+    @include hover;
+  }
+
+  .drop_header {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 25px;
+    background-color: white;
+    opacity: 0.8;
+    z-index: 95;
   }
 }
