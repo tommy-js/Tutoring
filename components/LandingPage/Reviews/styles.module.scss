@@ -1,0 +1,36 @@
+@import "../../globals/variables.scss";
+
+.star_img {
+  display: inline-block;
+  height: 25px;
+  overflow: hidden;
+  margin-left: 5px;
+}
+
+.img {
+  height: 100%;
+}
+
+.left_block,
+.right_block {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.review {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  font-size: 22px;
+  color: $gold;
+}
+
+.review_text {
+  font-size: 20px;
+  color: $graphite;
+}

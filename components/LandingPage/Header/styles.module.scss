@@ -1,0 +1,72 @@
+@import "../../globals/variables.scss";
+
+.header {
+  position: relative;
+  left: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header_text {
+  position: absolute;
+  width: 100%;
+  top: 150px;
+  z-index: 2;
+}
+
+.heading {
+  font-size: 40px;
+  color: $white;
+  text-align: center;
+}
+
+.subheader {
+  font-size: 32px;
+  color: $eraser;
+  text-align: center;
+}
+
+.sign_up_button {
+  @include button;
+}
+
+.sign_up_button:hover {
+  @include hover;
+}
+
+.image_block {
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  background-size: cover;
+  filter: brightness(0.7);
+}
+
+.drop_header {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  height: 25px;
+  background-color: white;
+  opacity: 0.8;
+  z-index: 95;
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    position: relative;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .image_block {
+    width: 100%;
+    height: 100%;
+  }
+}

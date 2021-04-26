@@ -1,0 +1,51 @@
+@import "../../globals/variables.scss";
+
+.value_proposition {
+  position: relative;
+  bottom: 20px;
+  width: 100%;
+  background-color: $secondary_off_white;
+}
+
+.left_container,
+.right_container {
+  width: 50%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.flair {
+  font-size: 30px;
+  text-align: center;
+  height: 100%;
+  margin-top: 100px;
+  color: $graphite;
+}
+
+.right_header {
+  font-size: 22px;
+  color: $graphite;
+}
+
+.bullet {
+  height: 50px;
+}
+
+.check_image {
+  display: inline-block;
+  width: 25px;
+  vertical-align: baseline;
+}
+
+.image {
+  width: 100%;
+}
+
+.bullet_text {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 25px;
+  margin-left: 5px;
+  color: $graphite;
+}

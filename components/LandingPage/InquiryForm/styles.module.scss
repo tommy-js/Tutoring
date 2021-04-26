@@ -1,0 +1,81 @@
+@import "../../globals/variables.scss";
+
+.inquiry_form {
+  position: relative;
+  display: block;
+  width: 650px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+}
+
+.form_header {
+  font-size: 18px;
+  color: $graphite;
+  text-align: center;
+}
+
+.inquiry_block {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subject_input {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  border: 1px solid $graphite;
+  padding: 5px;
+  font-size: 18px;
+  width: 100%;
+  @include standard_font;
+}
+
+.email_container,
+.name_container {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.name_input,
+.email_input {
+  display: inline-block;
+  width: 100%;
+  margin: 3px;
+  box-sizing: border-box;
+  border: 1px solid $graphite;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  @include standard_font;
+}
+
+.name_input {
+}
+
+.email_input {
+}
+
+.text_field {
+  display: block;
+  width: 400px;
+  height: 150px;
+  resize: none;
+  border-radius: 3px;
+  border: 1px solid $graphite;
+  padding: 5px;
+  font-size: 18px;
+  @include standard_font;
+}
+
+.button {
+  @include button;
+}
+
+.button:hover {
+  @include hover;
+}
