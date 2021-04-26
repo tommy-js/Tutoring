@@ -49,6 +49,18 @@
   @include hover;
 }
 
+.link {
+  text-decoration: none;
+  color: $blue;
+  transition: 0.2s;
+  box-sizing: border-box;
+}
+
+.link:hover {
+  color: $gold;
+  transition: 0.2s;
+}
+
 .text {
   line-height: 165%;
   font-size: 18px;
