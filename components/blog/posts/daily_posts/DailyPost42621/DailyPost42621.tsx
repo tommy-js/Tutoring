@@ -8,10 +8,13 @@ import "katex/dist/katex.min.css";
 
 const katex = require("katex");
 
+const box = require("../../../../../public/blogs/4-26-21/box.png");
+
 export const DailyPost42621: React.FC = () => {
   const [problem1Color, setProblem1Color] = useState("transparent");
   const [linkColor, setLinkColor] = useState("transparent");
   const [problem1Shadow, setProblem1Shadow] = useState("0 0 7px #000");
+  const [problemGraphics, setProblemGraphics] = useState("blur(7px)");
 
   const answer2 = "x=\\sqrt{\\frac{7}{5}}";
   const answer3 = "x=\\sqrt[3]{\\frac{375}{32}}";
@@ -30,6 +33,7 @@ export const DailyPost42621: React.FC = () => {
     setProblem1Color("#3c3b3b");
     setLinkColor("#0b2cc2");
     setProblem1Shadow("none");
+    setProblemGraphics("blur(0px)");
   }
 
   return (
@@ -38,7 +42,7 @@ export const DailyPost42621: React.FC = () => {
       <h2 className={styles.subheader}>Posted on 4/26/21</h2>
       <div className={styles.video_block}>
         <ReactPlayer
-          url="https://youtu.be/LgYmGkCuPTQ"
+          url="https://youtu.be/pWIA802XBmA"
           loop={false}
           playing={false}
           controls={true}
@@ -86,12 +90,19 @@ export const DailyPost42621: React.FC = () => {
               style={{ color: problem1Color, textShadow: problem1Shadow }}
             >
               <div className={styles.details}>
-                <h4 className={styles.details_header}>Explanation: </h4>
                 <p className={styles.text}>
                   The first thing we want to do is draw the box. This should
                   always be our first step, as it will help us visualize what
                   we're trying to solve for.
                 </p>
+                <div className={styles.large_image_block}>
+                  <img
+                    src={box}
+                    className={styles.image}
+                    style={{ filter: problemGraphics }}
+                    alt="Box with sides of x, 2x, and h"
+                  />
+                </div>
                 <p className={styles.text}>
                   After drawing the box, we want to determine a cost function.
                   We see that since the box is longer than it is wide, and the

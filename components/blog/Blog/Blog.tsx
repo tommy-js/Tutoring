@@ -28,6 +28,22 @@ const calculus_header_2 = require("../../../public/blogs/calculus_thumbnail_2.pn
 export const Blog: React.FC = () => {
   const blog_posts = [
     {
+      id: "69ddab03-a932-45a0-901c-168897a0edfa",
+      title: "Daily Arithmetic",
+      description: "Multiplying 3 Terms",
+      route: "/blog/daily-posts/4-27-21",
+      date: "4/27/2021",
+      image: arithmetic_header,
+    },
+    {
+      id: "377d0d32-47c0-4d06-ac53-7a9804e86545",
+      title: "Daily Calculus",
+      description: "Box Optimization",
+      route: "/blog/daily-posts/4-26-21",
+      date: "4/26/2021",
+      image: calculus_header,
+    },
+    {
       id: "c5a99390-9e14-48bd-bf3f-1636167b1c6d",
       title: "Daily SAT Prep",
       description: "Solving For a Triangle's Side",
