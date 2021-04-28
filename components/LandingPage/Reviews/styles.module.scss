@@ -1,5 +1,15 @@
 @import "../../globals/variables.scss";
 
+.reviews {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.header {
+  text-align: center;
+  color: $graphite;
+}
+
 .star_img {
   display: inline-block;
   height: 25px;
@@ -16,6 +26,8 @@
   display: inline-block;
   width: 50%;
   box-sizing: border-box;
+  vertical-align: top;
+  margin-top: 25px;
 }
 
 .review {
@@ -27,10 +39,23 @@
 
 .name {
   font-size: 22px;
+  text-align: center;
   color: $gold;
 }
 
 .review_text {
   font-size: 20px;
+  line-height: 150%;
   color: $graphite;
+}
+
+@media only screen and (max-width: 900px) {
+  .left_block,
+  .right_block {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-top: 25px;
+  }
 }
