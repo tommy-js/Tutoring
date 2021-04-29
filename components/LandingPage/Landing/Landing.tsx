@@ -11,7 +11,6 @@ export const Landing: React.FC = () => {
     <div className={styles.landing}>
       <Header />
       <ValueProposition />
-      <Reviews />
       <OurTeam />
       <InquiryForm />
     </div>
